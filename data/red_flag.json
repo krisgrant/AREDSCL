@@ -68,6 +68,12 @@
             "link": "https://www.youtube.com/watch?v=hfGHdYVqUdI",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "Test",
+            "link": "https://www.youtube.com/watch?v=6O7dtEO_Vds",
+            "percent": 100,
+            "hz": "144"
         }
     ]
 }
