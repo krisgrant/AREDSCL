@@ -1,0 +1,43 @@
+{
+    "id": 1972,
+    "name": "found",
+    "author": "Rowan",
+    "creators": [],
+    "verifier": "Rowan",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/d6ZPNe6GXvA",
+    "percentToQualify": 52,
+    "records": [
+        {
+            "user": "OliXor",
+            "link": "https://youtu.be/BdaIe4i4YhU",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "0spears",
+            "link": "https://www.youtube.com/watch?v=6c6musuDoE0",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/pG6CLJ1KCEs",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://streamable.com/q51kjx",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=42aP-hLA_es",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

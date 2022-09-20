@@ -1,0 +1,25 @@
+{
+    "id": 1417,
+    "name": "Event Horizon",
+    "author": "Breakcore",
+    "creators": ["Nukie, Skitty"],
+    "verifier": "Nukie",
+    "difficulty": "Extreme Demon",
+    "password": "787828",
+    "verification": "https://youtu.be/QPtgYrNRZQo",
+    "percentToQualify": 63,
+    "records": [
+        {
+            "user": "femboy youngs",
+            "link": "https://www.youtube.com/watch?v=aaIqW2qeHLI",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://youtu.be/skH6TmpMf44",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": 2605,
+    "name": "StalE BreaD",
+    "author": "Frosted",
+    "creators": [],
+    "verifier": "Frosted",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/CNcuVdLfOPg",
+    "percentToQualify": 57,
+    "records": [
+        {
+            "user": "scattered",
+            "link": "https://youtu.be/EJRyXfAX-6c",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}

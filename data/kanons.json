@@ -1,0 +1,25 @@
+{
+    "id": 2075,
+    "name": "kanons",
+    "author": "Lorerjvkz",
+    "creators": [],
+    "verifier": "Lorerjvkz",
+    "difficulty": "Easy Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/lNnf2nksUcc",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://youtu.be/xWVjh5IENFM",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://www.youtube.com/watch?v=Dm4ruGOI-jg",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

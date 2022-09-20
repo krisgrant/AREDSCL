@@ -1,0 +1,19 @@
+{
+    "id": 941,
+    "name": "SUMMER vacation",
+    "author": "Yashi",
+    "creators": [],
+    "verifier": "Yashi",
+    "difficulty": "Insane Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/iaEXhSjisUI",
+    "percentToQualify": 51,
+    "records": [
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=5F-u9TAGbEE",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

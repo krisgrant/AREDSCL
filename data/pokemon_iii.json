@@ -1,0 +1,19 @@
+{
+    "id": 2865,
+    "name": "Pokemon III",
+    "author": "Skystra",
+    "creators": ["Skystra, Jamerry, itzabunny, cerufiffy, BrayBrayGD, Rambostro, Jordi6304, Navoltski, ItsAgSilver, Lppassy96"],
+    "verifier": "Mark Napkin",
+    "difficulty": "Extreme Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/N907nMJgpzM",
+    "percentToQualify": 47,
+    "records": [
+        {
+            "user": "BigCrabbyStylz",
+            "link": "https://youtu.be/qYCPQBuRW3E",
+            "percent": 55,
+            "hz": "240"
+        }
+    ]
+}

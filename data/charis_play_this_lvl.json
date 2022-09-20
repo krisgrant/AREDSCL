@@ -1,0 +1,31 @@
+{
+    "id": 2581,
+    "name": "charis play this lvl",
+    "author": "Bladey",
+    "creators": [],
+    "verifier": "Bladey",
+    "difficulty": "Insane Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/FBMqBjbSvi4",
+    "percentToQualify": 64,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/EuWnQaUOopk",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=HQKyK9Y96cs",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://streamable.com/j9af06",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

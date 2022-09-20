@@ -1,0 +1,32 @@
+{
+    "id": 1431,
+    "name": "Q C U",
+    "author": "femboy youngs",
+    "creators": ["femboy youngs, Qais, Marifa, Dan1elGD, yashi"],
+    "verifier": "femboy youngs",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/nv6DV7J9_B4",
+    "percentToQualify": 56,
+    "records": [
+        {
+            "user": "Greeny",
+            "link": "https://youtu.be/B5VvwK5dbZg",
+            "percent": 100,
+            "hz": "60",
+            "mobile": true
+        },
+        {
+            "user": "Xacto",
+            "link": "https://www.youtube.com/watch?v=Xv5XqCczjnU",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=a2JPPkbDli0&t=11s",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

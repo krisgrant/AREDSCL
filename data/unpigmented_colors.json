@@ -1,0 +1,19 @@
+{
+    "id": 2639,
+    "name": "unpigmented colors",
+    "author": "ZonerG",
+    "creators": [],
+    "verifier": "ZonerG",
+    "difficulty": "Hard Demon",
+    "password": "Free Copy",
+    "verification": "https://www.youtube.com/watch?v=LYqgSezRY-I",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/OnJQdBQa2Hs?t=476",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

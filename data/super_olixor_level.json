@@ -1,0 +1,19 @@
+{
+    "id": 2473,
+    "name": "Super OliXor Level",
+    "author": "OliXor",
+    "creators": [],
+    "verifier": "OliXor",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/U5qbUZqF_4c",
+    "percentToQualify": 60,
+    "records": [
+        {
+            "user": "0spears",
+            "link": "https://youtu.be/eOXiQYaXIBQ",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

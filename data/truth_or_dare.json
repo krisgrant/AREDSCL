@@ -1,0 +1,61 @@
+{
+    "id": 878,
+    "name": "Truth or dare",
+    "author": "alter",
+    "creators": [],
+    "verifier": "alter",
+    "difficulty": "Medium Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/JIFrRg2yisU",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "NotSkelly",
+            "link": "https://www.youtube.com/watch?v=wVHpolXaQ-w",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://youtu.be/c_bOGLjMtuk",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "ZonerG",
+            "link": "https://youtu.be/-iGBkaEkjj0",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "EliGabRet",
+            "link": "https://youtu.be/frAajRW1mPI",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=F6yGE2wMtjQ",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/nme5NtRiSwI",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Pokeninja77",
+            "link": "https://www.youtube.com/watch?v=b1m4DBR7mE0",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Slijo",
+            "link": "https://youtu.be/Oq8q9FEd_6A",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1924,
+    "name": "oye",
+    "author": "Meramie",
+    "creators": [],
+    "verifier": "Doge",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/SfAC-1Ne300",
+    "percentToQualify": 62,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/wjoD38aNTgY",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=lIGLfx3cVWE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://streamable.com/je7v0j",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

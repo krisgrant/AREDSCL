@@ -1,0 +1,37 @@
+{
+    "id": 1916,
+    "name": "Swift Current",
+    "author": "jah",
+    "creators": [],
+    "verifier": "jah",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/ROqXmkPT1LA",
+    "percentToQualify": 56,
+    "records": [
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=07ruvN5Mn4o",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "TAL9988",
+            "link": "https://youtu.be/kQmcf9KHjNU",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://youtu.be/a7uyIm3W9E4",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "0spears",
+            "link": "https://www.youtube.com/watch?v=cnMHfwUWWb4",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

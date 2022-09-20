@@ -1,0 +1,49 @@
+{
+    "id": 2112,
+    "name": "coffee",
+    "author": "Meramie",
+    "creators": ["Meramie, pixl"],
+    "verifier": "GUISDAS",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/f51dmjGyaHA",
+    "percentToQualify": 47,
+    "records": [
+        {
+            "user": "Xacto",
+            "link": "https://youtu.be/AFLMUqDsWhc",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Lucas531",
+            "link": "https://www.youtube.com/watch?v=IIIkSkuSWxQ",
+            "percent": 91,
+            "hz": "144"
+        },
+        {
+            "user": "BigCrabbyStylz",
+            "link": "https://youtu.be/3qHh7pngpWM",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=uiZdskuMls0",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/NY7g_69oHxE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "EliGabRet",
+            "link": "https://youtu.be/gUh9hEJuZLc",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

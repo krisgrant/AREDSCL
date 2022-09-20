@@ -1,0 +1,25 @@
+{
+    "id": 2861,
+    "name": "JoshDeluxe Burger Redux",
+    "author": "ItsJakesnipes",
+    "creators": [],
+    "verifier": "ItsJakesnipes",
+    "difficulty": "Hard Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/m-Ge5VHxcLA",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/5iDeeglapEE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Halal Sayid",
+            "link": "https://www.youtube.com/watch?v=hDhPeN16Mpw",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

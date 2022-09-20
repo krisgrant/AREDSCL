@@ -1,0 +1,55 @@
+{
+    "id": 1419,
+    "name": "The Radio",
+    "author": "Saz",
+    "creators": [],
+    "verifier": "Spoon",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/gPKeh6EL2zI",
+    "percentToQualify": 65,
+    "records": [
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=wqQvlPMfkXg",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "KasiaUwU",
+            "link": "https://youtu.be/AH4ySQ9NFTo",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Alex",
+            "link": "https://youtu.be/n9vRY2QcG6Q",
+            "percent": 71,
+            "hz": "60"
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=Lm9-RdqR-yE",
+            "percent": 94,
+            "hz": "240"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/dqtIfwU0fXo",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Slijo",
+            "link": "https://youtu.be/KPJioHyKmn0",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=uzbsE3lgSUs",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

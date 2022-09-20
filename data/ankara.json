@@ -1,0 +1,19 @@
+{
+    "id": 1788,
+    "name": "Ankara",
+    "author": "Tacuara",
+    "creators": [],
+    "verifier": "Tacuara",
+    "difficulty": "Hard Demon",
+    "password": "565656",
+    "verification": "https://youtu.be/7kzMcjt0KN4",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Pokeninja77",
+            "link": "https://youtu.be/BG71BmVIjco",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1195,
+    "name": "blek IiI",
+    "author": "pavv",
+    "creators": [],
+    "verifier": "pavv",
+    "difficulty": "Easy Demon",
+    "password": "No Copy",
+    "verification": "https://www.youtube.com/watch?v=bYd4O1kfNcg",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "NotSkelly",
+            "link": "https://www.youtube.com/watch?v=eXWi9wyzpUQ",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://youtu.be/3B--VmsIYo4",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/59_L4wzt-Po",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}

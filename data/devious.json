@@ -1,0 +1,19 @@
+{
+    "id": 3018,
+    "name": "DEVIOUS",
+    "author": "whlt",
+    "creators": [],
+    "verifier": "whlt",
+    "difficulty": "Hard Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/XlVuawSC628",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://youtu.be/Vztka1nKcHs",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}

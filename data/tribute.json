@@ -1,0 +1,49 @@
+{
+    "id": 2468,
+    "name": "Tribute",
+    "author": "ItsJakesnipes",
+    "creators": [],
+    "verifier": "ItsJakesnipes",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/TS5WlMVqphE",
+    "percentToQualify": 57,
+    "records": [
+        {
+            "user": "Vel",
+            "link": "https://youtu.be/iZVrzUBEsDM",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/ELmJ-40o4k0",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/leVUcBy1z0Q",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://streamable.com/pabxom",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=lAdUoe7GjWA",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "EliGabRet",
+            "link": "https://www.youtube.com/watch?v=L-RGzxFaGYE",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

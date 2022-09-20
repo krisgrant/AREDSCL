@@ -1,0 +1,25 @@
+{
+    "id": 2792,
+    "name": "Lullaby",
+    "author": "Nukie",
+    "creators": [],
+    "verifier": "Nukie",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/79A-m0AqgPk",
+    "percentToQualify": 74,
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=8LlbtSRdaHE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/nme5NtRiSwI",
+            "percent": 100,
+            "hz": "36"
+        }
+    ]
+}

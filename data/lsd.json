@@ -1,0 +1,31 @@
+{
+    "id": 2250,
+    "name": "LSD",
+    "author": "Dark",
+    "creators": [],
+    "verifier": "ItsJakesnipes",
+    "difficulty": "Easy Demon",
+    "password": "420000",
+    "verification": "https://youtu.be/-gYIyOQ4TpY",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Exilium",
+            "link": "https://youtu.be/I8-XvmW1hD4",
+            "percent": 100,
+            "hz": "180"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://www.youtube.com/watch?v=ekVIuYO6D4g",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/WqM1LBH5KME",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}

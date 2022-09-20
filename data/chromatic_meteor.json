@@ -1,0 +1,31 @@
+{
+    "id": 2527,
+    "name": "Chromatic Meteor",
+    "author": "Tass",
+    "creators": [],
+    "verifier": "Tass",
+    "difficulty": "Insane Demon",
+    "password": "060622",
+    "verification": "https://youtu.be/GXHJvwSe-iU",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Slijo",
+            "link": "https://youtu.be/rGohT_zTbc4",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=IHC41p5XNqE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://streamable.com/cwhm6x",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

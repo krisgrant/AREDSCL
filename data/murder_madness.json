@@ -1,0 +1,31 @@
+{
+    "id": 1524,
+    "name": "Murder Madness",
+    "author": "zzSwagwarrior",
+    "creators": [],
+    "verifier": "femboy youngs",
+    "difficulty": "Hard Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/MreBYiz24dQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=K48a8h49Nd0",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Ariza",
+            "link": "https://www.youtube.com/watch?v=AzIZExFcNJg",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Tass",
+            "link": "https://www.youtube.com/watch?v=kYkQD0dBYZM",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 1970,
+    "name": "lost",
+    "author": "Rowan",
+    "creators": [],
+    "verifier": "Rowan",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/yQB5uJqOoSQ",
+    "percentToQualify": 52,
+    "records": [
+        {
+            "user": "OliXor",
+            "link": "https://youtu.be/fcJu3l5PE-8",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "0spears",
+            "link": "https://youtu.be/4XoSWOKdNnw",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/fzfpmE6yUlY",
+            "percent": 87,
+            "hz": "144"
+        },
+        {
+            "user": "TriBlex ",
+            "link": "https://youtu.be/a5p6qWCNVOM",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://streamable.com/j9af06",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=UoF7cDFfL3c",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

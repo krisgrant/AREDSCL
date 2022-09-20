@@ -1,0 +1,19 @@
+{
+    "id": 1524,
+    "name": "Broken Record",
+    "author": "Val",
+    "creators": [],
+    "verifier": "Bamvie",
+    "difficulty": "Hard Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/m-635rOVvGI",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "GDnowaR",
+            "link": "https://youtu.be/aSr8P2L6zc4",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

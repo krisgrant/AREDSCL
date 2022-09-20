@@ -1,0 +1,61 @@
+{
+    "id": 1121,
+    "name": "Faeint Glow",
+    "author": "C4ssette",
+    "creators": [],
+    "verifier": "C4ssette",
+    "difficulty": "Medium Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/6F7F5uJkI1o",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "zzSwagwarrior",
+            "link": "https://www.youtube.com/watch?v=5-sf_mBmIHA",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=6F7F5uJkI1o",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "femboy youngs",
+            "link": "https://www.youtube.com/watch?v=It0LqL3XILE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "ZonerG",
+            "link": "https://youtu.be/u3j_g4KXZUA",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/1SNCEAeJBfI",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://youtu.be/FWWHZGtW2nU",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=8xgWSfJ0dxc",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "d1amondd",
+            "link": "https://www.youtube.com/watch?v=VCkpD2o_mP0",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1751,
+    "name": "Lua",
+    "author": "Meramie",
+    "creators": [],
+    "verifier": "Doge",
+    "difficulty": "Insane Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/a9PGwyRBSAE",
+    "percentToQualify": 56,
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=t5PdseLeoUQ",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/ydYPWZNbWfY",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=RCdZIHgtF6A",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

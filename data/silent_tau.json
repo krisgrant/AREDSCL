@@ -1,0 +1,25 @@
+{
+    "id": 2843,
+    "name": "Silent Tau",
+    "author": "chester",
+    "creators": [],
+    "verifier": "EliGabRet",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/dZuBdkYH8Ek",
+    "percentToQualify": 53,
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://youtu.be/znKOD8k_VUo",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/OnJQdBQa2Hs?t=199",
+            "percent": 97,
+            "hz": "360"
+        }
+    ]
+}

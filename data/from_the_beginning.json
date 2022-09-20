@@ -1,0 +1,25 @@
+{
+    "id": 829,
+    "name": "From The Beginning",
+    "author": "Greeny",
+    "creators": [],
+    "verifier": "Greeny",
+    "difficulty": "Easy Demon",
+    "password": "Free Copy",
+    "verification": "https://www.youtube.com/watch?v=8tvdwsNUR5s",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "GDnowaR",
+            "link": "https://www.youtube.com/watch?v=8tvdwsNUR5s",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://www.youtube.com/watch?v=tN8C2mcjSb8",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

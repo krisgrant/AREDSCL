@@ -1,0 +1,19 @@
+{
+    "id": 2346,
+    "name": "kerem",
+    "author": "CRAZEN",
+    "creators": [],
+    "verifier": "CRAZEN",
+    "difficulty": "Hard Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/xne0YwG0e2Y",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/OnJQdBQa2Hs?t=405",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

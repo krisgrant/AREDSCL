@@ -1,0 +1,61 @@
+{
+    "id": 880,
+    "name": "Shadow Depths",
+    "author": "Dan1elGD",
+    "creators": [],
+    "verifier": "Dan1elGD",
+    "difficulty": "Medium Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/04LK6HPnXAw",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Krisss",
+            "link": "https://youtu.be/0WvUS8QP7Tk",
+            "percent": 100,
+            "hz": "120"
+        },
+        {
+            "user": "GDnowaR",
+            "link": "https://www.youtube.com/watch?v=04LK6HPnXAw",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=9lzfCptfSAE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=5F-u9TAGbEE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "femboy youngs",
+            "link": "https://www.youtube.com/watch?v=49V3kOGfPJo",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://www.youtube.com/watch?v=r7fob4r1PXM",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "TAL9988",
+            "link": "https://youtu.be/_dR0feLbAqM",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/y_UaY2A2VJI",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

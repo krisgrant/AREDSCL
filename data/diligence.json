@@ -1,0 +1,31 @@
+{
+    "id": 3004,
+    "name": "Diligence",
+    "author": "Knox14",
+    "creators": [],
+    "verifier": "Knox14",
+    "difficulty": "Medium Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/Oxd29NVBCZM",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "TriBlex ",
+            "link": "https://youtu.be/M8xwdwSgGJQ",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Xacto",
+            "link": "https://www.youtube.com/watch?v=oVX9X3_4we4",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "BigCrabbyStylz",
+            "link": "https://youtu.be/c5upHqd05Oo",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": 990,
+    "name": "Black Drops 2",
+    "author": "TAL9988",
+    "creators": [],
+    "verifier": "TAL9988",
+    "difficulty": "Hard Demon",
+    "password": "001211",
+    "verification": "https://youtu.be/yHq3RRfWZCw",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Impostor69",
+            "link": "https://youtu.be/f-1N25JHWUA",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

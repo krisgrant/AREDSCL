@@ -1,0 +1,19 @@
+{
+    "id": 1969,
+    "name": "elemental temple",
+    "author": "Rowan",
+    "creators": [],
+    "verifier": "Saz",
+    "difficulty": "Insane Demon",
+    "password": "No Copy",
+    "verification": "https://youtu.be/y6S7ZN5p9do",
+    "percentToQualify": 58,
+    "records": [
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=WhfjNcI0jDo",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

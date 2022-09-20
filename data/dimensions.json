@@ -1,0 +1,19 @@
+{
+    "id": 289,
+    "name": "Dimensions",
+    "author": "ZeroSeven",
+    "creators": [],
+    "verifier": "ZeroSeven",
+    "difficulty": "Easy Demon",
+    "password": "140521",
+    "verification": "https://youtu.be/gnnqP2moRLI",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "tonyearl",
+            "link": "https://www.youtube.com/watch?v=Ry8UNP-UDz8",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

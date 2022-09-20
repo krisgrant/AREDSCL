@@ -1,0 +1,25 @@
+{
+    "id": 1078,
+    "name": "Danil Maybe Clear",
+    "author": "femboy youngs",
+    "creators": [],
+    "verifier": "femboy youngs",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/GXHJvwSe-iU",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=bLQ92o5XHzQ",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/OnJQdBQa2Hs?t=117",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

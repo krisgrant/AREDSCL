@@ -1,0 +1,87 @@
+[
+    {
+        "role": "owner",
+        "name": "TAL9988",
+        "link": "https://www.youtube.com/channel/UCWjXGZDFyFPHsPyOPiw54gg"
+    },
+    {
+        "role": "admin",
+        "name": "Breakcore",
+        "link": "https://www.youtube.com/channel/UC1RnRII7_cPpfryMasAtJ9Q"
+    },
+    {
+        "role": "admin",
+        "name": "TurtleER",
+        "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
+    },
+    {
+        "role": "helper",
+        "name": "Hamotho",
+        "link": "https://www.youtube.com/channel/UCnqKZQptGMEGurQz1ymzEbw"
+    },
+    {
+        "role": "helper",
+        "name": "ItsJakesnipes",
+        "link": "https://www.youtube.com/channel/UCO3ojEPHpJOGnowyLYBGtIA"
+    },
+    {
+        "role": "helper",
+        "name": "GdLightshade",
+        "link": "https://www.youtube.com/channel/UCsk9ujsh_dgZskSZ4o9PP0A"
+    },
+    {
+        "role": "trial",
+        "name": "BigCrabbyStylz",
+        "link": "https://www.youtube.com/channel/UC5KxJKuyGrie4V3-Fwz0gNA"
+    },
+    {
+        "role": "trial",
+        "name": "EliGabRet",
+        "link": "https://www.youtube.com/channel/UCWyOuIAGBoIkHX0wlsG5DtQ"
+    },
+    {
+        "role": "trial",
+        "name": "Impostor69",
+        "link": "https://www.youtube.com/channel/UCYnxa0yrVOVCn_iz-tHo3tQ"
+    },
+    {
+        "role": "trial",
+        "name": "LightningPaws",
+        "link": "https://www.youtube.com/channel/UCsrCdJrF7RPCctKnHi8E0jQ"
+    },
+    {
+        "role": "trial",
+        "name": "Lonhi",
+        "link": "https://www.youtube.com/channel/UCJsoLWN28C4ApJtZcdffNrQ"
+    },
+    {
+        "role": "trial",
+        "name": "Slijo",
+        "link": "https://www.youtube.com/channel/UCh2-XHLxgadRlx6CriJ91JQ"
+    },
+    {
+        "role": "trial",
+        "name": "Nukie",
+        "link": "https://www.youtube.com/channel/UCgEMDxmWhnnBjw-VM2FuoTQ"
+    },
+    {
+        "role": "trial",
+        "name": "youngs",
+        "link": "https://www.youtube.com/channel/UCZ6-J8YV1CIvxdVfS9Scb6Q"
+    },
+    {
+        "role": "dev",
+        "name": "Electro",
+        "link": "https://electrowo.tk/"
+    },
+    {
+        "role": "dev",
+        "name": "Prometheus",
+        "link": "https://www.youtube.com/c/PrometheusAlt"
+    },
+    {
+        "role": "dev",
+        "name": "Emonadeo",
+        "link": "https://github.com/Emonadeo"
+    }
+]

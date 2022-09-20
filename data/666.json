@@ -1,0 +1,37 @@
+{
+    "id": 2739,
+    "name": "666",
+    "author": "Hamotho",
+    "creators": [],
+    "verifier": "Hamotho",
+    "difficulty": "Medium Demon",
+    "password": "420000",
+    "verification": "https://youtu.be/-hSa1l70xr0",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Nukie",
+            "link": "https://www.youtube.com/watch?v=sxDgpgT_Dlo",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://youtu.be/1HouQwUGa3M",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "GdLightshade",
+            "link": "https://youtu.be/s2thkK7p7LQ",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1458,
+    "name": "Fraternize",
+    "author": "Breakcore",
+    "creators": [],
+    "verifier": "Breakcore",
+    "difficulty": "Extreme Demon",
+    "password": "777177",
+    "verification": "https://youtu.be/e8T2nAuiPuw",
+    "percentToQualify": 53,
+    "records": [
+        {
+            "user": "Doge",
+            "link": "https://www.youtube.com/watch?v=ym-BIKDWqxM&feature=youtu.be",
+            "percent": 93,
+            "hz": "360"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=eGpoS-Dxxy4",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=MaevtS60_FY",
+            "percent": 63,
+            "hz": "360"
+        }
+    ]
+}

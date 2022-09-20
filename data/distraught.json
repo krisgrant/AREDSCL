@@ -1,0 +1,55 @@
+{
+    "id": 898,
+    "name": "Distraught",
+    "author": "Dan1elGD",
+    "creators": [],
+    "verifier": "TAL9988",
+    "difficulty": "Hard Demon",
+    "password": "9988",
+    "verification": "https://youtu.be/-EKZMAJ3mJY",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Skystra",
+            "link": "https://youtu.be/l5SfRCEWQRY",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=bt1D3_dts-s",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://youtu.be/DnRWOzePkHM",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=ZBr7nMquBKs",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/dp85mJ_RLlY",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "GdLightshade",
+            "link": "https://youtu.be/OdhgdzeJ7Ms",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Shiba",
+            "link": "https://www.youtube.com/watch?v=IzmGTh1yGeM",
+            "percent": 100,
+            "hz": "320"
+        }
+    ]
+}

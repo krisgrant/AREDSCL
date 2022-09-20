@@ -1,0 +1,25 @@
+{
+    "id": 1998,
+    "name": "Creator League",
+    "author": "Skystra",
+    "creators": ["Mantevian, the008, Daivrt, Jakub321, ChrononIDM, Saionji, HaXonSK, ChiefJackYT, matty2003, WerewolfGD, JustSlushy, Masniec, Xiprus, Shikoruu, FrostSavage, BreadOwO, Rambostro, zewty, ShadowXYT, Reshyram, TrueWilderness, SaabS, HiIsBackSenpai, Gabe, Milos482, RealGDJK, FlockyOfficial, Nyplex, PuffiTree, Decimalis, Nodax, Skystra"],
+    "verifier": "Skystra",
+    "difficulty": "Easy Demon",
+    "password": "229229",
+    "verification": "https://youtu.be/l-65nzfEILk",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "tonyearl",
+            "link": "https://youtu.be/ozawCX0dXI8",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Pbalo",
+            "link": "https://youtu.be/44wkPaSxffA",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

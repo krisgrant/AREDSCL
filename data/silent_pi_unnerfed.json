@@ -1,0 +1,25 @@
+{
+    "id": 2532,
+    "name": "Silent Pi Unnerfed",
+    "author": "EliGabRet",
+    "creators": [],
+    "verifier": "EliGabRet",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/CxppeSPK4Vk",
+    "percentToQualify": 54,
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=HyTM4qdSs6A",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "BigCrabbyStylz",
+            "link": "https://youtu.be/2J7bTwqUJg4",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

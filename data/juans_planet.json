@@ -1,0 +1,19 @@
+{
+    "id": 1819,
+    "name": "juans planet",
+    "author": "Dan1elGD",
+    "creators": [],
+    "verifier": "GDnowaR",
+    "difficulty": "Insane Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/FTVy1c3a28s",
+    "percentToQualify": 59,
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=ANIrMYSYyZU",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1926,
+    "name": "Blaze",
+    "author": "GreenCat",
+    "creators": [],
+    "verifier": "KasiaUwU",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "https://youtu.be/ADcz70N-d0s",
+    "percentToQualify": 57,
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://youtu.be/p_ttmiu9R5s",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Lucas531",
+            "link": "https://www.youtube.com/watch?v=YOCYZr7OS2E",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Slijo",
+            "link": "https://youtu.be/rBcwt6HzZk8",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
