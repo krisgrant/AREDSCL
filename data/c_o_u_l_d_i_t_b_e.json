@@ -38,6 +38,12 @@
             "link": "https://www.youtube.com/watch?v=2Ijs37JIYl4",
             "percent": 100,
             "hz": "240"
-        }
+        },
+       {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=X5Gmen7RtjE",
+            "percent": 100,
+            "hz": "360"
+        },
     ]
 }
