@@ -1,0 +1,74 @@
+{
+    "id": 911,
+    "name": "Power",
+    "author": "ZeroSeven",
+    "creators": [],
+    "verifier": "ZeroSeven",
+    "difficulty": "Easy Demon",
+    "password": "Free Copy",
+    "verification": "https://www.youtube.com/watch?v=wf8rx4Kq8X8",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "TAL9988",
+            "link": "https://youtu.be/X-IbGLk1Bzo",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "OliXor",
+            "link": "https://www.youtube.com/watch?v=Rtj05b6rVjI",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "kelixe",
+            "link": "https://www.youtube.com/watch?v=o5qQA0t-qqM",
+            "percent": 100,
+            "hz": "120"
+        },
+        {
+            "user": "femboy youngs",
+            "link": "https://youtu.be/I9UhHBcfOHk",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=bt1D3_dts-s",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Doge",
+            "link": "https://youtu.be/_UP5yH13ZnA",
+            "percent": 100,
+            "hz": "75"
+        },
+        {
+            "user": "Xacto",
+            "link": "https://www.youtube.com/watch?v=mgsCUEQKDpE",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Exilium",
+            "link": "https://youtu.be/K4Vt0LVdYxk",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Kakimu",
+            "link": "https://youtu.be/uqgwHANmpRA",
+            "percent": 100,
+            "hz": "60",
+            "mobile": "true"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://www.youtube.com/watch?v=7a0zdo03x5g",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
