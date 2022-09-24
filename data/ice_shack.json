@@ -1,0 +1,43 @@
+{
+    "id": 773,
+    "name": "Ice Shack",
+    "author": "femboy youngs",
+    "creators": [],
+    "verifier": "femboy youngs",
+    "difficulty": "Easy Demon",
+    "password": "Free Copy",
+    "verification": "https://www.youtube.com/watch?v=9B8LDovH7hA",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "CCostGD",
+            "link": "https://youtu.be/1Ebo8bVxMVc?t=809",
+            "percent": 100,
+            "hz": "80"
+        },
+        {
+            "user": "ItsJakesnipes",
+            "link": "https://www.youtube.com/watch?v=rmMuATykmVs",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "breakcore",
+            "link": "https://www.youtube.com/watch?v=bt1D3_dts-s",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Exilium",
+            "link": "https://youtu.be/1mOKzyq-4Ho",
+            "percent": 100,
+            "hz": "180"
+        },
+        {
+            "user": "tonyearl",
+            "link": "https://youtu.be/9_djLLPs9Iw",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
