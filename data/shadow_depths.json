@@ -62,6 +62,13 @@
             "link": "https://www.youtube.com/watch?v=mFGEtdF_Kqk",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/iew-KJDmiys",
+            "percent": 100,
+            "hz": "60",
+            "mobile": "true"
         }
     ]
 }
