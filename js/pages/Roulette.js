@@ -198,7 +198,7 @@ export default {
                 list.push(...fullListMapped.slice(50, 100));
             }
             if (this.useLegacyList) {
-                list.push(...fullListMapped.slice(101, 125));
+                list.push(...fullListMapped.slice(100, 125));
             }
 
             // random 100 levels
