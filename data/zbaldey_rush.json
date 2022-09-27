@@ -18,7 +18,13 @@
             "user": "EliGabRet",
             "link": "https://youtu.be/GnuLwSV5FCY",
             "percent": 100,
-            "hz": "104"
+            "hz": "240"
+        },
+        {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=en1nCYPIems",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
