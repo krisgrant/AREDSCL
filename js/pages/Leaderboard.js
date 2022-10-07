@@ -28,7 +28,8 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-if="i + 1 <= 79" class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-else class="extended" class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
@@ -44,7 +45,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} - {{ entry.user }}</h1>
-                        <h3>Total Levels: ({{ entry.completed.length + entry.verified.length }})</h3>
+                        <h3>Total Demons: {{ entry.completed.length + entry.verified.length }}</h3>
                         <h5>Score: ({{entry.total}})</h5>
                         <br>
                         <h2 v-if="entry.verified.length > 0">━━━ Verifications: ({{ entry.verified.length}}) ━━━</h2>

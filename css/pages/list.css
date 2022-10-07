@@ -136,3 +136,6 @@
     border-radius: 0.3cm;
     border: 1cm;
 }
+.extended {
+    color: rgba(0, 255, 255, 0.5);
+}

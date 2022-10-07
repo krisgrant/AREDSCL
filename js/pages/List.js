@@ -26,7 +26,7 @@ export default {
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
                             <p v-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
+                            <p v-else class="type-label-lg" class="extended">#{{ i + 1 }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
@@ -38,13 +38,14 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1>#{{ selected + 1 }} – {{ level.name }}</h1>
+                    <h1 v-if="selected + 1 <= 100">#{{ selected + 1 }} – {{ level.name }}</h1>
+                    <h1 v-else>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed:</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                            <div class="type-title-sm">Points:</div>
+                            <p>{{ score(selected + 1, level.percentToQualify, level.percentToQualify) }} (100% = {{ score(selected + 1, 100, level.percentToQualify) }})</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID:</div>
