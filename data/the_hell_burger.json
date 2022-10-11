@@ -8,5 +8,12 @@
     "password": "006666",
     "verification": "https://youtu.be/GEwoeT9Nn8A",
     "percentToQualify": 64,
-    "records": []
+    "records": [   
+        {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=vKHZtSJ1pJs",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
