@@ -5,6 +5,7 @@
     --color-on-background-hover: black;
     --color-primary: rgb(52, 0, 100);
     --color-on-primary: white;
+    --color-legacy: rgba(0, 0, 0, 0.5);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -19,6 +20,7 @@ header.dark {
     --color-primary: rgb(52, 0, 100);
     --color-primary-disabled: #0011ff;
     --color-on-primary: rgb(0, 255, 255);
+    --color-legacy: rgba(0, 255, 255, 0.5);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -96,4 +98,7 @@ input[type="checkbox"] {
 }
 .logoimg {
     size: -50cm;
+}
+.legacy {
+    color: var(--color-legacy);
 }
