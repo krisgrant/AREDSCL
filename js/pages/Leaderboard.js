@@ -29,7 +29,7 @@ export default {
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
                                 <p v-if="i + 1 <= 79" class="type-label-lg">#{{ i + 1 }}</p>
-                                <p v-else class="extended" class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-else class="legacy" class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
