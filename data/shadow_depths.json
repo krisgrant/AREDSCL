@@ -69,6 +69,12 @@
             "percent": 100,
             "hz": "60",
             "mobile": "true"
+        },
+        {
+            "user": "ZonerG",
+            "link": "https://www.youtube.com/watch?v=E13I-hpxtzs",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }

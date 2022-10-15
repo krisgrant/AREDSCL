@@ -23,12 +23,12 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
-                        <td class="rank">
-                            <p v-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg" class="legacy">#{{ i + 1 }}</p>
+                <tr v-for="([err, rank, level], i) in list">
+                <td class="rank">
+                    <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                    <p v-else class="type-label-lg" :style="{ color: rank > 100 ? 'rgba(127, 127, 127, 0.5)' : legacy }">#{{ rank }}</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
+                        <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
@@ -37,15 +37,15 @@ export default {
                 </div>
             </div>
             <div class="level-container">
-                <div class="level" v-if="level">
-                    <h1 v-if="selected + 1 <= 100">#{{ selected + 1 }} – {{ level.name }}</h1>
-                    <h1 v-else>{{ level.name }}</h1>
+                <div class="level" v-if="list">
+                    <h1 v-if="level.rank > 100">{{ level.name }}</h1>
+                    <h1 v-else>#{{ level.rank }} - {{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points:</div>
-                            <p>{{ score(selected + 1, level.percentToQualify, level.percentToQualify) }} (100% = {{ score(selected + 1, 100, level.percentToQualify) }})</p>
+                            <p>{{ score(level.rank, level.percentToQualify, level.percentToQualify) }} (100% = {{ score(level.rank, 100, level.percentToQualify) }})</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID:</div>
@@ -61,7 +61,7 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-if="level.rank !== null && level.rank <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -139,12 +139,13 @@ export default {
         loading: true,
         selected: 0,
         errors: [],
+        listlevels: 0,
         roleIconMap,
         store,
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
     },
     async mounted() {
@@ -160,8 +161,8 @@ export default {
         } else {
             this.errors.push(
                 ...this.list
-                    .filter(([_, err]) => err)
-                    .map(([_, err]) => {
+                    .filter(([err, _, __]) => err)
+                    .map(([err, _, __]) => {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
