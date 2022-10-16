@@ -8,5 +8,12 @@
     "password": "069420",
     "verification": "https://youtu.be/Rz2-A7zwPS0",
     "percentToQualify": 69,
-    "records": []
+    "records": [
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/6ZD_toj5bFc",
+            "percent": 100,
+            "hz": "60"        
+         }
+     ]
 }
