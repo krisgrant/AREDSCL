@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/rvRPWQsHgV8",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "EliGabRet"
+            "link": "https://youtu.be/mhCtn51C1OE",
+            "percent": 100,
+            "hz": "240"
+        }  
+    ]
 }
