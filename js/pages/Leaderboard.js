@@ -28,7 +28,7 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p v-if="i + 1 <= 79" class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-if="ientry.total > 0" class="type-label-lg">#{{ i + 1 }}</p>
                                 <p v-else class="legacy" class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
@@ -36,6 +36,8 @@ export default {
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
+                            <p v-if="ientry.total > 0" class="type-label-lg">{{ localize(ientry.total) }}</p>
+                            <p v-else class="legacy" class="type-label-lg">{{ localize(ientry.total) }}</p>
                         </tr>
                     </table>
                 </div>
@@ -64,7 +66,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                <p v-if="score.rank === null">&mdash;</p>
+                                <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -78,7 +81,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                <p v-if="score.rank === null">&mdash;</p>
+                                <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% - {{ score.level }}</a>
