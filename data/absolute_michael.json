@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/0aRE4LKx4uA",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Lucas531",
+            "link": "https://www.youtube.com/watch?v=rTAdm3OcOcg",
+            "percent": 100,
+            "hz": "360"
+        }    
+    ]
 }
