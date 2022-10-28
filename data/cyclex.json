@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/yZ7bBmvBPMc",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "ZonerG",
+            "link": "https://www.youtube.com/watch?v=Q6Mg6exCSMM",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
 }
