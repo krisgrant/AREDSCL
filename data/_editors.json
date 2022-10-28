@@ -6,8 +6,8 @@
     },
     {
         "role": "admin",
-        "name": "Breakcore",
-        "link": "https://www.youtube.com/channel/UC1RnRII7_cPpfryMasAtJ9Q"
+        "name": "GdLightshade",
+        "link": "https://www.youtube.com/channel/UCsk9ujsh_dgZskSZ4o9PP0A"
     },
     {
         "role": "helper",
@@ -21,18 +21,18 @@
     },
     {
         "role": "helper",
-        "name": "GdLightshade",
-        "link": "https://www.youtube.com/channel/UCsk9ujsh_dgZskSZ4o9PP0A"
-    },
-    {
-        "role": "trial",
-        "name": "BigCrabbyStylz",
-        "link": "https://www.youtube.com/channel/UC5KxJKuyGrie4V3-Fwz0gNA"
-    },
-    {
-        "role": "trial",
         "name": "EliGabRet",
         "link": "https://www.youtube.com/channel/UCWyOuIAGBoIkHX0wlsG5DtQ"
+    },
+    {
+        "role": "helper",
+        "name": "Siljo",
+        "link": "https://www.youtube.com/channel/UCh2-XHLxgadRlx6CriJ91JQ"
+    },
+    {
+        "role": "trial",
+        "name": "Breakcore",
+        "link": "https://www.youtube.com/channel/UC1RnRII7_cPpfryMasAtJ9Q"
     },
     {
         "role": "trial",
@@ -41,23 +41,8 @@
     },
     {
         "role": "trial",
-        "name": "LightningPaws",
-        "link": "https://www.youtube.com/channel/UCsrCdJrF7RPCctKnHi8E0jQ"
-    },
-    {
-        "role": "trial",
         "name": "Lonhi",
         "link": "https://www.youtube.com/channel/UCJsoLWN28C4ApJtZcdffNrQ"
-    },
-    {
-        "role": "trial",
-        "name": "Slijo",
-        "link": "https://www.youtube.com/channel/UCh2-XHLxgadRlx6CriJ91JQ"
-    },
-    {
-        "role": "trial",
-        "name": "Nukie",
-        "link": "https://www.youtube.com/channel/UCgEMDxmWhnnBjw-VM2FuoTQ"
     },
     {
         "role": "trial",
@@ -65,7 +50,7 @@
         "link": "https://www.youtube.com/channel/UCZ6-J8YV1CIvxdVfS9Scb6Q"
     },
     {
-        "role": "helper",
+        "role": "trial",
         "name": "TurtleER",
         "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
     },

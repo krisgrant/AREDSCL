@@ -45,7 +45,7 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} - {{ entry.user }}</h1>
                         <h3>Total Demons: {{ entry.completed.length + entry.verified.length }}</h3>
-                        <h5>Score: ({{entry.total}})</h5>
+                        <h3>Score: {{entry.total}}</h3>
                         <br>
                         <h2 v-if="entry.verified.length > 0">━━━ Verifications: ({{ entry.verified.length}}) ━━━</h2>
                         <table class="table">
