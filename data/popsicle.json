@@ -10,6 +10,12 @@
     "percentToQualify": 55,
     "records": [
         {
+            "user": "CattoDev",
+            "link": "https://youtu.be/eW4mb9F-fp4",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
             "user": "Frosted",
             "link": "https://youtu.be/hWx7je3t5v8",
             "percent": 92,
