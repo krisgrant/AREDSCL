@@ -68,6 +68,12 @@
             "link": "https://www.youtube.com/watch?v=hfGHdYVqUdI",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "CattoDev",
+            "link": "https://youtu.be/lYdFt4rFOq4",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
