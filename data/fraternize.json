@@ -9,15 +9,15 @@
     "verification": "https://youtu.be/e8T2nAuiPuw",
     "percentToQualify": 43,
     "records": [
-        {
-            "user": "CattoDev",
-            "link": "https://www.youtube.com/watch?v=ym-BIKDWqxM&feature=youtu.be",
-            "percent": 93,
+          {
+            "user": "Hamotho",
+            "link": "https://www.youtube.com/watch?v=eGpoS-Dxxy4",
+            "percent": 100,
             "hz": "360"
         },
         {
-            "user": "Hamotho",
-            "link": "https://www.youtube.com/watch?v=eGpoS-Dxxy4",
+            "user": "CattoDev",
+            "link": "https://youtu.be/Bq-sVTd4pVM,
             "percent": 100,
             "hz": "360"
         },
