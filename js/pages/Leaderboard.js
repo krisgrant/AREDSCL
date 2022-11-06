@@ -2,10 +2,12 @@ import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
+import LevelAuthors from '../components/List/LevelAuthors.js';
 
 export default {
     components: {
         Spinner,
+        LevelAuthors,
     },
     data: () => ({
         leaderboard: [],
@@ -44,8 +46,8 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} - {{ entry.user }}</h1>
-                        <h3>Total Demons: {{ entry.completed.length + entry.verified.length }}</h3>
                         <h3>Score: {{entry.total}}</h3>
+                        <h3>Total Demons: {{ entry.completed.length + entry.verified.length }}</h3>
                         <br>
                         <h2 v-if="entry.verified.length > 0">━━━ Verifications: ({{ entry.verified.length}}) ━━━</h2>
                         <table class="table">

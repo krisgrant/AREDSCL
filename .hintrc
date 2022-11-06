@@ -17,6 +17,14 @@
       }
     ],
     "disown-opener": "off",
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "list-style-image: image-set()"
+        ]
+      }
+    ]
   }
 }
