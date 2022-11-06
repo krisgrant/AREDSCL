@@ -45,9 +45,15 @@
             "percent": 100,
             "hz": "360"
         },
-  {
+        {
             "user": "Hamotho",
             "link": "https://youtu.be/k3SoTLCu5kA",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Speedy",
+            "link": "https://youtu.be/Spn9ulKhGR0",
             "percent": 100,
             "hz": "360"
         }
