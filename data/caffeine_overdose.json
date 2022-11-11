@@ -44,6 +44,12 @@
             "link": "https://www.youtube.com/watch?v=0vfdb6QONZM",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "hedshotguy",
+            "link": "https://www.youtube.com/watch?v=nCOyD4BHyUw",
+            "percent": 100,
+            "hz": "60"
         }
     ]
 }
