@@ -8,5 +8,12 @@
     "password": "123123",
     "verification": "https://youtu.be/Omrc45edZaA",
     "percentToQualify": 43,
-    "records": []
+    "records": [
+        {
+            "user": "CattoDev",
+            "link": "https://www.youtube.com/watch?v=yS60P6es2pY",
+            "percent": 46,
+            "hz": "360"
+        } 
+    ]
 }
