@@ -38,8 +38,10 @@ export default {
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
+                            <td class="score">
                             <p v-if="ientry.total > 0" class="type-label-lg">{{ localize(ientry.total) }}</p>
                             <p v-else class="legacy" class="type-label-lg">{{ localize(ientry.total) }}</p>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -48,13 +50,15 @@ export default {
                         <h1>#{{ selected + 1 }} - {{ entry.user }}</h1>
                         <h3>Score: {{entry.total}}</h3>
                         <h3>Total Demons: {{ entry.completed.length + entry.verified.length }}</h3>
+                        <h3>Verifications: {{ entry.verified.length }}</h3>
+                        <h3>Completions: {{ entry.completed.length }}</h3>
                         <br>
-                        <h2 v-if="entry.verified.length > 0">━━━ Verifications: ({{ entry.verified.length}}) ━━━</h2>
+                        <h2 v-if="entry.verified.length > 0">Demons verified:</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                <p v-if="score.rank === null">&mdash;</p>
-                                <p v-else>#{{ score.rank }}</p>
+                                <p v-if="score.rank <= 100">#{{ score.rank }}</p>
+                                <p v-else class="legacy">#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -64,12 +68,12 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">━━━ Completions: ({{ entry.completed.length }}) ━━━</h2>
+                        <h2 v-if="entry.completed.length > 0">Demons completed:</h2>
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                <p v-if="score.rank === null">&mdash;</p>
-                                <p v-else>#{{ score.rank }}</p>
+                                <p v-if="score.rank <= 100">#{{ score.rank }}</p>
+                                <p v-else class="legacy">#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -79,12 +83,12 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">━━━ Progress on: ({{entry.progressed.length}}) ━━━</h2>
+                        <h2 v-if="entry.progressed.length > 0">Progress on:</h2>
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                <p v-if="score.rank === null">&mdash;</p>
-                                <p v-else>#{{ score.rank }}</p>
+                                <p v-if="score.rank <= 100">#{{ score.rank }}</p>
+                                <p v-else class="legacy">#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% - {{ score.level }}</a>
