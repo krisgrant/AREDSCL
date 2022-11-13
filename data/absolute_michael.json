@@ -32,6 +32,12 @@
             "link": "https://www.youtube.com/watch?v=thEEX-XG_f8",
             "percent": 100,
             "hz": "360"
-        }  
+        },
+        {
+            "user": "Siljo",
+            "link": "https://youtu.be/zfKkEYOdzD0",
+            "percent": 100,
+            "hz": "360"
+        }
     ]
 }
