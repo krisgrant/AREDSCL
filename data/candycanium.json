@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/wmTYyEaC5XQ",
     "percentToQualify": 65,
-    "records": []
+    "records": [
+        {
+            "user": "Siljo",
+            "link": "https://youtu.be/C6Q2IWwjbvM",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
