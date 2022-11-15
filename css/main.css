@@ -7,6 +7,7 @@
     --color-on-primary: white;
     --color-extended: rgba(0, 0, 0, 0.75);
     --color-legacy: rgba(0, 0, 0, 0.5);
+    --color-top1: rgb(202.5, 202.5, 0);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -23,22 +24,7 @@ header.dark {
     --color-on-primary: rgb(0, 255, 255);
     --color-extended: rgba(0, 255, 255, 0.75);
     --color-legacy: rgba(0, 255, 255, 0.5);
-    --color-error: #de0000;
-    --color-on-error: white;
-}
-
-main.dark2,
-header.dark2 {
-    color-scheme: light;
-    --color-background: rgb(41, 0, 80);
-    --color-on-background: rgb(0, 255, 255);
-    --color-background-hover: rgb(34, 0, 67);
-    --color-on-background-hover: rgb(0, 255, 255);
-    --color-primary: rgb(52, 0, 100);
-    --color-primary-disabled: #0011ff;
-    --color-on-primary: rgb(0, 255, 255);
-    --color-extended: rgba(0, 255, 255, 0.75);
-    --color-legacy: rgba(0, 255, 255, 0.5);
+    --color-top1: rgba(255, 255, 0, 1);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -116,4 +102,10 @@ input[type="checkbox"] {
 }
 .legacy {
     color: var(--color-legacy);
+}
+.extended {
+    color: var(--color-extended);
+}
+.top1 {
+    color: var(--color-top1);
 }

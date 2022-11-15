@@ -26,11 +26,14 @@ export default {
                 <tr v-for="([err, rank, level], i) in list">
                 <td class="rank">
                     <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                    <p v-else class="type-label-lg" :style="{ color: rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
+                    <p v-else-if="rank === 1" class="type-label-lg" class="top1">#{{ rank }}</p>
+                    <p v-else-if="rank <= 50" class="type-label-lg">#{{ rank }}</p>
+                    <p v-else class="extended" :style="{ color: rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span v-if="rank === 1" class="type-label-lg" class="top1">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span v-else class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
