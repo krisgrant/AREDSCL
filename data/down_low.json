@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/HPRCXEAD7Ds",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Dino",
+            "link": "https://www.youtube.com/watch?v=pGFY1xCrdLs",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
