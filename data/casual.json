@@ -50,6 +50,12 @@
             "link": "https://www.youtube.com/watch?v=4egqPALxSSg",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/LFN0LCjXkDA",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
