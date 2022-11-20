@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                 <tr v-for="([err, rank, level], i) in list">
                 <td class="rank">
-                    <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                    <p v-if="rank === null" class="type-label-lg">—</p>
                     <p v-else-if="rank === 1" class="type-label-lg" class="top1">#{{ rank }}</p>
                     <p v-else-if="rank <= 50" class="type-label-lg">#{{ rank }}</p>
                     <p v-else class="extended" :style="{ color: rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
@@ -42,6 +42,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="list">
                     <h1 v-if="level.rank > 100">{{ level.name }}</h1>
+                    <h1 v-else-if="level.rank === null">{{ level.name }}</h1>
                     <h1 v-else>#{{ level.rank }} - {{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
@@ -56,15 +57,18 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Password:</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <p>{{ level.password || 'Free Copy' }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Difficulty:</div>
                             <p>{{ level.difficulty || 'Demon' }}</p>
                         </li>
                     </ul>
+                    <h2>Tags:</h2>
+                    <p>{{ level.tag || 'None' }}</p>
                     <h2>Records</h2>
-                    <p v-if="level.rank !== null && level.rank <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-if="level.rank > 50"><strong>100%</strong> or better to qualify</p>
+                    <p v-else-if="level.rank !== null && level.rank <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">

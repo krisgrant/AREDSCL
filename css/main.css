@@ -8,6 +8,8 @@
     --color-extended: rgba(0, 0, 0, 0.75);
     --color-legacy: rgba(0, 0, 0, 0.5);
     --color-top1: rgb(202.5, 202.5, 0);
+    --color-top2: rgb(175, 175, 175);
+    --color-top3: rgb(165, 50, 0);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -25,6 +27,8 @@ header.dark {
     --color-extended: rgba(0, 255, 255, 0.75);
     --color-legacy: rgba(0, 255, 255, 0.5);
     --color-top1: rgba(255, 255, 0, 1);
+    --color-top2: rgb(225, 225, 225);
+    --color-top3: rgb(165, 50, 0);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -108,4 +112,10 @@ input[type="checkbox"] {
 }
 .top1 {
     color: var(--color-top1);
+}
+.top2 {
+    color: var(--color-top2);
+}
+.top3 {
+    color: var(--color-top3);
 }

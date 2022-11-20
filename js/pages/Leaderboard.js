@@ -30,13 +30,15 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p v-if="ientry.total > 2000" class="type-label-lg" class="top1">#{{ i + 1 }}</p>
+                                <p v-if="i + 1 === 1" class="type-label-lg" class="top1">#{{ i + 1 }}</p>
+                                <p v-else-if="i + 1 === 2" class="type-label-lg" class="top2">#{{ i + 1 }}</p>
+                                <p v-else-if="i + 1 === 3" class="type-label-lg" class="top3">#{{ i + 1 }}</p>
                                 <p v-else-if="ientry.total > 0" class="type-label-lg">#{{ i + 1 }}</p>
                                 <p v-else class="legacy" class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
-                                    <span v-if="ientry.total > 2000" class="type-label-lg" class="top1">{{ ientry.user }}</span>
+                                <span v-if="i + 1 === 1" class="type-label-lg" class="top1">{{ ientry.user }}</span>
                                     <span v-else class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
@@ -66,7 +68,8 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
+                                    <p v-if="score.score > 0" class="type-label-lg">+{{ localize(score.score) }}</p>
+                                    <p v-else class="legacy" class="type-label-lg">+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
                         </table>
@@ -81,7 +84,8 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
+                                <p v-if="score.score > 0" class="type-label-lg">+{{ localize(score.score) }}</p>
+                                <p v-else class="legacy" class="type-label-lg">+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
                         </table>
@@ -96,7 +100,8 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% - {{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
+                                <p v-if="score.score > 0" class="type-label-lg">+{{ localize(score.score) }}</p>
+                                <p v-else class="legacy" class="type-label-lg">+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
                         </table>
