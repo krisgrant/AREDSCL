@@ -9,5 +9,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/ESx1_vRLeRA",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "DeMooniC",
+            "link": "https://youtu.be/-5_ztFL6NiE?t=55",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
