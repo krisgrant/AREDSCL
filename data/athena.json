@@ -9,5 +9,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/TS6_5cOIgT4",
     "percentToQualify": 48,
-    "records": []
+    "records": [
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=shRXaaEWrFk",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
