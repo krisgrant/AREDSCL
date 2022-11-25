@@ -63,6 +63,12 @@
             "percent": 53,
             "hz": "60",
             "mobile": true
+        },
+        {
+            "user": "Lucas531",
+            "link": "https://www.youtube.com/watch?v=vIucL9_AIo4&list=PLMBv-prjuycg62DZFS7JP1yyc3--kG5Fn&index=4",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
