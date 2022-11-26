@@ -21,6 +21,12 @@
             "link": "https://www.youtube.com/watch?v=E-PszYdybQg",
             "percent": 54,
             "hz": "360"
+        },
+        {
+            "user": "Gelforce",
+            "link": "https://www.youtube.com/watch?v=hPXeQLj0o2U",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
