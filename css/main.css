@@ -119,3 +119,7 @@ input[type="checkbox"] {
 .top3 {
     color: var(--color-top3);
 }
+.rankplacement {
+    color: var(--color-legacy);
+    position: static;
+}
