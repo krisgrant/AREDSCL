@@ -10,6 +10,7 @@
     --color-top1: rgb(202.5, 202.5, 0);
     --color-top2: rgb(175, 175, 175);
     --color-top3: rgb(165, 50, 0);
+    --color-tags: rgba(0, 0, 0, 0.25);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -29,6 +30,7 @@ header.dark {
     --color-top1: rgba(255, 255, 0, 1);
     --color-top2: rgb(225, 225, 225);
     --color-top3: rgb(165, 50, 0);
+    --color-tags: rgb(0, 255, 255, 0.25);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -119,7 +121,16 @@ input[type="checkbox"] {
 .top3 {
     color: var(--color-top3);
 }
-.rankplacement {
-    color: var(--color-legacy);
-    position: static;
+.tags {
+    display: table;
+    margin-inline-end: auto;
+    font-family: "Lexend Deca", sans-serif;
+    background: var(--color-tags);
+    background-attachment: fixed;
+    padding: 0.2cm;
+    border-radius: 0.2cm;
+    text-transform: uppercase;
+}
+.diffimg {
+    display: table-footer-group;
 }

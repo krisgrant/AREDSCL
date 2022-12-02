@@ -1,5 +1,5 @@
 import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
+import { getThumbnailFromId, getYoutubeIdFromUrl, getProfilePictureFromId, localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -58,19 +58,19 @@ export default {
                         <br>
                         <h2 v-if="entry.verified.length > 0">Demons verified:</h2>
                         <table class="table">
-                            <tr v-for="score in entry.verified">
-                                <td class="rank">
-                                <p v-if="score.rank <= 50">#{{ score.rank }}</p>
-                                <p v-else class="extended" :style="{ color: score.rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <p v-if="score.score > 0" class="type-label-lg">+{{ localize(score.score) }}</p>
-                                    <p v-else class="legacy" class="type-label-lg">+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
+                        <tr v-for="score in entry.verified">
+                        <td class="rank">
+                        <p v-if="score.rank <= 50">#{{ score.rank }}</p>
+                        <p v-else class="extended" :style="{ color: score.rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
+                        </td>
+                        <td class="level">
+                            <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                        </td>
+                        <td class="score">
+                        <p v-if="score.score > 0" class="type-label-lg">+{{ localize(score.score) }}</p>
+                        <p v-else class="legacy" class="type-label-lg">+{{ localize(score.score) }}</p>
+                        </td>
+                    </tr>
                         </table>
                         <h2 v-if="entry.completed.length > 0">Demons completed:</h2>
                         <table class="table">
@@ -124,5 +124,8 @@ export default {
     },
     methods: {
         localize,
+        getThumbnailFromId,
+        getYoutubeIdFromUrl,
+        getProfilePictureFromId,
     },
 };

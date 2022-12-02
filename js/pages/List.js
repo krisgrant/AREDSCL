@@ -45,6 +45,7 @@ export default {
                     <h1 v-else-if="level.rank === null">{{ level.name }}</h1>
                     <h1 v-else>#{{ level.rank }} - {{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <span class="tags">{{ level.tag || 'None' }}</span>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
@@ -64,8 +65,6 @@ export default {
                             <p>{{ level.difficulty || 'Demon' }}</p>
                         </li>
                     </ul>
-                    <h2>Tags:</h2>
-                    <p>{{ level.tag || 'None' }}</p>
                     <h2>Records</h2>
                     <p v-if="level.rank > 50"><strong>100%</strong> or better to qualify</p>
                     <p v-else-if="level.rank !== null && level.rank <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
