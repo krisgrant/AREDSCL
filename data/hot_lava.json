@@ -8,5 +8,12 @@
     "password": "260406",
     "verification": "https://youtu.be/ZhC7lSBTNfk",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "EliGabRet",
+            "link": "https://youtu.be/wkioOFz9ln8",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
 }
