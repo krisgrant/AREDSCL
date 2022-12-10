@@ -60,8 +60,8 @@ export default {
                         <table class="table">
                         <tr v-for="score in entry.verified">
                         <td class="rank">
-                        <p v-if="score.rank <= 50">#{{ score.rank }}</p>
-                        <p v-else class="extended" :style="{ color: score.rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
+                        <p v-if="score.rank <= 75">#{{ score.rank }}</p>
+                        <p v-else class="extended" :style="{ color: score.rank > 150 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
                         </td>
                         <td class="level">
                             <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -76,8 +76,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                <p v-if="score.rank <= 50">#{{ score.rank }}</p>
-                                <p v-else class="extended" :style="{ color: score.rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
+                                <p v-if="score.rank <= 75">#{{ score.rank }}</p>
+                                <p v-else class="extended" :style="{ color: score.rank > 150 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -92,8 +92,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                <p v-if="score.rank <= 50">#{{ score.rank }}</p>
-                                <p v-else class="extended" :style="{ color: score.rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
+                                <p v-if="score.rank <= 75">#{{ score.rank }}</p>
+                                <p v-else class="extended" :style="{ color: score.rank > 150 ? 'var(--color-legacy)' : legacy }">#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% - {{ score.level }}</a>

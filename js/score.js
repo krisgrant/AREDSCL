@@ -11,14 +11,20 @@
   * @returns {Number}
   */
  export function score(rank, percent, minPercent) {
-     if (rank === null || rank > 100) {
+     if (rank === null || rank > 150) {
          return 0;
      }
- 
-     let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
+     if (rank > 75 && percent < 100) {
+        return 0;
+    }
+     let maximum_points = 250; //change this to change points of top 1
+     let score = ((140 * maximum_points + 7000) / Math.sqrt(3157 * (rank - 1) + 19600) - 50) *
          ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
  
      score = Math.max(0, score);
+     if (isNaN(score)) {
+         score = 0;
+     }
  
      if (percent != 100) {
          return round(score - score / 3);
@@ -43,3 +49,4 @@
          );
      }
  }
+ 

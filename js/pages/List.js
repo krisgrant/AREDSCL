@@ -25,10 +25,10 @@ export default {
                 <table class="list" v-if="list">
                 <tr v-for="([err, rank, level], i) in list">
                 <td class="rank">
-                    <p v-if="rank === null" class="type-label-lg">—</p>
+                    <p v-if="rank === null" class="type-label-lg">–</p>
                     <p v-else-if="rank === 1" class="type-label-lg" class="top1">#{{ rank }}</p>
-                    <p v-else-if="rank <= 50" class="type-label-lg">#{{ rank }}</p>
-                    <p v-else class="extended" :style="{ color: rank > 100 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
+                    <p v-else-if="rank <= 75" class="type-label-lg">#{{ rank }}</p>
+                    <p v-else class="extended" :style="{ color: rank > 150 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
@@ -41,7 +41,7 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="list">
-                    <h1 v-if="level.rank > 100">{{ level.name }}</h1>
+                    <h1 v-if="level.rank > 150">{{ level.name }}</h1>
                     <h1 v-else-if="level.rank === null">{{ level.name }}</h1>
                     <h1 v-else>#{{ level.rank }} - {{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -66,8 +66,7 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected + 1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="level.rank !== null && level.rank <= 150"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -95,14 +94,17 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
-                    <div class="og">
-                        <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a> (The Shitty List), whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
+                    <div class="dark-bg">
+                    <h2>Guidelines</h2>
+                    <br>
+                    <p>Every action is conducted in accordance with our guidelines. In order to guarantee a consistent experience, make sure to verify them before submitting a record!</p>
+                    <br><br>
+                    <a class="btngl" href="/extended-page/rules.html">Guidelines Page</a>
                     </div>
-                    <div class="og">
-                        <iframe class="discord-box" src="https://discord.com/widget?id=866826240476053514&theme=dark" width="270" height="300" allowtransparency="false" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                    </div>
-                    <template v-if="editors">
-                        <h3>List Editors</h3>
+                    <div class="dark-bg" v-if="editors">
+                    <br>
+                        <h3>List Staff:</h3>
+                        <br>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -110,31 +112,13 @@ export default {
                                 <p v-else>{{ editor.name }}</p>
                             </li>
                         </ol>
-                    </template>
-                    <h3>Frequently Asked Questions</h3>
-                    <p>
-                        Q: How long will it take for my record to be accepted?
-                        <br>
-                        A: On an average day, it will take 0–48 hours, occasionally up to 72 hours, which may be slightly unusual, for the record to be acknowledged. You can ask a team member if the record hasn't been accepted yet and they can perhaps help.
-                    </p>
-                    <p>
-                        Q: What does it mean by new, update, and fix records?
-                        <br>
-                        A: When you submit a record for a level for the first time, choose "New Record," and when you need to update an existing record because you have a new best, pick "Update Record," If there is a problem with one of your records that has to be fixed, select "Fix Record."
-                    </p>
-                    <p>
-                        Q: What time will __ be placed on the list?
-                        <br>
-                        A: Typically, we add 1-3 demons per changelog. The level(s) in question must be added to the list within 2 to 4 days. However, not everything will be accurate because there could be website troubles or because some levels might take longer to upload than others. Be patient, please!
-                    </p>
-                    <p>
-                        Q: Can I upload a video with multiple levels?
-                        <br>
-                        A: Yes!
-                    </p>
-                    <p>
-                        If you have any questions or suggestions for any FAQ to put in, DM TAL9988#0729.
-                    </p>
+                    </div>
+                    <div class="og">
+                        <iframe class="discord-box" src="https://discord.com/widget?id=866826240476053514&theme=dark" width="270" height="300" allowtransparency="false" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                    <div class="og" class="dark-bg">
+                        <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>, whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
+                    </div>
                 </div>
             </div>
         </main>

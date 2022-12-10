@@ -23,7 +23,6 @@ header.dark {
     --color-background-hover: rgb(34, 0, 67);
     --color-on-background-hover: rgb(0, 255, 255);
     --color-primary: rgb(52, 0, 100);
-    --color-primary-disabled: #0011ff;
     --color-on-primary: rgb(0, 255, 255);
     --color-extended: rgba(0, 255, 255, 0.75);
     --color-legacy: rgba(0, 255, 255, 0.5);
@@ -131,6 +130,19 @@ input[type="checkbox"] {
     border-radius: 0.2cm;
     text-transform: uppercase;
 }
-.diffimg {
-    display: table-footer-group;
+.dark-bg {
+    background: var(--color-background-hover);
+    border-radius: 10px;
+    padding: 25px;
+}
+.btngl {
+    background: var(--color-tags);
+    padding: 10px;
+    font-family: "Lexend Deca", sans-serif;
+    border-radius: 0.2cm;
+    transition: 0.2s;
+}
+.btngl:hover {
+    background: var(--color-legacy);
+    transition: 0.2s;
 }
