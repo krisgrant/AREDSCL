@@ -185,11 +185,17 @@
             "percent": 100,
             "hz": "60"
         },
-{
+        {
             "user": "DinoGD",
             "link": "https://www.youtube.com/watch?v=9C1MwVkH-QA&t=5s",
             "percent": 100,
             "hz": "75"
+        },
+        {
+            "user": "Blasterr",
+            "link": "https://www.youtube.com/watch?v=Tnu5aHAHJFA",
+            "percent": 100,
+            "hz": "60"
         }
     ]
 }
