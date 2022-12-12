@@ -48,8 +48,8 @@
     height: 1.5rem;
 }
 .nav .nav__actions .nav__cta {
-    margin-left: 1rem;
-    padding: 1rem;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
     background-color: var(--color-on-primary);
     color: var(--color-primary);
     border-radius: 0.5rem;
@@ -57,5 +57,5 @@
     transition: transform 100ms ease;
 }
 .nav .nav__actions .nav__cta:hover:not(:active) {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }

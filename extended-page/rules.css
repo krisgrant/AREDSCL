@@ -25,10 +25,6 @@ li {
 p {
     color: rgb(201, 201, 201);
     line-height: 20px;
-    width: 75%;
-    padding: 0.3cm;
-    white-space: inherit;
-    margin: auto;
 }
 
 .link {
