@@ -227,6 +227,12 @@
             "percent": 100,
             "hz": "60",
             "mobile": "true"
+        },
+        {
+            "user": "Fortniteballs",
+            "link": "https://www.youtube.com/watch?v=RNTwuoAEOl0",
+            "percent": 100,
+            "hz": "360",
         }
     ]
 }
