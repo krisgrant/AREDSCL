@@ -56,6 +56,13 @@
             "link": "https://youtu.be/8Tn2qwIECoE",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Breakcore",
+            "link": "https://www.youtube.com/watch?v=4mdVOeAzK5k",
+            "percent": 100,
+            "hz": "90",
+            "mobile": "true"
         }
     ]
 }
