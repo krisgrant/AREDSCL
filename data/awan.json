@@ -129,6 +129,12 @@
             "link": "https://www.youtube.com/watch?v=QltNS180iKA",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "johnlikesdiamond",
+            "link": "https://youtu.be/r8r3qfgvp30",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
