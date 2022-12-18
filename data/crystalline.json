@@ -63,6 +63,12 @@
             "percent": 100,
             "hz": "90",
             "mobile": "true"
+        },
+        {
+            "user": "Fortniteballs",
+            "link": "https://youtu.be/TKcDrvKFUNY",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
