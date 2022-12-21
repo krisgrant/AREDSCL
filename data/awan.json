@@ -135,6 +135,13 @@
             "link": "https://youtu.be/r8r3qfgvp30",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Wald",
+            "link": "https://youtu.be/UD_7TZEJQTk",
+            "percent": 100,
+            "hz": "60"
+            "mobile": "true"
         }
     ]
 }
