@@ -122,6 +122,12 @@
             "link": "https://www.youtube.com/watch?v=n73D6snwIFk",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "nolan",
+            "link": "https://www.youtube.com/watch?v=BSuwHVKrtqM",
+            "percent": 100,
+            "hz": "75"
         }
     ]
 }
