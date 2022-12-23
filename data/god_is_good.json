@@ -74,6 +74,12 @@
             "link": "https://www.youtube.com/watch?v=wb0iry894LA",
             "percent": 100,
             "hz": "288"
+        },
+        {
+            "user": "MegaMatch",
+            "link": "https://www.youtube.com/watch?v=Dnc1d9RHWUg",
+            "percent": 100,
+            "hz": "144"
         }
     ]
 }
