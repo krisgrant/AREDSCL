@@ -81,6 +81,12 @@
             "link": "https://www.youtube.com/watch?v=kNzR5Vy8lRU",
             "percent": 100,
             "hz": "144"
+        },
+        {
+            "user": "Double",
+            "link": "https://www.youtube.com/watch?v=tr_VIc4odTg",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
