@@ -87,6 +87,12 @@
             "link": "https://www.youtube.com/watch?v=tr_VIc4odTg",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "hedshotguy",
+            "link": "https://www.youtube.com/watch?v=10N2jOmwFFg",
+            "percent": 100,
+            "hz": "60"
         }
     ]
 }
