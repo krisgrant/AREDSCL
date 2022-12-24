@@ -10,6 +10,12 @@
     "percentToQualify": 100,
     "records": [
         {
+            "user": "TAL9988",
+            "link": "https://youtu.be/aO_P5yQOSLw",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
             "user": "Qais",
             "link": "https://youtu.be/9Tz5H0lDSNw",
             "percent": 100,

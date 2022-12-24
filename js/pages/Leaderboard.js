@@ -51,9 +51,9 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} - {{ entry.user }}</h1>
-                        <h3 v-if="entry.total > 0">Score: <u>{{entry.total}}</u></h3>
-                        <h3 v-if="entry.verified.length > 0">Verifications: <u>{{ entry.verified.length }}</u></h3>
+                        <h1>{{ entry.user }}</h1><p>#{{ selected + 1 }}</p>
+                        <h3 v-if="entry.total > 0">Score: <b>{{entry.total}}</b></h3>
+                        <h3 v-if="entry.verified.length > 0">Verification: <u>{{ entry.verified.length }}</u></h3>
                         <h3 v-if="entry.completed.length > 0">Completions: <u>{{ entry.completed.length }}</u></h3>
                         <br>
                         <h2 v-if="entry.verified.length > 0">Demons verified:</h2>

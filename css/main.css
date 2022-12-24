@@ -5,8 +5,8 @@
     --color-on-background-hover: black;
     --color-primary: rgb(52, 0, 100);
     --color-on-primary: white;
-    --color-extended: rgba(0, 0, 0, 0.75);
-    --color-legacy: rgba(0, 0, 0, 0.5);
+    --color-extended: rgba(0, 0, 0, 0.5);
+    --color-legacy: rgba(0, 0, 0, 0.25);
     --color-top1: rgb(202.5, 202.5, 0);
     --color-top2: rgb(175, 175, 175);
     --color-top3: rgb(165, 50, 0);
