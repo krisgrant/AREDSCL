@@ -68,6 +68,12 @@
             "link": "https://youtu.be/7kn5YCyPYNo",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "frski",
+            "link": "https://www.youtube.com/watch?v=6BFY9Aix_N8",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
