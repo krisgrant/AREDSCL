@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/KsNpEZ2knT0",
     "percentToQualify": 41,
-    "records": []
+    "records": [
+        {
+            "user": "Ariza",
+            "link": "https://drive.google.com/file/d/1smRk6S-4P5PeU_qz82LszG8HyrTlWAsT/view?usp=sharing",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
