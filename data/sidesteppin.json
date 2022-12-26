@@ -80,6 +80,12 @@
             "link": "https://www.youtube.com/watch?v=5rlo8zeS93k",
             "percent": 100,
             "hz": "144"
+        },
+        {
+            "user": "MechanicGD",
+            "link": "https://www.youtube.com/watch?v=miBn3mIU3wM",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
