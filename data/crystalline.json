@@ -106,6 +106,12 @@
             "link": "https://www.youtube.com/watch?v=zUZI7z80x3g",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Stylish",
+            "link": "https://www.youtube.com/watch?v=x_oXCSpyoVE",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
