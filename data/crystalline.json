@@ -112,6 +112,12 @@
             "link": "https://www.youtube.com/watch?v=x_oXCSpyoVE",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Speedy",
+            "link": "https://www.youtube.com/watch?v=O43SiJDVgWM",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
