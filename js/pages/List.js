@@ -41,9 +41,7 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="list">
-                    <h1 v-if="level.rank > 150">{{ level.name }}</h1>
-                    <h1 v-else-if="level.rank === null">{{ level.name }}</h1>
-                    <h1 v-else>#{{ level.rank }} - {{ level.name }}</h1>
+                    <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <span class="tags">{{ level.tag || 'None' }}</span>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
