@@ -17,16 +17,16 @@
             "hz": "360"
         },
         {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=ivvsPLHEuIc",
-            "percent": 93,
-            "hz": "360"
-        },
-        {
             "user": "Gelforce",
             "link": "https://www.youtube.com/watch?v=hPXeQLj0o2U",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/mZlztvE7q-E",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
