@@ -9,5 +9,12 @@
     "tag": "Reupload",
     "verification": "https://www.youtube.com/watch?v=ZZ3zvPIGagk",
     "percentToQualify": 71,
-    "records": []
+    "records": [
+        {
+            "user": "0spears",
+            "link": "https://www.youtube.com/watch?v=0W8x2Bbu5n4",
+            "percent": 100,
+            "hz": "120"
+        }
+    ]
 }
