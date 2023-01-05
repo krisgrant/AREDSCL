@@ -9,5 +9,12 @@
     "tag": "Short",
     "verification": "https://youtu.be/vz49YZ-aOnY",
     "percentToQualify": 74,
-    "records": []
+    "records": [
+        {
+            "user": "Lasery",
+            "link": "https://www.youtube.com/watch?v=athmUW9-H90",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
