@@ -166,6 +166,13 @@
             "link": "https://www.youtube.com/watch?v=miBn3mIU3wM",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "LIMEBLUE",
+            "link": "https://www.youtube.com/watch?v=UCllOij3VEA",
+            "percent": 100,
+            "hz": "60",
+            "mobile": "true"
         }
     ]
 }
