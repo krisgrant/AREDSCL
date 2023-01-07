@@ -159,6 +159,12 @@
             "percent": 100,
             "hz": "120",
             "mobile": "true"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://www.youtube.com/watch?v=jTFntANyIc8",
+            "percent": 100,
+            "hz": "144"
         }
     ]
 }
