@@ -1,5 +1,5 @@
 {
-    "id": 2854,
+    "id": 3500,
     "name": "Awakening",
     "author": "Nukie",
     "creators": [],
@@ -37,6 +37,12 @@
         {
             "user": "34elraaK",
             "link": "https://www.youtube.com/watch?v=m8EyV32fVHY",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://youtu.be/lW1h8x8jRIA",
             "percent": 100,
             "hz": "144"
         }

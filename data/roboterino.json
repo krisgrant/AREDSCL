@@ -9,5 +9,11 @@
     "verification": "https://www.youtube.com/watch?v=GST-1Rf9MJ4",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "Jarmez",
+            "link": "https://youtu.be/lW1h8x8jRIA",
+            "percent": 100,
+            "hz": "144"
+        }
     ]
 }

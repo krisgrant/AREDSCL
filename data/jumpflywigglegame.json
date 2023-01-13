@@ -1,5 +1,5 @@
 {
-    "id": 1335,
+    "id": 3466,
     "name": "JumpFlyWiggleGame",
     "author": "OliXor",
     "creators": [],
@@ -72,6 +72,12 @@
         {
             "user": "34elraaK",
             "link": "https://www.youtube.com/watch?v=lOQqxoWmWvs",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://youtu.be/lW1h8x8jRIA",
             "percent": 100,
             "hz": "144"
         }

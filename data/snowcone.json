@@ -5,7 +5,7 @@
     "creators": ["CCostGD, Galaxy, Laser, legit"],
     "verifier": "Siljo",
     "difficulty": "Extreme Demon",
-    "tag": "Reupload",
+    "tag": "Reupload・ Top 1",
     "password": "Free Copy",
     "verification": "https://youtu.be/qGo6gRRttAE",
     "percentToQualify": 42,
@@ -15,6 +15,12 @@
             "link": "https://www.youtube.com/watch?v=RrcgcGwbNm0",
             "percent": 100,
             "hz": "360"
-        }    
+        },
+        {
+            "user": "MechanicGD",
+            "link": "https://youtu.be/74xHneBM_kQ",
+            "percent": 100,
+            "hz": "360"
+        }
     ]
 }

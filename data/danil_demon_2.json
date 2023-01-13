@@ -75,6 +75,18 @@
             "link": "https://youtu.be/1F2E7qS1D44",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://youtu.be/lW1h8x8jRIA",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Stylish",
+            "link": "https://www.youtube.com/watch?v=Vp6_ieTqUMA",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
