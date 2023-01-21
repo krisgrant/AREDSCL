@@ -10,6 +10,11 @@
         "link": "https://www.youtube.com/channel/UCsk9ujsh_dgZskSZ4o9PP0A"
     },
     {
+        "role": "admin",
+        "name": "Siljo",
+        "link": "https://www.youtube.com/channel/UCh2-XHLxgadRlx6CriJ91JQ"
+    },
+    {
         "role": "helper",
         "name": "EliGabRet",
         "link": "https://www.youtube.com/channel/UCWyOuIAGBoIkHX0wlsG5DtQ"
@@ -21,13 +26,13 @@
     },
     {
         "role": "helper",
-        "name": "ItsJakesnipes",
-        "link": "https://www.youtube.com/channel/UCO3ojEPHpJOGnowyLYBGtIA"
+        "name": "TurtleER",
+        "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
     },
     {
-        "role": "helper",
-        "name": "Siljo",
-        "link": "https://www.youtube.com/channel/UCh2-XHLxgadRlx6CriJ91JQ"
+        "role": "trial",
+        "name": "Ariz",
+        "link": ""
     },
     {
         "role": "trial",
@@ -41,6 +46,11 @@
     },
     {
         "role": "trial",
+        "name": "Jarmez",
+        "link": "https://www.youtube.com/channel/UCh28iEoDv99aEdfd_9DTPqw"
+    },
+    {
+        "role": "trial",
         "name": "Lonhi",
         "link": "https://www.youtube.com/channel/UCJsoLWN28C4ApJtZcdffNrQ"
     },
@@ -51,8 +61,13 @@
     },
     {
         "role": "trial",
-        "name": "TurtleER",
-        "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
+        "name": "Stellarum",
+        "link": "https://www.youtube.com/channel/UCO3ojEPHpJOGnowyLYBGtIA"
+    },
+    {
+        "role": "trial",
+        "name": "Xplode",
+        "link": "https://www.youtube.com/channel/UCJ0kVp1IKaUXBI2ov0fJuSw"
     },
     {
         "role": "trial",

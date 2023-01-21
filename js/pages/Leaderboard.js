@@ -30,7 +30,7 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p v-if="i + 1 === 1" class="type-label-lg" class="top1">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 === 1" class="type-label-lg" class="top1">#{{ i + 1 }}</p>
                                 <p v-else-if="i + 1 === 2" class="type-label-lg" class="top2">#{{ i + 1 }}</p>
                                 <p v-else-if="i + 1 === 3" class="type-label-lg" class="top3">#{{ i + 1 }}</p>
                                 <p v-else-if="ientry.total > 0" class="type-label-lg">#{{ i + 1 }}</p>
@@ -38,8 +38,7 @@ export default {
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
-                                <span v-if="i + 1 === 1" class="type-label-lg" class="top1">{{ ientry.user }}</span>
-                                    <span v-else class="type-label-lg">{{ ientry.user }}</span>
+                                <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
                             <td class="score">

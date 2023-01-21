@@ -32,8 +32,7 @@ export default {
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
-                                <span v-if="rank === 1" class="type-label-lg" class="top1">{{ level?.name || \`Error (\${err}.json)\` }}</span>
-                                <span v-else class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>

@@ -71,7 +71,7 @@
             "hz": "360"
         },
         {
-            "user": "ItsJakesnipes",
+            "user": "Stellarum",
             "link": "https://www.youtube.com/watch?v=BFCaXMyoQnQ",
             "percent": 100,
             "hz": "144"
@@ -179,6 +179,12 @@
             "link": "https://www.youtube.com/watch?v=jTFntANyIc8",
             "percent": 100,
             "hz": "144"
+        },
+        {
+            "user": "BarnGD",
+            "link": "https://www.youtube.com/watch?v=-2_douYd7_Q&t=1s",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

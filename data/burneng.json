@@ -47,7 +47,7 @@
             "hz": "60"
         },
         {
-            "user": "ItsJakesnipes",
+            "user": "Stellarum",
             "link": "https://youtu.be/YM38kDEptCw",
             "percent": 100,
             "hz": "144"
@@ -129,6 +129,12 @@
             "link": "https://youtu.be/9O9G4q7xgos",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Pokeninja77",
+            "link": "https://youtu.be/13nA1cSnWPA",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
