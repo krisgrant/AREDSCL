@@ -19,8 +19,8 @@
             "user": "sd Ace",
             "link": "https://youtu.be/X2zJH9-4T5Y",
             "percent": 100,
-            "hz": "60"
-            "mobile": true
+            "hz": "60",
+            "mobile": "true"
         }
     ]
 }
