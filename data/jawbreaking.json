@@ -39,6 +39,12 @@
             "link": "https://www.youtube.com/watch?v=_t2TSalfyos",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Kenny",
+            "link": "https://youtu.be/tfjsIyhJd1s",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
