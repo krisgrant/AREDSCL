@@ -8,5 +8,12 @@
     "password": "001337",
     "verification": "https://youtu.be/QMgmO2ucTyE",
     "percentToQualify": 68,
-    "records": []
+    "records": [
+        {
+            "user": "d1amondd",
+            "link": "https://youtu.be/9qndXmPnkAA",
+            "percent": 100,
+            "hz": "288"
+        }
+    ]
 }

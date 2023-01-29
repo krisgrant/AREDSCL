@@ -68,6 +68,13 @@
             "link": "https://youtu.be/91cLCd9PJGM",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "CXG",
+            "link": "https://youtu.be/sOvMJmCiPwM",
+            "percent": 100,
+            "mobile": true,
+            "hz": "120"
         }
     ]
 }
