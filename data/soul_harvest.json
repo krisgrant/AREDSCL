@@ -116,6 +116,13 @@
             "link": "https://www.youtube.com/watch?v=AB04qOdNl-c",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "lhsui",
+            "link": "https://youtu.be/X5I56VgqTTk",
+            "percent": 100,
+            "mobile": true,
+            "hz": "144"
         }
     ]
 }       

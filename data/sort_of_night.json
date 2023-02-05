@@ -75,6 +75,12 @@
             "percent": 100,
             "mobile": true,
             "hz": "120"
+        },
+        {
+            "user": "GD Fayo",
+            "link": "https://youtu.be/ihxrQYt3Vlc",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

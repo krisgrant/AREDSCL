@@ -68,6 +68,19 @@
             "link": "https://youtu.be/u4MigDHGp3s",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "GD Fayo",
+            "link": "https://youtu.be/ihxrQYt3Vlc",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "lhsui",
+            "link": "https://youtu.be/nNyXQr4B9ZQ",
+            "percent": 100,
+            "mobile": true,
+            "hz": "144"
         }
     ]
 }
