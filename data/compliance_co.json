@@ -10,11 +10,11 @@
     "verification": "https://youtu.be/NAm9aeT9PAo",
     "percentToQualify": 64,
     "records": [
-            {
+        {
             "user": "TurtleER",
             "link": "https://www.youtube.com/watch?v=mf1HHeKllvo",
             "percent": 100,
             "hz": "300"
-        },
+        }
     ]
 }
