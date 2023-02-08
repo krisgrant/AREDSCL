@@ -9,5 +9,12 @@
     "password": "No Copy",
     "verification": "https://youtu.be/eOO2shX3VRg",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/6Zs9JdQHXiA",
+            "percent": 100,
+            "hz": "300"
+        }
+    ]
 }
