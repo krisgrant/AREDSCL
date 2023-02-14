@@ -81,6 +81,12 @@
             "percent": 100,
             "mobile": true,
             "hz": "144"
+        },
+        {
+            "user": "Wrecx",
+            "link": "https://www.youtube.com/watch?v=E8NsNRWAovE",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
