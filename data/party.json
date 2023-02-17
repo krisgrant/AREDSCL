@@ -21,6 +21,12 @@
             "link": "https://www.youtube.com/watch?v=ccSSlVqmXGM",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://www.youtube.com/watch?v=NyQZ5fReffI",
+            "percent": 100,
+            "hz": "144"
         }
     ]
 }
