@@ -9,5 +9,12 @@
     "tag": "Nine Circles ・ Remake ・ XL",
     "verification": "https://youtu.be/pssTwZhlHSw",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "EliGabRet",
+            "link": "https://youtu.be/wrh6xug0bmc",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
 }
