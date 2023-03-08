@@ -20,9 +20,14 @@
         "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
     },
     {
-        "role": "trial",
-        "name": "Ariz",
-        "link": ""
+        "role": "helper",
+        "name": "Xplode",
+        "link": "https://www.youtube.com/channel/UCJ0kVp1IKaUXBI2ov0fJuSw"
+    },
+    {
+        "role": "helper",
+        "name": "ZonerG",
+        "link": "https://www.youtube.com/channel/UC88ehQR5tu4y_ili7-jlkEA"
     },
     {
         "role": "trial",
@@ -56,18 +61,8 @@
     },
     {
         "role": "trial",
-        "name": "Xplode",
-        "link": "https://www.youtube.com/channel/UCJ0kVp1IKaUXBI2ov0fJuSw"
-    },
-    {
-        "role": "trial",
         "name": "youngs",
         "link": "https://www.youtube.com/channel/UCZ6-J8YV1CIvxdVfS9Scb6Q"
-    },
-    {
-        "role": "trial",
-        "name": "ZonerG",
-        "link": "https://www.youtube.com/channel/UC88ehQR5tu4y_ili7-jlkEA"
     },
     {
         "role": "dev",
