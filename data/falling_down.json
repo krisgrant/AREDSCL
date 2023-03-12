@@ -9,5 +9,12 @@
     "password": "No Copy",
     "verification": "https://youtu.be/SU8k0MsToYE",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Xplode09",
+            "link": "https://youtu.be/suqSFEtxFoU",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
