@@ -123,6 +123,12 @@
             "percent": 100,
             "mobile": true,
             "hz": "144"
+        },
+        {
+            "user": "SirFilo",
+            "link": "https://www.youtube.com/watch?v=eKek_sGckoY",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }       
