@@ -16,16 +16,16 @@
             "hz": "360"
         },
         {
-            "user": "MMitochondria",
-            "link": "https://www.youtube.com/watch?v=8HNGYdpGZXI",
-            "percent": 100,
-            "hz": "240"
-        },
-        {
             "user": "Frosted",
             "link": "https://youtu.be/hWx7je3t5v8",
             "percent": 92,
             "hz": "165"
+        },
+        {
+            "user": "MMitochondria",
+            "link": "https://www.youtube.com/watch?v=8HNGYdpGZXI",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
