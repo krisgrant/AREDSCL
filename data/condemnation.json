@@ -9,6 +9,13 @@
     "tag": "Short",
     "verification": "https://youtu.be/htAY9rOOi6Y",
     "percentToQualify": 47,
-    "records": []
+    "records": [
+         {
+            "user": "TurtleER",
+            "link": "https://youtu.be/wmkd2FuVwtk",
+            "percent": 100,
+            "hz": "360"
+         }
+    ]
     
 }
