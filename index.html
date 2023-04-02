@@ -29,33 +29,25 @@
     </head>
     <body id="app">
         <header :class="{ dark: store.dark }">
+            <img src="/images/unknown.png" alt="Flowers in Chania" class="advyout">
             <div class="logo">
-                <h2 style="line-height:4rem;">TGDPS</h2>
-                <p style="line-height:4rem;">v2.3.2</p>
+                <h2 style="line-height:4rem;">TransGDPS</h2>
+                <p style="line-height:4rem;">v8.5.12.12.15</p>
             </div>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
+                <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">List</span>
                 </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
+                <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Stats Viewer</span>
                 </router-link>
-                <router-link class="nav__tab" to="/roulette">
+                <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
                 <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/26UyceMWkVYRBibJ9"
+                        href="https://youtu.be/JpSYy0k0uPQ"
                         target="_blank"
                         >Submit Record</a
                     >

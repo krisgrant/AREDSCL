@@ -94,7 +94,18 @@ export default {
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
                     <br>
-                    <p>Every action is conducted in accordance with our guidelines. In order to guarantee a consistent experience, make sure to verify them before submitting a record!</p>
+                    <p>They tell me keep it simple, I tell them take it slow
+                    I feed and water an idea so I let it grow
+                    I tell them take it easy, they laugh and tell me no,
+                    It’s cool but I don’t see them laughing at my money though
+                    They spittin facts at me, I’m spittin tracks, catch me?
+                    I’m spinning gold out my records know you can’t combat me
+                    They tell me jesus walks, I tell them money talks.
+                    Bling got me chill, cause I’m living in an ice box.
+                    They tell me I've been sleepin, I say I’m wide awake
+                    Tracks hot and ready so they call me mister e-z bake
+                    They say the grass is greener, I think my grass is dank
+                    Drivin with a drank on an empty tank to the bank</p>
                     <br><br>
                     <a class="btngl" href="/extended-page/rules.html">Guidelines Page</a>
                     </div>
