@@ -9,5 +9,12 @@
     "password": "No Copy",
     "verification": "https://youtu.be/qpT3Vo30n1M?t=36",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+         {
+            "user": "GDnowaR",
+            "link": "https://youtu.be/YSVtbzcvAfg",
+            "percent": 100,
+            "hz": "240"
+         }
+    ]
 }
