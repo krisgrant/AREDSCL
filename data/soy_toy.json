@@ -8,5 +8,12 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/ErrOJxzP5nE",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+         {
+            "user": "0spears",
+            "link": "https://youtu.be/5VlXuRDqLyQ",
+            "percent": 100,
+            "hz": "360"
+         }
+    ]
 }
