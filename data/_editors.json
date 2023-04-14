@@ -10,6 +10,11 @@
         "link": "https://www.youtube.com/channel/UCWyOuIAGBoIkHX0wlsG5DtQ"
     },
     {
+        "role": "admin",
+        "name": "Xplode09",
+        "link": "https://www.youtube.com/channel/UCJ0kVp1IKaUXBI2ov0fJuSw"
+    },
+    {
         "role": "helper",
         "name": "Hamotho",
         "link": "https://www.youtube.com/channel/UCnqKZQptGMEGurQz1ymzEbw"
@@ -18,11 +23,6 @@
         "role": "helper",
         "name": "TurtleER",
         "link": "https://www.youtube.com/channel/UCr9DWd8KoTyeX-yRKgee68g"
-    },
-    {
-        "role": "helper",
-        "name": "Xplode09",
-        "link": "https://www.youtube.com/channel/UCJ0kVp1IKaUXBI2ov0fJuSw"
     },
     {
         "role": "helper",
