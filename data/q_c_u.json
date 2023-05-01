@@ -51,6 +51,12 @@
             "link": "https://www.youtube.com/watch?v=AhjN3T-z1jM",
             "percent": 100,
             "hz": "360"
-        }
+        },
+        {
+            "user": "GDnowaR",
+            "link": "https://www.youtube.com/watch?v=ycFxHPBiDL4",
+            "percent": 100,
+            "hz": "240"
+        }        
     ]
 }
