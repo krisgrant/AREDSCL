@@ -1,0 +1,20 @@
+{
+    "id": 4832,
+    "name": "hapy eg",
+    "author": "Slopes",
+    "creators": [],
+    "verifier": "Slopes",
+    "difficulty": "Hard Demon",
+    "password": "Free Copy",
+    "tag": "None",
+    "verification": "https://youtu.be/L8J-l-kFwMQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "EliGabRet",
+            "link": "https://www.youtube.com/watch?v=QX58iM1T84k",
+            "percent": 100,
+            "hz": "288"
+        }
+    ]
+}
