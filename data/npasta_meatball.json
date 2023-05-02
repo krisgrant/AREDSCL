@@ -38,6 +38,12 @@
             "link": "https://www.youtube.com/watch?v=42kAqAGvbN8",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Jarmez",
+            "link": "https://www.youtube.com/watch?v=d2PA2HVk5zE",
+            "percent": 100,
+            "hz": "144"
         }
     ]
 }
