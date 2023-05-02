@@ -9,5 +9,12 @@
     "tag": "None",
     "verification": "https://youtu.be/BgA-ssxBgBs",
     "percentToQualify": 49,
-    "records": []
+    "records": [
+        {
+            "user": "Lonhi",
+            "link": "https://www.youtube.com/watch?v=TE9Dn_oqfrQ",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
