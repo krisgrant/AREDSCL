@@ -9,5 +9,12 @@
     "tag": "None",
     "verification": "https://youtu.be/UsclvR0YweE",
     "percentToQualify": 68,
-    "records": []
+    "records": [
+        {
+            "user": "MechanicGD",
+            "link": "https://youtu.be/VMTKJP4aRh0](https://youtu.be/VMTKJP4aRh0",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
