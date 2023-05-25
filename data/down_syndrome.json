@@ -9,6 +9,12 @@
     "tag": "Nine Circles",
     "verification": "https://youtu.be/koG3WO-oLMc",
     "percentToQualify": 60,
-    "records": []
-    
+    "records": [
+        {
+            "user": "MechanicGD",
+            "link": "https://www.youtube.com/watch?v=L3wlolYRSNw",
+            "percent": 100,
+            "hz": "300"
+        }
+    ]
 }
