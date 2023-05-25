@@ -9,6 +9,12 @@
     "tag": "XL",
     "verification": "https://youtu.be/L9De-1JXOME",
     "percentToQualify": 58,
-    "records": []
-    
+    "records": [
+        {
+            "user": "MechanicGD",
+            "link": "https://youtu.be/loigombyYDk",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
