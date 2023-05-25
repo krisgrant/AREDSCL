@@ -9,5 +9,12 @@
     "password": "009988",
     "verification": "https://youtu.be/UBhe-Z3_tro",
     "percentToQualify": 62,
-    "records": []
+    "records": [
+        {
+            "user": "MechanicGD",
+            "link": "https://youtu.be/F7HAz6k3la4",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
