@@ -9,5 +9,12 @@
     "tag": "Memory",
     "verification": "https://youtu.be/mKA8NTZgFeI",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "GDnowaR",
+            "link": "https://youtu.be/YUZOPIXz1H8",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
 }
