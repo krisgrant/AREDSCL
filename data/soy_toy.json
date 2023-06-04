@@ -9,11 +9,17 @@
     "verification": "https://youtu.be/ErrOJxzP5nE",
     "percentToQualify": 100,
     "records": [
-         {
+        {
             "user": "0spears",
             "link": "https://youtu.be/5VlXuRDqLyQ",
             "percent": 100,
             "hz": "360"
-         }
+        },
+        {
+            "user": "GD Fayo",
+            "link": "https://www.youtube.com/watch?v=O1XkfSud0NE",
+            "percent": 100,
+            "hz": "360"
+        }
     ]
 }
