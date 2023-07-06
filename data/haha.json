@@ -9,5 +9,12 @@
     "tag": "None",
     "verification": "https://www.youtube.com/watch?v=ymg2kwh8oCQ",
     "percentToQualify": 40,
-    "records": []
+    "records": [
+        {
+            "user": "Wrecx",
+            "link": "https://www.youtube.com/watch?v=eEUiHN9rXI8",
+            "percent": 46,
+            "hz": "360"
+        }
+    ]
 }
