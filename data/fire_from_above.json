@@ -9,5 +9,12 @@
     "tag": "Reupload",
     "verification": "https://youtu.be/zVmQKJqxv5A",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "GD Fayo",
+            "link": "https://www.youtube.com/watch?v=TO1wd-ao0Q4",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
