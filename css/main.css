@@ -8,8 +8,6 @@
     --color-extended: rgba(0, 0, 0, 0.5);
     --color-legacy: rgba(0, 0, 0, 0.25);
     --color-top1: rgb(255, 225, 0);
-    --color-top2: rgb(175, 175, 175);
-    --color-top3: rgb(255, 77, 0);
     --color-tags: rgba(0, 0, 0, 0.25);
     --color-error: #de0000;
     --color-on-error: white;
@@ -18,17 +16,15 @@
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: rgb(41, 0, 80);
-    --color-on-background: rgb(0, 255, 255);
-    --color-background-hover: rgb(34, 0, 67);
+    --color-background: rgb(34, 0, 65);
+    --color-on-background: #00ffff;
+    --color-background-hover: rgb(25, 0, 48);
     --color-on-background-hover: rgb(0, 255, 255);
     --color-primary: rgb(52, 0, 100);
     --color-on-primary: rgb(0, 255, 255);
     --color-extended: rgba(0, 255, 255, 0.75);
     --color-legacy: rgba(0, 255, 255, 0.5);
     --color-top1: rgba(255, 255, 0, 1);
-    --color-top2: rgb(225, 225, 225);
-    --color-top3: rgb(255, 77, 0);
     --color-tags: rgb(0, 255, 255, 0.25);
     --color-error: #de0000;
     --color-on-error: white;

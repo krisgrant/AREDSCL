@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>TGDPS DemonList</title>
-        <link rel="icon" href="/logo.png" />
+        <title>Demon List</title>
+        <link rel="icon" href="/images/TGDPS pfp2.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -30,8 +30,9 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
+                <img src="/images/TGDPS pfp2.png" width="50" height="50">
                 <h2 style="line-height:4rem;">TGDPS</h2>
-                <p style="line-height:4rem;">v2.3.2</p>
+                <p style="line-height:4rem;">v2.3.3</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -49,7 +50,7 @@
                         @click.prevent="store.toggleDark()"
                     >
                         <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            :src="store.dark ? '/assets/dark.svg' : '/assets/light.svg'"
                             alt=""
                         />
                     </button>

@@ -113,13 +113,6 @@ export default {
                     <div class="og">
                         <iframe class="discord-box" src="https://discord.com/widget?id=866826240476053514&theme=dark" width="270" height="300" allowtransparency="false" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                     </div>
-                    <div class="dark-bg">
-                    <h2>Daily TGDPS Reactions</h2>
-                    <br>
-                    <p>This series works off of TGDPS Demon List Records being added, NOT through submissions. (Managed by Breakcore)</p>
-                    <br><br>
-                    <a class="btngl" href="/extended-page/content.html">More Info</a>
-                    </div>
                     <div class="og" class="dark-bg">
                         <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>, whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
