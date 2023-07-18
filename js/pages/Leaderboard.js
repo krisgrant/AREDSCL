@@ -51,7 +51,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>{{ entry.user }}</h1><p>#{{ selected + 1 }}</p>
-                        <h3 v-if="entry.total > 0">Score: <b>{{entry.total}}</b></h3>
+                        <h3 v-if="entry.total > 0"><b>{{entry.total}}</b></h3>
                         <br>
                         <h2 v-if="entry.verified.length > 0">Demons verified: ({{ entry.verified.length }})</h2>
                         <table class="table">

@@ -42,7 +42,7 @@ export default {
                 <div class="level" v-if="list">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <span class="tags">{{ level.tag || 'None' }}</span>
+                    <span class="tags">{{ level.tag }}</span>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
@@ -116,6 +116,9 @@ export default {
                     <div class="og" class="dark-bg">
                         <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>, whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
+                    <button class="btngl" @click="selected = 0">#1 Demon</button>
+                    <button class="btngl" @click="selected = 75">Extended</button>
+                    <button class="btngl" @click="selected = 150">Legacy</button>
                 </div>
             </div>
         </main>

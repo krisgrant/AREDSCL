@@ -78,14 +78,16 @@
 }
 .page-list .level-container .level .records {
     table-layout: fixed;
+    background-color: var(--color-background-hover);
+    border-radius: 0.2cm;
 }
 .page-list .level-container .level .records tr td:not(:last-child) {
-    padding-right: 1rem;
+    padding: 1rem;
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
-    padding-block: 1rem;
+    padding: 1rem;
 }
 .page-list .level-container .level .records .user {
     width: 100%;
