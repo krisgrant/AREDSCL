@@ -9,5 +9,12 @@
     "tag": "",
     "verification": "https://youtu.be/6CIpu3_uihA",
     "percentToQualify": 58,
-    "records": []
+    "records": [
+        {
+            "user": "GD Fayo",
+            "link": "https://www.youtube.com/watch?v=0wOvPqaBauo",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
