@@ -9,5 +9,12 @@
     "tag": "None",
     "verification": "https://www.youtube.com/watch?v=kOb8-dc7N-s",
     "percentToQualify": 44,
-    "records": []
+    "records": [
+        {
+            "user": "CattoDev",
+            "link": "https://youtu.be/sj-d9cBsykk",
+            "percent": 55,
+            "hz": "300"
+        }
+    ]
 }
