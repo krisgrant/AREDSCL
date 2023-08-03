@@ -31,7 +31,7 @@ export default {
                     <p v-else class="extended" :style="{ color: rank > 150 ? 'var(--color-legacy)' : legacy }">#{{ rank }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                            <button @click="selected = i">
+                            <button @click="selected = i" class="btnfilter">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -68,7 +68,8 @@ export default {
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
-                                <p>{{ record.percent }}%</p>
+                                <p v-if="record.percent == 100"><b>{{ record.percent }}%</b></p>
+                                <p v-else>{{ record.percent }}%</p>
                             </td>
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
