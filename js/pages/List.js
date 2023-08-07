@@ -42,7 +42,7 @@ export default {
                 <div class="level" v-if="list">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <span class="tags">{{ level.tag }}</span>
+                    <span v-if="level.tag" class="tags">{{ level.tag }}</span>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
@@ -76,6 +76,9 @@ export default {
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                            </td>
+                            <td class="placement">
+                                <p v-if="record.placement" class="legacy">#{{ record.placement }}</p>
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
