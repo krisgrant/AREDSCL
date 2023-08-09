@@ -9,6 +9,7 @@
     --color-legacy: rgba(0, 0, 0, 0.25);
     --color-top1: rgb(255, 225, 0);
     --color-tags: rgba(0, 0, 0, 0.25);
+    --color-intpm: rgba(0, 0, 0, 0.15);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -26,6 +27,7 @@ header.dark {
     --color-legacy: rgba(0, 255, 255, 0.5);
     --color-top1: rgba(255, 255, 0, 1);
     --color-tags: rgb(0, 255, 255, 0.25);
+    --color-intpm: rgba(102, 0, 255, 0.25);
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -125,6 +127,15 @@ input[type="checkbox"] {
     padding: 0.2cm;
     border-radius: 0.2cm;
     text-transform: uppercase;
+}
+.intpm {
+    display: table;
+    margin-inline-end: auto;
+    font-family: "Lexend Deca", sans-serif;
+    background: var(--color-intpm);
+    background-attachment: fixed;
+    padding: 0.2cm;
+    border-radius: 0.2cm;
 }
 .dark-bg {
     background: var(--color-background-hover);
