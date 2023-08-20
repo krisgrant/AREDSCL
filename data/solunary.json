@@ -9,5 +9,12 @@
     "password": "No Copy",
     "verification": "https://youtu.be/ohIhuCXu8gQ",
     "percentToQualify": 58,
-    "records": []
+    "records": [
+        {
+            "user": "GD Fayo",
+            "link": "https://www.youtube.com/watch?v=wLaOvvDohjw",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
