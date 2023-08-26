@@ -53,20 +53,5 @@
         "role": "trial",
         "name": "youngs",
         "link": "https://www.youtube.com/channel/UCZ6-J8YV1CIvxdVfS9Scb6Q"
-    },
-    {
-        "role": "dev",
-        "name": "Electro",
-        "link": "https://electrowo.tk/"
-    },
-    {
-        "role": "dev",
-        "name": "Prometheus",
-        "link": "https://www.youtube.com/c/PrometheusAlt"
-    },
-    {
-        "role": "dev",
-        "name": "Emonadeo",
-        "link": "https://github.com/Emonadeo"
     }
 ]

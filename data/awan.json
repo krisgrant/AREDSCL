@@ -38,7 +38,8 @@
             "link": "https://www.youtube.com/watch?v=WqPZFHMzPYo",
             "percent": 100,
             "hz": "60",
-            "mobile": "true"
+            "mobile": true,
+            "legacy": false
         },
         {
             "user": "AylaAkuma",

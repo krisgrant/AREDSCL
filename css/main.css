@@ -55,6 +55,7 @@ main {
     column-gap: 2rem;
 }
 
+
 header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
@@ -91,11 +92,37 @@ main > div {
 }
 
 .spinner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-column: span 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  transition-duration: 0.5s;
 }
+
+.spinner::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  border: 25px solid var(--color-legacy);
+  border-top-color: var(--color-extended);
+  border-radius: 49%;
+  box-shadow: 0px 0px 50px var(--color-extended);
+  animation: loading 0.75s ease-in-out infinite;
+}
+
+@keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
 
 input[type="checkbox"] {
     height: 1.25rem;
@@ -117,25 +144,6 @@ input[type="checkbox"] {
 }
 .top3 {
     color: var(--color-top3);
-}
-.tags {
-    display: table;
-    margin-inline-end: auto;
-    font-family: "Lexend Deca", sans-serif;
-    background: var(--color-tags);
-    background-attachment: fixed;
-    padding: 0.2cm;
-    border-radius: 0.2cm;
-    text-transform: uppercase;
-}
-.intpm {
-    display: table;
-    margin-inline-end: auto;
-    font-family: "Lexend Deca", sans-serif;
-    background: var(--color-intpm);
-    background-attachment: fixed;
-    padding: 0.2cm;
-    border-radius: 0.2cm;
 }
 .dark-bg {
     background: var(--color-background-hover);

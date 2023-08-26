@@ -1,5 +1,5 @@
 import { fetchLeaderboard } from '../content.js';
-import { getThumbnailFromId, getYoutubeIdFromUrl, getProfilePictureFromId, localize } from '../util.js';
+import { getYoutubeIdFromUrl, localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -52,6 +52,12 @@ export default {
                     <div class="player">
                         <h1>{{ entry.user }}</h1><p>#{{ selected + 1 }}</p>
                         <h3 v-if="entry.total > 0"><b>{{entry.total}}</b></h3>
+                        <p>Pack Bonus: {{ entry.packBonus }}</p>
+                        <div class="packs" v-if="entry.packs.length > 0">
+                            <div v-for="pack in entry.packs" class="tag" :style="{background:pack.colour}">
+                                {{pack.name}}
+                            </div>
+                        </div>
                         <br>
                         <h2 v-if="entry.verified.length > 0">Demons verified: ({{ entry.verified.length }})</h2>
                         <table class="table">
@@ -121,8 +127,6 @@ export default {
     },
     methods: {
         localize,
-        getThumbnailFromId,
         getYoutubeIdFromUrl,
-        getProfilePictureFromId,
     },
 };

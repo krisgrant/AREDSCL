@@ -14,15 +14,15 @@
         <link rel="stylesheet" type="text/css" href="/css/reset.css" />
         <link rel="stylesheet" type="text/css" href="/css/typography.css" />
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
         <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/css/pages/leaderboard.css"
-        />
+        <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css"/>
         <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/listpacks.css" />
+
         <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
+        <link rel="stylesheet" type="text/css" href="/css/components/tags.css" />
         <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script type="module" src="/js/main.js"></script>
@@ -33,17 +33,20 @@
                 <img src="/assets/flags/us.svg" width="1" height="1">
                 <img src="/images/TGDPS pfp2.png" width="50" height="50">
                 <h2 style="line-height:4rem;">TGDPS</h2>
-                <p style="line-height:4rem;">v2.3.4</p>
+                <p style="line-height:4rem;">v2.4.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">List</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Stats Viewer</span>
+                    <span class="type-label-lg">Leaderboard</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
+                </router-link>
+                <router-link class="nav__tab" to="/list-packs">
+                    <span class="type-label-lg">Packs</span>
                 </router-link>
                 <div class="nav__actions">
                     <button
