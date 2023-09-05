@@ -9,5 +9,12 @@
     "tag": "",
     "verification": "https://youtu.be/UO0Z1rtZRFk",
     "percentToQualify": 48,
-    "records": []
+    "records": [
+        {
+            "user": "Lucas531",
+            "link": "https://www.youtube.com/watch?v=--eCTHkJ-9w",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
