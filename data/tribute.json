@@ -98,6 +98,12 @@
             "link": "https://www.youtube.com/watch?v=wLaOvvDohjw",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Slopes",
+            "link": "https://youtu.be/56piXI9ymqU",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
