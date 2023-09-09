@@ -1,6 +1,6 @@
 [
     {   
-        "name": "2.0 Pack",
+        "name": "2.0",
         "levels": [
             "supar_list_demom",
             "destruction",
@@ -9,7 +9,7 @@
         "colour": "linear-gradient(to bottom, #fefb22 0%, #12ecec 100%)"
     },
     {   
-        "name": "3 Letter Pack",
+        "name": "3 Letter",
         "levels": [
             "q_c_u",
             "oye",
@@ -18,7 +18,7 @@
         "colour": "#adfeff"
     },
     {   
-        "name": "Association Pack",
+        "name": "Association",
         "levels": [
             "athena",
             "fraternize",
@@ -27,7 +27,7 @@
         "colour": "#a6a6a6"
     },
     {   
-        "name": "CAPS PACK",
+        "name": "CAPS",
         "levels": [
             "caffeine_overdose",
             "maymorie",
@@ -38,7 +38,7 @@
         "colour": "#1705ad"
     },
     {   
-        "name": "CAP PACK II",
+        "name": "CAPS II",
         "levels": [
             "eulogy",
             "final_terminus",
@@ -47,7 +47,7 @@
         "colour": "#6205ad"
     },
     {   
-        "name": "Circles Pack",
+        "name": "Circles",
         "levels": [
             "full_ukc",
             "down_low",
@@ -57,7 +57,7 @@
         "colour": "#5e4dff"
     },
     {   
-        "name": "Circles Pack II",
+        "name": "Circles II",
         "levels": [
             "figuring_it_out",
             "hazardous_rush",
@@ -67,7 +67,7 @@
         "colour": "#944dff"
     },
     {   
-        "name": "Circles Pack III",
+        "name": "Circles III",
         "levels": [
             "cheese_vortex",
             "looking_at_you",
@@ -76,7 +76,7 @@
         "colour": "#c44dff"
     },
     {   
-        "name": "Circles Pack IV",
+        "name": "Circles IV",
         "levels": [
             "hyper_tension",
             "down_syndrome",
@@ -85,7 +85,7 @@
         "colour": "#ea74df"
     },
     {   
-        "name": "Circles Pack V",
+        "name": "Circles V",
         "levels": [
             "celestial_showdown",
             "blaze",
@@ -94,7 +94,7 @@
         "colour": "#f47167"
     },
     {   
-        "name": "Lullaby Pack",
+        "name": "Lullaby",
         "levels": [
             "lullaby",
             "lullaby2",
@@ -103,7 +103,7 @@
         "colour": "#7c5e4c"
     },
     {   
-        "name": "Memory Pack",
+        "name": "Memory",
         "levels": [
             "maymorie",
             "i_love_memory_demon",
@@ -113,7 +113,7 @@
         "colour": "#ef8315"
     },
     {   
-        "name": "Memory Pack II",
+        "name": "Memory II",
         "levels": [
             "super_olixor_level",
             "mind_malfunction",
@@ -150,7 +150,7 @@
         "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
     },
     {   
-        "name": "Top 1 Pack",
+        "name": "Top 1",
         "levels": [
             "six_paths_of_pain",
             "snowcone",
