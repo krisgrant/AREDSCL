@@ -87,6 +87,12 @@
             "link": "https://www.youtube.com/watch?v=1bKR9PJt7RE",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "cakedog08",
+            "link": "https://www.youtube.com/watch?v=oOxlrNx0VFY",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
