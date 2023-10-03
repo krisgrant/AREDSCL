@@ -117,6 +117,12 @@
             "link": "https://www.youtube.com/watch?v=SHPnj_5oino",
             "percent": 100,
             "hz": "360"
-        }   
+        },
+        {
+            "user": "Sanctum",
+            "link": "https://www.youtube.com/watch?v=kqHitCQGVDY",
+            "percent": 100,
+            "hz": "120"
+        }
     ]
 }
