@@ -62,6 +62,7 @@
 }
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
+    border: dashed 3px var(--color-legacy);
 }
 .page-list .level-container .level .stats {
     display: flex;

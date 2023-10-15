@@ -49,6 +49,35 @@
     {   
         "name": "Circles",
         "levels": [
+            "super_violet",
+            "the_final",
+            "burneng",
+            "truth_or_dare"
+        ],
+        "colour": "#4dedff"
+    },
+    {   
+        "name": "Circles II",
+        "levels": [
+            "jawbreaking",
+            "chemical_romance",
+            "npasta_meatball",
+            "the_unrequited"
+        ],
+        "colour": "#4dc6ff"
+    },
+    {   
+        "name": "Circles III",
+        "levels": [
+            "scatman_circles",
+            "soul_harvest",
+            "another_sonic_wave"
+        ],
+        "colour": "#4d88ff"
+    },
+    {   
+        "name": "Circles IV",
+        "levels": [
             "full_ukc",
             "down_low",
             "acidic_hatred",
@@ -57,7 +86,7 @@
         "colour": "#5e4dff"
     },
     {   
-        "name": "Circles II",
+        "name": "Circles V",
         "levels": [
             "figuring_it_out",
             "hazardous_rush",
@@ -67,7 +96,7 @@
         "colour": "#944dff"
     },
     {   
-        "name": "Circles III",
+        "name": "Circles VI",
         "levels": [
             "cheese_vortex",
             "looking_at_you",
@@ -76,7 +105,7 @@
         "colour": "#c44dff"
     },
     {   
-        "name": "Circles IV",
+        "name": "Circles VII",
         "levels": [
             "hyper_tension",
             "down_syndrome",
@@ -85,7 +114,7 @@
         "colour": "#ea74df"
     },
     {   
-        "name": "Circles V",
+        "name": "Circles VIII",
         "levels": [
             "celestial_showdown",
             "blaze",

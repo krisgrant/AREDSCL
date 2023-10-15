@@ -16,7 +16,7 @@ export default {
     template: `
         <div class="level-authors">
             <template v-if="selfVerified">
-                <div class="type-title-sm">Author & Verifier:</div>
+                <div class="type-title-sm">Author:</div>
                 <p class="type-body">
                     <span>{{ author }}</span>
                 </p>
