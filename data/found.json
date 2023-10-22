@@ -81,6 +81,12 @@
             "link": "https://www.youtube.com/watch?v=hXCmsFNXulE",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Bladey",
+            "link": "https://youtu.be/K62pZrv9zUg",
+            "percent": 100,
+            "hz": "60"
         }
     ]
 }
