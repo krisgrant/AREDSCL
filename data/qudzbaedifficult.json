@@ -1,0 +1,19 @@
+{
+    "id": 5012,
+    "name": "qudzbaedifficult",
+    "author": "qud",
+    "creators": [],
+    "verifier": "GD Fayo",
+    "difficulty": "Hard Demon",
+    "password": "No Copy",
+    "verification": "https://www.youtube.com/watch?v=C0KQ_JTLAGQ&ab_channel=GDFayo",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "TAL9988",
+            "link": "https://youtu.be/MTKXZ0NVI-A",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
