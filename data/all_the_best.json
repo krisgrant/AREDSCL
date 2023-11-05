@@ -8,5 +8,10 @@
     "password": "Free Copy",
     "verification": "https://youtu.be/y0el__iyv3I",
     "percentToQualify": 42,
-    "records": []
+    "records": [
+        {
+            "user": "Xplode09",
+            "link": "https://www.youtube.com/watch?v=idxVD4J-Jks",
+            "percent": 100,
+            "hz": "360"
 }
