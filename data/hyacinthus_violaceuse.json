@@ -14,7 +14,8 @@
             "user": "ZonerG",
             "link": "https://www.youtube.com/watch?v=7khU4uaFFME",
             "percent": 100,
-            "hz": "240"
+            "hz": "240",
+            "legacy": true
         }
     ]
 }
