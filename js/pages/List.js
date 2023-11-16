@@ -102,6 +102,13 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="dark-bg">
+                    <h2>Changelog:</h2>
+                    <br>
+                    <p class="extended">November 4 2023</p>
+                    <br><br>
+                    <p><button class="btn-no-cover" @click="selected = 1">ALL THE BEST</button> has been placed at <b>#2</b>, with a list requirement of 42%, above Snowcone and below Six Paths of Pain. This change pushes Solunary into the extended list, and JoshDeluxe Burger Redux into the legacy list.</p>
+                    </div>
+                    <div class="dark-bg">
                     <h2>Guidelines</h2>
                     <br>
                     <p>Every action is conducted in accordance with our guidelines. In order to guarantee a consistent experience, make sure to verify them before submitting a record!</p>

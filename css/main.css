@@ -154,8 +154,21 @@ input[type="checkbox"] {
     font-family: "Lexend Deca", sans-serif;
     border-radius: 0.2cm;
     transition: 0.2s;
+    cursor: pointer;
 }
 .btngl:hover {
     background: var(--color-legacy);
     transition: 0.2s;
+}
+.btn-no-cover {
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    margin: -5px;
+    font-size: 20px;
+    text-decoration: solid;
+}
+.btn-no-cover:hover {
+    text-decoration: underline;
 }
