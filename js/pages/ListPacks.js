@@ -111,7 +111,7 @@ export default {
     async mounted() {
         this.packs = await fetchPacks();
         this.list = await fetchList();
-        console.log(this.list)
+        console.log(this.list[1])
         this.selectedPackLevels = await fetchPackLevels(
             this.packs[this.selected].name
         );
