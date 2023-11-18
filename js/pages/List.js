@@ -58,8 +58,8 @@ export default {
                             <p class="type-label-lg">{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password:</div>
-                            <p>{{ level.password || 'Free Copy' }}</p>
+                            <div class="type-title-sm">Skillset</div>
+                            <p>{{ level.skillset || 'Not Specified' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
