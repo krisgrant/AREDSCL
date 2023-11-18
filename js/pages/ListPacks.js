@@ -26,7 +26,7 @@ export default {
                 <table class="list" v-if="selectedPackLevels">
                     <tr v-for="(level, i) in selectedPackLevels">
                     <td class="rank">
-                            <p class="type-label-lg">#{{ i + 1 }}</p>
+                            <p class="type-label-lg">#{{ list[i] }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selectedLevel == i, 'error': !level }">
                             <button :style= "[selectedLevel == i ? {background: pack.colour} : {}]" @click="selectedLevel = i">
@@ -111,6 +111,7 @@ export default {
     async mounted() {
         this.packs = await fetchPacks();
         this.list = await fetchList();
+        console.log(this.list)
         this.selectedPackLevels = await fetchPackLevels(
             this.packs[this.selected].name
         );
