@@ -152,29 +152,10 @@
         "colour": "#efb815"
     },
     {   
-        "name": "Pointercrate",
+        "name": "Cognition",
         "levels": [
-            "final_terminus",
-            "slaughterhouse_lore",
-            "blaze",
-            "lullaby",
-            "xmachine",
-            "nonexistent_planet",
-            "keres",
-            "juans_planet",
-            "conetion",
-            "silent_oxidize",
-            "anticipation",
-            "super_serious",
-            "breakcoresucksreta",
-            "event_horizon",
-            "tapwrecx",
-            "light_slide",
-            "never_beat_it",
-            "distraught",
-            "high_death",
-            "down_syndrome",
-            "falling_down"
+            "clocknation",
+            "carnaco"
         ],
         "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
     },
