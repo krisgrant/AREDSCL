@@ -181,12 +181,9 @@
     {   
         "name": "Top 1",
         "levels": [
-            "six_paths_of_pain",
-            "snowcone",
-            "athena",
-            "casual",
-            "fraternize",
-            "event_horizon"
+            "shalvantis_isle",
+            "lack_of_skill",
+            "arctic_isle"
         ],
         "colour": "#e24201"
     }
