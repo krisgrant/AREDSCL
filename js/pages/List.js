@@ -99,7 +99,7 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 4 2023</p>
+                    <p class="extended">November 12 2023</p>
                     <br><br>
                     <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been placed at <b>#10</b>, above I HATE ROBLOX and below The Shit of 87. This change pushes The Copter into the extended list.</p>
                     </div>
