@@ -9,36 +9,5 @@
     "skillset": "Wave",
     "verification": "https://www.youtube.com/watch?v=veI9d2exBlo",
     "percentToQualify": 100,
-    "records": [
-        {
-            "user": "Breakcore",
-            "link": "https://www.youtube.com/watch?v=RrcgcGwbNm0",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "MechanicGD",
-            "link": "https://youtu.be/74xHneBM_kQ",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=nBJMjALTfmw",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "Xplode09",
-            "link": "https://www.youtube.com/watch?v=DYh8UxzFHRQ",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "GD Fayo",
-            "link": "https://www.youtube.com/watch?v=augiySHZFPA&ab_channel=GDFayo",
-            "percent": 100,
-            "hz": "360"
-        }
-    ]
+    "records": []
 }
