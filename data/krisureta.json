@@ -6,39 +6,8 @@
     "verifier": "KrisYa",
     "difficulty": "Extreme Demon",
     "tag": "Former #1 ・ Remake",
-    "password": "Free Copy",
+    "skillset": "Learny, Duals & High CPS",
     "verification": "https://youtu.be/TS6_5cOIgT4",
     "percentToQualify": 100,
-    "records": [
-        {
-            "user": "Breakcore",
-            "link": "https://www.youtube.com/watch?v=shRXaaEWrFk",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "Lucas531",
-            "link": "https://www.youtube.com/watch?v=E-PszYdybQg",
-            "percent": 54,
-            "hz": "360"
-        },
-        {
-            "user": "Gelforce",
-            "link": "https://www.youtube.com/watch?v=hPXeQLj0o2U",
-            "percent": 100,
-            "hz": "240"
-        },
-        {
-            "user": "MechanicGD",
-            "link": "https://www.youtube.com/watch?v=tZnZYE_JXGs",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://youtu.be/4qkpIOTnk3Q",
-            "percent": 100,
-            "hz": "360"
-        }
-    ]
+    "records": []
 }
