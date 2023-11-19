@@ -5,34 +5,16 @@
     "creators": ["LoB"],
     "verifier": "LoB",
     "difficulty": "Extreme Demon",
-    "password": "No Copy",
+    "skillset": "Timings & Double Clicks",
     "tag": "Short",
     "verification": "https://youtu.be/htAY9rOOi6Y",
     "percentToQualify": 100,
     "records": [
-         {
-            "user": "TurtleER",
-            "link": "https://youtu.be/wmkd2FuVwtk",
-            "percent": 100,
-            "hz": "360"
-         },
-         {
-            "user": "MechanicGD",
-            "link": "https://www.youtube.com/watch?v=VhcWMQjNlDI",
-            "percent": 100,
-            "hz": "360"
-         },
-         {
-            "user": "Breakcore",
-            "link": "https://www.youtube.com/watch?v=37tqCzSdOws",
-            "percent": 100,
-            "hz": "360"
-         },
-         {
-             "user": "GD Fayo",
-             "link": "https://www.youtube.com/watch?v=lEeQ2sZqZTc",
-             "percent": 100,
-             "hz": "360"
-         }
-    ]
+      {
+          "user": "KrisYa",
+          "link": "https://www.youtube.com/watch?v=A2t9zkInTGM",
+          "percent": 100,
+          "hz": "240"
+      }
+  ]
 }
