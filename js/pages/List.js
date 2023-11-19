@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">November 4 2023</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">ALL THE BEST</button> has been placed at <b>#2</b>, with a list requirement of 42%, above Snowcone and below Six Paths of Pain. This change pushes Solunary into the extended list, and JoshDeluxe Burger Redux into the legacy list.</p>
+                    <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been placed at <b>#10</b>, above I HATE ROBLOX and below The Shit of 87. This change pushes The Copter into the extended list.</p>
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
