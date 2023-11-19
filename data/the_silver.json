@@ -1,0 +1,20 @@
+{
+    "id": 72495247,
+    "name": "The Silver",
+    "author": "smango23",
+    "creators": ["smango23, Alkalotic"],
+    "verifier": "smango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "tag": "Remake",
+    "verification": "https://youtu.be/BzU-xYd58K4",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=U9URXza_19k",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
