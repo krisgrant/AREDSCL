@@ -51,7 +51,7 @@ export default {
                     <ul class="stats">
                         <li v-if="selected + 1 <= 150">
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected + 1, level.percentToQualify, level.percentToQualify) }} (100% = {{ score(selected + 1, 100, level.percentToQualify) }})</p>
+                            <p>{{ score(selected + 1, 100, 100) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -64,8 +64,7 @@ export default {
                     </ul>
                     <h2>Records</h2>
                     <p class="extended"><b>{{ level.records.length }}</b> records registered</p>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected + 1 <= 150"><strong>100%</strong> to qualify</p>
+                    <p v-if="selected + 1 <= 150"><strong>100%</strong> to qualify</p>
                     <p v-else>You may submit a record for this level, but no list points will be awarded.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
