@@ -142,14 +142,12 @@
         "colour": "#ef8315"
     },
     {   
-        "name": "Memory II",
+        "name": "Untitled Unmastered",
         "levels": [
-            "super_olixor_level",
-            "mind_malfunction",
-            "light_slide",
-            "lua"
+            "unmastered_challenge",
+            "untitled_challenge"
         ],
-        "colour": "#efb815"
+        "colour": "#000000"
     },
     {   
         "name": "Cognition",
