@@ -50,11 +50,11 @@ export default {
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li v-if="selected + 1 <= 150">
-                            <div class="type-title-sm">Points:</div>
+                            <div class="type-title-sm">Points</div>
                             <p>{{ score(selected + 1, level.percentToQualify, level.percentToQualify) }} (100% = {{ score(selected + 1, 100, level.percentToQualify) }})</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">ID:</div>
+                            <div class="type-title-sm">ID</div>
                             <p class="type-label-lg">{{ level.id }}</p>
                         </li>
                         <li>
