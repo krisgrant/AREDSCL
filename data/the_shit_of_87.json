@@ -2,7 +2,7 @@
     "id": 95814876,
     "name": "The Shit of 87",
     "author": "MrSimplerr",
-    "creators": "MrSimplerr",
+    "creators": ["MrSimplerr"],
     "verifier": "MrSimplerr",
     "difficulty": "Extreme Demon",
     "skillset": "UFO",
@@ -18,4 +18,3 @@
         }
     ]
   }
-  

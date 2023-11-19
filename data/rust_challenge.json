@@ -2,7 +2,7 @@
     "id": 91204945,
     "name": "RUST challenge",
     "author": "KrisYa",
-    "creators": "KrisYa",
+    "creators": ["KrisYa"],
     "verifier": "KrisYa",
     "difficulty": "Extreme Demon",
     "skillset": "Timings",

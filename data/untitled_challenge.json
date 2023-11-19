@@ -2,7 +2,7 @@
     "id": 95315859,
     "name": "Untitled challenge",
     "author": "LoB",
-    "creators": "LoB",
+    "creators": ["LoB"],
     "verifier": "LoB",
     "difficulty": "Extreme Demon",
     "skillset": "Ship",
