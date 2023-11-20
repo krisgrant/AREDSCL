@@ -41,7 +41,15 @@
         "colour": "#000000"
     },
     {   
-        "name": "Cognition",
+        "name": "KrisYa Pack",
+        "levels": [
+            "unmastered_challenge",
+            "untitled_challenge"
+        ],
+        "colour": "linear-gradient(to right, #242536 0%, #0e1aeb 100%)"
+    },
+    {   
+        "name": "Cognition Pack",
         "levels": [
             "clocknation",
             "carnaco"
