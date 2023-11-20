@@ -1,5 +1,16 @@
 [
     {   
+        "name": "hell",
+        "levels": [
+            "lack_of_skill",
+            "i_hate_roblox",
+            "ractavles",
+            "krisya_challenge_1",
+            "hells_cavern"
+        ],
+        "colour": "#a10000"
+    }
+    {   
         "name": "Garbage",
         "levels": [
             "shalvantis_isle",
