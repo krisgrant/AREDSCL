@@ -98,5 +98,13 @@
             "carnaco"
         ],
         "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
+    },
+    {   
+        "name": "Roblox Pack",
+        "levels": [
+            "i_hate_roblox",
+            "i_love_roblox"
+        ],
+        "colour": "#ffa6fc"
     }
 ]
