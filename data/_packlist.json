@@ -62,6 +62,17 @@
         "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
     },
     {   
+        "name": "smango23 Pack",
+        "levels": [
+            "lack_of_skill",
+            "pomni",
+            "i_hate_roblox",
+            "the_silver",
+            "i_love_roblox"
+        ],
+        "colour": "linear-gradient(to right, #e799ff 0%, #99ffa3 100%)"
+    },
+    {   
         "name": "LoB Pack",
         "levels": [
             "unmastered_challenge",
