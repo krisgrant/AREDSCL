@@ -32,7 +32,8 @@
             "confidential_crate",
             "very_problematic",
             "urbyn_never_17",
-            "galactic_abyss"
+            "galactic_abyss",
+            "disrupted_galaxy"
         ],
         "colour": "#292da3"
     },
@@ -66,7 +67,8 @@
             "very_problematic",
             "urbyn_never_17",
             "galactic_abyss",
-            "the_copter"
+            "the_copter",
+            "disrupted_galaxy"
         ],
         "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
     },
