@@ -62,6 +62,16 @@
         "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
     },
     {   
+        "name": "LoB Pack",
+        "levels": [
+            "unmastered_challenge",
+            "fishe",
+            "untitled_challenge",
+            "disgrace"
+        ],
+        "colour": "linear-gradient(to right, #000000 0%, #ffffff 100%)"
+    },
+    {   
         "name": "Cognition Pack",
         "levels": [
             "clocknation",
