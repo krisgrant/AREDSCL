@@ -11,6 +11,19 @@
         "colour": "#a10000"
     },
     {   
+        "name": "Wave",
+        "levels": [
+            "shalvantis_isle",
+            "lack_of_skill",
+            "arctic_isle",
+            "alleas",
+            "ractavles",
+            "disgrace",
+            "confidential_crate"
+        ],
+        "colour": "#a10000"
+    },
+    {   
         "name": "Garbage",
         "levels": [
             "shalvantis_isle",
