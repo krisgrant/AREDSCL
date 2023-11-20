@@ -43,16 +43,12 @@ export default {
                     <iframe class="video" :src="embed(selectedPackLevels[selectedLevel][0].level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">ID:</div>
-                            <p>{{ selectedPackLevels[selectedLevel][0].level.id }}</p>
+                            <div class="type-title-sm">ID</div>
+                            <p class="type-label-lg">{{ selectedPackLevels[selectedLevel][0].level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password:</div>
-                            <p>{{ selectedPackLevels[selectedLevel][0].level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Difficulty:</div>
-                            <p>{{ selectedPackLevels[selectedLevel][0].level.difficulty || 'Demon' }}</p>
+                            <div class="type-title-sm">Skillset</div>
+                            <p>{{ selectedPackLevels[selectedLevel][0].level.skillset || 'Not Specified' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
