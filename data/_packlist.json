@@ -43,10 +43,23 @@
     {   
         "name": "KrisYa Pack",
         "levels": [
-            "unmastered_challenge",
-            "untitled_challenge"
+            "shalvantis_isle",
+            "arctic_isle",
+            "alleas",
+            "krisureta",
+            "clocknation",
+            "rust_challenge",
+            "ractavles",
+            "stalker",
+            "confidential_crate",
+            "zasphere",
+            "carnaco",
+            "electro_flow",
+            "krisya_challenge_2",
+            "krisya_challenge_2",
+            "hells_cavern"
         ],
-        "colour": "linear-gradient(to right, #242536 0%, #0e1aeb 100%)"
+        "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
     },
     {   
         "name": "Cognition Pack",
