@@ -21,7 +21,7 @@
             "disgrace",
             "confidential_crate"
         ],
-        "colour": "#a10000"
+        "colour": "linear-gradient(to right, ##272736 0%, #00fbff 100%)"
     },
     {   
         "name": "Garbage",
