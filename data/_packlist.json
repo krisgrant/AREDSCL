@@ -1,5 +1,14 @@
 [
     {   
+        "name": "Top 1",
+        "levels": [
+            "shalvantis_isle",
+            "lack_of_skill",
+            "arctic_isle"
+        ],
+        "colour": "#e24201"
+    },
+    {   
         "name": "hell",
         "levels": [
             "lack_of_skill",
@@ -31,14 +40,6 @@
             "the_shit_of_87"
         ],
         "colour": "#331e05"
-    },
-    {   
-        "name": "Untitled Unmastered",
-        "levels": [
-            "unmastered_challenge",
-            "untitled_challenge"
-        ],
-        "colour": "#000000"
     },
     {   
         "name": "KrisYa Pack",
@@ -83,20 +84,19 @@
         "colour": "linear-gradient(to right, #000000 0%, #ffffff 100%)"
     },
     {   
+        "name": "Untitled Unmastered",
+        "levels": [
+            "unmastered_challenge",
+            "untitled_challenge"
+        ],
+        "colour": "#000000"
+    },
+    {   
         "name": "Cognition Pack",
         "levels": [
             "clocknation",
             "carnaco"
         ],
         "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
-    },
-    {   
-        "name": "Top 1",
-        "levels": [
-            "shalvantis_isle",
-            "lack_of_skill",
-            "arctic_isle"
-        ],
-        "colour": "#e24201"
     }
 ]
