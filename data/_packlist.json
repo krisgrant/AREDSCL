@@ -33,7 +33,8 @@
             "very_problematic",
             "urbyn_never_17",
             "galactic_abyss",
-            "disrupted_galaxy"
+            "disrupted_galaxy",
+            "kbt"
         ],
         "colour": "#292da3"
     },
@@ -69,7 +70,8 @@
             "galactic_abyss",
             "the_copter",
             "disrupted_galaxy",
-            "dual_busting"
+            "dual_busting",
+            "kbt"
         ],
         "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
     },
