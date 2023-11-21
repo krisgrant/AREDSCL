@@ -1,0 +1,20 @@
+{
+    "id": 96066296,
+    "name": "Isolated",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "UFO & Wave",
+    "tag": "Remake ・ Former #1",
+    "verification": "https://youtube.com/watch?v=22HVWq3scM8?si=9bGtnDXk-ww2tmd7",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=AaYODWm4IaM",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
