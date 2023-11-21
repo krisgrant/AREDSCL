@@ -49,58 +49,6 @@
         "colour": "#331e05"
     },
     {   
-        "name": "KrisYa Pack",
-        "levels": [
-            "shalvantis_isle",
-            "arctic_isle",
-            "alleas",
-            "krisureta",
-            "clocknation",
-            "rust_challenge",
-            "ractavles",
-            "stalker",
-            "confidential_crate",
-            "zasphere",
-            "carnaco",
-            "electro_flow",
-            "krisya_challenge_2",
-            "krisya_challenge_1",
-            "hells_cavern",
-            "very_problematic",
-            "urbyn_never_17",
-            "galactic_abyss",
-            "the_copter",
-            "zehs_ultranova",
-            "disrupted_galaxy",
-            "dual_busting",
-            "zehcrw_chamber",
-            "kbt"
-        ],
-        "colour": "linear-gradient(to right, #7300ff 0%, #e11cff 100%)"
-    },
-    {   
-        "name": "smango23 Pack",
-        "levels": [
-            "lack_of_skill",
-            "pomni",
-            "i_hate_roblox",
-            "the_silver",
-            "i_love_roblox"
-        ],
-        "colour": "linear-gradient(to right, #e799ff 0%, #99ffa3 100%)"
-    },
-    {   
-        "name": "LoB Pack",
-        "levels": [
-            "unmastered_challenge",
-            "fishe",
-            "untitled_challenge",
-            "disgrace",
-            "isolated"
-        ],
-        "colour": "linear-gradient(to right, #000000 0%, #ffffff 100%)"
-    },
-    {   
         "name": "Untitled Unmastered",
         "levels": [
             "unmastered_challenge",
