@@ -101,7 +101,8 @@ export default {
                     <br>
                     <p class="extended">November 12 2023</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been placed at <b>#10</b>, above I HATE ROBLOX and below The Shit of 87. This change pushes The Copter into the extended list.</p>
+                    <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been lowered from #10 to #15, Stalker and above Untitled challenge. 
+                    </p>
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
