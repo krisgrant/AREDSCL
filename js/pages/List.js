@@ -99,7 +99,7 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 12 2023</p>
+                    <p class="extended">December 3rd 2023</p>
                     <br><br>
                     <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been lowered from #10 to #15, Stalker and above Untitled challenge. 
                     </p>
