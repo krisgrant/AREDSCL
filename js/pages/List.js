@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">December 3rd 2023</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been lowered from #10 to #14, Stalker and above Untitled challenge. 
+                    <p><button class="btn-no-cover" @click="selected = 1">Clocknation</button> has been lowered from #10 to #14, Below Stalker and above Untitled challenge. 
                     </p>
                     </div>
                     <div class="dark-bg">
