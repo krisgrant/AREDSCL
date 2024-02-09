@@ -15,8 +15,14 @@
         "link": "https://www.youtube.com/channel/UCDp8z5-vtUg8QJdDM5Yh-tg"
     },
     {
+        "role": "admin",
+        "name": "SMango23",
+        "link": "https://www.youtube.com/@SMango23GD/videos"
+    },
+    {
         "role": "helper",
         "name": "SkeletalVirus",
         "link": "https://www.youtube.com/channel/UCVifLeNLVQe3mYwRW1IiNnA"
     }
+    
 ]
