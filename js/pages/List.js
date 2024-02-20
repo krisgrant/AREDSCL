@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">December 3rd 2023</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">artic isle start pos</button> has been placed at #37, above GoldenDashMemory and below Disrupted Galaxy. This pushes Krolos into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">The placements for Pomni, Fishe, Alleas and Krisureta have been revamped. 
                     </p>
                     </div>
                     <div class="dark-bg">
