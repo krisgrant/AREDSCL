@@ -20,6 +20,12 @@
             "link": "https://www.youtube.com/watch?v=VzxQDGGvWrs",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "isaac",
+            "link": "https://www.youtube.com/watch?v=8wL6UzReDsc",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
