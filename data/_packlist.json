@@ -16,7 +16,8 @@
             "ractavles",
             "krisya_challenge_1",
             "hells_cavern",
-            "urbyn_never_17"
+            "urbyn_never_17",
+            "actric_isle_start_po"
         ],
         "colour": "#a10000"
     },
@@ -45,16 +46,16 @@
             "interuption",
             "edde277_wave_level"
         ],
-        "colour": "#292da3"
+        "colour": "#331e05"
     },
     {   
-        "name": "Hated",
+        "name": "Artic Isle Pack",
         "levels": [
-            "shalvantis_isle",
-            "unmastered_challenge",
-            "the_shit_of_87"
+            "arctic_isle",
+            "actric_isle_start_po",
+            "artic_isle_start_pos"
         ],
-        "colour": "#331e05"
+        "colour": "#3bc4ff"
     },
     {   
         "name": "Untitled Unmastered",
