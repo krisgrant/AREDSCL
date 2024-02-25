@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">February 21st 2024</p>
+                    <p class="extended">February 25th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">The placements for Pomni, Fishe, Alleas and Krisureta have been revamped. 
+                    <p><button class="btn-no-cover" @click="selected = 1">HamaSaxual has been placed at #11, above Alleas and below I HATE ROBLOX. This pushes Hells Cavern into the Extended List and Alex May Clear into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
