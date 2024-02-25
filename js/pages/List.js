@@ -99,7 +99,7 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">December 3rd 2023</p>
+                    <p class="extended">February 21st 2024</p>
                     <br><br>
                     <p><button class="btn-no-cover" @click="selected = 1">The placements for Pomni, Fishe, Alleas and Krisureta have been revamped. 
                     </p>
