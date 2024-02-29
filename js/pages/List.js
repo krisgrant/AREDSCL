@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">February 26th 2024</p>
+                    <p class="extended">February 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">actric isle start po has been placed at #33, above Uniqeta and below The Copter. This pushes Alitu into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">A Roblox Christmas has been placed at #4, above Arctic Isle and below lack of skill. This pushes KrisYa Challenge 1 into the Extended List and Interuption into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
