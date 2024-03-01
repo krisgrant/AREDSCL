@@ -9,5 +9,12 @@
     "tag": "Short",
     "verification": "https://www.youtube.com/watch?v=H48UW6fIvlU",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/wZI7WOSOxbA?si=1GhTPPrWzGLqABw1",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
 }
