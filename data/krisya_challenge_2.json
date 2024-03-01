@@ -9,5 +9,12 @@
     "tag": "Remake",
     "verification": "https://www.youtube.com/watch?v=Hwc7s1BbnJk",
     "percentToQualify": 100,
-    "records": []    
-}
+    "records": [
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/cjrnBr8MjFA?si=1FfRwMmtoRsbZ_Nq",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+  }
