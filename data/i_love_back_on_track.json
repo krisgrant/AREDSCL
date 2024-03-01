@@ -1,0 +1,19 @@
+{
+    "id": 101728891,
+    "name": "I LOVE BACK ON TRACK",
+    "author": "Bisemy",
+    "creators": ["Bisemy"],
+    "verifier": "Bisemy",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings",
+    "verification": "https://youtu.be/fsPUbXXlloc?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/CGg8D6WiWsY?si=dlg2kD6BOpdOZjgi",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

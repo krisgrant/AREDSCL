@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 1st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">krisbadtime has been placed at #2, above prismatic dance and below Shalvantis Isle. This pushes KrisYa Challenge 2 into the Extended List and Anesti into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">I LOVE BACK ON TRACK has been placed at #28, above Very Problematic and below Hells Cavern. This pushes Anesti into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
