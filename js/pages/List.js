@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 1st 2024</p>
+                    <p class="extended">March 10th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">I LOVE BACK ON TRACK has been placed at #28, above Very Problematic and below Hells Cavern. This pushes Anesti into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">Killaringdom Kingdom has been placed at #14, above RUST challenge and below I HATE ROBLOX. This pushes KrisYa Challenge 2 into the Extended List and KBT into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
