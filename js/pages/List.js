@@ -97,7 +97,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="dark-bg">
-                    <h2>Changelog:</h29>
+                    <h2>Changelog:</h2>
                     <br>
                     <p class="extended">March 11th 2024</p>
                     <br><br>
