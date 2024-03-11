@@ -62,7 +62,6 @@
     {   
         "name": "Arctic Isle Pack",
         "levels": [
-            "arctic_isle",
             "actric_isle_start_po",
             "artic_isle_start_pos"
         ],
