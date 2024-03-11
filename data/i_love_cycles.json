@@ -1,0 +1,20 @@
+{
+    "id": 102213761,
+    "name": "I LOVE CYCLES",
+    "author": "Bisemy",
+    "creators": ["Bisemy"],
+    "verifier": "Bisemy",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings",
+    "tag": "Reupload",
+    "verification": "https://youtu.be/eHCcEHsN9UE?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/avrvtiuMu5w?si=XOq_713UjYc6nKob",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

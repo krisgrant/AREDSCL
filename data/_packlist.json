@@ -81,5 +81,13 @@
             "carnaco"
         ],
         "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
-    }
+    },
+    {   
+        "name": "LOVE Pack",
+        "levels": [
+            "i_love_cycles",
+            "i_love_back_on_track"
+        ],
+        "colour": "linear-gradient(to right, #fc66ff 0%, #b366ff 100%)"
+    },
 ]
