@@ -9,5 +9,12 @@
     "tag": "",
     "verification": "https://youtu.be/BZb1DPWben0?si=vQd55XnpyHgorcqT",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/VcbR8rgyg9Q?feature=shared&t=352",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
