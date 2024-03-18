@@ -60,14 +60,6 @@
         "colour": "#ffa6fc"
     },
     {   
-        "name": "Arctic Isle Pack",
-        "levels": [
-            "actric_isle_start_po",
-            "artic_isle_start_pos"
-        ],
-        "colour": "#3bc4ff"
-    },
-    {   
         "name": "Untitled Unmastered",
         "levels": [
             "unmastered_challenge",
