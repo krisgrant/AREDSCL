@@ -1,0 +1,20 @@
+{
+    "id": 102723965,
+    "name": "AbbyTheGreat",
+    "author": "SMango23",
+    "creators": ["Panda"],
+    "verifier": "Panda",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings",
+    "tag": "Short",
+    "verification": "https://youtu.be/cRuQ80m28sM?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/wOPWuVxezTo?si=F7-gbp7pEphbPYTp",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
