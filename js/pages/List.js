@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 11th 2024</p>
+                    <p class="extended">March 21st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">I LOVE CYCLES has been placed at #29, above I LOVE BACK ON TRACK and below Hells Cavern. This pushes Anthony Never Clear into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">AbbyTheGreat has been placed at #14, above Alleas and below I HATE ROBLOX. This pushes Electro Flow into the Extended List and KBT into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
