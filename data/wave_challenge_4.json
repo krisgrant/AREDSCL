@@ -1,0 +1,19 @@
+{
+    "id": 95899065,
+    "name": "Wave challenge 4",
+    "author": "GameOn",
+    "creators": ["GameOn"],
+    "verifier": "GameOn",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/T_63BOgdN-Y?si=jDRWHXn8UJRQ3pdq",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/3VpKkaxwrSc?si=JQkSGTU4TMSdS1J7",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
