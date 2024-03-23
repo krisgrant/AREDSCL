@@ -1,0 +1,26 @@
+{
+    "id": 102218293,
+    "name": "REVENANT",
+    "author": "Cyphenex",
+    "creators": ["Cyphenex"],
+    "verifier": "SMango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Learny",
+    "tag": "Short",
+    "verification": "https://youtu.be/6zQp1eBduAo?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/S7kJkXeu8Ag?feature=shared",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/SapnwWDaMQo?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}
