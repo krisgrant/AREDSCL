@@ -14,31 +14,31 @@
             "user": "Tai0",
             "link": "https://youtu.be/BDAc8QS7pv0?si=qVLXVuipwQSlVB7y&t=220",
             "percent": 100,
-            "fps": "144"
+            "hz": "144"
         },
         {
             "user": "SkeletalVirus",
             "link": "https://youtu.be/b0BSZJwx5IY?si=nWL7CrCZzjlJizRU&t=1065",
             "percent": 100,
-            "fps": "360"
+            "hz": "360"
         },
         {
             "user": "Aidan",
             "link": "https://www.youtube.com/watch?v=LfzTkPqo_Qk",
             "percent": 100,
-            "fps": "360"
+            "hz": "360"
         },
         {
             "user": "SMango23",
             "link": "https://youtu.be/bn2KljGri5A?feature=shared&t=107",
             "percent": 100,
-            "fps": "360"
+            "hz": "360"
         },
         {
             "user": "Recken",
             "link": "https://youtu.be/MoMGjzRGSJ0?feature=shared",
             "percent": 100,
-            "fps": "280"
+            "hz": "280"
         }
     ]
 }

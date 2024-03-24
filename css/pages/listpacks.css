@@ -136,14 +136,14 @@
 }
 .pack-list .level-container .level .records .percent,
 .pack-list .level-container .level .records .user,
-.pack-list .level-container .level .records .fps {
+.pack-list .level-container .level .records .hz {
     padding: 1rem;
 }
 .pack-list .level-container .level .records .user {
     width: 100%;
 }
 .pack-list .level-container .level .records .percent,
-.pack-list .level-container .level .records .fps {
+.pack-list .level-container .level .records .hz {
     text-align: center;
 }
 .pack-list .meta-container .og a:hover,

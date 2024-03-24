@@ -14,13 +14,13 @@
             "user": "LoB",
             "link": "https://www.youtube.com/shorts/0KORLn3uLCg",
             "percent": 100,
-            "fps": "300"
+            "hz": "300"
         },
         {
             "user": "Simplerr",
             "link": "https://www.youtube.com/watch?v=6R6nmbK8X6o",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         }
     ]
   }

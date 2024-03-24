@@ -13,19 +13,19 @@
             "user": "Captainbirrk",
             "link": "https://youtu.be/3cJe45QmouM?feature=shared",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         },
         {
             "user": "Bisemy",
             "link": "https://youtu.be/bXg8Hm_s96Y?feature=shared",
             "percent": 100,
-            "fps": "120"
+            "hz": "120"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/QEHixoQaAn8?feature=shared",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         }
     ]
 }

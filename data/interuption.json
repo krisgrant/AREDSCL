@@ -13,25 +13,25 @@
             "user": "[DMO] C2quared",
             "link": "https://youtu.be/-21JJ0fAjuY",
             "percent": 100,
-            "fps": "240"
+            "hz": "240"
         },
         {
             "user": "Captainbirrk",
             "link": "https://www.youtube.com/watch?v=VzxQDGGvWrs",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         },
         {
             "user": "isaac",
             "link": "https://www.youtube.com/watch?v=8wL6UzReDsc",
             "percent": 100,
-            "fps": "240"
+            "hz": "240"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/5PBrEqT1mMk",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         }
     ]
 }

@@ -14,13 +14,13 @@
             "user": "Simplerr",
             "link": "https://youtu.be/q5P4HN4UyBA?si=Ki4ZgPRKin-I6Qn_",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         },
         {
             "user": "Zehcrw",
             "link": "https://youtu.be/NX9rvPYhNls?si=GfOXO13wZcb7y6nn",
             "percent": 100,
-            "fps": "360"
+            "hz": "360"
         }
     ]
 }

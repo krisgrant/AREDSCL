@@ -14,19 +14,19 @@
             "user": "[DMO] C2quared",
             "link": "https://youtu.be/Zr7GmCm9WFE?si=-9V0zz8iNHAdPxaM&t=20",
             "percent": 100,
-            "fps": "240"
+            "hz": "240"
         },
         {
             "user": "isaac",
             "link": "https://youtu.be/sKApOHjyW1w?feature=shared",
             "percent": 100,
-            "fps": "240"
+            "hz": "240"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/ZF_P7ofVlSM",
             "percent": 100,
-            "fps": "60"
+            "hz": "60"
         }
     ]
 }

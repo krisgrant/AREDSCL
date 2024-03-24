@@ -104,7 +104,7 @@
     width: 100%;
 }
 .page-list .level-container .level .records .percent,
-.page-list .level-container .level .records .fps {
+.page-list .level-container .level .records .hz {
     text-align: center;
 }
 .page-list .meta-container .og a:hover,
