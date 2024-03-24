@@ -9,5 +9,12 @@
     "skillset": "Wave",
     "verification": "https://www.youtube.com/watch?v=693kx1QJVvQ",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/fWpeZgbKdBM?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
 }

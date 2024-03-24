@@ -8,5 +8,12 @@
     "skillset": "Overall",
     "verification": "https://www.youtube.com/watch?v=nEdHgejCaj0",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/7V0DSdfhUNo",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
 }

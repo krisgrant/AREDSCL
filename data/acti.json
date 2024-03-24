@@ -8,5 +8,12 @@
     "skillset": "Ship",
     "verification": "https://www.youtube.com/watch?v=pUgDy2reY4E",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/-PXc9S_Gq7A",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
 }
