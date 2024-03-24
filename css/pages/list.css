@@ -97,14 +97,14 @@
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
-.page-list .level-container .level .records .hz {
+.page-list .level-container .level .records .fp {
     padding: 1rem;
 }
 .page-list .level-container .level .records .user {
     width: 100%;
 }
 .page-list .level-container .level .records .percent,
-.page-list .level-container .level .records .hz {
+.page-list .level-container .level .records .fps {
     text-align: center;
 }
 .page-list .meta-container .og a:hover,
