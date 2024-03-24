@@ -14,19 +14,19 @@
             "user": "KrisYa",
             "link": "https://www.youtube.com/watch?v=Xcd5OPrhrds",
             "percent": 100,
-            "hz": "360"
+            "fps": "360"
         },
         {
             "user": "Captainbirrk",
             "link": "https://www.youtube.com/watch?v=gL18LpK4YJk",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         },
         {
             "user": "Simplerr",
             "link": "https://youtu.be/DAgVnnopzpo?feature=shared",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         }
     ]
   }

@@ -14,13 +14,13 @@
             "user": "KrisYa",
             "link": "https://www.youtube.com/watch?v=783Q8CTkcwI",
             "percent": 100,
-            "hz": "240"
+            "fps": "240"
         },
         {
             "user": "LoB",
             "link": "https://youtu.be/LeI9MNEeTuM",
             "percent": 100,
-            "hz": "200"
+            "fps": "200"
         }
     ]
 }

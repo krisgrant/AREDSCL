@@ -13,13 +13,13 @@
             "user": "Whyisthissofunn",
             "link": "https://www.youtube.com/watch?v=maDD_tzE52E",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/ylmVOjUTL0Q",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         }
     ]
 }

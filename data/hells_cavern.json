@@ -14,13 +14,13 @@
             "user": "TheAmazingKam",
             "link": "https://www.youtube.com/watch?v=SDjMOhRXpPE",
             "percent": 100,
-            "hz": "240"
+            "fps": "240"
         },
         {
             "user": "Jabbbbb",
             "link": "https://youtu.be/zmBUeJhNyZ4?feature=shared",
             "percent": 100,
-            "hz": "144"
+            "fps": "144"
         }
     ]
 }

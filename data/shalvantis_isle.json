@@ -13,13 +13,13 @@
             "user": "Aidan",
             "link": "https://youtu.be/LfzTkPqo_Qk?si=S_cDmKzyriZqNBCj&t=36",
             "percent": 100,
-            "hz": "360"
+            "fps": "360"
         },
         {
             "user": "SMango23",
             "link": "https://www.youtube.com/watch?v=9juKRsbTScU",
             "percent": 100,
-            "hz": "240"
+            "fps": "240"
         }
     ]
 }

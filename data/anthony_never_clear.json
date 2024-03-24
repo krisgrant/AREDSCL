@@ -13,19 +13,19 @@
             "user": "LoB",
             "link": "https://youtu.be/6qW9cFSqkyE",
             "percent": 100,
-            "hz": "300"
+            "fps": "300"
         },
         {
             "user": "isaac",
             "link": "https://youtu.be/alM9ub0foaM?feature=shared",
             "percent": 100,
-            "hz": "240"
+            "fps": "240"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/-lfRqq2tkLE",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         }
     ]
   }

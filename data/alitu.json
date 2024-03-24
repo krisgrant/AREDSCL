@@ -13,19 +13,19 @@
             "user": "Captainbirrk",
             "link": "https://www.youtube.com/watch?v=P6W9GHTrnOg",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         },
         {
             "user": "isaac",
             "link": "https://youtu.be/65fanWOdbFE?feature=shared",
             "percent": 100,
-            "hz": "240"
+            "fps": "240"
         },
         {
             "user": "owrnp",
             "link": "https://youtu.be/3d1Sz_69DtE?si=PtBGSTU_V6uR1nXP",
             "percent": 100,
-            "hz": "60"
+            "fps": "60"
         }
     ]
   }
