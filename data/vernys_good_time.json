@@ -1,0 +1,19 @@
+{
+    "id": 102950077,
+    "name": "vernys good time",
+    "author": "SMango23",
+    "creators": ["SMango23"],
+    "verifier": "SMango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Memory",
+    "verification": "https://youtu.be/lxJdKFYFnwM",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/TopPf7Vmj6M?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

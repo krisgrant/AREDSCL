@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 23rd 2024</p>
+                    <p class="extended">March 25th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 1">REVENANT has been placed at #23, above Confidential Crate and below Disgrace. This pushes Carnaco into the Extended List and Retalowa into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 1">vernys good time has been placed at #43, above Derive and below Orraco. This pushes Zehcrw Chamber into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
