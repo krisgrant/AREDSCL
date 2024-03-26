@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 26th 2024</p>
+                    <p class="extended">March 27th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 4">Oblivionize has been placed at #5, above A Roblox Christmas and below lack of skill. This pushes Zasphere into the Extended List and Conical Azure into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 3">Unused Balls has been placed at #4, above lack of skill and below prismatic dance. This pushes Confidential Crate into the Extended List and The Gyatdere into the Legacy List.. 
                     </p>
                     </div>
                     <div class="dark-bg">
