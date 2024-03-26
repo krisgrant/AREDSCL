@@ -1,7 +1,7 @@
 :root {
     --color-background: rgb(255, 255, 255); /* Background (Light Mode) */
     --color-on-background: black; /* Text (Light Mode) */
-    --color-primary: rgb(106, 0, 0); /* Header Color */
+    --color-primary: rgb(173, 0, 0); /* Header Color */
     --color-on-primary: white; /* Text Inside Header (Light Mode) */
 }
 
