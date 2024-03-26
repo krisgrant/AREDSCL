@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 26th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 4">Fuck off lob. 
+                    <p><button class="btn-no-cover" @click="selected = 4">Oblivionize has been placed at #5, above A Roblox Christmas and below lack of skill. This pushes Zasphere into the Extended List and Conical Azure into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
