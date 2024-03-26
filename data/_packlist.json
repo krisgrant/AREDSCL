@@ -33,20 +33,21 @@
         "colour": "#ffa6fc"
     },
     {   
+        "name": "Cognition Pack",
+        "levels": [
+            "oblivionize",
+            "clocknation",
+            "carnaco"
+        ],
+        "colour": "linear-gradient(to right, #3e3645 0%, #0981c8 100%)"
+    },
+    {   
         "name": "Untitled Unmastered",
         "levels": [
             "unmastered_challenge",
             "untitled_challenge"
         ],
         "colour": "#000000"
-    },
-    {   
-        "name": "Cognition Pack",
-        "levels": [
-            "clocknation",
-            "carnaco"
-        ],
-        "colour": "linear-gradient(to right, #444446 0%, #0981c8 100%)"
     },
     {   
         "name": "LOVE Pack",
