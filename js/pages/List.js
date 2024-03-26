@@ -97,7 +97,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="dark-bg">
-                    <h5>Changelog:</h5>
+                    <h2>Changelog:</h2>
                     <br>
                     <p class="extended">March 26th 2024</p>
                     <br><br>
@@ -127,8 +127,8 @@ export default {
                         <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>, whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
                     <button class="btngl" @click="selected = 0">#1 Demon</button>
-                    <button class="btngl" @click="selected = 75">Extended</button>
-                    <button class="btngl" @click="selected = 150">Legacy</button>
+                    <button class="btngl" @click="selected = 25">Extended</button>
+                    <button class="btngl" @click="selected = 50">Legacy</button>
                 </div>
             </div>
         </main>
