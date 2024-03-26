@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 27th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 3">Unused Balls has been placed at #4, above lack of skill and below prismatic dance. This pushes Confidential Crate into the Extended List and The Gyatdere into the Legacy List.. 
+                    <p><button class="btn-no-cover" @click="selected = 13">ox has been placed at #14, above The Shit of 87 and below Clocknation. This pushes REVENANT into the Extended List and Dual Busting into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
