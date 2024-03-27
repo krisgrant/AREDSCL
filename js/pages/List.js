@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 28th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 16">RUST challenge 2 has been placed at #17, above AbbyTheGreat and below Wave challenge 4. This pushes REVENANT into the Extended List and The Dual Busting into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 16">RUST challenge 2 has been placed at #17, above AbbyTheGreat and below Wave challenge 4. This pushes REVENANT into the Extended List and Dual Busting into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
