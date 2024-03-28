@@ -1,0 +1,26 @@
+{
+    "id": 91675368,
+    "name": "SMango BDAY",
+    "author": "Cyphenex",
+    "creators": ["Cyphenex"],
+    "verifier": "Cyphenex",
+    "difficulty": "Extreme Demon",
+    "skillset": "High CPS",
+    "tag": "Short",
+    "verification": "https://youtu.be/210vWgSKLVg?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/_f5Gh7UDVOE",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/U3xwngq-F6Y?feature=shared",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
