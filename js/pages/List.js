@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 28th 2024</p>
+                    <p class="extended">March 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 16">RUST challenge 2 has been placed at #17, above AbbyTheGreat and below Wave challenge 4. This pushes REVENANT into the Extended List and Dual Busting into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 36">Aeon Challenge has been placed at #35, above I LOVE CYCLES and below Hells Cavern. This pushes GoldenDashMemory into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

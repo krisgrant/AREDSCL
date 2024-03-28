@@ -1,0 +1,26 @@
+{
+    "id": 81840442,
+    "name": "Aeon Challenge",
+    "author": "Cyphenex",
+    "creators": ["Cyphenex"],
+    "verifier": "Cyphenex",
+    "difficulty": "Extreme Demon",
+    "skillset": "Learny",
+    "tag": "Short",
+    "verification": "https://youtu.be/aek4Gp7_CcU?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/mFwjRQrny5g",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/6uF1gJq0T38",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
