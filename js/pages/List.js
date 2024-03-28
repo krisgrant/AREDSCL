@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 36">Aeon Challenge has been placed at #35, above I LOVE CYCLES and below Hells Cavern. This pushes GoldenDashMemory into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 34">Aeon Challenge has been placed at #35, above I LOVE CYCLES and below Hells Cavern. This pushes GoldenDashMemory into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
