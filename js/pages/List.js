@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">March 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 24">SMango BDAY has been placed at #25, above Disgrace and below Untitled challenge. This pushes Disgrace into the Extended List and Disrupted Galaxy into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 3">Tenth Circle is Free has been placed at #4, above Unused Balls and below prismatic dance. This pushes SMango BDAY into the Extended List and Zehs Ultranova into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

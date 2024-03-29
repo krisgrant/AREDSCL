@@ -1,0 +1,20 @@
+{
+    "id": 103142600,
+    "name": "Tenth Circle is Free",
+    "author": "SMango23",
+    "creators": ["SMango23"],
+    "verifier": "SMango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "tag": "Short",
+    "verification": "https://youtu.be/HWYj8fRY9Ts?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/x11VckQEYxQ?feature=shared",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
