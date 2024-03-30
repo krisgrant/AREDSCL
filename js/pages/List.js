@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 30th 2024</p>
+                    <p class="extended">March 31st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 25">Unnamed Chamber has been placed at #26, above SMango BDAY and below Untitled challenge. This pushes Derive into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 49">Spider challenge has been placed at #50, above vernys good time and below Orraco. This pushes vernys good time into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

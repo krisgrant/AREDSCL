@@ -1,0 +1,25 @@
+{
+    "id": 92525817,
+    "name": "Spider challenge",
+    "author": "TheAmazingKam",
+    "creators": ["TheAmazingKam"],
+    "verifier": "TheAmazingKam",
+    "difficulty": "Extreme Demon",
+    "skillset": "Spider",
+    "verification": "https://youtu.be/Hny4a02TJAk?si=Tx0qLEafsyolRy_a",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/CFulW6vZbAs?si=Dj5p_z0ViyG-T6wf",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/-lRuaIrnRQQ?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}
