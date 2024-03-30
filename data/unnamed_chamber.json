@@ -7,7 +7,7 @@
     "difficulty": "Extreme Demon",
     "skillset": "Learny",
     "tag": "Short",
-    "verification": "https://youtu.be/5IHUkCbifKM?feature=shared&t=34",
+    "verification": "https://youtu.be/5IHUkCbifKM?feature=shared",
     "percentToQualify": 100,
     "records": [
         {
@@ -15,6 +15,12 @@
             "link": "https://youtu.be/PYs2kRNs_ho",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/NsUPN4TJ4S0?feature=shared",
+            "percent": 100,
+            "hz": "60"
         }
     ]
 }
