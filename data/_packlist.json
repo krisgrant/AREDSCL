@@ -24,6 +24,16 @@
         "colour": "#a10000"
     },
     {   
+        "name": "Memory Pack",
+        "levels": [
+            "i_hate_roblox",
+            "vernys_good_time",
+            "goldendashmemory",
+            "yromem"
+        ],
+        "colour": "linear-gradient(to right, #36ffda 0%, #4769ff 100%)"
+    },
+    {   
         "name": "Roblox Pack",
         "levels": [
             "a_roblox_christmas",
