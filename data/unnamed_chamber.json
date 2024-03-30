@@ -1,0 +1,20 @@
+{
+    "id": 103228470,
+    "name": "Unnamed Chamber",
+    "author": "Cyphenex",
+    "creators": ["Cyphenex"],
+    "verifier": "Cyphenex",
+    "difficulty": "Extreme Demon",
+    "skillset": "Learny",
+    "tag": "Short",
+    "verification": "https://youtu.be/5IHUkCbifKM?feature=shared&t=34",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/PYs2kRNs_ho",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
