@@ -8,5 +8,12 @@
     "skillset": "Memory",
     "verification": "https://www.youtube.com/watch?v=lH_CHKCIud8",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/GK42X7XIRuM?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
 }
