@@ -1,6 +1,6 @@
 export default {
     props: {
-        author: {
+        publisher: {
             type: String,
             required: true,
         },
