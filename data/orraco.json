@@ -8,5 +8,12 @@
     "skillset": "Wave",
     "verification": "https://www.youtube.com/watch?v=IgTM0_AfSyg",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "suupre",
+            "link": "https://youtu.be/2ps7zSlpJ7A?feature=shared",
+            "percent": 100,
+            "hz": "188"
+        }
+    ]
 }
