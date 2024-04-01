@@ -16,13 +16,13 @@ export default {
     template: `
         <div class="level-authors">
             <template v-if="selfVerified">
-                <div class="type-title-sm">Author:</div>
+                <div class="type-title-sm">Publisher:</div>
                 <p class="type-body">
                     <span>{{ author }}</span>
                 </p>
             </template>
             <template v-else-if="creators.length === 0">
-                <div class="type-title-sm">Author:</div>
+                <div class="type-title-sm">Publisher:</div>
                 <p class="type-body">
                     <span>{{ author }}</span>
                 </p>
@@ -32,7 +32,7 @@ export default {
                 </p>
             </template>
             <template v-else>
-            <div class="type-title-sm">Author:</div>
+            <div class="type-title-sm">Publisher:</div>
                 <p class="type-body">
                     <span>{{ author }}</span>
                 </p>
