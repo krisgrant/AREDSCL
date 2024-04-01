@@ -8,5 +8,12 @@
     "skillset": "Timings",
     "verification": "https://youtu.be/beFSwlqrbtE?si=JifLawj9exyILRC4",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/ZKFjkEDf1lg?feature=shared",
+            "percent": 100,
+            "hz": "480"
+        }
+    ]
 }
