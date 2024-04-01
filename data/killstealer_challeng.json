@@ -1,0 +1,19 @@
+{
+    "id": 103295292,
+    "name": "Killstealer Challeng",
+    "author": "suupre",
+    "creators": ["suupre"],
+    "verifier": "suupre",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "verification": "https://youtu.be/WNcFqIqKr28?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/Q0UXyN0HAGc",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

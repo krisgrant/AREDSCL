@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">March 31st 2024</p>
+                    <p class="extended">April 1st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">Spider challenge has been placed at #50, above vernys good time and below Orraco. This pushes vernys good time into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 24">Killstealer challeng has been placed at #25, above Untitled challenge and below Ractavles. This pushes Untitled challenge into the Extended List and Spider challenge into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
