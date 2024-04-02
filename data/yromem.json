@@ -20,6 +20,12 @@
             "link": "https://youtu.be/AC4xPAiqZ2A?feature=shared&t=23",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "LoB",
+            "link": "https://www.youtube.com/watch?v=KYyBQOGs7kw&t=50s",
+            "percent": 100,
+            "hz": "480"
         }
     ]
 }
