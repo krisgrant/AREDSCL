@@ -9,5 +9,12 @@
     "tag": "Short",
     "verification": "https://youtu.be/NBcbVQVthgg",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/NkQid4dJeSA?si=KRNltXjdU2oZ-G5i",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
 }
