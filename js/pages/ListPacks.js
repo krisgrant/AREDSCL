@@ -62,7 +62,7 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}</p>
+                                <p>{{ record.hz }}fps</p>
                             </td>
                         </tr>
                     </table>
