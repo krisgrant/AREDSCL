@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">April 2nd 2024</p>
+                    <p class="extended">April 3rd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 47">Lebequiem has been placed at #48, above Uniqeta and below The Copter. This pushes Orraco into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 5">SCARAB has been placed at #6, above lack of skill and below Unused Balls. This pushes Killstealer Challeng into the Extended List and Hydrolis into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

@@ -1,0 +1,19 @@
+{
+    "id": 103409530,
+    "name": "SCARAB",
+    "author": "Cyphenex",
+    "creators": ["Cyphenex"],
+    "verifier": "Cyphenex",
+    "difficulty": "Extreme Demon",
+    "skillset": "Learny",
+    "verification": "https://youtu.be/kMA05JF0yHI?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/NDB59gYbe34?si=jTd8o0ImLpt-8-uU",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
