@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">April 3rd 2024</p>
+                    <p class="extended">April 4th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 5">SCARAB has been placed at #6, above lack of skill and below Unused Balls. This pushes Killstealer Challeng into the Extended List and Hydrolis into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 6">in petals has been placed at #7, above lack of skill and below SCARAB. This pushes Ractavles into the Extended List and Uniqeta into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
