@@ -1,0 +1,19 @@
+{
+    "id": 72438471,
+    "name": "Im going to eat",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/UVd6D1ut5-o?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/1qBQ9iejnbU?si=u01101Iyx4p_2KM_",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

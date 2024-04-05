@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">April 4th 2024</p>
+                    <p class="extended">April 5th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 6">in petals has been placed at #7, above lack of skill and below SCARAB. This pushes Ractavles into the Extended List and Uniqeta into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 48">Im going to eat has been placed at #49, above The Copter and below i love roblox. This pushes Lebequiem into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
