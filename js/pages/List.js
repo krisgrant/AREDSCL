@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">April 5th 2024</p>
+                    <p class="extended">April 25th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 48">Im going to eat has been placed at #49, above The Copter and below i love roblox. This pushes Lebequiem into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 20">HamaSaxual has been placed at #21, above AbbyTheGreat and below RUST Challenge 2. This pushes Killaringdom Kingdom into the Extended List and The Copyer into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

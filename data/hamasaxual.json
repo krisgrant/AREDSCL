@@ -1,0 +1,19 @@
+{
+    "id": 100708445,
+    "name": "HamaSaxual",
+    "author": "Rave",
+    "creators": ["Rave"],
+    "verifier": "Rave",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/uF5oM4pcVVo?si=rlOfgdrdB_Gsa7l7",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/sUVMtLpbl2Y",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
