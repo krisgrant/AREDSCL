@@ -126,7 +126,7 @@ export default {
                     <div class="og" class="dark-bg">
                         <p>All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>, whose website this is a replica of. We obtained permission from its owners and have no connection to TSL. Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
-                    <button class="btngl" @click="selected = 0">#1 Demon</button>
+                    <button class="btngl" @click="selected = 0">#1 Challenge</button>
                     <button class="btngl" @click="selected = 25">Extended</button>
                     <button class="btngl" @click="selected = 50">Legacy</button>
                 </div>
