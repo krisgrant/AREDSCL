@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 16th 2024</p>
+                    <p class="extended">May 22nd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 20">Poison KrisAy has been placed at #21, above HamaSaxual and below RUST Challenge 2. This pushes RUST challenge into the Extended List and Im going to eat into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 7">The Emerald has been placed at #8, above lack of skill and below in petals. This pushes Stalker into the Extended List and i love roblox into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
