@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 22nd 2024</p>
+                    <p class="extended">May 23rd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 7">The Emerald has been placed at #8, above lack of skill and below in petals. This pushes Stalker into the Extended List and i love roblox into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 24">HamaSaxual has been removed due to being deleted. This pushes AbbyTheGreat back into the Main List and i love roblox back into the Extended List. 
                     </p>
                     </div>
                     <div class="dark-bg">
