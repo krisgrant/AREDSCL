@@ -17,14 +17,14 @@ main.dark,
 header.dark {
     color-scheme: dark;
     --color-background: rgb(106, 0, 0);
-    --color-on-background: #00ffff;
+    --color-on-background: #6b6b6b;
     --color-background-hover: rgb(106, 0, 0);
-    --color-on-background-hover: rgb(0, 255, 255);
+    --color-on-background-hover: rgb(255, 255, 255);
     --color-primary: rgb(0, 0, 0);
-    --color-on-primary: rgb(0, 255, 255);
-    --color-extended: rgba(0, 255, 255, 0.75);
-    --color-legacy: rgba(0, 255, 255, 0.5);
-    --color-tags: rgb(0, 255, 255, 0.25);
+    --color-on-primary: rgb(255, 255, 255);
+    --color-extended: rgba(189, 189, 189, 0.75);
+    --color-legacy: rgba(100, 100, 100, 0.5);
+    --color-tags: rgba(58, 58, 58, 0.25);
     --color-intpm: rgba(0, 0, 0, 0.25);
     --color-error: #de0000;
     --color-on-error: white;
