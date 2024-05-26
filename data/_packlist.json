@@ -48,7 +48,8 @@
         "name": "LOVE Pack",
         "levels": [
             "i_love_cycles",
-            "i_love_back_on_track"
+            "i_love_back_on_track",
+            "i_love_polargeist"
         ],
         "colour": "linear-gradient(to right, #fc66ff 0%, #b366ff 100%)"
     }

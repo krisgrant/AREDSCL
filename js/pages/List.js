@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 26th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 46">i love roblox has been raised from #50 to #47, above Urbyn Never 17 and below Very Problematic. 
+                    <p><button class="btn-no-cover" @click="selected = 44">I LOVE POLARGEIST has been placed at #45, above Galactic Abyss and below Urbyn Never 17. This pushes Orraco into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

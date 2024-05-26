@@ -1,0 +1,20 @@
+{
+    "id": 105731690,
+    "name": "I LOVE POLARGEIST",
+    "author": "Bisemy",
+    "creators": ["Bisemy"],
+    "verifier": "Bisemy",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings",
+    "tag": "Reupload",
+    "verification": "https://youtu.be/jzGX2Pyxr0s?si=vWVObintCj3s3f3z",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/AbaVMZGebcA?si=Q4iHHCDU2rrQxDEt",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
