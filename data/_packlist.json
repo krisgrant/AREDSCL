@@ -37,14 +37,6 @@
         "colour": "linear-gradient(to right, #3f2654 0%, #0981c8 100%)"
     },
     {   
-        "name": "Untitled Unmastered",
-        "levels": [
-            "unmastered_challenge",
-            "untitled_challenge"
-        ],
-        "colour": "#000000"
-    },
-    {   
         "name": "RUST challenges",
         "levels": [
             "rust_challenge_2",
