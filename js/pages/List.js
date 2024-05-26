@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 23rd 2024</p>
+                    <p class="extended">May 26th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 24">HamaSaxual has been removed due to being deleted. This pushes AbbyTheGreat back into the Main List and i love roblox back into the Extended List. 
+                    <p><button class="btn-no-cover" @click="selected = 46">i love roblox has been raised from #50 to #47, above Urbyn Never 17 and below Very Problematic. 
                     </p>
                     </div>
                     <div class="dark-bg">
