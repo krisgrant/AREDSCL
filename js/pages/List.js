@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 42">Chubs i am angey has been placed at #43, above i love roblox and below Very Problematic. This pushes Hydrolis into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 37">BENJI I AM ANGEY has been placed at #38, above Hells Cavern and below KrisYa Challenge 1. This pushes Uniqeta into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
