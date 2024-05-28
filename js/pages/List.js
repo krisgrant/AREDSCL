@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 26th 2024</p>
+                    <p class="extended">May 29th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 44">I LOVE POLARGEIST has been placed at #45, above Galactic Abyss and below Urbyn Never 17. This pushes Orraco into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 42">Chubs i am angey has been placed at #43, above i love roblox and below Very Problematic. This pushes Hydrolis into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
