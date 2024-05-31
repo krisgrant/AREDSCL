@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 29th 2024</p>
+                    <p class="extended">May 31st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 37">BENJI I AM ANGEY has been placed at #38, above Hells Cavern and below KrisYa Challenge 1. This pushes Uniqeta into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 29">Dual Busting II has been placed at #30, above REVENANT and below SMango BDAY. This pushes actric isle start po into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
