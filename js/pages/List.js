@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 31st 2024</p>
+                    <p class="extended">June 1st 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 29">Dual Busting II has been placed at #30, above REVENANT and below SMango BDAY. This pushes actric isle start po into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 12">monument has been placed at #13, above Krisureta and below Arctic Isle. This pushes Killaringdom Kingdom into the Extended List and The Copter into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

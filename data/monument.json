@@ -1,0 +1,19 @@
+{
+    "id": 105849687,
+    "name": "monument",
+    "author": "rr3verb",
+    "creators": ["rr3verb"],
+    "verifier": "NatNat",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/Kgman5_p8r8?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/PSWT2q9Wn1Q?si=Ka0uSF8f33aJSBNr",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
