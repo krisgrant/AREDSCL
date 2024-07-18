@@ -4,7 +4,7 @@
     --color-background-hover: rgb(207, 207, 207);
     --color-on-background-hover: black;
     --color-primary: rgb(0, 0, 0);
-    --color-on-primary: white;
+    --color-on-primary: rgb(0, 0, 0);
     --color-extended: rgba(0, 0, 0, 0.5);
     --color-legacy: rgba(0, 0, 0, 0.25);
     --color-tags: rgba(0, 0, 0, 0.25);
