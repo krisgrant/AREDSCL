@@ -10,7 +10,7 @@
     --color-tags: rgba(0, 0, 0, 0.25);
     --color-intpm: rgba(94, 0, 0, 0.15);
     --color-error: #de0000;
-    --color-on-error: white;
+    --color-on-error: rgb(0, 0, 0);
 }
 
 main.dark,
