@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">July 19th 2024</p>
+                    <p class="extended">July 30th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 20">Cognizant has been placed at #21, above Poison KrisAy and below RUST challenge 2. This pushes RUST challenge into the Extended List and Galactic Abyss into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 4">SCARAB and Unused Balls have been swapped, with SCARAB now above at #5. 
                     </p>
                     </div>
                     <div class="dark-bg">
