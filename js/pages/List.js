@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">July 30th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 4">SCARAB and Unused Balls have been swapped, with SCARAB now above at #5. 
+                    <p><button class="btn-no-cover" @click="selected = 2">The Sapphire has been placed at #3, above prismatic dance and below krisbadtime. This pushes AbbyTheGreat into the Extended List and I LOVE POLTERGEIST into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

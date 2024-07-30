@@ -9,14 +9,13 @@
         "colour": "#e24201"
     },
     {   
-        "name": "Memory Pack",
+        "name": "Gem Pack",
         "levels": [
-            "i_hate_roblox",
-            "vernys_good_time",
-            "goldendashmemory",
-            "yromem"
+            "the_sapphire",
+            "the_emerald",
+            "the_silver"
         ],
-        "colour": "linear-gradient(to right, #36ffda 0%, #4769ff 100%)"
+        "colour": "linear-gradient(to right, #3238a8 0%, #32ab42 100%)"
     },
     {   
         "name": "Roblox Pack",

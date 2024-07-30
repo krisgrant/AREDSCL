@@ -1,0 +1,26 @@
+{
+    "id": 106941512,
+    "name": "The Sapphire",
+    "author": "SMango23",
+    "creators": ["SMango23"],
+    "verifier": "SMango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings & Ship",
+    "tag": "Short",
+    "verification": "https://youtu.be/MAEGRXoiXyE?si=jyCD7gIN8ey50rdA",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Sive",
+            "link": "https://youtu.be/pqjTRqXqkg4?si=VxYh9txvO_sw-xjQ",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/VdTJASJmVF8?si=qAe24DU667PZ7sZL",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
