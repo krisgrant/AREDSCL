@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">July 30th 2024</p>
+                    <p class="extended">August 2nd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 2">The Sapphire has been placed at #3, above prismatic dance and below krisbadtime. This pushes AbbyTheGreat into the Extended List and I LOVE POLTERGEIST into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 12">Fishe has been re-placed at #13, above Arctic Isle and below A Roblox Christmas. This pushes Alleas into the Extended List and Very Problematic into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
