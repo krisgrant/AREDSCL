@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">August 2nd 2024</p>
+                    <p class="extended">August 3rd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 12">Fishe has been re-placed at #13, above Arctic Isle and below A Roblox Christmas. This pushes Alleas into the Extended List and Very Problematic into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 32">Vacancy has been placed at #33, above Untitled challenge and below Killstealer Challeng. This pushes I LOVE BACK ON TRACK into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
