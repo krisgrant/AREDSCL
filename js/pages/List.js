@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">August 3rd 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 32">Vacancy has been placed at #33, above Untitled challenge and below Killstealer Challeng. This pushes I LOVE BACK ON TRACK into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 11">Guilty Conscience 2 has been placed at #12, above A Roblox Christmas and below Oblivionize. This pushes Poison KrisAy into the Extended List and I LOVE CYCLES into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
