@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">August 3rd 2024</p>
+                    <p class="extended">August 6th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 11">Guilty Conscience 2 has been placed at #12, above A Roblox Christmas and below Oblivionize. This pushes Poison KrisAy into the Extended List and I LOVE CYCLES into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 8">Oblivionize has been raised from #11 to #9, above The Emerald and below in petals. 
                     </p>
                     </div>
                     <div class="dark-bg">
