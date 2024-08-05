@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">August 6th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 8">Oblivionize has been raised from #11 to #9, above The Emerald and below in petals. 
+                    <p><button class="btn-no-cover" @click="selected = 11">i am a femboy era has been placed at #12, above Guilty Conscience 2 and below lack of skill. This pushes Cognizant into the Extended List and Aeon Challenge into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
