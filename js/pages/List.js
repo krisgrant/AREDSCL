@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">August 6th 2024</p>
+                    <p class="extended">August 8th 2024</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 11">i am a femboy era has been placed at #12, above Guilty Conscience 2 and below lack of skill. This pushes Cognizant into the Extended List and Aeon Challenge into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 30">Ship challenge 4 has been placed at #31, above RUST challenge and below AbbyTheGreat. This pushes Hells Cavern into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
