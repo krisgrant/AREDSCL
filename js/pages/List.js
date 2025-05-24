@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 24th 2025</p>
+                    <p class="extended">May 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 12">Azul Para Ti has been placed at #13, above A Roblox Christmas and below i am a femboy era. This pushes Poison KrisAy into the Extended List and Aeon Challenge into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 15">Days Go By has been placed at #16, above Arctic Isle and below Fishe. This pushes Cognizant into the Extended List and Hells Cavern into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

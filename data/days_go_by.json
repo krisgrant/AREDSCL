@@ -1,0 +1,25 @@
+{
+    "id": 77138953,
+    "name": "Days Go By",
+    "author": "Sive",
+    "creators": ["Sive"],
+    "verifier": "Sive",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/bSTuIziKUUo?si=iwBL22XKRA55M6G_",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/M6Wr9YFOgow?si=owam-6JPOCjEUYoX",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/dcDb4Y8QG9k",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
