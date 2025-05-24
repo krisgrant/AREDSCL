@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 24th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 33">OH MY FREAKING GOD has been placed at #34, above Ractavles and below Killaringdom Kingdom. This pushes BENJI I AM ANGEY into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 33">The Shit of 87 has been removed. This pushes Poison KrisAy back into the Main List and Aeon Challenge back into the Extended List. 
                     </p>
                     </div>
                     <div class="dark-bg">
