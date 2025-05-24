@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 24th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 33">The Shit of 87 has been removed. This pushes Poison KrisAy back into the Main List and Aeon Challenge back into the Extended List. 
+                    <p><button class="btn-no-cover" @click="selected = 12">Azul Para Ti has been placed at #13, above A Roblox Christmas and below i am a femboy era. This pushes Poison KrisAy into the Extended List and Aeon Challenge into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
