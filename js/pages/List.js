@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">August 8th 2024</p>
+                    <p class="extended">May 24th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 30">Ship challenge 4 has been placed at #31, above RUST challenge and below AbbyTheGreat. This pushes Hells Cavern into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 33">OH MY FREAKING GOD has been placed at #34, above Ractavles and below Killaringdom Kingdom. This pushes BENJI I AM ANGEY into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">

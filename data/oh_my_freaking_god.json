@@ -1,0 +1,19 @@
+{
+    "id": 105849687,
+    "name": "OH MY FREAKING GOD",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://youtu.be/yc8cweWB1dQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/wbxn4ZsUoaw",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
