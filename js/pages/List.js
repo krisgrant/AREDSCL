@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 8">Unused Balls has been lowered from #7 to #9, Below Oblivionize and above The Emerald. 
+                    <p><button class="btn-no-cover" @click="selected = 8">Azul Para Ti has been raised from #13 to #9, Above Unused Balls and below Oblivionize. 
                     </p>
                     </div>
                     <div class="dark-bg">
