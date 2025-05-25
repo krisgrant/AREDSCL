@@ -1,0 +1,20 @@
+{
+    "id": 119533039,
+    "name": "Avocado",
+    "author": "LoB",
+    "creators": ["LoB, SMango23, Poly"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "tag": "Remake ・ Short",
+    "verification": "https://youtu.be/GX0vTldBngU",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/Xb7hJkareUc",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
