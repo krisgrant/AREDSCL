@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 15">Days Go By has been placed at #16, above Arctic Isle and below Fishe. This pushes Cognizant into the Extended List and Hells Cavern into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 9">Unused Balls has been lowered from #7 to #10, Below Oblivionize and above The Emerald. 
                     </p>
                     </div>
                     <div class="dark-bg">
