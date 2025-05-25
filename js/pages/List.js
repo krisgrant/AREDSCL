@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 35">Vacancy has been raised from #36 to #29, Above Ship challenge 4 and below AbbyTheGreat. 
+                    <p><button class="btn-no-cover" @click="selected = 28">Vacancy has been raised from #36 to #29, Above Ship challenge 4 and below AbbyTheGreat. 
                     </p>
                     </div>
                     <div class="dark-bg">
