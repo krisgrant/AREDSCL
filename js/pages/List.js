@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 8">Azul Para Ti has been raised from #13 to #9, Above Unused Balls and below Oblivionize. 
+                    <p><button class="btn-no-cover" @click="selected = 29">Dual Busting II has been raised from #39 to #30, Above RUST challenge and below Ship challenge 4. 
                     </p>
                     </div>
                     <div class="dark-bg">
