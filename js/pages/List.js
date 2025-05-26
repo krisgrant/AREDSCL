@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 25th 2025</p>
+                    <p class="extended">May 26th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 28">Vacancy has been raised from #36 to #29, Above Ship challenge 4 and below AbbyTheGreat. 
+                    <p><button class="btn-no-cover" @click="selected = 9">Azul Para Ti has been lowered from #9 to #10, Above The Emerald and below Unused Balls. 
                     </p>
                     </div>
                     <div class="dark-bg">
