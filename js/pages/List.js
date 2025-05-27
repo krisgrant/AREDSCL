@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 26th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 9">Azul Para Ti has been lowered from #9 to #10, Above The Emerald and below Unused Balls. 
+                    <p><button class="btn-no-cover" @click="selected = 7">I LOVE GEO DOMINATOR has been placed at #8, above Oblivionize and below in petals. This pushes Poison KrisAy back into the Extended List and Hells Cavern back into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
