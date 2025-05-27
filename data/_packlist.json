@@ -54,6 +54,7 @@
     {   
         "name": "LOVE Pack",
         "levels": [
+            "i_love_geo_dominator",
             "i_love_cycles",
             "i_love_back_on_track",
             "i_love_polargeist"
