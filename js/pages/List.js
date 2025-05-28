@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 28th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 7">I LOVE GEO DOMINATOR has been placed at #8, above Oblivionize and below in petals. This pushes Poison KrisAy back into the Extended List and Hells Cavern back into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 3">SCARAB has been raised from #6 to #4, Above prismatic dance and below The Sapphire. 
                     </p>
                     </div>
                     <div class="dark-bg">
