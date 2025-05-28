@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 28th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 3">SCARAB has been raised from #6 to #4, Above prismatic dance and below The Sapphire. 
+                    <p><button class="btn-no-cover" @click="selected = 15">Due to an update, I LOVE GEO DOMINATOR has been lowered from #8 to #16, Above Fishe and below A Roblox Christmas. 
                     </p>
                     </div>
                     <div class="dark-bg">
