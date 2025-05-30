@@ -44,14 +44,6 @@
         "colour": "#000000"
     },
     {   
-        "name": "RUST challenges",
-        "levels": [
-            "rust_challenge_2",
-            "rust_challenge"
-        ],
-        "colour": "linear-gradient(to right, #945e41 0%, #7a3a1c 100%)"
-    },
-    {   
         "name": "LOVE Pack",
         "levels": [
             "i_love_geo_dominator",
