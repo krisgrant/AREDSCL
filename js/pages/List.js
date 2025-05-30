@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 30th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 42">Carnaco has been raised from #45 to #43, Above Confidential Crate and below Avocado. 
+                    <p><button class="btn-no-cover" @click="selected = 17">Hail Wamba has been placed at #18, Above Arctic Isle and below Days Go By. This pushes Poison KrisAy back into the Extended List and Hells Cavern back into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
