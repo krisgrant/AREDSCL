@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">May 30th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 15">Krisureta has been removed from the list due to it no longer being available on the servers. This pushes Poison KrisAy back into the Main List and Hells Cavern back into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 42">Carnaco has been raised from #45 to #43, Above Confidential Crate and below Avocado. 
                     </p>
                     </div>
                     <div class="dark-bg">
