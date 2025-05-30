@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 28th 2025</p>
+                    <p class="extended">May 30th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 15">Due to an update, I LOVE GEO DOMINATOR has been lowered from #8 to #16, Above Fishe and below A Roblox Christmas. 
+                    <p><button class="btn-no-cover" @click="selected = 15">Krisureta has been removed from the list due to it no longer being available on the servers. This pushes Poison KrisAy back into the Main List and Hells Cavern back into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
