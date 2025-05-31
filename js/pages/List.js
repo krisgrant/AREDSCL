@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 30th 2025</p>
+                    <p class="extended">June 1st 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 17">Hail Wamba has been placed at #18, Above Arctic Isle and below Days Go By. This pushes Poison KrisAy back into the Extended List and Hells Cavern back into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 13">Jolly trueffet has been placed at #14, above A Roblox Christmas and below i am a femboy era. This pushes RUST challenge 2 into the Extended List and KrisYa Challenge 1 into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
