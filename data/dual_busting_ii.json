@@ -9,5 +9,12 @@
     "tag": "",
     "verification": "https://youtu.be/melp1in5RUA",
     "percentToQualify": 100,
-    "records": []
-}
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/XDbfQ5ztGyE",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+  }
