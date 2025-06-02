@@ -34,9 +34,15 @@
             "percent": 100,
             "hz": "240"
         },
-                {
+        {
             "user": "Bisemy",
             "link": "https://youtu.be/VwV6iGNKeAE?si=SByDxEGcYR2eKzhy",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/YqupVBGzcgQ?si=MDd-tK6BOuCvLChP&t=30",
             "percent": 100,
             "hz": "240"
         }
