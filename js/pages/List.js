@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">June 3rd 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 46">The Silver has been raised from #49 to #47, above Confidential Crate and below wave challenge 9.
+                    <p><button class="btn-no-cover" @click="selected = 41">zeh will never clear has been placed at #42, above Disgrace and below SMango BDAY. This pushes Electro Flow into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
