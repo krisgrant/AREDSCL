@@ -101,7 +101,7 @@ export default {
                     <br>
                     <p class="extended">June 3rd 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 35">OH MY FREAKING GOD has been lowered from #36 to #48, above Confidential Crate and below The Silver.
+                    <p><button class="btn-no-cover" @click="selected = 47">OH MY FREAKING GOD has been lowered from #36 to #48, above Confidential Crate and below The Silver.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
