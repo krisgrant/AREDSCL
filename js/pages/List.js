@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">June 1st 2025</p>
+                    <p class="extended">June 2nd 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 13">Jolly trueffet has been placed at #14, above A Roblox Christmas and below i am a femboy era. This pushes RUST challenge 2 into the Extended List and KrisYa Challenge 1 into the Legacy List. 
+                    <p><button class="btn-no-cover" @click="selected = 45">wave challenge 9 has been placed at #46, above Confidential Crate and below Carnaco era. This pushes KrisYa Challenge 2 into the Legacy List. 
                     </p>
                     </div>
                     <div class="dark-bg">
