@@ -99,10 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">June 2nd 2025</p>
+                    <p class="extended">June 3rd 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 45">wave challenge 9 has been placed at #46, above Confidential Crate and below Carnaco. This pushes KrisYa Challenge 2 into the Legacy List. 
-                    </p>
+                    <p><button class="btn-no-cover" @click="selected = 46">The Silver has been raised from #49 to #47, above Confidential Crate and below wave challenge 9.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
