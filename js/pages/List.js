@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">June 3rd 2025</p>
+                    <p class="extended">June 23rd 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 47">OH MY FREAKING GOD has been lowered from #36 to #48, above Confidential Crate and below The Silver.
+                    <p><button class="btn-no-cover" @click="selected = 14">Guilty Conscience 2 has been re-placed at #15, above A Roblox Christmas and below Jolly trueffet. This pushes Wave challenge 4 into the Extended List and Zasphere into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
