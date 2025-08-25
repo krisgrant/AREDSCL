@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">June 23rd 2025</p>
+                    <p class="extended">August 25th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 14">Guilty Conscience 2 has been re-placed at #15, above A Roblox Christmas and below Jolly trueffet. This pushes Wave challenge 4 into the Extended List and Zasphere into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 16">uwuweta has been placed at #17, above I LOVE GEO DOMINATOR and below A Roblox Christmas. This pushes I HATE ROBLOX into the Extended List and Confidential Crate into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>

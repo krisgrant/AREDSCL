@@ -1,0 +1,19 @@
+{
+    "id": 120439818,
+    "name": "uwuweta",
+    "author": "Sive",
+    "creators": ["Sive"],
+    "verifier": "Sive",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "verification": "https://www.youtube.com/watch?v=PGnHHazbVa4&ab_channel=S-ve",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/YsqepwEJrBc",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
