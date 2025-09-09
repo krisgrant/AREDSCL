@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">August 25th 2025</p>
+                    <p class="extended">September 9th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 20">LOB I AM ANGEY has been placed at #21, above Hail Wamba and below Days Go By. This pushes Clocknation into the Extended List and OH MY FREAKING GOD into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 49">Wave challenge 4 has been removed from the list due to the creator of the level no longer being in the discord server. This pushes OH MY FREAKING GOD back into the Extended List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
