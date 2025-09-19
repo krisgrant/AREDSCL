@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">September 9th 2025</p>
+                    <p class="extended">September 19th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">Wave challenge 4 has been removed from the list due to the creator of the level no longer being in the discord server. This pushes OH MY FREAKING GOD back into the Extended List.
+                    <p><button class="btn-no-cover" @click="selected = 28">Clutter BEANS has been placed at #29, above Poison KrisAy and below RUST challenge 2. This pushes OH MY FREAKING GOD into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
