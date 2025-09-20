@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">September 19th 2025</p>
+                    <p class="extended">September 20th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 28">Clutter BEANS has been placed at #29, above Poison KrisAy and below RUST challenge 2. This pushes OH MY FREAKING GOD into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 48">The Silver and wave challenge 9 have been swapped, with The Silver now above at #49.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
