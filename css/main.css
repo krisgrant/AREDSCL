@@ -1,5 +1,5 @@
 :root {
-    --color-background: rgb(134, 0, 0);
+    --color-background: rgb(134, 51, 51);
     --color-on-background: black;
     --color-background-hover: rgb(163, 163, 163);
     --color-on-background-hover: black;
@@ -9,16 +9,16 @@
     --color-legacy: rgba(0, 0, 0, 0.25);
     --color-tags: rgba(0, 0, 0, 0.25);
     --color-intpm: rgba(94, 0, 0, 0.15);
-    --color-error: #de0000;
+    --color-error: #e25a5a;
     --color-on-error: rgb(0, 0, 0);
 }
 
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: rgb(106, 0, 0);
+    --color-background: rgb(109, 59, 59);
     --color-on-background: #ffffff;
-    --color-background-hover: rgb(61, 0, 0);
+    --color-background-hover: rgb(68, 29, 29);
     --color-on-background-hover: rgb(255, 255, 255);
     --color-primary: rgb(0, 0, 0);
     --color-on-primary: rgb(255, 255, 255);
@@ -26,7 +26,7 @@ header.dark {
     --color-legacy: rgba(100, 100, 100, 0.5);
     --color-tags: rgba(58, 58, 58, 0.25);
     --color-intpm: rgba(0, 0, 0, 0.25);
-    --color-error: #de0000;
+    --color-error: #db5858;
     --color-on-error: white;
 }
 
