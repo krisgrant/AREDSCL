@@ -1,0 +1,19 @@
+{
+    "id": 126152141,
+    "name": "KrisYas Bad Time",
+    "author": "Zehcrw",
+    "creators": ["Zehcrw"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "verification": "https://youtu.be/fPa7k3a57us",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://www.youtube.com/watch?v=tE100ZuQAgU",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

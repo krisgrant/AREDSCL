@@ -99,9 +99,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">September 20th 2025</p>
+                    <p class="extended">September 21st 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 48">The Silver and wave challenge 9 have been swapped, with The Silver now above at #49.
+                    <p><button class="btn-no-cover" @click="selected = 46">KrisYas Bad Time has been placed at #47, above Avocado and below REVENANT. This pushes wave challenge 9 into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
