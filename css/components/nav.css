@@ -2,7 +2,7 @@
     --color-background: rgb(201, 201, 201); /* Background (Light Mode) */
     --color-on-background: black; /* Text (Light Mode) */
     --color-primary: rgb(122, 50, 50); /* Header Color */
-    --color-on-primary: rgb(255, 255, 255); /* Text Inside Header (Light Mode) */
+    --color-on-primary: rgb(0, 255, 13); /* Text Inside Header (Light Mode) */
 }
 
 .nav {
