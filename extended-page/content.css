@@ -5,15 +5,15 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: #00ff15;
 }
 
 h2 {
-    color:  #00ffff;
+    color:  #ff00d4;
 }
 
 li {
-    color:  #ffffff;
+    color:  #00ff55;
     line-height: 20px;
     width: 75%;
     padding: 0.3cm;
@@ -31,7 +31,7 @@ p {
 }
 
 .link {
-    color: #ffffff;
+    color: #2bff00;
     text-decoration: none;
 }
 .link:hover {
@@ -39,13 +39,13 @@ p {
 }
 
 b {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 255, 55, 0.9);
 }
 
 .btn {
     background-color: rgb(106, 0, 0);
     border-radius: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 42);
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
