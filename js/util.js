@@ -67,7 +67,7 @@ export function getFontColour(hex){
         return (Math.max(L1, L2) + 0.05) / (Math.min(L1, L2) + 0.05);
     }
 
-    const whiteContrast = getContrast(hex, "#dddddd");
+    const whiteContrast = getContrast(hex, "#ce5454ff");
     const blackContrast = getContrast(hex, "#000000");
     
     return whiteContrast > blackContrast ? "#ffffff" : "#000000";
