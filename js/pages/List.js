@@ -61,6 +61,10 @@ export default {
                             <div class="type-title-sm">Skillset</div>
                             <p>{{ level.skillset || 'Not Specified' }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Length</div>
+                            <p>{{ level.length || 'Not Specified' }}</p>
+                        </li>
                     </ul>
                     <h2>Records</h2>
                     <p class="extended"><b>{{ level.records.length }}</b> records registered</p>
