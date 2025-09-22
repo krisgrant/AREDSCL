@@ -20,6 +20,7 @@ li {
     padding: 0.3cm;
     white-space: inherit;
     margin: auto;
+    list-style-type: none;
 }
 
 p {
