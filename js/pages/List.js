@@ -105,7 +105,7 @@ export default {
                     <br>
                     <p class="extended">September 21st 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 46">KrisYas Bad Time has been placed at #47, above Avocado and below REVENANT. This pushes wave challenge 9 into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 37">Destorted has been place at #38, above Killaringdom Kingdom and below RUST challenge. This pushes The Silver into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
