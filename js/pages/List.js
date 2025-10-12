@@ -103,9 +103,10 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">September 21st 2025</p>
+                    <p class="extended">October 12th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 37">Destorted has been placed at #38, above Killaringdom Kingdom and below RUST challenge. This pushes The Silver into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 49">zeh will never clear has been removed. This pushes The Silver back into the Extended List.
+This change is due to the level being updated to an unverified version.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
