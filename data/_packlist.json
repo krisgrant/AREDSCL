@@ -2,6 +2,7 @@
     {   
         "name": "Top 1",
         "levels": [
+            "lack_of_sanity"
             "shalvantis_isle",
             "lack_of_skill",
             "arctic_isle"
@@ -35,7 +36,15 @@
         ],
         "colour": "linear-gradient(to right, #3f2654 0%, #0981c8 100%)"
     },
-        {   
+    {   
+        "name": "Lack Pack",
+        "levels": [
+            "lack_of_sanity",
+            "lack_of_skill"
+        ],
+        "colour": "linear-gradient(to right, #8403fc 0%, #ff1100 100%)"
+    },
+    {   
         "name": "Untitled Unmastered",
         "levels": [
             "unmastered_challenge",

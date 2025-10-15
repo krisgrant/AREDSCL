@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: "Lexend Deca", sans-serif;
-    background-color: #500000;
+    background-color: #300050;
 }
 
 h1 {
@@ -43,7 +43,7 @@ b {
 }
 
 .btn {
-    background-color: rgb(106, 0, 0);
+    background-color: rgb(58, 0, 106);
     border-radius: 10px;
     color: rgb(0, 255, 42);
     padding: 10px 15px;
@@ -55,6 +55,6 @@ b {
     font-size: 15px;
   }
   .btn:hover {
-      background-color: rgb(106, 0, 0);
+      background-color: rgb(64, 0, 106);
       transition-duration: 0.2s;
   }

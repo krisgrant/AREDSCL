@@ -1,7 +1,7 @@
 :root {
     --color-background: rgb(201, 201, 201); /* Background (Light Mode) */
     --color-on-background: black; /* Text (Light Mode) */
-    --color-primary: rgb(122, 50, 50); /* Header Color */
+    --color-primary: rgb(87, 50, 122); /* Header Color */
     --color-on-primary: rgb(255, 255, 255); /* Text Inside Header (Light Mode) */
 }
 
@@ -53,7 +53,7 @@
     background-color: var(--color-on-primary);
     color: var(--color-primary);
     border-radius: 0.5rem;
-    box-shadow: 0 1px 0.5rem 0 rgba(102, 0, 0, 0.5);
+    box-shadow: 0 1px 0.5rem 0 rgba(56, 0, 102, 0.5);
     transition: transform 100ms ease;
 }
 .nav .nav__actions .nav__cta:hover:not(:active) {

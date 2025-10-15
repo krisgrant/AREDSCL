@@ -103,10 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">October 12th 2025</p>
+                    <p class="extended">October 16th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">zeh will never clear has been removed. This pushes The Silver back into the Extended List.
-This change is due to the level being updated to an unverified version.
+                    <p><button class="btn-no-cover" @click="selected = 0">lack of sanity has been placed at #1, above Shalvantis Isle. This dethrones Shalvantis Isle after almost 2 years of being the top 1. This change pushes pomni into the Extended List and The Silver into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
