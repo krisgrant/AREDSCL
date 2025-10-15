@@ -16,7 +16,7 @@
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: rgb(91, 59, 109);
+    --color-background: rgb(83, 40, 109);
     --color-on-background: #ffffff;
     --color-background-hover: rgb(51, 18, 88);
     --color-on-background-hover: rgb(255, 255, 255);
