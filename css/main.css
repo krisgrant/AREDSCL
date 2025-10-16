@@ -41,10 +41,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-<<<<<<< HEAD
-    scrollbar-color: red rgb(255, 255, 0);
-=======
->>>>>>> 6443a16b1fd2a312f9d98adec4fd90c22eca22db
 }
 
 header,
