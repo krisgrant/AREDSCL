@@ -1,23 +1,5 @@
 :root {
-    --color-background: rgb(69, 0, 134);
-    --color-on-background: black;
-    --color-background-hover: rgb(187, 187, 187);
-    --color-on-background-hover: black;
-    --color-primary: rgb(0, 0, 0);
-    --color-on-primary: rgb(0, 0, 0);
-    --color-extended: rgba(0, 0, 0, 0.5);
-    --color-legacy: rgba(0, 0, 0, 0.25);
-    --color-tags: rgba(0, 0, 0, 0.25);
-    --color-intpm: rgba(94, 0, 0, 0.15);
-    --color-error: #b05ae2;
-    --color-on-error: rgb(0, 0, 0);
-    scrollbar-color: rgb(180, 180, 180) rgb(194, 194, 194);
-}
-
-main.dark,
-header.dark {
-    color-scheme: dark;
-    --color-background: rgb(83, 40, 109);
+--color-background: rgb(83, 40, 109);
     --color-on-background: #ffffff;
     --color-background-hover: rgb(71, 32, 94);
     --color-on-background-hover: rgb(255, 255, 255);
@@ -30,6 +12,24 @@ header.dark {
     --color-error: #7300de;
     --color-on-error: rgb(216, 216, 216);
     scrollbar-color: rgb(70, 34, 92) rgb(83, 40, 109);
+}
+
+main.dark,
+header.dark {
+    color-scheme: dark;
+--color-background: rgb(69, 0, 134);
+    --color-on-background: black;
+    --color-background-hover: rgb(187, 187, 187);
+    --color-on-background-hover: black;
+    --color-primary: rgb(0, 0, 0);
+    --color-on-primary: rgb(0, 0, 0);
+    --color-extended: rgba(0, 0, 0, 0.5);
+    --color-legacy: rgba(0, 0, 0, 0.25);
+    --color-tags: rgba(0, 0, 0, 0.25);
+    --color-intpm: rgba(94, 0, 0, 0.15);
+    --color-error: #b05ae2;
+    --color-on-error: rgb(0, 0, 0);
+    scrollbar-color: rgb(180, 180, 180) rgb(194, 194, 194);
 }
 
 html,
