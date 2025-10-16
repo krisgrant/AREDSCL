@@ -11,6 +11,9 @@
     --color-intpm: rgba(94, 0, 0, 0.15);
     --color-error: #b05ae2;
     --color-on-error: rgb(0, 0, 0);
+    .scrollable-element {
+  scrollbar-color: red yellow;
+}
 }
 
 main.dark,
@@ -171,7 +174,4 @@ input[type="checkbox"] {
 }
 .btn-no-cover:hover {
     text-decoration: underline;
-}
-.scrollable-element {
-  scrollbar-color: red yellow;
 }
