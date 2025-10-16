@@ -172,3 +172,6 @@ input[type="checkbox"] {
 .btn-no-cover:hover {
     text-decoration: underline;
 }
+.scrollable-element {
+  scrollbar-color: red yellow;
+}
