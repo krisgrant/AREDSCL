@@ -11,7 +11,7 @@
     --color-intpm: rgba(94, 0, 0, 0.15);
     --color-error: #b05ae2;
     --color-on-error: rgb(0, 0, 0);
-    scrollbar-color: red yellow;
+    scrollbar-color: rgb(172, 172, 172) rgb(182, 182, 182);
 }
 
 main.dark,
@@ -29,7 +29,7 @@ header.dark {
     --color-intpm: rgba(0, 0, 0, 0.25);
     --color-error: #7300de;
     --color-on-error: rgb(216, 216, 216);
-    scrollbar-color: red yellow;
+    scrollbar-color: rgb(70, 34, 92) rgb(83, 40, 109);
 }
 
 html,
@@ -41,6 +41,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+<<<<<<< HEAD
+    scrollbar-color: red rgb(255, 255, 0);
+=======
+>>>>>>> 6443a16b1fd2a312f9d98adec4fd90c22eca22db
 }
 
 header,
