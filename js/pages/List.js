@@ -105,7 +105,8 @@ export default {
                     <br>
                     <p class="extended">October 16th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 0">lack of sanity has been placed at #1, above Shalvantis Isle. This dethrones Shalvantis Isle after almost 2 years of being the top 1. This change pushes pomni into the Extended List and The Silver into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 30">Poison KrisAy has been removed (Formerly at #31). This change pushes The Silver back into the Extended List.
+This change is due to the level being removed from the servers.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
