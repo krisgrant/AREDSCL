@@ -58,7 +58,7 @@ export async function fetchLeaderboard() {
     const packResult = await (await fetch(`${dir}/_packlist.json`)).json();
     const scoreMap = {};
     const errs = [];
-    const packMultiplier = 1;
+    const packMultiplier = 1.5;
     list.forEach(([level, err], rank) => {
         if (err) {
             errs.push(err);
