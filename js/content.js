@@ -178,7 +178,7 @@ export async function fetchLeaderboard() {
     });
 
     // Sort by total score
-    return [res.sort((a, b) => b.total - a.total), errs];
+    return [res.sort((a, b) => b.round(total) - a.round(total)), errs];
 }
 
 export async function fetchPacks() {
