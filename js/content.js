@@ -167,7 +167,7 @@ export async function fetchLeaderboard() {
         let totalWithoutBonus = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
-        const total = round(totalWithoutBonus - packScore + packScoreMultiplied)
+        const total = totalWithoutBonus - packScore + packScoreMultiplied
 
         return {
             user,
