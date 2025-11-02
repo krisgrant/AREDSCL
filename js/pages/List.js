@@ -105,8 +105,7 @@ export default {
                     <br>
                     <p class="extended">October 16th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">Poison KrisAy has been removed (Formerly at #31). This change pushes The Silver back into the Extended List.
-This change is due to the level being removed from the servers.
+                    <p><button class="btn-no-cover" @click="selected = 47">Taj is Good has been placed at #48, above Avocado and below KrisYas Bad Time. This pushed The Silver into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
