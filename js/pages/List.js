@@ -103,7 +103,7 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">October 16th 2025</p>
+                    <p class="extended">November 2nd 2025</p>
                     <br><br>
                     <p><button class="btn-no-cover" @click="selected = 47">Taj is Good has been placed at #48, above Avocado and below KrisYas Bad Time. This pushes The Silver into the Legacy List.
                     </div>
