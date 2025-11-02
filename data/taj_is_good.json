@@ -1,0 +1,21 @@
+{
+    "id": 127499063,
+    "name": "Taj is Good",
+    "author": "PoweredByTexans",
+    "creators": ["PoweredByTexans"],
+    "verifier": "PoweredByTexans",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave & Ship",
+    "length": "16 Seconds",
+    "tag": "Short",
+    "verification": "https://youtu.be/1IlNsYYTNU8",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/ngqh2VOqINs",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
