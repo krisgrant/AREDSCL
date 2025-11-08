@@ -103,9 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 2nd 2025</p>
+                    <p class="extended">November 8th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 47">Taj is Good has been placed at #48, above Avocado and below KrisYas Bad Time. This pushes The Silver into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 39">Taj is Good has been raised from #48 to #40, above Ractavles and below Killaringdom Kingdom.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>

@@ -1,5 +1,5 @@
 {
-    "id": 127499063,
+    "id": 127877698,
     "name": "Taj is Good",
     "author": "PoweredByTexans",
     "creators": ["PoweredByTexans"],
@@ -16,6 +16,12 @@
             "link": "https://youtu.be/ngqh2VOqINs",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/0f63TAxYq1M",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }
