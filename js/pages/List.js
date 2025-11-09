@@ -103,9 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 8th 2025</p>
+                    <p class="extended">November 9th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 39">Taj is Good has been raised from #48 to #40, above Ractavles and below Killaringdom Kingdom.
+                    <p><button class="btn-no-cover" @click="selected = 12">GUACOLIAN DEMOLITION has been placed at #13, above lack of skill and below The Emerald. This pushes unmastered challenge into the Extended List and Carnaco into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
