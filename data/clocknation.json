@@ -29,9 +29,15 @@
             "percent": 100,
             "hz": "240"
         },
-                {
+        {
             "user": "Bisemy",
             "link": "https://youtu.be/VwV6iGNKeAE?si=6tFk3IITfqmrhiPv&t=33",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "PoweredByTexans",
+            "link": "https://youtu.be/XJNHumO4UkM",
             "percent": 100,
             "hz": "240"
         }
