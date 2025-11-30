@@ -103,9 +103,10 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 9th 2025</p>
+                    <p class="extended">November 30th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 12">GUACOLIAN DEMOLITION has been placed at #13, above lack of skill and below The Emerald. This pushes unmastered challenge into the Extended List and Carnaco into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 49">Killstealer Challeng has been removed (Formerly at #43). This change pushes Carnaco back into the Extended List.
+This change is due to the the creator leaving the discord server
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
