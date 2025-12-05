@@ -105,7 +105,8 @@ export default {
                     <br>
                     <p class="extended">November 30th 2025</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">Killstealer Challeng has been removed (Formerly at #43). This change pushes Carnaco back into the Extended List.
+                    <p><button class="btn-no-cover" @click="selected = 49">Unused Balls has been removed (Formerly at #10). This change pushes unmastered challenge back into the Main List and The Silver back into the Extended List.
+This change is due to the the creator no longer being in the discord server
 This change is due to the the creator leaving the discord server
                     </div>
                     <div class="dark-bg">
