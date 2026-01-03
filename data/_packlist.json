@@ -10,6 +10,23 @@
         "colour": "#e24201"
     },
     {   
+        "name": "Balletti Or Not",
+        "levels": [
+            "Fishe",
+            "unmastered_challenge",
+            "ship_challenge_4",
+            "untitled_challenge",
+            "Disgrace",
+            "Avocado",
+            "wave_challenge_9",
+            "oh_my_freaking_god",
+            "isolated",
+            "im_going_to_eat",
+            "lebequiem"
+        ],
+        "colour": "#000000"
+    },
+    {   
         "name": "Gem Pack",
         "levels": [
             "the_sapphire",
