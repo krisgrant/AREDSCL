@@ -1,0 +1,21 @@
+{
+    "id": 140144602,
+    "name": "Deity",
+    "author": "PoweredByTexans",
+    "creators": "PoweredByTexans",
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "tag": "Short",
+    "skillset": "Consistency & High CPS",
+    "length": "xf Seconds",
+    "verification": "https://www.youtube.com/watch?v=JRTmIFXSObg&t=29s",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/ZzQuR-RRd0E?si=AQTu9lCzZ0cBW_NK",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}
