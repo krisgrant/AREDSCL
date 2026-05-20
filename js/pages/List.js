@@ -103,9 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">November 5th 2025</p>
+                    <p class="extended">May 20th 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 49">Unused Balls has been removed (Formerly at #10). This change pushes unmastered challenge back into the Main List and The Silver back into the Extended List.
+                    <p><button class="btn-no-cover" @click="selected = 17">Deity has been placed at #18, above uwuweta and below A Roblox Christmas. This pushes unmastered challenge into the Extended List and The Silver into the Legacy List.
 This change is due to the the creator no longer being in the discord server
                     </div>
                     <div class="dark-bg">
