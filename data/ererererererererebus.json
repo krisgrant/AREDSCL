@@ -21,6 +21,18 @@
             "link": "https://youtu.be/oBhErGmNcFY",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "jambled",
+            "link": "https://www.youtube.com/watch?v=qjHMVtthy0Y",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "diewise",
+            "link": "https://medal.tv/games/geometry-dash/clips/mJRSgCCNWCchsyAWo?invite=cr-MSx1bVMsNTQ4MTcxMzc1&v=8",
+            "percent": 100,
+            "hz": "480"
         }
     ]
 }
