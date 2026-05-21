@@ -103,10 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 20th 2026</p>
+                    <p class="extended">May 21st 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 17">Deity has been placed at #18, above uwuweta and below A Roblox Christmas. This pushes unmastered challenge into the Extended List and The Silver into the Legacy List.
-This change is due to the the creator no longer being in the discord server
+                    <p><button class="btn-no-cover" @click="selected = 22">Clutter BEANS has been raised from #31 to #23, above LOB I AM ANGEY and below Days Go By. This change pushes Arctic Isle into the Extended List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
