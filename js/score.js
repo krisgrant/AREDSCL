@@ -21,7 +21,9 @@ export function score(rank) {
     // New formula
     let t = (rank - 1) / 49;
 
-    let score = 100 - (80 * Math.pow(t, 1.7));
+    let curve = Math.pow(t, 1.35); // softer exponent for earlier drop
+
+    let score = 100 - (80 * curve);
 
     score = Math.max(0, score);
 
