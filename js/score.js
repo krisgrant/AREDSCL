@@ -10,15 +10,27 @@ export function score(rank) {
         return 0;
     }
 
-    // normalise rank (0 → 1)
-const t = (rank - 1) / 49;
+    // anchor points (rank → score)
+    const points = [
+        [1, 100],
+        [10, 83],
+        [25, 55],
+        [50, 20]
+    ];
 
-// stronger early drop curve
-const shaped = Math.pow(t, 1.55);
+    // find which segment the rank is in
+    for (let i = 0; i < points.length - 1; i++) {
+        const [r1, s1] = points[i];
+        const [r2, s2] = points[i + 1];
 
-const score = 100 - (80 * shaped);
+        if (rank >= r1 && rank <= r2) {
+            const t = (rank - r1) / (r2 - r1);
+            const score = s1 + (s2 - s1) * t;
+            return Math.max(round(score), 0);
+        }
+    }
 
-return Math.max(round(score), 0);
+    return 0;
 }
 
 export function round(num) {
