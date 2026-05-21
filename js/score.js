@@ -11,16 +11,14 @@ export function score(rank) {
     }
 
     // normalise rank (0 → 1)
-    const t = (rank - 1) / 49;
+const t = (rank - 1) / 49;
 
-    // fitted curve coefficients
-    const score =
-        100 +
-        (-61.743 * t) +
-        (14.985 * Math.pow(t, 2)) +
-        (-33.242 * Math.pow(t, 3));
+// stronger early drop curve
+const shaped = Math.pow(t, 1.55);
 
-    return Math.max(round(score), 0);
+const score = 100 - (80 * shaped);
+
+return Math.max(round(score), 0);
 }
 
 export function round(num) {
