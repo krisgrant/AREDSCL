@@ -26,16 +26,19 @@ export function score(rank) {
     return Math.max(round(score), 0);
 }
 
-export function score(rank) {
-    if (rank > 50) {
-        return 0;
+export function round(num) {
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
     }
-
-    let t = (rank - 1) / 49;
-
-    let score = 100 - (80 * Math.pow(t, 1.6));
-
-    score = Math.max(0, score);
-
-    return Math.max(round(score), 0);
 }
