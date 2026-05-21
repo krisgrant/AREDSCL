@@ -19,15 +19,23 @@ export function score(rank) {
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
     // New formula
-    let t = (rank - 1) / 49;
+    const scale = 2;
 
-    let curve = Math.pow(t, 1.35); // softer exponent for earlier drop
+    export function score(rank) {
+    if (rank > 50) return 0;
 
-    let score = 100 - (80 * curve);
+    // normalise rank (0 → 1)
+    const t = (rank - 1) / 49;
 
-    score = Math.max(0, score);
+    // fitted curve coefficients (pre-solved)
+    const score =
+        100 +
+        (-61.743 * t) +
+        (14.985 * Math.pow(t, 2)) +
+        (-33.242 * Math.pow(t, 3));
 
     return Math.max(round(score), 0);
+}
 }
 
 export function round(num) {
