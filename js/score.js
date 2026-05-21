@@ -13,8 +13,8 @@ export function score(rank) {
     // anchor points (rank → score)
     const points = [
         [1, 100],
-        [10, 70],
-        [25, 45],
+        [10, 75],
+        [25, 50],
         [50, 20]
     ];
 
