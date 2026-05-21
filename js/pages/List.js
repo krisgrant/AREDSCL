@@ -105,7 +105,7 @@ export default {
                     <br>
                     <p class="extended">May 21st 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 22">Clutter BEANS has been raised from #31 to #23, above LOB I AM ANGEY and below Days Go By. This change pushes Arctic Isle into the Extended List.
+                    <p><button class="btn-no-cover" @click="selected = 27">Krisureta has been re-placed at #28, above pomni and below unmastered challenge. This change pushes Carnaco into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
