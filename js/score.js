@@ -1,6 +1,3 @@
-/**
- * Numbers of decimal digits to round to
- */
 const scale = 2;
 
 /**
@@ -13,21 +10,10 @@ export function score(rank) {
         return 0;
     }
 
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    const scale = 2;
-
-    export function score(rank) {
-    if (rank > 50) return 0;
-
     // normalise rank (0 → 1)
     const t = (rank - 1) / 49;
 
-    // fitted curve coefficients (pre-solved)
+    // fitted curve coefficients
     const score =
         100 +
         (-61.743 * t) +
@@ -35,7 +21,6 @@ export function score(rank) {
         (-33.242 * Math.pow(t, 3));
 
     return Math.max(round(score), 0);
-}
 }
 
 export function round(num) {
