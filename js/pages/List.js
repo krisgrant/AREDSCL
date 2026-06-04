@@ -105,7 +105,8 @@ export default {
                     <br>
                     <p class="extended">May 21st 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 27">Krisureta has been re-placed at #28, above pomni and below unmastered challenge. This change pushes Carnaco into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 38">cooked cow has been placed at #39, above RUST challenge and below Dual Busting II. This pushes Avocado into the Legacy List.
+This change is due to the the creator no longer being in the discord server
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
