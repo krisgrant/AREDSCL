@@ -82,5 +82,24 @@
             "ractavles"
         ],
         "colour": "#750000"
+    },
+    {   
+        "name": "Tupac Shakur",
+        "levels": [
+            "guilty_conscience_2",
+            "rust_challenge_2",
+            "dual_busting_ii"
+        ],
+        "colour": "#4d2f15"
+    },
+    {   
+        "name": "XXL Pack",
+        "levels": [
+            "prismatic_dance",
+            "oblivionize",
+            "azul_para_ti",
+            "revenant"
+        ],
+        "colour": "#6240de"
     }
 ]
