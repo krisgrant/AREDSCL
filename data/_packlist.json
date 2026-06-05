@@ -19,6 +19,16 @@
         "colour": "linear-gradient(to right, #3238a8 0%, #32ab42 100%)"
     },
     {   
+        "name": "Halloween VS. Christmas",
+        "levels": [
+            "lack_of_skill",
+            "guacolian_demolition",
+            "jolly_trueffet",
+            "a roblox christmas"
+        ],
+        "colour": "linear-gradient(to right, #b85900 0%, #ff0000 100%)"
+    },
+    {   
         "name": "Roblox Pack",
         "levels": [
             "a_roblox_christmas",
@@ -50,7 +60,6 @@
         "name": "It's Top 1 Bro I Swear...",
         "levels": [
             "krisbadtime",
-            "the_sapphire",
             "prismatic_dance",
             "unmastered_challenge"
         ],
@@ -64,5 +73,14 @@
             "kbt"
         ],
         "colour": "#402978"
+    },
+        {   
+        "name": "Good Luck Mate",
+        "levels": [
+            "days_go_by",
+            "arctic_isle",
+            "ractavles"
+        ],
+        "colour": "#750000"
     }
 ]
