@@ -103,9 +103,9 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">May 21st 2026</p>
+                    <p class="extended">June 6th 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 38">cooked cow has been placed at #39, above RUST challenge and below Dual Busting II. This pushes Avocado into the Legacy List.
+                    <p><button class="btn-no-cover" @click="selected = 11">The Emerald and GUACOLIAN DEMOLITION have been swapped, with GUACOLIAN DEMOLITION now sitting above at #11.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>
