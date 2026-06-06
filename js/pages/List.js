@@ -105,7 +105,7 @@ export default {
                     <br>
                     <p class="extended">June 6th 2026</p>
                     <br><br>
-                    <p><button class="btn-no-cover" @click="selected = 11">The Emerald and GUACOLIAN DEMOLITION have been swapped, with GUACOLIAN DEMOLITION now sitting above at #11.
+                    <p><button class="btn-no-cover" @click="selected = 5">trash ship has been placed at #6, above prismatic dance and below SCARAB. This pushes Hail Wamba into the Extended List and KrisYas Bad Time into the Legacy List.
                     </div>
                     <div class="dark-bg">
                     <h2>Guidelines</h2>

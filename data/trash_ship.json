@@ -1,0 +1,21 @@
+{
+    "id": 127850061,
+    "name": "trash ship",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Ship",
+    "length": "21 Seconds",
+    "tag": "",
+    "verification": "https://youtu.be/GBdFDnmrlqs",
+    "percentToQualify": 100,
+    "records": [        
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/-u1-bVBO2xo",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
