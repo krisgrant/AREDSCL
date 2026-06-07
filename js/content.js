@@ -8,11 +8,13 @@ function getDir() {
     return "/data";
 }
 
-export async function fetchList() {
+export async function fetchList(mode = "challenge") {
     const dir = getDir();
 
-    const listResult = await fetch(`${dir}/_list.json`);
-    const packResult = await fetch(`${dir}/_packlist.json`);
+const base = `${dir}/${mode}`;
+
+const listResult = await fetch(`${base}/_list.json`);
+const packResult = await fetch(`${base}/_packlist.json`);
 
     try {
         const list = await listResult.json();
