@@ -5,8 +5,7 @@ import { round, score } from "./score.js";
  * Defaults to "/data" so NOTHING breaks
  */
 function getDir() {
-    const mode = localStorage.getItem("listMode") || "challenge";
-    return `/data/${mode}`;
+    return "/data";
 }
 
 /**
