@@ -3,16 +3,20 @@ import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 import ListPacks from './pages/ListPacks.js';
 
-export default [
-    // CHALLENGE
-    { path: '/', component: List, meta: { list: 'challenge' } },
-    { path: '/leaderboard', component: Leaderboard, meta: { list: 'challenge' } },
-    { path: '/roulette', component: Roulette, meta: { list: 'challenge' } },
-    { path: '/list-packs', component: ListPacks, meta: { list: 'challenge' } },
+function meta(list) {
+    return { meta: { list } };
+}
 
-    // DEMONS
-    { path: '/demons', component: List, meta: { list: 'demon' } },
-    { path: '/demons/leaderboard', component: Leaderboard, meta: { list: 'demon' } },
-    { path: '/demons/roulette', component: Roulette, meta: { list: 'demon' } },
-    { path: '/demons/list-packs', component: ListPacks, meta: { list: 'demon' } },
+export default [
+    // ================= CHALLENGE =================
+    { path: '/', component: List, ...meta('challenge') },
+    { path: '/leaderboard', component: Leaderboard, ...meta('challenge') },
+    { path: '/roulette', component: Roulette, ...meta('challenge') },
+    { path: '/list-packs', component: ListPacks, ...meta('challenge') },
+
+    // ================= DEMON =================
+    { path: '/demons', component: List, ...meta('demon') },
+    { path: '/demons/leaderboard', component: Leaderboard, ...meta('demon') },
+    { path: '/demons/roulette', component: Roulette, ...meta('demon') },
+    { path: '/demons/list-packs', component: ListPacks, ...meta('demon') },
 ];
