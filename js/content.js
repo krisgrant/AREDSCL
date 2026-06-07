@@ -5,20 +5,7 @@ import { round, score } from "./score.js";
  * Defaults to "/data" so NOTHING breaks
  */
 function getDir() {
-    try {
-        // Try to read route meta (safe fallback if unavailable)
-        const route = window?.app?.config?.globalProperties?.$route?.value;
-
-        const listType = route?.meta?.list;
-
-        if (listType === "demon") {
-            return "/data/demon";
-        }
-
-        return "/data/challenge";
-    } catch {
-        return "/data";
-    }
+    return "/data";
 }
 
 export async function fetchList() {
