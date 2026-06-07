@@ -83,7 +83,7 @@ export async function fetchLeaderboard() {
     const mode = store.mode || "challenge";
     const dir = getDir(mode);
 
-    const list = await fetchList(mode);
+    const list = await fetchList(store.mode);
     if (!list) return [[], ["Failed to load list"]];
 
     const packResult = await fetch(`${dir}/_packlist.json`).then((r) =>
