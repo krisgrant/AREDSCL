@@ -119,19 +119,70 @@ export default {
                 </div>
             </div>
 
+            <!-- ✅ RESTORED RIGHT SIDEBAR -->
             <div class="meta-container">
                 <div class="meta">
+
                     <div class="errors" v-if="errors.length">
                         <p class="error" v-for="error in errors" :key="error">
                             {{ error }}
                         </p>
                     </div>
 
-                    <button class="btngl" @click="selected = 0">#1</button>
+                    <div class="dark-bg">
+                        <h2>Changelog:</h2>
+                        <br>
+                        <p class="extended">June 7th 2026</p>
+                        <br><br>
+                        <p>
+                            Ship challenge 4 has been removed (Formerly at #38).
+                            This affects list ordering and pushes some levels into Extended.
+                        </p>
+                    </div>
+
+                    <div class="dark-bg">
+                        <h2>Guidelines</h2>
+                        <br>
+                        <p>
+                            All submissions must follow the official guidelines to ensure fairness and consistency.
+                        </p>
+                        <br><br>
+                        <a class="btngl" href="/extended-page/rules.html">
+                            Guidelines Page
+                        </a>
+                    </div>
+
+                    <div class="dark-bg" v-if="editors">
+                        <h3>List Staff:</h3>
+                        <br>
+
+                        <ol class="editors">
+                            <li v-for="editor in editors" :key="editor.name">
+                                <img
+                                    :src="`/assets/${roleIconMap[editor.role]}${store.dark ? '-dark' : ''}.svg`"
+                                    :alt="editor.role"
+                                />
+                                <a v-if="editor.link" :href="editor.link" target="_blank">
+                                    {{ editor.name }}
+                                </a>
+                                <p v-else>{{ editor.name }}</p>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="og dark-bg">
+                        <p>
+                            All credit goes to TSL. This is a modified replica with permission.
+                        </p>
+                    </div>
+
+                    <button class="btngl" @click="selected = 0">#1 Challenge</button>
                     <button class="btngl" @click="selected = 25">Extended</button>
                     <button class="btngl" @click="selected = 50">Legacy</button>
+
                 </div>
             </div>
+
         </main>
     `,
 
@@ -157,13 +208,8 @@ export default {
         this.list = await fetchList(mode);
         this.editors = await fetchEditors();
 
-        if (!this.list) {
-            this.errors.push("Failed to load list.");
-        }
-
-        if (!this.editors) {
-            this.errors.push("Failed to load editors.");
-        }
+        if (!this.list) this.errors.push("Failed to load list.");
+        if (!this.editors) this.errors.push("Failed to load editors.");
 
         this.loading = false;
     },
