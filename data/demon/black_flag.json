@@ -1,0 +1,27 @@
+{
+    "id": 92775821,
+    "name": "Black Flag",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "tag": "Reupload ・ Former #1",
+    "skillset": "Timings",
+    "length": "15 Seconds",
+    "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/DOqMblbvE_g",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/DOqMblbvE_g",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+  }
