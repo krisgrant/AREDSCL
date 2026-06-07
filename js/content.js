@@ -22,7 +22,7 @@ const packResult = await fetch(`${base}/_packlist.json`);
 
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+                const levelResult = await fetch(`${base}/${path}.json`);
 
                 try {
                     const level = await levelResult.json();
