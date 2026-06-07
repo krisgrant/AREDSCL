@@ -106,7 +106,7 @@ export default {
     },
     async mounted() {
         this.packs = await fetchPacks();
-        this.list = await fetchList();
+        this.list = await fetchList(mode);
         console.log([...this.list])
         console.log(
 
