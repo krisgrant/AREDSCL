@@ -26,15 +26,9 @@ const router = VueRouter.createRouter({
     routes,
 });
 
-/**
- * 🔥 KEEP STORE IN SYNC WITH ROUTES
- */
-router.afterEach((to) => {
-    if (to.path.startsWith('/demons')) {
-        store.setMode('demon');
-    } else {
-        store.setMode('challenge');
-    }
+router.beforeEach((to) => {
+    const list = to.meta?.list || 'challenge';
+    store.mode = list;
 });
 
 app.use(router);
