@@ -1,0 +1,38 @@
+{
+    "id": 77207939,
+    "name": "Anesti",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Robot",
+    "length": "8 Seconds",
+    "verification": "https://www.youtube.com/watch?v=3owJe4wXM6U",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/FkGPV9EXd-g?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/bXg8Hm_s96Y?feature=shared",
+            "percent": 100,
+            "hz": "120"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/QEHixoQaAn8?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Crispiestcrunch",
+            "link": "https://www.youtube.com/watch?v=a7ftzlUVuLg",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

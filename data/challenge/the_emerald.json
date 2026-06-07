@@ -1,0 +1,21 @@
+{
+    "id": 105542799,
+    "name": "The Emerald",
+    "author": "KrisYa",
+    "creators": ["KrisYa, Slemy, Zehcrw, SMango23"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave & Overall",
+    "length": "34 Seconds",
+    "tag": "",
+    "verification": "https://youtu.be/kxDtob9pUNg",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/9xIFz-g1rL0",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

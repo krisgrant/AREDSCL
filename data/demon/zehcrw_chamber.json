@@ -1,0 +1,21 @@
+{
+    "id": 92691964,
+    "name": "Zehcrw Chamber",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "tag": "Reupload ・ Former #1",
+    "skillset": "Wave",
+    "length": "11 Seconds",
+    "verification": "https://www.youtube.com/watch?v=693kx1QJVvQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/fWpeZgbKdBM?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

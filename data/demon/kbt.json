@@ -1,0 +1,45 @@
+{
+    "id": 75593160,
+    "name": "KBT",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "15 Seconds",
+    "tag": "",
+    "verification": "https://www.youtube.com/watch?v=igocHoiGlVY",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "[DMO] C2quared",
+            "link": "https://youtu.be/Zr7GmCm9WFE?si=-9V0zz8iNHAdPxaM&t=20",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "isaac",
+            "link": "https://youtu.be/sKApOHjyW1w?feature=shared",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/ZF_P7ofVlSM",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "diewise",
+            "link": "https://medal.tv/games/geometry-dash/clips/mJUbIiueJwPsBPhXU?invite=cr-MSxkeDEsNTQ4MTcxMzc1&v=19",
+            "percent": 100,
+            "hz": "480"
+        },
+            {
+            "user": "Bisemy",
+            "link": "https://youtu.be/7fBTwWgvLkg",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

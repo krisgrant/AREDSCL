@@ -1,0 +1,21 @@
+{
+    "id": 94760502,
+    "name": "Lebequiem",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Duals & Learny",
+    "length": "18 Seconds",
+    "tag": "Short",
+    "verification": "https://youtu.be/NBcbVQVthgg",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/NkQid4dJeSA?si=KRNltXjdU2oZ-G5i",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

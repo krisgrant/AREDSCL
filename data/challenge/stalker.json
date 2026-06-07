@@ -1,0 +1,33 @@
+{
+    "id": 92693928,
+    "name": "Stalker",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "length": "31 Seconds",
+    "tag": "",
+    "verification": "https://www.youtube.com/watch?v=Pmv9y0qgc_w",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/wsXc5vea2_0",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/A2qsT-nhwDI?feature=shared",
+            "percent": 100,
+            "hz": "480"
+        },
+        {
+            "user": "TSpenguin",
+            "link": "https://youtu.be/94wods0NYlk",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

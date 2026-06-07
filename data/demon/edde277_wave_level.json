@@ -1,0 +1,68 @@
+{
+    "id": 92508966,
+    "name": "edde277 Wave Level",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "6 Seconds",
+    "verification": "https://www.youtube.com/watch?v=VYDTKsEcj0E",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Whyisthissofunn",
+            "link": "https://www.youtube.com/watch?v=SOzDDvFaxnk",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/YFR0m4ch8O8?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/B94jV_aHjZM",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "pandaman1297832",
+            "link": "https://youtu.be/23hl4K9kI_Q?si=ajsM5YYxz9gnVRMx&t=776",
+            "percent": 100,
+            "hz": "260"
+        },
+        {
+            "user": "YminousCraft",
+            "link": "https://youtu.be/9tdaV5snai8?si=NwaOTUxvugg6m2xS&t=17",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "SeeAFallenCat",
+            "link": "https://youtu.be/FVb6W8J_bmg",
+            "percent": 100,
+            "hz": "3000"
+        },
+        {
+            "user": "jambled",
+            "link": "https://www.youtube.com/watch?v=YXmgdo9r4TU",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "diewise",
+            "link": "https://medal.tv/games/geometry-dash/clips/mJRXt4WiFIrYEAKYJ?invite=cr-MSwzV3MsNTQ4MTcxMzc1&v=15",
+            "percent": 100,
+            "hz": "480"
+        },
+        {
+            "user": "Izy18",
+            "link": "https://medal.tv/games/geometry-dash/clips/mOyAxvWd2kEKCy3_8?invite=cr-MSxjMTEsMjkwOTU2MTQz",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

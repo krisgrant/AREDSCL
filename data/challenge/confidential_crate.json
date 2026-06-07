@@ -1,0 +1,33 @@
+{
+    "id": 92919397,
+    "name": "Confidential Crate",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "25 Seconds",
+    "tag": "Remake ・ Short",
+    "verification": "https://www.youtube.com/watch?v=RGyIZinduUg",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/FTlI_hmt5kE?si=vABVbGlK6aqEHFmL",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/ljrE-e5SoNs?si=zWmjhfQTCVD1_UjV&t=212",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/QTZymZpD3Gw?si=5cq1QHaSgPQOA7Zx&t=25",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

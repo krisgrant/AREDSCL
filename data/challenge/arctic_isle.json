@@ -1,0 +1,99 @@
+{
+    "id": 94957195,
+    "name": "Arctic Isle",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "tag": "Reupload ・ Former #1",
+    "skillset": "Wave",
+    "length": "7 Seconds",
+    "verification": "https://www.youtube.com/watch?v=veI9d2exBlo",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Tai0",
+            "link": "https://youtu.be/BDAc8QS7pv0?si=qVLXVuipwQSlVB7y&t=220",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "SkeletalVirus",
+            "link": "https://youtu.be/b0BSZJwx5IY?si=nWL7CrCZzjlJizRU&t=1065",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Aidan",
+            "link": "https://www.youtube.com/watch?v=LfzTkPqo_Qk",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/bn2KljGri5A?feature=shared&t=107",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Recken",
+            "link": "https://youtu.be/MoMGjzRGSJ0?feature=shared",
+            "percent": 100,
+            "hz": "280"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/Pi3pqfX40zM?feature=shared",
+            "percent": 100,
+            "hz": "480"
+        },
+        {
+            "user": "ZachGMD",
+            "link": "https://youtu.be/GzQUgMZiH1E?si=reqegTHE15iO4XFk",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "BPanda208",
+            "link": "https://youtu.be/dWGIoNQ5qk8?si=Y4GX_8_sbZDZ1RiX",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "NatNat",
+            "link": "https://youtu.be/wJHR78Ig5PE?feature=shared",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Sive",
+            "link": "https://youtu.be/h-4xv8nJsZM?si=TLFQIp6nUKVwdh80d",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Zehcrw",
+            "link": "https://youtu.be/sySdu3qISsw?si=V_yzIWXjKBirYkQQ",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/NDASb7D2HX4",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/dKY7bZDwOdY?si=5glsWzyktHHjIaI7",
+            "percent": 100,
+            "hz": "240"
+        },
+       {
+            "user": "Xaldz",
+            "link": "https://youtu.be/Z-4q7UQZPow?si=lh-4LYVascYcBrDg",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

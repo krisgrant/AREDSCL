@@ -1,22 +1,26 @@
 import { round, score } from "./score.js";
+import { store } from "./main.js";
 
 /**
  * Get current data directory safely
- * Defaults to "/data" so NOTHING breaks
  */
-function getDir() {
-    return "/data";
+function getDir(mode = store.mode || "challenge") {
+    return `/data/${mode}`;
 }
 
 /**
  * Safe list loader
- * (NO folder switching yet — keeps site stable)
  */
-export async function fetchList() {
-    const dir = getDir();
+export async function fetchList(mode = store.mode || "challenge") {
+    const dir = getDir(mode);
 
     const listResult = await fetch(`${dir}/_list.json`);
     const packResult = await fetch(`${dir}/_packlist.json`);
+
+    if (!listResult.ok || !packResult.ok) {
+        console.error("Missing list or pack files for mode:", mode);
+        return null;
+    }
 
     try {
         const list = await listResult.json();
@@ -52,13 +56,17 @@ export async function fetchList() {
             })
         );
     } catch {
-        console.error(`Failed to load list.`);
+        console.error("Failed to load list.");
         return null;
     }
 }
 
+/**
+ * Editors
+ */
 export async function fetchEditors() {
-    const dir = getDir();
+    const mode = store.mode || "challenge";
+    const dir = getDir(mode);
 
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
@@ -68,11 +76,19 @@ export async function fetchEditors() {
     }
 }
 
+/**
+ * Leaderboard
+ */
 export async function fetchLeaderboard() {
-    const dir = getDir();
+    const mode = store.mode || "challenge";
+    const dir = getDir(mode);
 
-    const list = await fetchList();
-    const packResult = await (await fetch(`${dir}/_packlist.json`)).json();
+    const list = await fetchList(mode);
+    if (!list) return [[], ["Failed to load list"]];
+
+    const packResult = await fetch(`${dir}/_packlist.json`).then((r) =>
+        r.json()
+    );
 
     const scoreMap = {};
     const errs = [];
@@ -190,8 +206,12 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }
 
+/**
+ * Packs
+ */
 export async function fetchPacks() {
-    const dir = getDir();
+    const mode = store.mode || "challenge";
+    const dir = getDir(mode);
 
     try {
         const packResult = await fetch(`${dir}/_packlist.json`);
@@ -201,13 +221,19 @@ export async function fetchPacks() {
     }
 }
 
+/**
+ * Pack levels
+ */
 export async function fetchPackLevels(packname) {
-    const dir = getDir();
+    const mode = store.mode || "challenge";
+    const dir = getDir(mode);
 
     const packResult = await fetch(`${dir}/_packlist.json`);
     const packsList = await packResult.json();
 
     const selectedPack = packsList.find((pack) => pack.name == packname);
+
+    if (!selectedPack) return null;
 
     try {
         return await Promise.all(
@@ -224,7 +250,7 @@ export async function fetchPackLevels(packname) {
             })
         );
     } catch (e) {
-        console.error(`Failed to load packs.`, e);
+        console.error("Failed to load packs.", e);
         return null;
     }
 }

@@ -1,0 +1,32 @@
+{
+    "id": 77208717,
+    "name": "Alitu",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Spider",
+    "length": "5 Seconds",
+    "verification": "https://www.youtube.com/watch?v=zuHYFbftwsM",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/Jl8bN2RvY6o?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "isaac",
+            "link": "https://youtu.be/65fanWOdbFE?feature=shared",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/3d1Sz_69DtE?si=PtBGSTU_V6uR1nXP",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+  }

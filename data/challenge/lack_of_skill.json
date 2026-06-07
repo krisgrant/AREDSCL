@@ -1,0 +1,32 @@
+{
+    "id": 95712766,
+    "name": "lack of skill",
+    "author": "SMango23",
+    "creators": ["SMango23"],
+    "verifier": "SMango23",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "20 Seconds",
+    "verification": "https://www.youtube.com/watch?v=6x90PDjURYA",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=aGtrk-H09_Q",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/SCX3a-F9vrI?si=YNWmItYps_mwEo-Z",
+            "percent": 100,
+            "hz": "240"
+        },       
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/EHjgr5Pvc2s",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

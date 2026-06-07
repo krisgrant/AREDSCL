@@ -1,0 +1,62 @@
+{
+    "id": 92508364,
+    "name": "edde277 Challenge",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "length": "13 Seconds",
+    "verification": "https://www.youtube.com/watch?v=nEdHgejCaj0",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/7V0DSdfhUNo",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Slemy",
+            "link": "https://youtu.be/l87MhUabiuo?feature=shared",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "fishygobbler",
+            "link": "https://youtu.be/Ym7jTRkARwE",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "pandaman1297832",
+            "link": "https://youtu.be/40UNW8yete0?si=kzwO8NIccoCmesP6&t=152",
+            "percent": 100,
+            "hz": "260"
+        },
+        {
+            "user": "KeikoGD",
+            "link": "https://youtu.be/Gp22kuwPYn8?si=oIEFtW5QFG90t3HG&t=195",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Crispiestcrunch",
+            "link": "https://youtu.be/7Kis05hiZzY?si=pPk2Fw9-Ouyn3VWw",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "jambled",
+            "link": "https://www.youtube.com/watch?v=_zX4UQl0zaU",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "diewise",
+            "link": "https://medal.tv/games/geometry-dash/clips/mJRGOZrlXQW4CU4aa?invite=cr-MSx2SEksNTQ4MTcxMzc1&v=17",
+            "percent": 100,
+            "hz": "480"
+        }
+    ]
+}

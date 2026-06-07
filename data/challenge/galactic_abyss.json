@@ -1,0 +1,27 @@
+{
+    "id": 77522970,
+    "name": "Galactic Abyss",
+    "author": "KrisYa",
+    "creators": "KrisYa",
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "tag": "Short",
+    "skillset": "Wave",
+    "length": "30 Seconds",
+    "verification": "https://www.youtube.com/watch?v=aLaHSV1UMwc",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/jY_MkFesqoc?si=bXVx1RKkaNRuQowv",
+            "percent": 100,
+            "hz": "120"
+        },
+        {
+            "user": "ItzZapster",
+            "link": "https://youtu.be/RveGn2rLUC8?si=J3HnqYig2dhhxGHC",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

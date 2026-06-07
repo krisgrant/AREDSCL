@@ -1,0 +1,45 @@
+{
+    "id": 92738863,
+    "name": "Ractavles",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "4 Seconds",
+    "tag": "",
+    "verification": "https://www.youtube.com/watch?v=tqCzzXw2wuU",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/H9HQG_dolRw?si=JUOD6d8K3Gl6kDEe",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/qdHlCVadjqI?si=5DM_8S55lTOnJhLd&t=66",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "PoweredByTexans",
+            "link": "https://youtu.be/tRe_Y79Qld0",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "YuGeeMaGoo",
+            "link": "https://youtu.be/YsUBtpjTF8I",
+            "percent": 100,
+            "hz": "480"
+        },
+        {
+            "user": "jemi",
+            "link": "https://youtube.com/shorts/Kj8LpgNPUdE?si=ACBtUPyxBHG_Seuo",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

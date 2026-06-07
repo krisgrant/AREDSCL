@@ -1,0 +1,27 @@
+{
+    "id": 102213761,
+    "name": "I LOVE CYCLES",
+    "author": "Bisemy",
+    "creators": ["Bisemy"],
+    "verifier": "Bisemy",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings",
+    "length": "19 Seconds",
+    "tag": "Reupload",
+    "verification": "https://youtu.be/eHCcEHsN9UE?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/avrvtiuMu5w?si=XOq_713UjYc6nKob",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "TSpenguin",
+            "link": "https://youtu.be/dSQEOHuiYa8?si=vfPCYQS69LD7RVGP",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

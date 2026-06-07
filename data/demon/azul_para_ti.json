@@ -1,0 +1,27 @@
+{
+    "id": 105496334,
+    "name": "Azul Para Ti",
+    "author": "Rave",
+    "creators": "Rave",
+    "verifier": "Rave",
+    "difficulty": "Extreme Demon",
+    "tag": "Short",
+    "skillset": "Ship & Awkward Gameplay",
+    "length": "40 Seconds",
+    "verification": "https://youtu.be/s5Elvk4bE10?si=cwtyaZQ4V4UrBr1_",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/0ViKemCL3C8",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/NdlgYGF-L0A?si=32wca9RlLUv2OXcz",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 92926876,
+    "name": "Dual Busting",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Duals",
+    "length": "6 Seconds",
+    "tag": "Remake ・ Former #1",
+    "verification": "https://youtu.be/JLPXWjoF_BM?si=3wQr9pZHk_NVJbwF",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "LoB",
+            "link": "https://youtube.com/watch?v=Os1oFoMg4Ko?si=j1-I0Z-o4RZlvJtU",
+            "percent": 100,
+            "hz": "300"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/2OYGNrO3Xxc?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

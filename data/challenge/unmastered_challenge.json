@@ -1,0 +1,45 @@
+{
+    "id": 95383051,
+    "name": "unmastered challenge",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Overall",
+    "length": "22 Seconds",
+    "tag": "Remake",
+    "verification": "https://www.youtube.com/watch?v=r-S4P8Dz-AQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=d4uCfPlbHp4",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/pHFtvJYiIoM?feature=shared&t=28",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Recken",
+            "link": "https://youtu.be/HrWH8VEHba4",
+            "percent": 100,
+            "hz": "280"
+        },
+        {
+            "user": "TSpenguin",
+            "link": "https://youtu.be/gYYHE7gcGLQ?si=uDmvVcILOnFP3HMw",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Murshark",
+            "link": "https://youtu.be/5IYOcGD0KTU",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

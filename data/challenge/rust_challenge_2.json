@@ -1,0 +1,39 @@
+{
+    "id": 103081585,
+    "name": "RUST challenge 2",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings & Double Clicks",
+    "length": "18 Seconds",
+    "tag": "Short",
+    "verification": "https://youtu.be/zmGcTd8X-88?si=OPy6ABpmjL6rFd9o",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/zriOPSi1EnA?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "Sive",
+            "link": "https://youtu.be/_-u2qzziZJo?si=GJHh3NEhi5WJeEBT",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "TSpenguin",
+            "link": "https://youtu.be/69BolJHuRE0?si=WtqQqHqS2nygliSp&t=14",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/TX-g8p6qpxw?si=CwrHDv4152A1CviO",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
