@@ -3,7 +3,7 @@ import routes from './routes.js';
 export const store = Vue.reactive({
     dark: JSON.parse(localStorage.getItem('dark')) || false,
 
-    // 🔥 NEW: list mode (challenge / demon)
+    // list mode
     mode: localStorage.getItem('mode') || 'challenge',
 
     setMode(mode) {
@@ -26,6 +26,16 @@ const router = VueRouter.createRouter({
     routes,
 });
 
-app.use(router);
+/**
+ * 🔥 KEEP STORE IN SYNC WITH ROUTES
+ */
+router.afterEach((to) => {
+    if (to.path.startsWith('/demons')) {
+        store.setMode('demon');
+    } else {
+        store.setMode('challenge');
+    }
+});
 
+app.use(router);
 app.mount('#app');
