@@ -1,0 +1,21 @@
+{
+    "id": 105792786,
+    "name": "wave challenge 9",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "tag": "Reupload ・ Former #1",
+    "skillset": "Wave",
+    "length": "13 Seconds",
+    "verification": "https://youtu.be/C4DPmC1TkDg?si=WkWIvsgG7om09mJC",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/smHRRbAizeo",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

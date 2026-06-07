@@ -1,0 +1,21 @@
+{
+    "id": 91904450,
+    "name": "KrisYa Challenge 1",
+    "author": "KrisYa",
+    "creators": "KrisYa",
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Ship",
+    "length": "8 Seconds",
+    "tag": "",
+    "verification": "https://www.youtube.com/watch?v=ib2OjEPpAtQ",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/FTlI_hmt5kE?si=6v6whtq17K_DQDcs&t=30",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

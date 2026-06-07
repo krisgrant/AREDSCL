@@ -1,0 +1,21 @@
+{
+    "id": 102210491,
+    "name": "Killaringdom Kingdom",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Ship",
+    "length": "35 Seconds",
+    "tag": "",
+    "verification": "https://youtu.be/BZb1DPWben0?si=vQd55XnpyHgorcqT",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/VcbR8rgyg9Q?feature=shared&t=352",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+}

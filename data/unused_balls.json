@@ -1,0 +1,32 @@
+{
+    "id": 86959931,
+    "name": "Unused Balls",
+    "author": "JannisTE",
+    "creators": ["JannisTE"],
+    "verifier": "JannisTE",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "26 Seconds",
+    "verification": "https://youtu.be/ucZpnk-6448?feature=shared",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/F2wTaK1f9I0?si=QJ_OnhYyix4d4MpO",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/djEw7yRFh7A?si=bfIaTcEn0tAa6BVX",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/eyDyUkvm4kg?si=J8EsgOAgYrs91bY7",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

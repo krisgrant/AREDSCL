@@ -1,0 +1,20 @@
+{
+    "id": 77138953,
+    "name": "Conical Azure",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "14 Seconds",
+    "verification": "https://www.youtube.com/watch?v=C6w93O1ab9Y",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/eZ2w-Im3-JQ?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+}

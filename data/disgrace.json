@@ -1,0 +1,45 @@
+{
+    "id": 78583277,
+    "name": "Disgrace",
+    "author": "LoB",
+    "creators": ["LoB"],
+    "verifier": "LoB",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "16 Seconds",
+    "tag": "Remake",
+    "verification": "https://www.youtube.com/watch?v=Dj_tjqAFE78",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=hdTOANJje3g",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "SMango23",
+            "link": "https://www.youtube.com/watch?v=HF0NXIjF0U0",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Cyphenex",
+            "link": "https://youtu.be/jP7VkJ7elmU?feature=shared",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/kH6pKapvYZw?si=F1O4p5OJ__ctOljd",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "PoweredByTexans",
+            "link": "https://youtu.be/u4F_FiTKoek",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

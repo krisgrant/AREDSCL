@@ -1,0 +1,20 @@
+{
+    "id": 93200727,
+    "name": "Orraco",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "12 Seconds",
+    "verification": "https://www.youtube.com/watch?v=IgTM0_AfSyg",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "suupre",
+            "link": "https://youtu.be/2ps7zSlpJ7A?feature=shared",
+            "percent": 100,
+            "hz": "188"
+        }
+    ]
+}

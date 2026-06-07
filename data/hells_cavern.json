@@ -1,0 +1,33 @@
+{
+    "id": 95095882,
+    "name": "Hells Cavern",
+    "author": "KrisYa",
+    "creators": "KrisYa",
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Ship",
+    "length": "7 Seconds",
+    "tag": "Nine Circles ・ Remake ・ Reupload",
+    "verification": "https://www.youtube.com/watch?v=qYl19431qp0",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "TheAmazingKam",
+            "link": "https://www.youtube.com/watch?v=SDjMOhRXpPE",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Jabbbbb",
+            "link": "https://youtu.be/zmBUeJhNyZ4?feature=shared",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "TSpenguin",
+            "link": "https://youtu.be/YV1YqFjPoTg",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}

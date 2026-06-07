@@ -1,0 +1,44 @@
+{
+    "id": 76492723,
+    "name": "Interuption",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave",
+    "length": "11 Seconds",
+    "verification": "https://www.youtube.com/watch?v=jCb_Fh7AHuY",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "[DMO] C2quared",
+            "link": "https://youtu.be/-21JJ0fAjuY",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Captainbirrk",
+            "link": "https://youtu.be/-UesPKEksrU?feature=shared",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "isaac",
+            "link": "https://www.youtube.com/watch?v=8wL6UzReDsc",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/5PBrEqT1mMk",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "diewise",
+            "link": "https://medal.tv/games/geometry-dash/clips/mJSof38OSUesUKpvT?invite=cr-MSwySGYsNTQ4MTcxMzc1&v=12",
+            "percent": 100,
+            "hz": "480"
+        }
+    ]
+}

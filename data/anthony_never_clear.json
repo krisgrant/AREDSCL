@@ -1,0 +1,32 @@
+{
+    "id": 94907062,
+    "name": "Anthony Never Clear",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Ship",
+    "length": "9 Seconds",
+    "verification": "https://www.youtube.com/watch?v=RUshJMSaj8s",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "LoB",
+            "link": "https://youtu.be/6qW9cFSqkyE",
+            "percent": 100,
+            "hz": "300"
+        },
+        {
+            "user": "isaac",
+            "link": "https://youtu.be/alM9ub0foaM?feature=shared",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "owrnp",
+            "link": "https://youtu.be/-lfRqq2tkLE",
+            "percent": 100,
+            "hz": "60"
+        }
+    ]
+  }
