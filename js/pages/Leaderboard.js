@@ -167,12 +167,8 @@ export default {
     `,
 
     async mounted() {
-        // 🔥 detect route (THIS is the important part)
-        const path = window.location.hash;
-
-        this.mode = path.includes("/demons")
-            ? "demon"
-            : "challenge";
+        // ✅ FIX: use route meta (NOT window.location)
+        this.mode = this.$route?.meta?.list || "challenge";
 
         const [leaderboard, err] = await fetchLeaderboard(this.mode);
 
