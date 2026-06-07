@@ -103,7 +103,7 @@ export default {
                     <div class="dark-bg">
                     <h2>Changelog:</h2>
                     <br>
-                    <p class="extended">June 6th 2026</p>
+                    <p class="extended">June 7th 2026</p>
                     <br><br>
                     <p><button class="btn-no-cover" @click="selected = 37">Ship challenge 4 has been removed (Formerly at #38). This change pushes KrisYas Bad Time back into the Extended List. This change is due to the approved removal of over 50% of server admins.
                     </div>
