@@ -151,7 +151,7 @@ export default {
         },
     },
     async mounted() {
-        this.list = await fetchList();
+        this.list = await fetchList(this.$route.meta?.list || "challenge");
         this.editors = await fetchEditors();
 
         // Error handling
