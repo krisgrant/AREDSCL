@@ -8,13 +8,15 @@ function getDir() {
     return "/data";
 }
 
-export async function fetchList(mode = "challenge") {
+/**
+ * Safe list loader
+ * (NO folder switching yet — keeps site stable)
+ */
+export async function fetchList() {
     const dir = getDir();
 
-const base = `${dir}/${mode}`;
-
-const listResult = await fetch(`${base}/_list.json`);
-const packResult = await fetch(`${base}/_packlist.json`);
+    const listResult = await fetch(`${dir}/_list.json`);
+    const packResult = await fetch(`${dir}/_packlist.json`);
 
     try {
         const list = await listResult.json();
@@ -22,7 +24,7 @@ const packResult = await fetch(`${base}/_packlist.json`);
 
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${base}/${path}.json`);
+                const levelResult = await fetch(`${dir}/${path}.json`);
 
                 try {
                     const level = await levelResult.json();
@@ -60,8 +62,7 @@ export async function fetchEditors() {
 
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
+        return await editorsResults.json();
     } catch {
         return null;
     }
