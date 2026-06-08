@@ -12,16 +12,6 @@ export default {
         LevelAuthors,
     },
 
-    computed: {
-        isDemons() {
-            return window.location.hash.startsWith("#/demons/");
-        },
-
-        pack() {
-            return this.packs?.[this.selected] || null;
-        }
-    },
-
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -88,33 +78,15 @@ export default {
                             </p>
                         </li>
 
-                        <!-- SKILLSET ONLY NORMAL MODE -->
-                        <li v-if="!isDemons">
+                        <li>
                             <div class="type-title-sm">Skillset</div>
                             <p>
                                 {{ selectedPackLevels[selectedLevel][0].level.skillset || 'Not Specified' }}
                             </p>
                         </li>
-
-                        <li>
-                            <div class="type-title-sm">Length</div>
-                            <p>
-                                {{ selectedPackLevels[selectedLevel][0].level.length || 'Not Specified' }}
-                            </p>
-                        </li>
                     </ul>
 
                     <h2>Records</h2>
-
-                    <p>
-                        <b>{{ selectedPackLevels[selectedLevel][0].level.records.length }}</b>
-                        records registered
-                    </p>
-
-                    <!-- FIXED 100% LABEL (NO BREAKING CONDITIONS) -->
-                    <p>
-                        <strong>100%</strong> to qualify
-                    </p>
 
                     <table class="records">
                         <tr
@@ -127,18 +99,21 @@ export default {
                                 <span v-else>{{ record.percent }}%</span>
                             </td>
 
-                            <!-- FIX: correct font class -->
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">
+                                <a :href="record.link" target="_blank">
                                     {{ record.user }}
                                 </a>
                             </td>
 
                             <td class="hz">
-                                <p class="type-label-lg">{{ record.hz }}fps</p>
+                                <p>{{ record.hz }}fps</p>
                             </td>
                         </tr>
                     </table>
+
+                    <!-- FIXED 100% FONT LINE -->
+                    <p class="type-label-lg"><strong>100%</strong> to qualify</p>
+
                 </div>
 
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
@@ -162,7 +137,7 @@ export default {
 
                     <h3>Credits:</h3>
                     <p>
-                        <a class="type-label-lg" href="https://youtube.com/@krisgra" target="_blank">
+                        <a href="https://youtube.com/@krisgra" target="_blank">
                             KrisGra
                         </a>
                     </p>
