@@ -219,8 +219,8 @@ export default {
             },
             demons: {
                 top: 0,
-                extended: 25,
-                legacy: 50,
+                extended: 50,
+                legacy: 100,
                 changelogJump: 0
             }
         }
