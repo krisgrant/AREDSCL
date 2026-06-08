@@ -25,6 +25,11 @@ export default {
 
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
+        },
+
+        // ✅ IMPORTANT FIX: single source of truth for scoring mode
+        scoreMode() {
+            return this.isDemons ? "demons" : "normal";
         }
     },
 
@@ -48,24 +53,23 @@ export default {
             }
         },
 
-        // FIX: pack bonus must respect mode (THIS was your bug)
+        // ✅ FIXED: pack bonus now uses SAME MODE as scoring
         getPackBonus(entry) {
             if (!entry) return 0;
 
-            // if backend already sends correct value, use it
             if (typeof entry.packBonus === "number") {
                 return entry.packBonus;
             }
 
-            // fallback: if old system stores pack multipliers
             if (!entry.packs?.length) return 0;
 
             let bonus = 0;
 
             for (const pack of entry.packs) {
-                const value = this.isDemons
-                    ? (pack.demonBonus ?? pack.bonus ?? 0)
-                    : (pack.bonus ?? 0);
+                const value =
+                    this.scoreMode === "demons"
+                        ? (pack.demonBonus ?? pack.bonus ?? 0)
+                        : (pack.bonus ?? 0);
 
                 bonus += Number(value) || 0;
             }
@@ -84,7 +88,7 @@ export default {
 
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Leaderboard may be incorrect: {{ err.join(', ') }}
                     </p>
                 </div>
 
@@ -98,7 +102,7 @@ export default {
                                 </p>
                             </td>
 
-                            <td class="user" :class="{ 'active': selected == i }">
+                            <td class="user" :class="{ active: selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
@@ -122,7 +126,7 @@ export default {
 
                         <h3><b>{{ entry.total }}</b></h3>
 
-                        <!-- FIXED: pack bonus now mode-aware -->
+                        <!-- FIXED: now uses correct mode indirectly -->
                         <p>Pack Bonus: {{ getPackBonus(entry) }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
