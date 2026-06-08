@@ -18,717 +18,124 @@
             "worse_trip"
         ],
         "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
+    },    {
+        "name": "Horizon Fracture",
+        "levels": ["edge_of_the_world","cosmic_cyclone","sunset_sandstorm","fog","storming_summit"],
+        "colour": "#4da6ff"
     },
-
-    {   
-        "name": "Cosmic Control",
-        "levels": [
-            "cosmic_cyclone",
-            "edge_of_the_world",
-            "shardscapes",
-            "erebus",
-            "quantum_processing"
-        ],
-        "colour": "#6a00ff"
-    },
-
-    {   
-        "name": "Bloodline",
-        "levels": [
-            "bloodlust",
-            "congregation",
-            "dolos",
-            "black_blizzard",
-            "devil_vortex"
-        ],
-        "colour": "#b30000"
-    },
-
-    {   
-        "name": "Frozen Core",
-        "levels": [
-            "frozen_cave",
-            "snowfall_fiesta",
-            "storming_summit",
-            "fog",
-            "sunset_sandstorm"
-        ],
-        "colour": "#00c3ff"
-    },
-
-    {   
-        "name": "Cyber Circuit",
-        "levels": [
-            "cybernetic_crescent",
-            "artificial_ascent",
-            "killbot",
-            "generic_wave",
-            "xo"
-        ],
+    {
+        "name": "Neon Collapse",
+        "levels": ["cybernetic_crescent","generic_wave","xo","rate_demon","sonic_wave"],
         "colour": "#00ffcc"
     },
-
-    {   
-        "name": "Judgement Call",
-        "levels": [
-            "judgement_knights",
-            "devotion",
-            "cognition",
-            "adomania",
-            "goober_rage_stage"
-        ],
-        "colour": "#ffd000"
-    },
-
-    {   
-        "name": "Wave Collapse",
-        "levels": [
-            "sonic_wave",
-            "sonic_wave_rebirth",
-            "rate_demon",
-            "auditory_breaker",
-            "generic_wave"
-        ],
-        "colour": "#ff4dff"
-    },
-
-    {   
-        "name": "Hell Corridor",
-        "levels": [
-            "atomic_cannon",
-            "black_flag",
-            "zaphkiel",
-            "air_fryer",
-            "edge_of_the_world"
-        ],
-        "colour": "#ff2a00"
-    },
-
-    {   
-        "name": "Digital Abyss",
-        "levels": [
-            "turn_the_lights_off",
-            "belloq",
-            "erebus",
-            "dolos",
-            "fog"
-        ],
-        "colour": "#1a1a1a"
-    },
-
-    {   
-        "name": "Crystal Haze",
-        "levels": [
-            "chromatic_haze",
-            "shardscapes",
-            "cognition",
-            "fog",
-            "sunset_sandstorm"
-        ],
-        "colour": "#7df9ff"
-    },
-
-    {   
-        "name": "Nature Collapse",
-        "levels": [
-            "storming_summit",
-            "snowfall_fiesta",
-            "fog",
-            "frozen_cave",
-            "sunset_sandstorm"
-        ],
-        "colour": "#7a4a00"
-    },
-
-    {   
-        "name": "Reality Fracture",
-        "levels": [
-            "edge_of_the_world",
-            "cosmic_cyclone",
-            "ouroboros",
-            "quantum_processing",
-            "erebus"
-        ],
-        "colour": "#4b0082"
-    },
-
-    {   
-        "name": "Mechanical Pulse",
-        "levels": [
-            "atomic_cannon",
-            "killbot",
-            "artificial_ascent",
-            "air_fryer",
-            "black_flag"
-        ],
-        "colour": "#ff8800"
-    },
-
-    {   
-        "name": "Final Descent",
-        "levels": [
-            "rate_demon",
-            "xo",
-            "dolos",
-            "black_blizzard",
-            "devil_vortex"
-        ],
-        "colour": "#ffffff"
-    },
-
-    {   
-        "name": "Neon Collapse",
-        "levels": [
-            "cybernetic_crescent",
-            "quantum_processing",
-            "generic_wave",
-            "killbot",
-            "artificial_ascent"
-        ],
-        "colour": "#00ff88"
-    },
-
-    {   
-        "name": "Storm Protocol",
-        "levels": [
-            "storming_summit",
-            "snowfall_fiesta",
-            "frozen_cave",
-            "fog",
-            "sunset_sandstorm"
-        ],
-        "colour": "#66ccff"
-    },
-
-    {   
-        "name": "Void Walker",
-        "levels": [
-            "edge_of_the_world",
-            "ouroboros",
-            "erebus",
-            "dolos",
-            "worse_trip"
-        ],
-        "colour": "#2b2b2b"
-    },
-
-    {   
-        "name": "Signal Loss",
-        "levels": [
-            "turn_the_lights_off",
-            "belloq",
-            "black_flag",
-            "devil_vortex",
-            "zaphkiel"
-        ],
-        "colour": "#444444"
-    },
-
-    {   
-        "name": "Wave Engine",
-        "levels": [
-            "sonic_wave",
-            "sonic_wave_rebirth",
-            "rate_demon",
-            "auditory_breaker",
-            "generic_wave"
-        ],
-        "colour": "#ff66ff"
-    },
-
-    {   
-        "name": "Labyrinth Core",
-        "levels": [
-            "shardscapes",
-            "cognition",
-            "coalescence",
-            "rust",
-            "thinking_space"
-        ],
-        "colour": "#9999ff"
-    },
-
-    {   
-        "name": "Blood Circuit",
-        "levels": [
-            "bloodlust",
-            "congregation",
-            "atomic_cannon",
-            "black_blizzard",
-            "dolos"
-        ],
-        "colour": "#cc0000"
-    },
-
-    {   
-        "name": "Celestial Drift",
-        "levels": [
-            "cosmic_cyclone",
-            "edge_of_the_world",
-            "sunset_sandstorm",
-            "fog",
-            "rust"
-        ],
-        "colour": "#88ccff"
-    },
-
-    {   
-        "name": "Judgement Rift",
-        "levels": [
-            "judgement_knights",
-            "devotion",
-            "adomania",
-            "cognition",
-            "thinking_space"
-        ],
-        "colour": "#ffcc00"
-    },
-
-    {   
-        "name": "Frozen Signal",
-        "levels": [
-            "frozen_cave",
-            "snowfall_fiesta",
-            "worse_trip",
-            "fog",
-            "shardscapes"
-        ],
-        "colour": "#00bcd4"
-    },
-
-    {   
-        "name": "Infernal Path",
-        "levels": [
-            "atomic_cannon",
-            "air_fryer",
-            "black_flag",
-            "zaphkiel",
-            "killbot"
-        ],
-        "colour": "#ff3300"
-    },
-
-    {   
-        "name": "Echo Chamber",
-        "levels": [
-            "generic_wave",
-            "auditory_breaker",
-            "sonic_wave",
-            "rate_demon",
-            "xo"
-        ],
-        "colour": "#ff99ff"
-    },
-
-    {   
-        "name": "Entropy Zone",
-        "levels": [
-            "devil_vortex",
-            "dolos",
-            "black_blizzard",
-            "erebus",
-            "ouroboros"
-        ],
-        "colour": "#666666"
-    },
-
-    {   
-        "name": "Final Orbit",
-        "levels": [
-            "cosmic_cyclone",
-            "edge_of_the_world",
-            "quantum_processing",
-            "shardscapes",
-            "rust"
-        ],
-        "colour": "#ffffff"
-    },
-
-    {   
-        "name": "Core Collapse",
-        "levels": [
-            "coalescence",
-            "cognition",
-            "thinking_space",
-            "rust",
-            "shardscapes"
-        ],
-        "colour": "#aaaaaa"
-    },    
     {
-        "name": "Genesis Collapse",
-        "levels": ["walter_white","zodiac","thinking_space","rust","cognition"],
-        "colour": "#ff4d4d"
+        "name": "Black Archive",
+        "levels": ["turn_the_lights_off","belloq","devil_vortex","dolos","erebus"],
+        "colour": "#1f1f1f"
     },
     {
-        "name": "Static Reverie",
-        "levels": ["coalescence","shardscapes","fog","erebus","dolos"],
-        "colour": "#ff884d"
-    },
-    {
-        "name": "Blood Protocol",
-        "levels": ["bloodlust","congregation","black_blizzard","devil_vortex","rate_demon"],
-        "colour": "#ffcc00"
-    },
-    {
-        "name": "Neon Aftermath",
-        "levels": ["atomic_cannon","killbot","air_fryer","black_flag","zaphkiel"],
-        "colour": "#66ff66"
-    },
-    {
-        "name": "Frozen Horizon",
-        "levels": ["cosmic_cyclone","edge_of_the_world","quantum_processing","sunset_sandstorm","storming_summit"],
-        "colour": "#66ccff"
-    },
-
-    {
-        "name": "Cyber Rupture",
+        "name": "Frozen Static",
         "levels": ["frozen_cave","snowfall_fiesta","fog","worse_trip","wasureta"],
-        "colour": "#00c3ff"
-    },
-    {
-        "name": "Judgement Cycle",
-        "levels": ["cybernetic_crescent","generic_wave","xo","sonic_wave","sonic_wave_rebirth"],
-        "colour": "#ff66ff"
-    },
-    {
-        "name": "Wavebreak Division",
-        "levels": ["judgement_knights","devotion","adomania","cognition","thinking_space"],
-        "colour": "#ffd000"
-    },
-    {
-        "name": "Silent Shutdown",
-        "levels": ["turn_the_lights_off","belloq","erebus","dolos","devil_vortex"],
-        "colour": "#444444"
-    },
-    {
-        "name": "Mechanical Inferno",
-        "levels": ["artificial_ascent","killbot","atomic_cannon","air_fryer","black_flag"],
-        "colour": "#ff3300"
-    },
-
-    {
-        "name": "Stormfront Engine",
-        "levels": ["storming_summit","sunset_sandstorm","fog","frozen_cave","snowfall_fiesta"],
-        "colour": "#0099ff"
-    },
-    {
-        "name": "Crystal Memory",
-        "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
-        "colour": "#9999ff"
-    },
-    {
-        "name": "Identity Fracture",
-        "levels": ["zodiac","walter_white","rust","thinking_space","cognition"],
-        "colour": "#ff0000"
-    },
-    {
-        "name": "Cosmic Drift",
-        "levels": ["cosmic_cyclone","erebus","edge_of_the_world","quantum_processing","dolos"],
-        "colour": "#7a00ff"
-    },
-    {
-        "name": "Resonance Zero",
-        "levels": ["rate_demon","generic_wave","xo","auditory_breaker","sonic_wave"],
-        "colour": "#ff00ff"
-    },
-
-    {
-        "name": "Crimson System",
-        "levels": ["bloodlust","black_blizzard","congregation","devil_vortex","rate_demon"],
-        "colour": "#cc0000"
-    },
-    {
-        "name": "Winter Signal",
-        "levels": ["fog","sunset_sandstorm","storming_summit","frozen_cave","wasureta"],
-        "colour": "#00aaff"
-    },
-    {
-        "name": "Ignition Point",
-        "levels": ["killbot","atomic_cannon","black_flag","air_fryer","zaphkiel"],
-        "colour": "#ff5500"
-    },
-    {
-        "name": "Neural Archive",
-        "levels": ["cognition","thinking_space","shardscapes","rust","coalescence"],
-        "colour": "#bbbbff"
-    },
-    {
-        "name": "Echo Protocol",
-        "levels": ["sonic_wave_rebirth","sonic_wave","xo","generic_wave","rate_demon"],
-        "colour": "#ff77ff"
-    },
-
-    {
-        "name": "Divine Error",
-        "levels": ["judgement_knights","devotion","adomania","cognition","goober_rage_stage"],
-        "colour": "#ffee00"
-    },
-    {
-        "name": "Blackout Chamber",
-        "levels": ["turn_the_lights_off","belloq","devil_vortex","erebus","dolos"],
-        "colour": "#222222"
-    },
-    {
-        "name": "Orbit Decay",
-        "levels": ["edge_of_the_world","cosmic_cyclone","quantum_processing","sunset_sandstorm","storming_summit"],
-        "colour": "#3366ff"
-    },
-    {
-        "name": "Subzero Transmission",
-        "levels": ["snowfall_fiesta","frozen_cave","fog","worse_trip","wasureta"],
-        "colour": "#00ccff"
-    },
-    {
-        "name": "Final Spark",
-        "levels": ["atomic_cannon","air_fryer","killbot","black_flag","zaphkiel"],
-        "colour": "#ff2200"
-    },    {
-        "name": "Entropy Rift",
-        "levels": ["devil_vortex","dolos","erebus","black_blizzard","rate_demon"],
-        "colour": "#555555"
-    },
-    {
-        "name": "Hollow Signal",
-        "levels": ["turn_the_lights_off","belloq","fog","worse_trip","wasureta"],
-        "colour": "#2f2f2f"
-    },
-    {
-        "name": "Astral Breakdown",
-        "levels": ["cosmic_cyclone","edge_of_the_world","quantum_processing","shardscapes","cognition"],
-        "colour": "#6a5cff"
-    },
-    {
-        "name": "Frost Circuit",
-        "levels": ["frozen_cave","snowfall_fiesta","fog","sunset_sandstorm","storming_summit"],
-        "colour": "#00b7ff"
-    },
-    {
-        "name": "Velocity Core",
-        "levels": ["sonic_wave","sonic_wave_rebirth","generic_wave","xo","rate_demon"],
-        "colour": "#ff3df2"
-    },
-
-    {
-        "name": "Iron Judgement",
-        "levels": ["judgement_knights","devotion","adomania","cognition","thinking_space"],
-        "colour": "#ffcc33"
-    },
-    {
-        "name": "Cyber Collapse",
-        "levels": ["cybernetic_crescent","killbot","artificial_ascent","atomic_cannon","air_fryer"],
-        "colour": "#00ffd5"
+        "colour": "#66ccff"
     },
     {
         "name": "Blood Circuit",
-        "levels": ["bloodlust","congregation","black_flag","black_blizzard","devil_vortex"],
-        "colour": "#cc1111"
+        "levels": ["bloodlust","congregation","black_blizzard","devil_vortex","rate_demon"],
+        "colour": "#cc0000"
+    },
+
+    {
+        "name": "Quantum Drift",
+        "levels": ["quantum_processing","cosmic_cyclone","edge_of_the_world","erebus","dolos"],
+        "colour": "#7a33ff"
     },
     {
         "name": "Rust Memory",
         "levels": ["rust","coalescence","shardscapes","thinking_space","cognition"],
-        "colour": "#b0b0b0"
+        "colour": "#999999"
     },
     {
-        "name": "Echo Distortion",
-        "levels": ["auditory_breaker","generic_wave","xo","sonic_wave","rate_demon"],
-        "colour": "#ff66cc"
+        "name": "Wave Collapse",
+        "levels": ["sonic_wave","sonic_wave_rebirth","generic_wave","xo","rate_demon"],
+        "colour": "#ff66ff"
+    },
+    {
+        "name": "Inferno Chain",
+        "levels": ["atomic_cannon","air_fryer","killbot","black_flag","zaphkiel"],
+        "colour": "#ff3300"
+    },
+    {
+        "name": "Signal Void",
+        "levels": ["fog","belloq","turn_the_lights_off","devil_vortex","erebus"],
+        "colour": "#333333"
     },
 
     {
-        "name": "Solar Collapse",
-        "levels": ["sunset_sandstorm","storming_summit","fog","frozen_cave","snowfall_fiesta"],
-        "colour": "#ff9900"
+        "name": "Crystal Echo",
+        "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
+        "colour": "#99ccff"
     },
     {
-        "name": "Void Circuit",
-        "levels": ["edge_of_the_world","erebus","dolos","cosmic_cyclone","quantum_processing"],
-        "colour": "#3300aa"
+        "name": "Storm Protocol",
+        "levels": ["storming_summit","sunset_sandstorm","fog","frozen_cave","snowfall_fiesta"],
+        "colour": "#3399ff"
     },
     {
-        "name": "Glitch Protocol",
-        "levels": ["belloq","turn_the_lights_off","devil_vortex","fog","worse_trip"],
-        "colour": "#3a3a3a"
+        "name": "Void Resonance",
+        "levels": ["edge_of_the_world","cosmic_cyclone","quantum_processing","erebus","dolos"],
+        "colour": "#330099"
     },
     {
-        "name": "Titan Engine",
-        "levels": ["atomic_cannon","killbot","black_flag","air_fryer","zaphkiel"],
+        "name": "Glitch Chamber",
+        "levels": ["belloq","turn_the_lights_off","fog","devil_vortex","worse_trip"],
+        "colour": "#444444"
+    },
+    {
+        "name": "Titan Ignition",
+        "levels": ["atomic_cannon","air_fryer","killbot","black_flag","zaphkiel"],
         "colour": "#ff6600"
     },
-    {
-        "name": "Neon Drift",
-        "levels": ["cybernetic_crescent","generic_wave","xo","rate_demon","sonic_wave"],
-        "colour": "#00ff99"
-    },
 
+    {
+        "name": "Neural Flux",
+        "levels": ["cybernetic_crescent","generic_wave","xo","sonic_wave","rate_demon"],
+        "colour": "#00ffaa"
+    },
     {
         "name": "Fracture Core",
         "levels": ["coalescence","shardscapes","cognition","rust","thinking_space"],
         "colour": "#8888ff"
     },
     {
-        "name": "Judgement Protocol",
-        "levels": ["judgement_knights","devotion","adomania","goober_rage_stage","cognition"],
-        "colour": "#ffdd00"
-    },
-    {
-        "name": "Black Frost",
-        "levels": ["frozen_cave","snowfall_fiesta","fog","worse_trip","wasureta"],
-        "colour": "#00aaff"
-    },
-    {
-        "name": "Wave Engine",
-        "levels": ["sonic_wave","sonic_wave_rebirth","generic_wave","xo","rate_demon"],
-        "colour": "#ff00cc"
-    },
-    {
-        "name": "Infernal Chain",
-        "levels": ["atomic_cannon","air_fryer","black_flag","killbot","zaphkiel"],
-        "colour": "#ff3300"
-    },
-
-    {
-        "name": "Cosmic Tear",
-        "levels": ["cosmic_cyclone","edge_of_the_world","quantum_processing","erebus","dolos"],
-        "colour": "#7a33ff"
-    },
-    {
-        "name": "Silent Void",
-        "levels": ["turn_the_lights_off","belloq","fog","devil_vortex","erebus"],
-        "colour": "#1c1c1c"
-    },
-    {
-        "name": "Storm Engine",
-        "levels": ["storming_summit","sunset_sandstorm","fog","frozen_cave","snowfall_fiesta"],
-        "colour": "#3399ff"
-    },
-    {
-        "name": "Memory Core",
-        "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
-        "colour": "#aaaaaa"
-    },
-    {
-        "name": "Final Resonance",
-        "levels": ["rate_demon","generic_wave","xo","auditory_breaker","sonic_wave"],
-        "colour": "#ff44ff"
-    },    {
-        "name": "Digital Abyss",
-        "levels": ["turn_the_lights_off","belloq","devil_vortex","erebus","dolos"],
-        "colour": "#222222"
-    },
-    {
-        "name": "Cryo System",
-        "levels": ["frozen_cave","snowfall_fiesta","fog","wasureta","worse_trip"],
-        "colour": "#00c8ff"
-    },
-    {
-        "name": "Neon Collapse",
-        "levels": ["cybernetic_crescent","generic_wave","xo","rate_demon","sonic_wave"],
-        "colour": "#00ffcc"
-    },
-    {
-        "name": "Judgement Engine",
-        "levels": ["judgement_knights","devotion","adomania","cognition","thinking_space"],
-        "colour": "#ffdd33"
-    },
-    {
-        "name": "Black Signal",
-        "levels": ["black_flag","black_blizzard","devil_vortex","air_fryer","killbot"],
-        "colour": "#aa0000"
-    },
-
-    {
-        "name": "Cosmic Drift",
-        "levels": ["cosmic_cyclone","edge_of_the_world","quantum_processing","erebus","dolos"],
-        "colour": "#6633ff"
-    },
-    {
-        "name": "Rust Archive",
-        "levels": ["rust","coalescence","shardscapes","cognition","thinking_space"],
-        "colour": "#999999"
-    },
-    {
-        "name": "Wave Distortion",
-        "levels": ["sonic_wave","sonic_wave_rebirth","generic_wave","xo","rate_demon"],
-        "colour": "#ff66ff"
-    },
-    {
-        "name": "Inferno Core",
-        "levels": ["atomic_cannon","air_fryer","killbot","zaphkiel","black_flag"],
-        "colour": "#ff3300"
-    },
-    {
-        "name": "Silent Collapse",
-        "levels": ["fog","turn_the_lights_off","belloq","devil_vortex","worse_trip"],
-        "colour": "#2b2b2b"
-    },
-
-    {
-        "name": "Crystal Divide",
-        "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
-        "colour": "#99ccff"
-    },
-    {
-        "name": "Storm Cycle",
-        "levels": ["storming_summit","sunset_sandstorm","fog","frozen_cave","snowfall_fiesta"],
-        "colour": "#3399ff"
-    },
-    {
-        "name": "Void Echo",
-        "levels": ["edge_of_the_world","cosmic_cyclone","erebus","dolos","quantum_processing"],
-        "colour": "#330066"
-    },
-    {
-        "name": "Glitch Rift",
-        "levels": ["belloq","turn_the_lights_off","fog","devil_vortex","erebus"],
-        "colour": "#444444"
-    },
-    {
-        "name": "Titan Break",
-        "levels": ["atomic_cannon","killbot","air_fryer","black_flag","zaphkiel"],
-        "colour": "#ff7700"
-    },
-
-    {
-        "name": "Neural Drift",
-        "levels": ["cybernetic_crescent","generic_wave","xo","sonic_wave","rate_demon"],
-        "colour": "#00ffaa"
-    },
-    {
-        "name": "Fracture Loop",
-        "levels": ["coalescence","shardscapes","cognition","rust","thinking_space"],
-        "colour": "#8888ff"
-    },
-    {
-        "name": "Judgement Void",
+        "name": "Judgement Spiral",
         "levels": ["judgement_knights","devotion","adomania","cognition","goober_rage_stage"],
-        "colour": "#ffee44"
+        "colour": "#ffee33"
     },
     {
-        "name": "Frozen Chain",
+        "name": "Frozen Rift",
         "levels": ["frozen_cave","snowfall_fiesta","fog","wasureta","worse_trip"],
         "colour": "#00bfff"
     },
     {
-        "name": "Wave Reactor",
+        "name": "Echo Reactor",
         "levels": ["sonic_wave","sonic_wave_rebirth","generic_wave","xo","rate_demon"],
         "colour": "#ff00dd"
     },
 
     {
-        "name": "Infernal Drift",
+        "name": "Infernal Orbit",
         "levels": ["atomic_cannon","air_fryer","killbot","black_flag","zaphkiel"],
         "colour": "#ff4400"
     },
     {
-        "name": "Cosmic Collapse",
+        "name": "Cosmic Tear",
         "levels": ["cosmic_cyclone","edge_of_the_world","quantum_processing","erebus","dolos"],
         "colour": "#7a22ff"
     },
     {
-        "name": "Silent Engine",
+        "name": "Silent Core",
         "levels": ["turn_the_lights_off","belloq","fog","devil_vortex","erebus"],
-        "colour": "#1a1a1a"
+        "colour": "#111111"
     },
     {
         "name": "Storm Fragment",
@@ -736,9 +143,8 @@
         "colour": "#33aaff"
     },
     {
-        "name": "Memory Rift",
+        "name": "Memory Collapse",
         "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
         "colour": "#bbbbbb"
     }
-
 ]
