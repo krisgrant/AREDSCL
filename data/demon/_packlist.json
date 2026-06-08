@@ -2,104 +2,20 @@
     {   
         "name": "Top 1",
         "levels": [
-            "lack_of_sanity",
-            "shalvantis_isle",
-            "lack_of_skill",
-            "arctic_isle"
+            "walter white",
+            "zodiac",
+            "rust",
+            "thinking_space"
         ],
         "colour": "#e24202"
     },
     {   
-        "name": "djibouti Pack",
+        "name": "EDS Pack",
         "levels": [
-            "the_sapphire",
-            "the_emerald",
-            "the_silver"
+            "wasureta",
+            "chromatic_haze",
+            "worse_trip"
         ],
-        "colour": "linear-gradient(to right, #3238a8 0%, #32ab42 100%)"
-    },
-    {   
-        "name": "Halloween VS. Christmas",
-        "levels": [
-            "guacolian_demolition",
-            "lack_of_skill",
-            "jolly_trueffet",
-            "a_roblox_christmas"
-        ],
-        "colour": "linear-gradient(to right, #b85900 0%, #ff0000 100%)"
-    },
-    {   
-        "name": "Roblox Pack",
-        "levels": [
-            "a_roblox_christmas",
-            "i_hate_roblox",
-            "i_love_roblox"
-        ],
-        "colour": "#ffa6fc"
-    },
-    {   
-        "name": "Cognition Pack",
-        "levels": [
-            "oblivionize",
-            "clocknation",
-            "carnaco"
-        ],
-        "colour": "linear-gradient(to right, #3f2654 0%, #0981c8 100%)"
-    },
-    {   
-        "name": "LOVE Pack",
-        "levels": [
-            "i_love_geo_dominator",
-            "i_love_cycles",
-            "i_love_back_on_track",
-            "i_love_polargeist"
-        ],
-        "colour": "linear-gradient(to right, #fc66ff 0%, #b366ff 100%)"
-    },
-    {   
-        "name": "It's Top 1 Bro I Swear...",
-        "levels": [
-            "krisbadtime",
-            "prismatic_dance",
-            "unmastered_challenge"
-        ],
-        "colour": "#ff0000"
-    },
-    {   
-        "name": "KrisBadTime Pack",
-        "levels": [
-            "krisbadtime",
-            "krisyas_bad_time",
-            "kbt"
-        ],
-        "colour": "#402978"
-    },
-        {   
-        "name": "Good Luck Mate",
-        "levels": [
-            "days_go_by",
-            "arctic_isle",
-            "ractavles"
-        ],
-        "colour": "#750000"
-    },
-    {   
-        "name": "Tupac",
-        "levels": [
-            "guilty_conscience_2",
-            "rust_challenge_2",
-            "dual_busting_ii"
-        ],
-        "colour": "#4d2f15"
-    },
-    {   
-        "name": "XXL Pack",
-        "levels": [
-            "prismatic_dance",
-            "oblivionize",
-            "azul_para_ti",
-            "revenant"
-        ],
-        "colour": "#6240de"
+        "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
     }
 ]
