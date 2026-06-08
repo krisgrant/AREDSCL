@@ -13,46 +13,70 @@ export default {
             required: true,
         },
     },
-    template: `
-        <div class="level-authors">
-            <template v-if="selfVerified">
-                <div class="type-title-sm">Publisher:</div>
-                <p class="type-body">
-                    <span>{{ author }}</span>
-                </p>
-            </template>
-            <template v-else-if="creators.length === 0">
-                <div class="type-title-sm">Publisher:</div>
-                <p class="type-body">
-                    <span>{{ author }}</span>
-                </p>
-                <div class="type-title-sm">Verifier:</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
-            </template>
-            <template v-else>
-            <div class="type-title-sm">Publisher:</div>
-                <p class="type-body">
-                    <span>{{ author }}</span>
-                </p>
-                <div class="type-title-sm">Creators:</div>
-                <p class="type-body">
-                    <template v-for="(creator, index) in creators" :key="\`creator-\$\{creator\}\`">
-                        <span >{{ creator }}</span
-                        ><span v-if="index < creators.length"> </span>
-                    </template>
-                </p>
-                <div class="type-title-sm">Verifier:</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
-            </template>
-    `,
 
     computed: {
         selfVerified() {
             return this.author === this.verifier && this.creators.length === 0;
         },
+
+        isDemons() {
+            return window.location.hash.startsWith("#/demons/");
+        }
     },
+
+    template: `
+        <div class="level-authors">
+
+            <!-- DEMONS MODE: ONLY VERIFIER -->
+            <template v-if="isDemons">
+                <div class="type-title-sm">Verifier:</div>
+                <p class="type-body">
+                    <span>{{ verifier }}</span>
+                </p>
+            </template>
+
+            <!-- NORMAL MODE -->
+            <template v-else>
+                <template v-if="selfVerified">
+                    <div class="type-title-sm">Publisher:</div>
+                    <p class="type-body">
+                        <span>{{ author }}</span>
+                    </p>
+                </template>
+
+                <template v-else-if="creators.length === 0">
+                    <div class="type-title-sm">Publisher:</div>
+                    <p class="type-body">
+                        <span>{{ author }}</span>
+                    </p>
+
+                    <div class="type-title-sm">Verifier:</div>
+                    <p class="type-body">
+                        <span>{{ verifier }}</span>
+                    </p>
+                </template>
+
+                <template v-else>
+                    <div class="type-title-sm">Publisher:</div>
+                    <p class="type-body">
+                        <span>{{ author }}</span>
+                    </p>
+
+                    <div class="type-title-sm">Creators:</div>
+                    <p class="type-body">
+                        <template v-for="(creator, index) in creators" :key="\`creator-\${creator}\`">
+                            <span>{{ creator }}</span>
+                            <span v-if="index < creators.length - 1"> </span>
+                        </template>
+                    </p>
+
+                    <div class="type-title-sm">Verifier:</div>
+                    <p class="type-body">
+                        <span>{{ verifier }}</span>
+                    </p>
+                </template>
+            </template>
+
+        </div>
+    `,
 };
