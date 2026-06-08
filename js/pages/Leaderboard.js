@@ -22,6 +22,10 @@ export default {
         entry() {
             return this.leaderboard[this.selected];
         },
+
+        isDemons() {
+            return window.location.hash.startsWith("#/demons/");
+        }
     },
 
     template: `
@@ -45,6 +49,13 @@ export default {
                                 <p v-if="i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
                                 <p v-else-if="i + 1 === 2" class="type-label-lg top2">#{{ i + 1 }}</p>
                                 <p v-else-if="i + 1 === 3" class="type-label-lg top3">#{{ i + 1 }}</p>
+
+                                <!-- DEMONS MODE RANKING -->
+                                <p v-else-if="isDemons && i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-else-if="isDemons && i + 1 <= 150" class="extended">#{{ i + 1 }}</p>
+                                <p v-else-if="isDemons" class="legacy type-label-lg">#{{ i + 1 }}</p>
+
+                                <!-- NORMAL MODE (UNCHANGED LOGIC) -->
                                 <p v-else-if="ientry.total > 0" class="type-label-lg">#{{ i + 1 }}</p>
                                 <p v-else class="legacy type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -71,14 +82,14 @@ export default {
                     <div class="player">
                         <h1>{{ entry.user }}</h1><p>#{{ selected + 1 }}</p>
 
-                        <h3 v-if="entry.total > 0"><b>{{entry.total}}</b></h3>
+                        <h3 v-if="entry.total > 0"><b>{{ entry.total }}</b></h3>
                         <p>Pack Bonus: {{ entry.packBonus }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
                             <div v-for="pack in entry.packs"
                                  class="tag"
                                  :style="{background:pack.colour}">
-                                {{pack.name}}
+                                {{ pack.name }}
                             </div>
                         </div>
 
@@ -91,7 +102,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                    <p v-if="score.rank <= 25">#{{ score.rank }}</p>
+                                    <p v-if="!isDemons && score.rank <= 25">#{{ score.rank }}</p>
+                                    <p v-else-if="isDemons && score.rank <= 75">#{{ score.rank }}</p>
                                     <p v-else class="extended">#{{ score.rank }}</p>
                                 </td>
 
@@ -116,7 +128,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                    <p v-if="score.rank <= 25">#{{ score.rank }}</p>
+                                    <p v-if="!isDemons && score.rank <= 25">#{{ score.rank }}</p>
+                                    <p v-else-if="isDemons && score.rank <= 75">#{{ score.rank }}</p>
                                     <p v-else class="extended">#{{ score.rank }}</p>
                                 </td>
 
@@ -141,7 +154,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p v-if="score.rank <= 75">#{{ score.rank }}</p>
+                                    <p v-if="!isDemons && score.rank <= 75">#{{ score.rank }}</p>
+                                    <p v-else-if="isDemons && score.rank <= 75">#{{ score.rank }}</p>
                                     <p v-else class="extended">#{{ score.rank }}</p>
                                 </td>
 
@@ -167,7 +181,6 @@ export default {
     `,
 
     async mounted() {
-        // ✅ FIX: use route meta (NOT window.location)
         this.mode = this.$route?.meta?.list || "challenge";
 
         const [leaderboard, err] = await fetchLeaderboard(this.mode);
