@@ -1,5 +1,6 @@
 import { fetchLeaderboard } from '../content.js';
 import { getYoutubeIdFromUrl, localize } from '../util.js';
+import { score } from '../score.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -25,12 +26,17 @@ export default {
 
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
+        },
+
+        scoreMode() {
+            return this.isDemons ? "demons" : "normal";
         }
     },
 
     methods: {
         localize,
         getYoutubeIdFromUrl,
+        score,
 
         getRank(ientry, i) {
             return ientry.rank ?? (i + 1);
@@ -38,14 +44,30 @@ export default {
 
         getRankClass(rank) {
             if (this.isDemons) {
-                if (rank <= 75) return "type-label-lg";        // main
-                if (rank <= 150) return "extended";            // extended
-                return "legacy type-label-lg";                // legacy
+                if (rank <= 75) return "type-label-lg";
+                if (rank <= 150) return "extended";
+                return "legacy type-label-lg";
             } else {
-                if (rank <= 25) return "type-label-lg";        // main
-                if (rank <= 50) return "extended";             // extended
-                return "legacy type-label-lg";                // legacy
+                if (rank <= 25) return "type-label-lg";
+                if (rank <= 50) return "extended";
+                return "legacy type-label-lg";
             }
+        },
+
+        // ✅ FIX: recompute total using correct mode
+        computeTotal(entry) {
+            const mode = this.scoreMode;
+
+            const verified = (entry.verified || [])
+                .reduce((a, s) => a + this.score(s.rank, mode), 0);
+
+            const completed = (entry.completed || [])
+                .reduce((a, s) => a + this.score(s.rank, mode), 0);
+
+            const progressed = (entry.progressed || [])
+                .reduce((a, s) => a + this.score(s.rank, mode), 0);
+
+            return verified + completed + progressed + (entry.packBonus || 0);
         }
     },
 
@@ -59,7 +81,7 @@ export default {
 
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Leaderboard may be incorrect: {{ err.join(', ') }}
                     </p>
                 </div>
 
@@ -73,7 +95,7 @@ export default {
                                 </p>
                             </td>
 
-                            <td class="user" :class="{ 'active': selected == i }">
+                            <td class="user" :class="{ active: selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
@@ -81,7 +103,7 @@ export default {
 
                             <td class="score">
                                 <p class="type-label-lg">
-                                    {{ localize(ientry.total) }}
+                                    {{ localize(computeTotal(ientry)) }}
                                 </p>
                             </td>
 
@@ -95,7 +117,7 @@ export default {
                         <h1>{{ entry.user }}</h1>
                         <p>#{{ getRank(entry, selected) }}</p>
 
-                        <h3><b>{{ entry.total }}</b></h3>
+                        <h3><b>{{ computeTotal(entry) }}</b></h3>
                         <p>Pack Bonus: {{ entry.packBonus }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
@@ -115,23 +137,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="score in entry.verified">
+                            <tr v-for="scoreItem in entry.verified">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(score.rank)">
-                                        #{{ score.rank }}
+                                    <p :class="getRankClass(scoreItem.rank)">
+                                        #{{ scoreItem.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
-                                        {{ score.level }}
+                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
+                                        {{ scoreItem.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
+                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
                                     </p>
                                 </td>
                             </tr>
@@ -142,23 +164,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="score in entry.completed">
+                            <tr v-for="scoreItem in entry.completed">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(score.rank)">
-                                        #{{ score.rank }}
+                                    <p :class="getRankClass(scoreItem.rank)">
+                                        #{{ scoreItem.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
-                                        {{ score.level }}
+                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
+                                        {{ scoreItem.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
+                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
                                     </p>
                                 </td>
                             </tr>
@@ -169,23 +191,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="score in entry.progressed">
+                            <tr v-for="scoreItem in entry.progressed">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(score.rank)">
-                                        #{{ score.rank }}
+                                    <p :class="getRankClass(scoreItem.rank)">
+                                        #{{ scoreItem.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
-                                        {{ score.level }} ({{ score.percent }}%)
+                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
+                                        {{ scoreItem.level }} ({{ scoreItem.percent }}%)
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
+                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
                                     </p>
                                 </td>
                             </tr>
