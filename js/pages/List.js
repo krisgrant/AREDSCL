@@ -19,7 +19,7 @@ export default {
 
     template: `
         <main v-if="loading">
-            <Spinner></Spinner>
+            <Spinner />
         </main>
 
         <main v-else class="page-list">
@@ -33,7 +33,7 @@ export default {
                             <p v-else class="type-label-lg legacy">#{{ i + 1 }}</p>
                         </td>
 
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
+                        <td class="level" :class="{ active: selected == i, error: !level }">
                             <button @click="selected = i">
                                 <span class="type-label-lg">
                                     {{ level?.name || \`Error (\${err}.json)\` }}
@@ -56,7 +56,7 @@ export default {
 
                     <div class="packs" v-if="level.packs.length > 0">
                         <div v-for="pack in level.packs" class="tag" :style="{background:pack.colour}">
-                            <p>{{pack.name}}</p>
+                            <p>{{ pack.name }}</p>
                         </div>
                     </div>
 
@@ -98,7 +98,9 @@ export default {
                             </td>
 
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                <a :href="record.link" target="_blank" class="type-label-lg">
+                                    {{ record.user }}
+                                </a>
                             </td>
 
                             <td class="legacy">
@@ -136,7 +138,7 @@ export default {
                         <p class="extended">June 6th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="selected = nav.changelogJump">
+                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
                             Ship challenge 4 has been removed (Formerly at #38).
                             This change pushes KrisYas Bad Time back into the Extended List.
                             This change is due to the approved removal of over 50% of server admins.
@@ -152,7 +154,7 @@ export default {
                         <p>Your custom demon changelog here.</p>
                     </div>
 
-                    <!-- GUIDELINES (NORMAL ONLY) -->
+                    <!-- GUIDELINES -->
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Guidelines</h2>
                         <br>
@@ -182,12 +184,10 @@ export default {
 
                     <div class="og dark-bg">
                         <p>
-                            All credit goes to
-                            <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>
+                            All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>,
                             whose website this is a replica of.
                             We obtained permission from its owners and have no connection to TSL.
-                            Original List by
-                            <a href="https://me.redlimerl.com/" target="_blank">RedLime</a>
+                            Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a>
                         </p>
                     </div>
 
@@ -219,8 +219,8 @@ export default {
             },
             demons: {
                 top: 0,
-                extended: 50,
-                legacy: 100,
+                extended: 25,
+                legacy: 50,
                 changelogJump: 0
             }
         }
@@ -228,7 +228,8 @@ export default {
 
     computed: {
         level() {
-            return this.list[this.selected][0];
+            if (!this.list?.length) return null;
+            return this.list[this.selected]?.[0] || this.list[0][0];
         },
 
         isDemons() {
@@ -237,6 +238,20 @@ export default {
 
         nav() {
             return this.isDemons ? this.navMap.demons : this.navMap.normal;
+        }
+    },
+
+    methods: {
+        embed,
+        score,
+
+        jumpTo(index) {
+            this.selected = index;
+
+            this.$nextTick(() => {
+                const el = document.querySelector(".level-container");
+                if (el) el.scrollTop = 0;
+            });
         }
     },
 
@@ -261,10 +276,5 @@ export default {
         }
 
         this.loading = false;
-    },
-
-    methods: {
-        embed,
-        score,
     },
 };
