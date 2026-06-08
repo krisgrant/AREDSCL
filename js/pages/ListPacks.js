@@ -167,6 +167,7 @@ export default {
 
     data: () => ({
         list: [],
+        fullList: [],
         packs: [],
         errors: [],
         selected: 0,
@@ -174,8 +175,6 @@ export default {
         selectedPackLevels: [],
         loading: true,
         loadingPack: true,
-
-        fullList: []
     }),
 
     async mounted() {
@@ -188,9 +187,8 @@ export default {
 
         this.fullList = await fetchList(store.mode);
 
-        this.selectedPackLevels = await fetchPackLevels(
-            this.packs[0].name
-        );
+        const levels = await fetchPackLevels(this.packs[0].name);
+        this.selectedPackLevels = this.sortPackLevels(levels);
 
         this.loading = false;
         this.loadingPack = false;
@@ -208,9 +206,8 @@ export default {
                 return;
             }
 
-            this.selectedPackLevels = await fetchPackLevels(
-                this.packs[i].name
-            );
+            const levels = await fetchPackLevels(this.packs[i].name);
+            this.selectedPackLevels = this.sortPackLevels(levels);
 
             this.loadingPack = false;
         },
@@ -218,7 +215,36 @@ export default {
         score,
         embed,
 
-        // ✅ REAL FIX: map pack level → real list position
+        // ==============================
+        // SORT FEATURE
+        // ==============================
+
+        difficultyValue(diff) {
+            const map = {
+                easy: 1,
+                normal: 2,
+                medium: 3,
+                hard: 4,
+                insane: 5,
+                extreme: 6,
+                demon: 7
+            };
+
+            return map[String(diff || "").toLowerCase()] ?? 999;
+        },
+
+        sortPackLevels(levels) {
+            if (!levels) return [];
+
+            return [...levels].sort((a, b) => {
+                const diffA = a?.[0]?.level?.difficulty;
+                const diffB = b?.[0]?.level?.difficulty;
+
+                return this.difficultyValue(diffA) - this.difficultyValue(diffB);
+            });
+        },
+
+        // REAL RANK
         getRealRank(level) {
             if (!this.fullList?.length || !level?.[0]?.level?.name) return "?";
 
