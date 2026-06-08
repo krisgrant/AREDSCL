@@ -88,7 +88,7 @@ export default {
                             </p>
                         </li>
 
-                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
+                        <!-- SKILLSET ONLY NORMAL MODE -->
                         <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>
@@ -106,19 +106,14 @@ export default {
 
                     <h2>Records</h2>
 
-                    <p v-if="selectedPackLevels[selectedLevel][0].level.records.length">
-                        <b>{{ selectedPackLevels[selectedLevel][0].level.records.length }}</b> records registered
+                    <p>
+                        <b>{{ selectedPackLevels[selectedLevel][0].level.records.length }}</b>
+                        records registered
                     </p>
 
-                    <!-- 100% LABEL FIX -->
-                    <p v-if="isDemons">
+                    <!-- FIXED 100% LABEL (NO BREAKING CONDITIONS) -->
+                    <p>
                         <strong>100%</strong> to qualify
-                    </p>
-                    <p v-else-if="selected + 1 <= 150">
-                        <strong>100%</strong> to qualify
-                    </p>
-                    <p v-else>
-                        You may submit a record for this level, but no list points will be awarded.
                     </p>
 
                     <table class="records">
@@ -132,6 +127,7 @@ export default {
                                 <span v-else>{{ record.percent }}%</span>
                             </td>
 
+                            <!-- FIX: correct font class -->
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">
                                     {{ record.user }}
