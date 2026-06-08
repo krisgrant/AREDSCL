@@ -54,7 +54,32 @@ export default {
             }
         },
 
-        // ✅ FIX: recompute total using correct mode
+        computePackBonus(entry) {
+            if (!entry.packs || !entry.packs.length) return 0;
+
+            const mode = this.scoreMode;
+
+            let total = 0;
+
+            for (const pack of entry.packs) {
+                // If packs contain levels with ranks
+                if (pack.levels && Array.isArray(pack.levels)) {
+                    for (const lvl of pack.levels) {
+                        if (lvl.rank) {
+                            total += this.score(lvl.rank, mode);
+                        }
+                    }
+                }
+
+                // fallback static bonus support
+                if (pack.bonus) {
+                    total += pack.bonus;
+                }
+            }
+
+            return total;
+        },
+
         computeTotal(entry) {
             const mode = this.scoreMode;
 
@@ -67,7 +92,7 @@ export default {
             const progressed = (entry.progressed || [])
                 .reduce((a, s) => a + this.score(s.rank, mode), 0);
 
-            return verified + completed + progressed + (entry.packBonus || 0);
+            return verified + completed + progressed + this.computePackBonus(entry);
         }
     },
 
@@ -118,7 +143,8 @@ export default {
                         <p>#{{ getRank(entry, selected) }}</p>
 
                         <h3><b>{{ computeTotal(entry) }}</b></h3>
-                        <p>Pack Bonus: {{ entry.packBonus }}</p>
+
+                        <p>Pack Bonus: {{ computePackBonus(entry) }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
                             <div
