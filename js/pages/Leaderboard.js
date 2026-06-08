@@ -47,18 +47,42 @@ export default {
                         <tr v-for="(ientry, i) in leaderboard">
 
                             <td class="rank">
-                                <!-- DEMONS MODE -->
-                                <p v-if="isDemons && i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
-                                <p v-else-if="isDemons && i + 1 === 2" class="type-label-lg top2">#{{ i + 1 }}</p>
-                                <p v-else-if="isDemons && i + 1 === 3" class="type-label-lg top3">#{{ i + 1 }}</p>
+                                <!-- real rank (fallback safe) -->
+                                <template v-if="isDemons">
+                                    <p v-if="(ientry.rank ?? (i + 1)) === 1" class="type-label-lg top1">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
 
-                                <p v-else-if="isDemons && i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
-                                <p v-else-if="isDemons && i + 1 <= 150" class="extended">#{{ i + 1 }}</p>
-                                <p v-else-if="isDemons" class="legacy type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-else-if="(ientry.rank ?? (i + 1)) === 2" class="type-label-lg top2">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
 
-                                <!-- NON-DEMONS MODE -->
-                                <p v-else-if="i + 1 <= 50" class="type-label-lg">#{{ i + 1 }}</p>
-                                <p v-else class="legacy type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-else-if="(ientry.rank ?? (i + 1)) === 3" class="type-label-lg top3">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+
+                                    <p v-else-if="(ientry.rank ?? (i + 1)) <= 75" class="type-label-lg">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+
+                                    <p v-else-if="(ientry.rank ?? (i + 1)) <= 150" class="extended">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+
+                                    <p v-else class="legacy type-label-lg">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+                                </template>
+
+                                <template v-else>
+                                    <p v-if="(ientry.rank ?? (i + 1)) <= 50" class="type-label-lg">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+
+                                    <p v-else class="legacy type-label-lg">
+                                        #{{ ientry.rank ?? (i + 1) }}
+                                    </p>
+                                </template>
                             </td>
 
                             <td class="user" :class="{ 'active': selected == i }">
@@ -72,14 +96,16 @@ export default {
                                     {{ localize(ientry.total) }}
                                 </p>
                             </td>
+
                         </tr>
                     </table>
                 </div>
 
                 <div class="player-container">
                     <div class="player">
+
                         <h1>{{ entry.user }}</h1>
-                        <p>#{{ selected + 1 }}</p>
+                        <p>#{{ (entry.rank ?? (selected + 1)) }}</p>
 
                         <h3><b>{{ entry.total }}</b></h3>
                         <p>Pack Bonus: {{ entry.packBonus }}</p>
