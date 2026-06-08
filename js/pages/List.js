@@ -27,10 +27,19 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
-                            <p v-else-if="i + 1 <= 25" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else-if="i + 1 > 25 & i + 1 <= 50" class="extended">#{{ i + 1 }}</p>
+
+                            <!-- NORMAL MODE -->
+                            <p v-if="!isDemons && i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
+                            <p v-else-if="!isDemons && i + 1 <= 25" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-else-if="!isDemons && i + 1 > 25 & i + 1 <= 50" class="extended">#{{ i + 1 }}</p>
+                            <p v-else-if="!isDemons" class="type-label-lg legacy">#{{ i + 1 }}</p>
+
+                            <!-- DEMONS MODE -->
+                            <p v-else-if="isDemons && i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
+                            <p v-else-if="isDemons && i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-else-if="isDemons && i + 1 <= 150" class="extended">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg legacy">#{{ i + 1 }}</p>
+
                         </td>
 
                         <td class="level" :class="{ active: selected == i, error: !level }">
@@ -138,7 +147,7 @@ export default {
                         <p class="extended">June 6th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(37)">
+                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
                             Ship challenge 4 has been removed (Formerly at #38).
                             This change pushes KrisYas Bad Time back into the Extended List.
                             This change is due to the approved removal of over 50% of server admins.
@@ -151,7 +160,7 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(37)">
+                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
                             Coalescence has been beaten at #2. This does something
                         </button>
                     </div>
@@ -221,9 +230,9 @@ export default {
             },
             demons: {
                 top: 0,
-                extended: 25,
-                legacy: 50,
-                changelogJump: 0
+                extended: 75,
+                legacy: 150,
+                changelogJump: 37
             }
         }
     }),
