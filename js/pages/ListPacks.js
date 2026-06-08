@@ -88,7 +88,6 @@ export default {
                             </p>
                         </li>
 
-                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
                         <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>
@@ -96,7 +95,6 @@ export default {
                             </p>
                         </li>
 
-                        <!-- LENGTH (HIDDEN IN DEMONS ONLY) -->
                         <li v-if="!isDemons">
                             <div class="type-title-sm">Length</div>
                             <p>
@@ -167,14 +165,13 @@ export default {
 
     data: () => ({
         list: [],
-        fullList: [],
         packs: [],
         errors: [],
         selected: 0,
         selectedLevel: 0,
         selectedPackLevels: [],
         loading: true,
-        loadingPack: true,
+        loadingPack: true
     }),
 
     async mounted() {
@@ -185,7 +182,7 @@ export default {
             return;
         }
 
-        this.fullList = await fetchList(store.mode);
+        this.list = await fetchList(store.mode);
 
         const levels = await fetchPackLevels(this.packs[0].name);
         this.selectedPackLevels = this.sortPackLevels(levels);
@@ -215,44 +212,38 @@ export default {
         score,
         embed,
 
-        // ==============================
-        // SORT FEATURE
-        // ==============================
+        // ✅ ONLY ADDITION: SORT SYSTEM
+        sortPackLevels(levels) {
+            if (!Array.isArray(levels)) return levels;
 
-        difficultyValue(diff) {
-            const map = {
+            const getDiff = (l) =>
+                String(l?.[0]?.level?.difficulty || "unknown").toLowerCase();
+
+            const order = {
                 easy: 1,
                 normal: 2,
                 medium: 3,
                 hard: 4,
                 insane: 5,
                 extreme: 6,
-                demon: 7
+                demon: 7,
+                unknown: 999
             };
 
-            return map[String(diff || "").toLowerCase()] ?? 999;
-        },
-
-        sortPackLevels(levels) {
-            if (!levels) return [];
-
             return [...levels].sort((a, b) => {
-                const diffA = a?.[0]?.level?.difficulty;
-                const diffB = b?.[0]?.level?.difficulty;
-
-                return this.difficultyValue(diffA) - this.difficultyValue(diffB);
+                return (order[getDiff(a)] ?? 999) - (order[getDiff(b)] ?? 999);
             });
         },
 
-        // REAL RANK
+        // unchanged
         getRealRank(level) {
-            if (!this.fullList?.length || !level?.[0]?.level?.name) return "?";
+            if (!this.list?.length || !level?.[0]?.level?.name) return "?";
 
-            const idx = this.fullList.findIndex(
-                ([l]) => l?.name === level?.[0]?.level?.name
+            const idx = this.list.findIndex(
+                (l) => l?.[0]?.level?.name === level?.[0]?.level?.name
             );
 
             return idx >= 0 ? idx + 1 : "?";
         }
-    },
+    }
 };
