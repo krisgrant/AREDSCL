@@ -1,15 +1,6 @@
-const scale = 2;
-
-/**
- * Calculate the score awarded when having a certain percentage on a list level
- * @param {Number} rank Position on the list
- * @param {String} mode "normal" | "demons"
- * @returns {Number}
- */
 export function score(rank, mode = "normal") {
-    if (rank > 50) {
-        return 0;
-    }
+    if (mode === "normal" && rank > 50) return 0;
+    if (mode === "demons" && rank > 150) return 0;
 
     const points =
         mode === "demons"
@@ -40,21 +31,4 @@ export function score(rank, mode = "normal") {
     }
 
     return 0;
-}
-
-export function round(num) {
-    if (!('' + num).includes('e')) {
-        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
-    } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
-        if (+arr[1] + scale > 0) {
-            sig = '+';
-        }
-        return +(
-            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
-            'e-' +
-            scale
-        );
-    }
 }
