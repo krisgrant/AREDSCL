@@ -146,12 +146,11 @@ export default {
                     </div>
 
                     <div class="dark-bg" v-else>
-                        <h2>Demon Changelog:</h2>
-                        <br>
-                        <p class="extended">June 8th 2026</p>
-                        <br><br>
-
-                        <p>Your custom demon changelog here.</p>
+                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
+                            Ship challenge 4 has been removed (Formerly at #38).
+                            This change pushes KrisYas Bad Time back into the Extended List.
+                            This change is due to the approved removal of over 50% of server admins.
+                        </button>
                     </div>
 
                     <!-- GUIDELINES -->
