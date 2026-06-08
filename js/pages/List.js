@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { embed, getFontColour } from "../util.js";
+import { embed } from "../util.js";
 import { score } from "../score.js";
 import { fetchEditors, fetchList } from "../content.js";
 
@@ -26,6 +26,7 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
+
                         <td class="rank">
 
                             <!-- NORMAL MODE -->
@@ -87,7 +88,8 @@ export default {
                             <p>{{ level.skillset || 'Not Specified' }}</p>
                         </li>
 
-                        <li>
+                        <!-- ✅ LENGTH FIX -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Length</div>
                             <p>{{ level.length || 'Not Specified' }}</p>
                         </li>
@@ -101,6 +103,7 @@ export default {
 
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
+
                             <td class="percent">
                                 <p v-if="record.percent == 100"><b>{{ record.percent }}%</b></p>
                                 <p v-else>{{ record.percent }}%</p>
@@ -149,8 +152,6 @@ export default {
 
                         <button class="btn-no-cover" @click="jumpTo(37)">
                             Ship challenge 4 has been removed (Formerly at #38).
-                            This change pushes KrisYas Bad Time back into the Extended List.
-                            This change is due to the approved removal of over 50% of server admins.
                         </button>
                     </div>
 
@@ -161,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(1)">
-                            Coalescence has been beaten at #2. This does something
+                            Coalescence has been beaten at #2.
                         </button>
                     </div>
 
@@ -171,7 +172,6 @@ export default {
                         <br>
                         <p>
                             Every action is conducted in accordance with our guidelines.
-                            In order to guarantee a consistent experience, make sure to verify them before submitting a record!
                         </p>
                         <br><br>
                         <a class="btngl" href="/extended-page/rules.html">Guidelines Page</a>
@@ -195,10 +195,7 @@ export default {
 
                     <div class="og dark-bg">
                         <p>
-                            All credit goes to <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>,
-                            whose website this is a replica of.
-                            We obtained permission from its owners and have no connection to TSL.
-                            Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a>
+                            All credit goes to TSL.
                         </p>
                     </div>
 
@@ -258,33 +255,12 @@ export default {
 
         jumpTo(index) {
             this.selected = index;
-
-            this.$nextTick(() => {
-                const el = document.querySelector(".level-container");
-                if (el) el.scrollTop = 0;
-            });
         }
     },
 
     async mounted() {
         this.list = await fetchList(store.mode);
         this.editors = await fetchEditors();
-
-        if (!this.list) {
-            this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
-            ];
-        } else {
-            this.errors.push(
-                ...this.list
-                    .filter(([_, err]) => err)
-                    .map(([_, err]) => `Failed to load level. (${err}.json)`)
-            );
-
-            if (!this.editors) {
-                this.errors.push("Failed to load list editors.");
-            }
-        }
 
         this.loading = false;
     },
