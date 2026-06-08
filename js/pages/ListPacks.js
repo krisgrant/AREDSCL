@@ -46,7 +46,7 @@ export default {
                     <tr v-for="(level, i) in selectedPackLevels" :key="i">
                         <td class="rank">
                             <p class="type-label-lg">
-                                #{{ i + 1 }}
+                                #{{ getRealRank(level) }}
                             </p>
                         </td>
 
@@ -174,6 +174,8 @@ export default {
         selectedPackLevels: [],
         loading: true,
         loadingPack: true,
+
+        fullList: []
     }),
 
     async mounted() {
@@ -184,7 +186,7 @@ export default {
             return;
         }
 
-        this.list = await fetchList(store.mode);
+        this.fullList = await fetchList(store.mode);
 
         this.selectedPackLevels = await fetchPackLevels(
             this.packs[0].name
@@ -215,5 +217,16 @@ export default {
 
         score,
         embed,
+
+        // ✅ REAL FIX: map pack level → real list position
+        getRealRank(level) {
+            if (!this.fullList?.length || !level?.[0]?.level?.name) return "?";
+
+            const idx = this.fullList.findIndex(
+                ([l]) => l?.name === level?.[0]?.level?.name
+            );
+
+            return idx >= 0 ? idx + 1 : "?";
+        }
     },
 };
