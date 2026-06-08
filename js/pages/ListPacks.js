@@ -12,6 +12,16 @@ export default {
         LevelAuthors,
     },
 
+    computed: {
+        isDemons() {
+            return window.location.hash.startsWith("#/demons/");
+        },
+
+        pack() {
+            return this.packs?.[this.selected] || null;
+        }
+    },
+
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -78,10 +88,18 @@ export default {
                             </p>
                         </li>
 
-                        <li>
+                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>
                                 {{ selectedPackLevels[selectedLevel][0].level.skillset || 'Not Specified' }}
+                            </p>
+                        </li>
+
+                        <li>
+                            <div class="type-title-sm">Length</div>
+                            <p>
+                                {{ selectedPackLevels[selectedLevel][0].level.length || 'Not Specified' }}
                             </p>
                         </li>
                     </ul>
@@ -100,7 +118,7 @@ export default {
                             </td>
 
                             <td class="user">
-                                <a :href="record.link" target="_blank">
+                                <a :href="record.link" target="_blank" class="type-label-lg">
                                     {{ record.user }}
                                 </a>
                             </td>
@@ -110,10 +128,6 @@ export default {
                             </td>
                         </tr>
                     </table>
-
-                    <!-- FIXED 100% FONT LINE -->
-                    <p class="type-label-lg"><strong>100%</strong> to qualify</p>
-
                 </div>
 
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
@@ -137,7 +151,7 @@ export default {
 
                     <h3>Credits:</h3>
                     <p>
-                        <a href="https://youtube.com/@krisgra" target="_blank">
+                        <a class="type-label-lg" href="https://youtube.com/@krisgra" target="_blank">
                             KrisGra
                         </a>
                     </p>
