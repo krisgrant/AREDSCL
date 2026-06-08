@@ -1,11 +1,13 @@
 import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
+import { getYoutubeIdFromUrl, localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
+import LevelAuthors from '../components/List/LevelAuthors.js';
 
 export default {
     components: {
         Spinner,
+        LevelAuthors,
     },
 
     data: () => ({
@@ -18,14 +20,14 @@ export default {
 
     computed: {
         entry() {
-            return this.leaderboard[this.selected] || null;
+            return this.leaderboard[this.selected];
         },
 
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
         },
 
-        // 🔥 FIX: single source of truth for mode everywhere
+        // IMPORTANT: single source of truth
         scoreMode() {
             return this.isDemons ? "demons" : "normal";
         }
@@ -33,9 +35,9 @@ export default {
 
     methods: {
         localize,
+        getYoutubeIdFromUrl,
 
         getRank(entry, i) {
-            if (!entry) return i + 1;
             return entry.rank ?? (i + 1);
         },
 
@@ -51,21 +53,29 @@ export default {
             }
         },
 
-        // 🔥 FIX: DO NOT recalc pack bonus anymore
+        // FIXED: consistent pack bonus (NO normal-mode leakage)
         getPackBonus(entry) {
-            if (!entry) return 0;
-            return entry.packBonus ?? 0;
-        },
+            if (!entry?.packs?.length) return 0;
+            if (typeof entry.packBonus === "number") return entry.packBonus;
 
-        getTotal(entry) {
-            if (!entry) return 0;
-            return entry.total ?? 0;
+            let bonus = 0;
+
+            for (const pack of entry.packs) {
+                // FIX: ensure demon packs can use demon values if present
+                const value = this.isDemons
+                    ? (pack.demonBonus ?? pack.bonus ?? 0)
+                    : (pack.bonus ?? 0);
+
+                bonus += Number(value) || 0;
+            }
+
+            return bonus;
         }
     },
 
     template: `
         <main v-if="loading">
-            <Spinner />
+            <Spinner></Spinner>
         </main>
 
         <main v-else class="page-leaderboard-container">
@@ -95,7 +105,7 @@ export default {
 
                             <td class="score">
                                 <p class="type-label-lg">
-                                    {{ localize(getTotal(ientry)) }}
+                                    {{ localize(ientry.total) }}
                                 </p>
                             </td>
 
@@ -103,17 +113,17 @@ export default {
                     </table>
                 </div>
 
-                <div class="player-container" v-if="entry">
+                <div class="player-container">
                     <div class="player">
 
                         <h1>{{ entry.user }}</h1>
                         <p>#{{ getRank(entry, selected) }}</p>
 
-                        <h3><b>{{ getTotal(entry) }}</b></h3>
+                        <h3><b>{{ entry.total }}</b></h3>
 
                         <p>Pack Bonus: {{ getPackBonus(entry) }}</p>
 
-                        <div class="packs" v-if="entry.packs?.length > 0">
+                        <div class="packs" v-if="entry.packs.length > 0">
                             <div
                                 v-for="pack in entry.packs"
                                 class="tag"
@@ -125,7 +135,7 @@ export default {
 
                         <br>
 
-                        <h2 v-if="entry.verified?.length">
+                        <h2 v-if="entry.verified.length > 0">
                             Challenges verified: ({{ entry.verified.length }})
                         </h2>
 
@@ -138,18 +148,20 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a target="_blank" :href="score.link">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
                                         {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    +{{ localize(score.score) }}
+                                    <p class="type-label-lg">
+                                        +{{ localize(score.score) }}
+                                    </p>
                                 </td>
                             </tr>
                         </table>
 
-                        <h2 v-if="entry.completed?.length">
+                        <h2 v-if="entry.completed.length > 0">
                             Challenges completed: ({{ entry.completed.length }})
                         </h2>
 
@@ -162,18 +174,20 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a target="_blank" :href="score.link">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
                                         {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    +{{ localize(score.score) }}
+                                    <p class="type-label-lg">
+                                        +{{ localize(score.score) }}
+                                    </p>
                                 </td>
                             </tr>
                         </table>
 
-                        <h2 v-if="entry.progressed?.length">
+                        <h2 v-if="entry.progressed.length > 0">
                             Progress on: ({{ entry.progressed.length }})
                         </h2>
 
@@ -186,13 +200,15 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a target="_blank" :href="score.link">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
                                         {{ score.level }} ({{ score.percent }}%)
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    +{{ localize(score.score) }}
+                                    <p class="type-label-lg">
+                                        +{{ localize(score.score) }}
+                                    </p>
                                 </td>
                             </tr>
                         </table>
@@ -209,8 +225,8 @@ export default {
 
         const [leaderboard, err] = await fetchLeaderboard(this.mode);
 
-        this.leaderboard = leaderboard || [];
-        this.err = err || [];
+        this.leaderboard = leaderboard;
+        this.err = err;
         this.loading = false;
     },
 };
