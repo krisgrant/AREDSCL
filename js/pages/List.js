@@ -65,7 +65,7 @@ export default {
                     <ul class="stats">
                         <li v-if="selected + 1 <= 150">
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected + 1, 100, 100) }}</p>
+                            <p>{{ score(selected + 1, isDemons ? "demons" : "normal") }}</p>
                         </li>
 
                         <li>

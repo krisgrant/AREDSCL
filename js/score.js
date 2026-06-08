@@ -3,22 +3,29 @@ const scale = 2;
 /**
  * Calculate the score awarded when having a certain percentage on a list level
  * @param {Number} rank Position on the list
+ * @param {String} mode "normal" | "demons"
  * @returns {Number}
  */
-export function score(rank) {
+export function score(rank, mode = "normal") {
     if (rank > 50) {
         return 0;
     }
 
-    // anchor points (rank → score)
-    const points = [
-        [1, 100],
-        [10, 75],
-        [25, 50],
-        [50, 20]
-    ];
+    const points =
+        mode === "demons"
+            ? [
+                [1, 120],
+                [10, 90],
+                [25, 60],
+                [50, 25]
+            ]
+            : [
+                [1, 100],
+                [10, 75],
+                [25, 50],
+                [50, 20]
+            ];
 
-    // find which segment the rank is in
     for (let i = 0; i < points.length - 1; i++) {
         const [r1, s1] = points[i];
         const [r2, s2] = points[i + 1];
