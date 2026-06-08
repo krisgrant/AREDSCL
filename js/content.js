@@ -30,9 +30,12 @@ export async function fetchList(mode = store.mode || "challenge") {
                 try {
                     const level = await levelResult.json();
 
-                    const packs = packsList.filter((x) =>
-                        x.levels.includes(path)
-                    );
+                    const packs = packsList
+    .filter((x) => x.levels.includes(path))
+    .map(p => ({
+        ...p,
+        _mode: mode
+    }));
 
                     return [
                         {
@@ -164,33 +167,34 @@ export async function fetchLeaderboard(mode = store.mode || "challenge") {
     // FINAL OUTPUT
     // ----------------------------
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const all = [...scores.verified, ...scores.completed, ...scores.progressed];
+    const all = [...scores.verified, ...scores.completed, ...scores.progressed];
 
-        const totalWithoutBonus = all.reduce((p, c) => p + c.score, 0);
+    const totalWithoutBonus = all.reduce((p, c) => p + c.score, 0);
 
-        let packScore = 0;
+    let packScore = 0;
 
-        for (let pack of scores.packs) {
-            const packLevels = pack.levels;
-            const userLevels = [...scores.verified, ...scores.completed];
+    const userLevels = [...scores.verified, ...scores.completed];
 
-            for (let lvl of packLevels) {
-                const found = userLevels.find(x => x.path === lvl);
-                if (found) packScore += found.score;
+    for (let pack of scores.packs) {
+        for (let lvl of pack.levels) {
+            const found = userLevels.find(x => x.path === lvl);
+
+            if (found) {
+                packScore += score(found.rank, scoreMode);
             }
         }
+    }
 
-        const packScoreMultiplied = packScore * packMultiplier;
+    const packBonus = packScore * (packMultiplier - 1);
+    const total = totalWithoutBonus + packBonus;
 
-        const total = totalWithoutBonus - packScore + packScoreMultiplied;
-
-        return {
-            user,
-            total: round(total),
-            packBonus: round(total - totalWithoutBonus),
-            ...scores,
-        };
-    });
+    return {
+        user,
+        total: round(total),
+        packBonus: round(packBonus),
+        ...scores,
+    };
+});
 
     return [res.sort((a, b) => b.total - a.total), errs];
 }
