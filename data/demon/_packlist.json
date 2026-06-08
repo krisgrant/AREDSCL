@@ -9,6 +9,7 @@
         ],
         "colour": "#e24202"
     },
+
     {   
         "name": "EDS Pack",
         "levels": [
@@ -18,168 +19,159 @@
         ],
         "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
     },
-    {
+
+    {   
         "name": "Cosmic Control",
         "levels": [
             "cosmic_cyclone",
             "edge_of_the_world",
-            "edge_of_the_world",
-            "quantum_processing",
-            "asterophia"
+            "shardscapes",
+            "erebus",
+            "quantum_processing"
         ],
         "colour": "#6a00ff"
     },
-    {
+
+    {   
         "name": "Bloodline",
         "levels": [
             "bloodlust",
-            "bloodbath",
             "congregation",
-            "annihilation_nation",
-            "aftermath"
+            "dolos",
+            "black_blizzard",
+            "devil_vortex"
         ],
         "colour": "#b30000"
     },
-    {
+
+    {   
         "name": "Frozen Core",
         "levels": [
             "frozen_cave",
             "snowfall_fiesta",
-            "cryothorn_hell",
-            "misty_mountains",
-            "raindance"
+            "storming_summit",
+            "fog",
+            "sunset_sandstorm"
         ],
         "colour": "#00c3ff"
     },
-    {
+
+    {   
         "name": "Cyber Circuit",
         "levels": [
             "cybernetic_crescent",
-            "broken_signal",
-            "quantum_processing",
-            "glide",
-            "voided"
+            "artificial_ascent",
+            "killbot",
+            "generic_wave",
+            "xo"
         ],
         "colour": "#00ffcc"
     },
-    {
+
+    {   
         "name": "Judgement Call",
         "levels": [
             "judgement_knights",
             "devotion",
-            "diligence",
-            "allegiance",
-            "faith"
+            "cognition",
+            "adomania",
+            "goober_rage_stage"
         ],
         "colour": "#ffd000"
     },
-    {
+
+    {   
         "name": "Wave Collapse",
         "levels": [
             "sonic_wave",
             "sonic_wave_rebirth",
-            "hypersonic",
-            "deception_dive",
-            "adrenaline"
+            "rate_demon",
+            "auditory_breaker",
+            "generic_wave"
         ],
         "colour": "#ff4dff"
     },
-    {
+
+    {   
         "name": "Hell Corridor",
         "levels": [
-            "sakupen_hell",
-            "tenth_circle",
-            "the_sulphur_sea",
-            "hot_rod",
-            "napalm"
+            "atomic_cannon",
+            "black_flag",
+            "zaphkiel",
+            "air_fryer",
+            "edge_of_the_world"
         ],
         "colour": "#ff2a00"
     },
-    {
+
+    {   
         "name": "Digital Abyss",
         "levels": [
-            "devil_vortex",
-            "dolos",
-            "dark_odyssey",
-            "disruption",
-            "broken_signal"
+            "turn_the_lights_off",
+            "belloq",
+            "erebus",
+            "fog",
+            "dolos"
         ],
         "colour": "#1a1a1a"
     },
-    {
+
+    {   
         "name": "Crystal Haze",
         "levels": [
-            "prismatic_haze",
-            "prismatic",
             "chromatic_haze",
-            "azure_metropolis",
-            "azurite_royen"
+            "shardscapes",
+            "cognition",
+            "fog",
+            "sunset_sandstorm"
         ],
         "colour": "#7df9ff"
     },
-    {
+
+    {   
         "name": "Nature Collapse",
         "levels": [
             "storming_summit",
-            "hurricane",
-            "tornado",
-            "dismal_duststorm",
+            "snowfall_fiesta",
+            "fog",
+            "frozen_cave",
             "sunset_sandstorm"
         ],
         "colour": "#7a4a00"
     },
-    {
-        "name": "Reality Break",
+
+    {   
+        "name": "Reality Fracture",
         "levels": [
-            "edge_of_the_world",
             "edge_of_the_world",
             "cosmic_cyclone",
             "ouroboros",
-            "reverie"
+            "quantum_processing",
+            "erebus"
         ],
         "colour": "#4b0082"
     },
-    {
-        "name": "Mechanical Rage",
+
+    {   
+        "name": "Mechanical Pulse",
         "levels": [
             "atomic_cannon",
             "killbot",
-            "hot_rod",
-            "blade_of_justice",
-            "adomania"
+            "artificial_ascent",
+            "air_fryer",
+            "black_flag"
         ],
         "colour": "#ff8800"
     },
-    {
-        "name": "Memory Fracture",
-        "levels": [
-            "concaved_memories",
-            "lost_love",
-            "stop_breathing",
-            "heartbeat",
-            "myocardia"
-        ],
-        "colour": "#ff6699"
-    },
-    {
-        "name": "Chaos Theory",
-        "levels": [
-            "super_probably_level",
-            "generic_wave",
-            "xo",
-            "rate_demon",
-            "black_blizzard"
-        ],
-        "colour": "#999999"
-    },
-    {
+
+    {   
         "name": "Final Descent",
         "levels": [
-            "the_ultimate_return",
-            "the_ultimate_phase",
-            "the_ultimate_demon",
-            "welcome_to_gd_news",
-            "cataclysm"
+            "rate_demon",
+            "xo",
+            "dolos",
+            "black_blizzard",
+            "devil_vortex"
         ],
         "colour": "#ffffff"
     }
