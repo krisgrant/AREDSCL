@@ -46,7 +46,7 @@ export default {
                     <tr v-for="(level, i) in selectedPackLevels" :key="i">
                         <td class="rank">
                             <p class="type-label-lg">
-                                #{{ list?.findIndex(lvl => lvl?.[0]?.level?.name == level?.[0]?.level?.name) + 1 }}
+                                #{{ i + 1 }}
                             </p>
                         </td>
 
@@ -96,7 +96,8 @@ export default {
                             </p>
                         </li>
 
-                        <li>
+                        <!-- LENGTH (HIDDEN IN DEMONS ONLY) -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Length</div>
                             <p>
                                 {{ selectedPackLevels[selectedLevel][0].level.length || 'Not Specified' }}
@@ -113,8 +114,12 @@ export default {
                             class="record"
                         >
                             <td class="percent">
-                                <b v-if="record.percent == 100">{{ record.percent }}%</b>
-                                <span v-else>{{ record.percent }}%</span>
+                                <b v-if="record.percent == 100" class="type-label-lg">
+                                    {{ record.percent }}%
+                                </b>
+                                <span v-else class="type-label-lg">
+                                    {{ record.percent }}%
+                                </span>
                             </td>
 
                             <td class="user">
