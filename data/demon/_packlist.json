@@ -110,8 +110,8 @@
             "turn_the_lights_off",
             "belloq",
             "erebus",
-            "fog",
-            "dolos"
+            "dolos",
+            "fog"
         ],
         "colour": "#1a1a1a"
     },
@@ -174,5 +174,185 @@
             "devil_vortex"
         ],
         "colour": "#ffffff"
+    },
+
+    {   
+        "name": "Neon Collapse",
+        "levels": [
+            "cybernetic_crescent",
+            "quantum_processing",
+            "generic_wave",
+            "killbot",
+            "artificial_ascent"
+        ],
+        "colour": "#00ff88"
+    },
+
+    {   
+        "name": "Storm Protocol",
+        "levels": [
+            "storming_summit",
+            "snowfall_fiesta",
+            "frozen_cave",
+            "fog",
+            "sunset_sandstorm"
+        ],
+        "colour": "#66ccff"
+    },
+
+    {   
+        "name": "Void Walker",
+        "levels": [
+            "edge_of_the_world",
+            "ouroboros",
+            "erebus",
+            "dolos",
+            "worse_trip"
+        ],
+        "colour": "#2b2b2b"
+    },
+
+    {   
+        "name": "Signal Loss",
+        "levels": [
+            "turn_the_lights_off",
+            "belloq",
+            "black_flag",
+            "devil_vortex",
+            "zaphkiel"
+        ],
+        "colour": "#444444"
+    },
+
+    {   
+        "name": "Wave Engine",
+        "levels": [
+            "sonic_wave",
+            "sonic_wave_rebirth",
+            "rate_demon",
+            "auditory_breaker",
+            "generic_wave"
+        ],
+        "colour": "#ff66ff"
+    },
+
+    {   
+        "name": "Labyrinth Core",
+        "levels": [
+            "shardscapes",
+            "cognition",
+            "coalescence",
+            "rust",
+            "thinking_space"
+        ],
+        "colour": "#9999ff"
+    },
+
+    {   
+        "name": "Blood Circuit",
+        "levels": [
+            "bloodlust",
+            "congregation",
+            "atomic_cannon",
+            "black_blizzard",
+            "dolos"
+        ],
+        "colour": "#cc0000"
+    },
+
+    {   
+        "name": "Celestial Drift",
+        "levels": [
+            "cosmic_cyclone",
+            "edge_of_the_world",
+            "sunset_sandstorm",
+            "fog",
+            "rust"
+        ],
+        "colour": "#88ccff"
+    },
+
+    {   
+        "name": "Judgement Rift",
+        "levels": [
+            "judgement_knights",
+            "devotion",
+            "adomania",
+            "cognition",
+            "thinking_space"
+        ],
+        "colour": "#ffcc00"
+    },
+
+    {   
+        "name": "Frozen Signal",
+        "levels": [
+            "frozen_cave",
+            "snowfall_fiesta",
+            "worse_trip",
+            "fog",
+            "shardscapes"
+        ],
+        "colour": "#00bcd4"
+    },
+
+    {   
+        "name": "Infernal Path",
+        "levels": [
+            "atomic_cannon",
+            "air_fryer",
+            "black_flag",
+            "zaphkiel",
+            "killbot"
+        ],
+        "colour": "#ff3300"
+    },
+
+    {   
+        "name": "Echo Chamber",
+        "levels": [
+            "generic_wave",
+            "auditory_breaker",
+            "sonic_wave",
+            "rate_demon",
+            "xo"
+        ],
+        "colour": "#ff99ff"
+    },
+
+    {   
+        "name": "Entropy Zone",
+        "levels": [
+            "devil_vortex",
+            "dolos",
+            "black_blizzard",
+            "erebus",
+            "ouroboros"
+        ],
+        "colour": "#666666"
+    },
+
+    {   
+        "name": "Final Orbit",
+        "levels": [
+            "cosmic_cyclone",
+            "edge_of_the_world",
+            "quantum_processing",
+            "shardscapes",
+            "rust"
+        ],
+        "colour": "#ffffff"
+    },
+
+    {   
+        "name": "Core Collapse",
+        "levels": [
+            "coalescence",
+            "cognition",
+            "thinking_space",
+            "rust",
+            "shardscapes"
+        ],
+        "colour": "#aaaaaa"
     }
 ]
