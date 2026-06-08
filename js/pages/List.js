@@ -52,14 +52,10 @@ export default {
                         :author="level.author"
                         :creators="level.creators"
                         :verifier="level.verifier"
-                    ></LevelAuthors>
+                    />
 
                     <div class="packs" v-if="level.packs.length > 0">
-                        <div
-                            v-for="pack in level.packs"
-                            class="tag"
-                            :style="{background:pack.colour}"
-                        >
+                        <div v-for="pack in level.packs" class="tag" :style="{background:pack.colour}">
                             <p>{{pack.name}}</p>
                         </div>
                     </div>
@@ -89,9 +85,7 @@ export default {
                     </ul>
 
                     <h2>Records</h2>
-                    <p class="extended">
-                        <b>{{ level.records.length }}</b> records registered
-                    </p>
+                    <p class="extended"><b>{{ level.records.length }}</b> records registered</p>
 
                     <p v-if="selected + 1 <= 150"><strong>100%</strong> to qualify</p>
                     <p v-else>You may submit a record for this level, but no list points will be awarded.</p>
@@ -104,19 +98,16 @@ export default {
                             </td>
 
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">
-                                    {{ record.user }}
-                                </a>
+                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
 
                             <td class="legacy">
-                                <img v-if="record.legacy" src="/assets/legacy.svg" alt="Legacy">
+                                <img v-if="record.legacy" src="/assets/legacy.svg">
                             </td>
 
                             <td class="mobile">
                                 <img v-if="record.mobile"
-                                    :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`"
-                                    alt="Mobile">
+                                     :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`">
                             </td>
 
                             <td class="hz">
@@ -138,19 +129,18 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
 
-                    <!-- CHANGELLOG (UNCHANGED FOR NORMAL, DIFFERENT FOR DEMONS) -->
+                    <!-- CHANGELLOG -->
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Changelog:</h2>
                         <br>
                         <p class="extended">June 6th 2026</p>
                         <br><br>
-                        <p>
-                            <button class="btn-no-cover" @click="selected = 37">
-                                Ship challenge 4 has been removed (Formerly at #38).
-                                This change pushes KrisYas Bad Time back into the Extended List.
-                                This change is due to the approved removal of over 50% of server admins.
-                            </button>
-                        </p>
+
+                        <button class="btn-no-cover" @click="selected = nav.changelogJump">
+                            Ship challenge 4 has been removed (Formerly at #38).
+                            This change pushes KrisYas Bad Time back into the Extended List.
+                            This change is due to the approved removal of over 50% of server admins.
+                        </button>
                     </div>
 
                     <div class="dark-bg" v-else>
@@ -158,22 +148,23 @@ export default {
                         <br>
                         <p class="extended">June 8th 2026</p>
                         <br><br>
-                        <p>Custom demon changelog goes here.</p>
+
+                        <p>Your custom demon changelog here.</p>
                     </div>
 
-                    <!-- GUIDELINES ONLY ON NORMAL PAGE -->
+                    <!-- GUIDELINES (NORMAL ONLY) -->
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Guidelines</h2>
                         <br>
                         <p>
                             Every action is conducted in accordance with our guidelines.
-                            In order to guarantee a consistent experience, make sure to verify them
-                            before submitting a record!
+                            In order to guarantee a consistent experience, make sure to verify them before submitting a record!
                         </p>
                         <br><br>
                         <a class="btngl" href="/extended-page/rules.html">Guidelines Page</a>
                     </div>
 
+                    <!-- STAFF -->
                     <div class="dark-bg" v-if="editors">
                         <br>
                         <h3>List Staff:</h3>
@@ -181,7 +172,7 @@ export default {
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`">
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">
+                                <a v-if="editor.link" :href="editor.link" target="_blank" class="type-label-lg link">
                                     {{ editor.name }}
                                 </a>
                                 <p v-else>{{ editor.name }}</p>
@@ -192,7 +183,7 @@ export default {
                     <div class="og dark-bg">
                         <p>
                             All credit goes to
-                            <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>,
+                            <a href="https://tsl.pages.dev/#/" target="_blank">TSL</a>
                             whose website this is a replica of.
                             We obtained permission from its owners and have no connection to TSL.
                             Original List by
@@ -200,9 +191,10 @@ export default {
                         </p>
                     </div>
 
-                    <button class="btngl" @click="selected = 0">#1 Challenge</button>
-                    <button class="btngl" @click="selected = 25">Extended</button>
-                    <button class="btngl" @click="selected = 50">Legacy</button>
+                    <!-- NAV BUTTONS -->
+                    <button class="btngl" @click="selected = nav.top">#1 Challenge</button>
+                    <button class="btngl" @click="selected = nav.extended">Extended</button>
+                    <button class="btngl" @click="selected = nav.legacy">Legacy</button>
 
                 </div>
             </div>
@@ -217,6 +209,21 @@ export default {
         errors: [],
         roleIconMap,
         store,
+
+        navMap: {
+            normal: {
+                top: 0,
+                extended: 25,
+                legacy: 50,
+                changelogJump: 37
+            },
+            demons: {
+                top: 0,
+                extended: 25,
+                legacy: 50,
+                changelogJump: 0
+            }
+        }
     }),
 
     computed: {
@@ -227,6 +234,10 @@ export default {
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
         },
+
+        nav() {
+            return this.isDemons ? this.navMap.demons : this.navMap.normal;
+        }
     },
 
     async mounted() {
