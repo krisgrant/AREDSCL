@@ -106,6 +106,21 @@ export default {
 
                     <h2>Records</h2>
 
+                    <p v-if="selectedPackLevels[selectedLevel][0].level.records.length">
+                        <b>{{ selectedPackLevels[selectedLevel][0].level.records.length }}</b> records registered
+                    </p>
+
+                    <!-- 100% LABEL FIX -->
+                    <p v-if="isDemons">
+                        <strong>100%</strong> to qualify
+                    </p>
+                    <p v-else-if="selected + 1 <= 150">
+                        <strong>100%</strong> to qualify
+                    </p>
+                    <p v-else>
+                        You may submit a record for this level, but no list points will be awarded.
+                    </p>
+
                     <table class="records">
                         <tr
                             v-for="record in selectedPackLevels[selectedLevel][0].level.records"
@@ -124,7 +139,7 @@ export default {
                             </td>
 
                             <td class="hz">
-                                <p>{{ record.hz }}fps</p>
+                                <p class="type-label-lg">{{ record.hz }}fps</p>
                             </td>
                         </tr>
                     </table>
