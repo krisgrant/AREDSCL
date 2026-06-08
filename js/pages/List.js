@@ -146,8 +146,13 @@ export default {
                     </div>
 
                     <div class="dark-bg" v-else>
-                        <button class="btn-no-cover" @click="jumpTo(1)">
-Coalescence is a very cool level
+                        <h2>Changelog:</h2>
+                        <br>
+                        <p class="extended">June 3rd 2026</p>
+                        <br><br>
+
+                        <button class="btn-no-cover" @click="jumpTo(37)">
+                            Coalescence has been beaten at #2. This does something
                         </button>
                     </div>
 
