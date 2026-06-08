@@ -54,45 +54,23 @@ export default {
             }
         },
 
-        computePackBonus(entry) {
-            if (!entry.packs || !entry.packs.length) return 0;
-
-            const mode = this.scoreMode;
-
-            let total = 0;
-
-            for (const pack of entry.packs) {
-                // If packs contain levels with ranks
-                if (pack.levels && Array.isArray(pack.levels)) {
-                    for (const lvl of pack.levels) {
-                        if (lvl.rank) {
-                            total += this.score(lvl.rank, mode);
-                        }
-                    }
-                }
-
-                // fallback static bonus support
-                if (pack.bonus) {
-                    total += pack.bonus;
-                }
-            }
-
-            return total;
-        },
-
         computeTotal(entry) {
             const mode = this.scoreMode;
 
-            const verified = (entry.verified || [])
-                .reduce((a, s) => a + this.score(s.rank, mode), 0);
+            const sum = (arr) =>
+                (arr || []).reduce(
+                    (a, s) => a + this.score(s.rank, mode),
+                    0
+                );
 
-            const completed = (entry.completed || [])
-                .reduce((a, s) => a + this.score(s.rank, mode), 0);
+            const total =
+                sum(entry.verified) +
+                sum(entry.completed) +
+                sum(entry.progressed) +
+                (entry.packBonus || 0);
 
-            const progressed = (entry.progressed || [])
-                .reduce((a, s) => a + this.score(s.rank, mode), 0);
-
-            return verified + completed + progressed + this.computePackBonus(entry);
+            // ✅ fix floating point drift from score interpolation
+            return Math.round(total);
         }
     },
 
@@ -144,7 +122,7 @@ export default {
 
                         <h3><b>{{ computeTotal(entry) }}</b></h3>
 
-                        <p>Pack Bonus: {{ computePackBonus(entry) }}</p>
+                        <p>Pack Bonus: {{ entry.packBonus }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
                             <div
@@ -179,7 +157,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
+                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
@@ -206,7 +184,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
+                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
@@ -233,7 +211,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(score(scoreItem.rank, scoreMode)) }}
+                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
