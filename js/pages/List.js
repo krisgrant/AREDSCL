@@ -83,15 +83,10 @@ export default {
                             <p class="type-label-lg">{{ level.id }}</p>
                         </li>
 
-                        <li>
+                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>{{ level.skillset || 'Not Specified' }}</p>
-                        </li>
-
-                        <!-- ✅ LENGTH FIX -->
-                        <li v-if="!isDemons">
-                            <div class="type-title-sm">Length</div>
-                            <p>{{ level.length || 'Not Specified' }}</p>
                         </li>
                     </ul>
 
@@ -261,7 +256,6 @@ export default {
     async mounted() {
         this.list = await fetchList(store.mode);
         this.editors = await fetchEditors();
-
         this.loading = false;
     },
 };
