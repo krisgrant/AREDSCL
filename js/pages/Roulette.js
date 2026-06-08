@@ -162,6 +162,10 @@ export default {
     },
 
     computed: {
+        isDemons() {
+            return window.location.hash.startsWith("#/demons/");
+        },
+
         currentLevel() {
             return this.levels[this.progression.length];
         },
@@ -224,9 +228,19 @@ export default {
 
             const list = [];
 
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 25));
-            if (this.useExtendedList) list.push(...fullListMapped.slice(25, 50));
-            if (this.useLegacyList) list.push(...fullListMapped.slice(50));
+            // ✅ NORMAL (UNCHANGED)
+            if (!this.isDemons) {
+                if (this.useMainList) list.push(...fullListMapped.slice(0, 25));
+                if (this.useExtendedList) list.push(...fullListMapped.slice(25, 50));
+                if (this.useLegacyList) list.push(...fullListMapped.slice(50));
+            }
+
+            // 🔥 DEMONS MODE (NEW RULES)
+            else {
+                if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
+                if (this.useExtendedList) list.push(...fullListMapped.slice(75, 150));
+                if (this.useLegacyList) list.push(...fullListMapped.slice(150));
+            }
 
             this.levels = shuffle(list).slice(0, 100);
             this.progression = [];
