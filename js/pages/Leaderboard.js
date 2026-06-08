@@ -38,13 +38,13 @@ export default {
 
         getRankClass(rank) {
             if (this.isDemons) {
-                if (rank <= 10) return "type-label-lg";      // main
-                if (rank <= 25) return "extended";           // extended
-                return "legacy type-label-lg";               // legacy
+                if (rank <= 75) return "type-label-lg";        // main
+                if (rank <= 150) return "extended";            // extended
+                return "legacy type-label-lg";                // legacy
             } else {
-                if (rank <= 5) return "type-label-lg";       // main
-                if (rank <= 15) return "extended";           // extended
-                return "legacy type-label-lg";              // legacy
+                if (rank <= 25) return "type-label-lg";        // main
+                if (rank <= 50) return "extended";             // extended
+                return "legacy type-label-lg";                // legacy
             }
         }
     },
