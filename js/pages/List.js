@@ -146,10 +146,8 @@ export default {
                     </div>
 
                     <div class="dark-bg" v-else>
-                        <button class="btn-no-cover" @click="jumpTo(6)">
-                            Ship challenge 4 has been removed (Formerly at #38).
-                            This change pushes KrisYas Bad Time back into the Extended List.
-                            This change is due to the approved removal of over 50% of server admins.
+                        <button class="btn-no-cover" @click="jumpTo(1)">
+Coalescence is a very cool level
                         </button>
                     </div>
 
