@@ -83,15 +83,10 @@ export default {
                             <p class="type-label-lg">{{ level.id }}</p>
                         </li>
 
-                        <li>
+                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>{{ level.skillset || 'Not Specified' }}</p>
-                        </li>
-
-                        <!-- ✅ LENGTH FIXED: only show in NON-DEMONS -->
-                        <li v-if="!isDemons">
-                            <div class="type-title-sm">Length</div>
-                            <p>{{ level.length || 'Not Specified' }}</p>
                         </li>
                     </ul>
 
