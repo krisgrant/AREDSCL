@@ -79,7 +79,11 @@ export async function fetchEditors() {
  */
 export async function fetchLeaderboard(mode = store.mode || "challenge") {
     const dir = getDir(mode);
-    const scoreMode = mode === "demons" ? "demons" : "normal";
+    const scoreMode =
+    mode === "demons" ||
+    window.location.hash.startsWith("#/demons/")
+        ? "demons"
+        : "normal";
 
     const list = await fetchList(mode);
     if (!list) return [[], ["Failed to load list"]];
