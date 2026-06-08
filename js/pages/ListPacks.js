@@ -1,7 +1,7 @@
 import { fetchPacks, fetchPackLevels, fetchList } from "../content.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { store } from "../main.js"; // ✅ FIX #1
+import { store } from "../main.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -10,6 +10,16 @@ export default {
     components: {
         Spinner,
         LevelAuthors,
+    },
+
+    computed: {
+        isDemons() {
+            return window.location.hash.startsWith("#/demons/");
+        },
+
+        pack() {
+            return this.packs?.[this.selected] || null;
+        }
     },
 
     template: `
@@ -36,7 +46,7 @@ export default {
                     <tr v-for="(level, i) in selectedPackLevels" :key="i">
                         <td class="rank">
                             <p class="type-label-lg">
-                                #{{ list?.findIndex(lvl => lvl?.[0]?.name == level?.[0]?.level?.name) + 1 }}
+                                #{{ list?.findIndex(lvl => lvl?.[0]?.level?.name == level?.[0]?.level?.name) + 1 }}
                             </p>
                         </td>
 
@@ -78,10 +88,18 @@ export default {
                             </p>
                         </li>
 
-                        <li>
+                        <!-- SKILLSET (HIDDEN IN DEMONS ONLY) -->
+                        <li v-if="!isDemons">
                             <div class="type-title-sm">Skillset</div>
                             <p>
                                 {{ selectedPackLevels[selectedLevel][0].level.skillset || 'Not Specified' }}
+                            </p>
+                        </li>
+
+                        <li>
+                            <div class="type-title-sm">Length</div>
+                            <p>
+                                {{ selectedPackLevels[selectedLevel][0].level.length || 'Not Specified' }}
                             </p>
                         </li>
                     </ul>
@@ -100,7 +118,7 @@ export default {
                             </td>
 
                             <td class="user">
-                                <a :href="record.link" target="_blank">
+                                <a :href="record.link" target="_blank" class="type-label-lg">
                                     {{ record.user }}
                                 </a>
                             </td>
@@ -132,7 +150,11 @@ export default {
                     </div>
 
                     <h3>Credits:</h3>
-                    <p><a href="https://youtube.com/@krisgra" target="_blank">KrisGra</a></p>
+                    <p>
+                        <a class="type-label-lg" href="https://youtube.com/@krisgra" target="_blank">
+                            KrisGra
+                        </a>
+                    </p>
                 </div>
             </div>
         </main>
@@ -149,16 +171,9 @@ export default {
         loadingPack: true,
     }),
 
-    computed: {
-        pack() {
-            return this.packs?.[this.selected] || null;
-        },
-    },
-
     async mounted() {
         this.packs = await fetchPacks();
 
-        // 🔥 FIX #2 safety guard
         if (!this.packs?.length) {
             this.loading = false;
             return;
