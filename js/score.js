@@ -24,7 +24,8 @@ export function score(rank, mode = "normal") {
 
         if (rank >= r1 && rank <= r2) {
             const t = (rank - r1) / (r2 - r1);
-            return Math.max(round(s1 + (s2 - s1) * t), 0);
+            const value = s1 + (s2 - s1) * t;
+            return Math.max(round(value), 0);
         }
     }
 
