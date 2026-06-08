@@ -1,6 +1,5 @@
 import { fetchLeaderboard } from '../content.js';
 import { getYoutubeIdFromUrl, localize } from '../util.js';
-import { score } from '../score.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -26,20 +25,15 @@ export default {
 
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
-        },
-
-        scoreMode() {
-            return this.isDemons ? "demons" : "normal";
         }
     },
 
     methods: {
         localize,
         getYoutubeIdFromUrl,
-        score,
 
-        getRank(ientry, i) {
-            return ientry.rank ?? (i + 1);
+        getRank(entry, i) {
+            return entry.rank ?? (i + 1);
         },
 
         getRankClass(rank) {
@@ -54,27 +48,29 @@ export default {
             }
         },
 
-        // ✅ correct 2dp rounding ONLY (no integer rounding loss)
-        round2(num) {
-            return Math.round((num + Number.EPSILON) * 100) / 100;
-        },
+        // FIX: pack bonus must respect mode (THIS was your bug)
+        getPackBonus(entry) {
+            if (!entry) return 0;
 
-        computeTotal(entry) {
-            const mode = this.scoreMode;
+            // if backend already sends correct value, use it
+            if (typeof entry.packBonus === "number") {
+                return entry.packBonus;
+            }
 
-            const sum = (arr) =>
-                (arr || []).reduce(
-                    (a, s) => a + this.score(s.rank, mode),
-                    0
-                );
+            // fallback: if old system stores pack multipliers
+            if (!entry.packs?.length) return 0;
 
-            const total =
-                sum(entry.verified) +
-                sum(entry.completed) +
-                sum(entry.progressed) +
-                (entry.packBonus || 0);
+            let bonus = 0;
 
-            return this.round2(total);
+            for (const pack of entry.packs) {
+                const value = this.isDemons
+                    ? (pack.demonBonus ?? pack.bonus ?? 0)
+                    : (pack.bonus ?? 0);
+
+                bonus += Number(value) || 0;
+            }
+
+            return bonus;
         }
     },
 
@@ -88,7 +84,7 @@ export default {
 
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect: {{ err.join(', ') }}
+                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
 
@@ -102,7 +98,7 @@ export default {
                                 </p>
                             </td>
 
-                            <td class="user" :class="{ active: selected == i }">
+                            <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
@@ -110,7 +106,7 @@ export default {
 
                             <td class="score">
                                 <p class="type-label-lg">
-                                    {{ localize(computeTotal(ientry)) }}
+                                    {{ localize(ientry.total) }}
                                 </p>
                             </td>
 
@@ -124,9 +120,10 @@ export default {
                         <h1>{{ entry.user }}</h1>
                         <p>#{{ getRank(entry, selected) }}</p>
 
-                        <h3><b>{{ computeTotal(entry) }}</b></h3>
+                        <h3><b>{{ entry.total }}</b></h3>
 
-                        <p>Pack Bonus: {{ entry.packBonus }}</p>
+                        <!-- FIXED: pack bonus now mode-aware -->
+                        <p>Pack Bonus: {{ getPackBonus(entry) }}</p>
 
                         <div class="packs" v-if="entry.packs.length > 0">
                             <div
@@ -145,23 +142,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="scoreItem in entry.verified">
+                            <tr v-for="score in entry.verified">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(scoreItem.rank)">
-                                        #{{ scoreItem.rank }}
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
-                                        {{ scoreItem.level }}
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                        {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(score.score) }}
                                     </p>
                                 </td>
                             </tr>
@@ -172,23 +169,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="scoreItem in entry.completed">
+                            <tr v-for="score in entry.completed">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(scoreItem.rank)">
-                                        #{{ scoreItem.rank }}
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
-                                        {{ scoreItem.level }}
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                        {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(score.score) }}
                                     </p>
                                 </td>
                             </tr>
@@ -199,23 +196,23 @@ export default {
                         </h2>
 
                         <table class="table">
-                            <tr v-for="scoreItem in entry.progressed">
+                            <tr v-for="score in entry.progressed">
 
                                 <td class="rank">
-                                    <p :class="getRankClass(scoreItem.rank)">
-                                        #{{ scoreItem.rank }}
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
                                     </p>
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="scoreItem.link">
-                                        {{ scoreItem.level }} ({{ scoreItem.percent }}%)
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                        {{ score.level }} ({{ score.percent }}%)
                                     </a>
                                 </td>
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(score.score) }}
                                     </p>
                                 </td>
                             </tr>
