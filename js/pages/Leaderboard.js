@@ -1,13 +1,11 @@
 import { fetchLeaderboard } from '../content.js';
-import { getYoutubeIdFromUrl, localize } from '../util.js';
+import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
-import LevelAuthors from '../components/List/LevelAuthors.js';
 
 export default {
     components: {
         Spinner,
-        LevelAuthors,
     },
 
     data: () => ({
@@ -20,14 +18,14 @@ export default {
 
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.leaderboard[this.selected] || null;
         },
 
         isDemons() {
             return window.location.hash.startsWith("#/demons/");
         },
 
-        // ✅ IMPORTANT FIX: single source of truth for scoring mode
+        // 🔥 FIX: single source of truth for mode everywhere
         scoreMode() {
             return this.isDemons ? "demons" : "normal";
         }
@@ -35,9 +33,9 @@ export default {
 
     methods: {
         localize,
-        getYoutubeIdFromUrl,
 
         getRank(entry, i) {
+            if (!entry) return i + 1;
             return entry.rank ?? (i + 1);
         },
 
@@ -53,34 +51,21 @@ export default {
             }
         },
 
-        // ✅ FIXED: pack bonus now uses SAME MODE as scoring
+        // 🔥 FIX: DO NOT recalc pack bonus anymore
         getPackBonus(entry) {
             if (!entry) return 0;
+            return entry.packBonus ?? 0;
+        },
 
-            if (typeof entry.packBonus === "number") {
-                return entry.packBonus;
-            }
-
-            if (!entry.packs?.length) return 0;
-
-            let bonus = 0;
-
-            for (const pack of entry.packs) {
-                const value =
-                    this.scoreMode === "demons"
-                        ? (pack.demonBonus ?? pack.bonus ?? 0)
-                        : (pack.bonus ?? 0);
-
-                bonus += Number(value) || 0;
-            }
-
-            return bonus;
+        getTotal(entry) {
+            if (!entry) return 0;
+            return entry.total ?? 0;
         }
     },
 
     template: `
         <main v-if="loading">
-            <Spinner></Spinner>
+            <Spinner />
         </main>
 
         <main v-else class="page-leaderboard-container">
@@ -110,7 +95,7 @@ export default {
 
                             <td class="score">
                                 <p class="type-label-lg">
-                                    {{ localize(ientry.total) }}
+                                    {{ localize(getTotal(ientry)) }}
                                 </p>
                             </td>
 
@@ -118,18 +103,17 @@ export default {
                     </table>
                 </div>
 
-                <div class="player-container">
+                <div class="player-container" v-if="entry">
                     <div class="player">
 
                         <h1>{{ entry.user }}</h1>
                         <p>#{{ getRank(entry, selected) }}</p>
 
-                        <h3><b>{{ entry.total }}</b></h3>
+                        <h3><b>{{ getTotal(entry) }}</b></h3>
 
-                        <!-- FIXED: now uses correct mode indirectly -->
                         <p>Pack Bonus: {{ getPackBonus(entry) }}</p>
 
-                        <div class="packs" v-if="entry.packs.length > 0">
+                        <div class="packs" v-if="entry.packs?.length > 0">
                             <div
                                 v-for="pack in entry.packs"
                                 class="tag"
@@ -141,13 +125,12 @@ export default {
 
                         <br>
 
-                        <h2 v-if="entry.verified.length > 0">
+                        <h2 v-if="entry.verified?.length">
                             Challenges verified: ({{ entry.verified.length }})
                         </h2>
 
                         <table class="table">
                             <tr v-for="score in entry.verified">
-
                                 <td class="rank">
                                     <p :class="getRankClass(score.rank)">
                                         #{{ score.rank }}
@@ -155,26 +138,23 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                    <a target="_blank" :href="score.link">
                                         {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
-                                    </p>
+                                    +{{ localize(score.score) }}
                                 </td>
                             </tr>
                         </table>
 
-                        <h2 v-if="entry.completed.length > 0">
+                        <h2 v-if="entry.completed?.length">
                             Challenges completed: ({{ entry.completed.length }})
                         </h2>
 
                         <table class="table">
                             <tr v-for="score in entry.completed">
-
                                 <td class="rank">
                                     <p :class="getRankClass(score.rank)">
                                         #{{ score.rank }}
@@ -182,26 +162,23 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                    <a target="_blank" :href="score.link">
                                         {{ score.level }}
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
-                                    </p>
+                                    +{{ localize(score.score) }}
                                 </td>
                             </tr>
                         </table>
 
-                        <h2 v-if="entry.progressed.length > 0">
+                        <h2 v-if="entry.progressed?.length">
                             Progress on: ({{ entry.progressed.length }})
                         </h2>
 
                         <table class="table">
                             <tr v-for="score in entry.progressed">
-
                                 <td class="rank">
                                     <p :class="getRankClass(score.rank)">
                                         #{{ score.rank }}
@@ -209,15 +186,13 @@ export default {
                                 </td>
 
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                    <a target="_blank" :href="score.link">
                                         {{ score.level }} ({{ score.percent }}%)
                                     </a>
                                 </td>
 
                                 <td class="score">
-                                    <p class="type-label-lg">
-                                        +{{ localize(score.score) }}
-                                    </p>
+                                    +{{ localize(score.score) }}
                                 </td>
                             </tr>
                         </table>
@@ -234,8 +209,8 @@ export default {
 
         const [leaderboard, err] = await fetchLeaderboard(this.mode);
 
-        this.leaderboard = leaderboard;
-        this.err = err;
+        this.leaderboard = leaderboard || [];
+        this.err = err || [];
         this.loading = false;
     },
 };
