@@ -28,6 +28,27 @@ export default {
         }
     },
 
+    methods: {
+        localize,
+        getYoutubeIdFromUrl,
+
+        getRank(ientry, i) {
+            return ientry.rank ?? (i + 1);
+        },
+
+        getRankClass(rank) {
+            if (this.isDemons) {
+                if (rank <= 10) return "type-label-lg";      // main
+                if (rank <= 25) return "extended";           // extended
+                return "legacy type-label-lg";               // legacy
+            } else {
+                if (rank <= 5) return "type-label-lg";       // main
+                if (rank <= 15) return "extended";           // extended
+                return "legacy type-label-lg";              // legacy
+            }
+        }
+    },
+
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -47,42 +68,9 @@ export default {
                         <tr v-for="(ientry, i) in leaderboard">
 
                             <td class="rank">
-                                <!-- real rank (fallback safe) -->
-                                <template v-if="isDemons">
-                                    <p v-if="(ientry.rank ?? (i + 1)) === 1" class="type-label-lg top1">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else-if="(ientry.rank ?? (i + 1)) === 2" class="type-label-lg top2">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else-if="(ientry.rank ?? (i + 1)) === 3" class="type-label-lg top3">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else-if="(ientry.rank ?? (i + 1)) <= 75" class="type-label-lg">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else-if="(ientry.rank ?? (i + 1)) <= 150" class="extended">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else class="legacy type-label-lg">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-                                </template>
-
-                                <template v-else>
-                                    <p v-if="(ientry.rank ?? (i + 1)) <= 50" class="type-label-lg">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-
-                                    <p v-else class="legacy type-label-lg">
-                                        #{{ ientry.rank ?? (i + 1) }}
-                                    </p>
-                                </template>
+                                <p :class="getRankClass(getRank(ientry, i))">
+                                    #{{ getRank(ientry, i) }}
+                                </p>
                             </td>
 
                             <td class="user" :class="{ 'active': selected == i }">
@@ -105,7 +93,7 @@ export default {
                     <div class="player">
 
                         <h1>{{ entry.user }}</h1>
-                        <p>#{{ (entry.rank ?? (selected + 1)) }}</p>
+                        <p>#{{ getRank(entry, selected) }}</p>
 
                         <h3><b>{{ entry.total }}</b></h3>
                         <p>Pack Bonus: {{ entry.packBonus }}</p>
@@ -130,9 +118,9 @@ export default {
                             <tr v-for="score in entry.verified">
 
                                 <td class="rank">
-                                    <p v-if="!isDemons && score.rank <= 25">#{{ score.rank }}</p>
-                                    <p v-else-if="isDemons && score.rank <= 75">#{{ score.rank }}</p>
-                                    <p v-else class="extended">#{{ score.rank }}</p>
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
+                                    </p>
                                 </td>
 
                                 <td class="level">
@@ -157,9 +145,9 @@ export default {
                             <tr v-for="score in entry.completed">
 
                                 <td class="rank">
-                                    <p v-if="!isDemons && score.rank <= 25">#{{ score.rank }}</p>
-                                    <p v-else-if="isDemons && score.rank <= 75">#{{ score.rank }}</p>
-                                    <p v-else class="extended">#{{ score.rank }}</p>
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
+                                    </p>
                                 </td>
 
                                 <td class="level">
@@ -184,8 +172,9 @@ export default {
                             <tr v-for="score in entry.progressed">
 
                                 <td class="rank">
-                                    <p v-if="score.rank <= 75">#{{ score.rank }}</p>
-                                    <p v-else class="extended">#{{ score.rank }}</p>
+                                    <p :class="getRankClass(score.rank)">
+                                        #{{ score.rank }}
+                                    </p>
                                 </td>
 
                                 <td class="level">
@@ -217,10 +206,5 @@ export default {
         this.leaderboard = leaderboard;
         this.err = err;
         this.loading = false;
-    },
-
-    methods: {
-        localize,
-        getYoutubeIdFromUrl,
     },
 };
