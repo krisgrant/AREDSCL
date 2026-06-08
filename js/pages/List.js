@@ -138,7 +138,7 @@ export default {
                         <p class="extended">June 6th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
+                        <button class="btn-no-cover" @click="jumpTo(37">
                             Ship challenge 4 has been removed (Formerly at #38).
                             This change pushes KrisYas Bad Time back into the Extended List.
                             This change is due to the approved removal of over 50% of server admins.
@@ -146,7 +146,7 @@ export default {
                     </div>
 
                     <div class="dark-bg" v-else>
-                        <button class="btn-no-cover" @click="jumpTo(nav.changelogJump)">
+                        <button class="btn-no-cover" @click="jumpTo(6)">
                             Ship challenge 4 has been removed (Formerly at #38).
                             This change pushes KrisYas Bad Time back into the Extended List.
                             This change is due to the approved removal of over 50% of server admins.
