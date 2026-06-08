@@ -146,5 +146,134 @@
         "name": "Memory Collapse",
         "levels": ["shardscapes","cognition","rust","thinking_space","coalescence"],
         "colour": "#bbbbbb"
+    },  {
+        "name": "Rust Collapse",
+        "levels": ["rust","fog","cognition","air_fryer","zodiac"],
+        "colour": "#7e57c2"
+    },
+    {
+        "name": "Devil Cyclone",
+        "levels": ["devil_vortex","cosmic_cyclone","xo","wasureta","killbot"],
+        "colour": "#ff5252"
+    },
+    {
+        "name": "Shard Signal",
+        "levels": ["shardscapes","black_blizzard","edge_of_the_world","generic_wave","dolos"],
+        "colour": "#42a5f5"
+    },
+    {
+        "name": "Frozen Rate",
+        "levels": ["snowfall_fiesta","rate_demon","turn_the_lights_off","cognition","sunset_sandstorm"],
+        "colour": "#ffee58"
+    },
+    {
+        "name": "Zaphkiel Core",
+        "levels": ["zaphkiel","frozen_cave","cybernetic_crescent","congregation","erebus"],
+        "colour": "#66bb6a"
+    },
+
+    {
+        "name": "Atomic Wave",
+        "levels": ["atomic_cannon","worse_trip","thinking_space","black_flag","sonic_wave"],
+        "colour": "#ec407a"
+    },
+    {
+        "name": "Storm Devotion",
+        "levels": ["adomania","storming_summit","belloq","quantum_processing","rate_demon"],
+        "colour": "#26c6da"
+    },
+    {
+        "name": "Fog Rust",
+        "levels": ["fog","devotion","air_fryer","cosmic_cyclone","rust"],
+        "colour": "#ffd54f"
+    },
+    {
+        "name": "Kill Shard",
+        "levels": ["killbot","shardscapes","zodiac","dolos","sunset_sandstorm"],
+        "colour": "#ab47bc"
+    },
+    {
+        "name": "XO Cycle",
+        "levels": ["xo","frozen_cave","congregation","edge_of_the_world","cognition"],
+        "colour": "#66bb6a"
+    },
+
+    {
+        "name": "Wave Break",
+        "levels": ["generic_wave","wasureta","black_blizzard","air_fryer","thinking_space"],
+        "colour": "#ff7043"
+    },
+    {
+        "name": "Sonic Eclipse",
+        "levels": ["sonic_wave","turn_the_lights_off","erebus","fog","snowfall_fiesta"],
+        "colour": "#42a5f5"
+    },
+    {
+        "name": "Zodiac Burn",
+        "levels": ["cognition","devil_vortex","zaphkiel","rust","rate_demon"],
+        "colour": "#ef5350"
+    },
+    {
+        "name": "Cosmic Fog",
+        "levels": ["cosmic_cyclone","belloq","killbot","shardscapes","frozen_cave"],
+        "colour": "#29b6f6"
+    },
+    {
+        "name": "Air Collapse",
+        "levels": ["air_fryer","sunset_sandstorm","xo","edge_of_the_world","adomania"],
+        "colour": "#8d6e63"
+    },
+
+    {
+        "name": "Black Signal",
+        "levels": ["devotion","black_flag","worse_trip","quantum_processing","fog"],
+        "colour": "#37474f"
+    },
+    {
+        "name": "Zodiac Rift",
+        "levels": ["storming_summit","cybernetic_crescent","dolos","cognition","zodiac"],
+        "colour": "#5c6bc0"
+    },
+    {
+        "name": "Rust Blizzard",
+        "levels": ["congregation","rust","turn_the_lights_off","rate_demon","snowfall_fiesta"],
+        "colour": "#90a4ae"
+    },
+    {
+        "name": "Shard Wave",
+        "levels": ["black_blizzard","shardscapes","sonic_wave","fog","erebus"],
+        "colour": "#7e57c2"
+    },
+    {
+        "name": "Wasureta Core",
+        "levels": ["wasureta","killbot","cosmic_cyclone","air_fryer","thinking_space"],
+        "colour": "#ffca28"
+    },
+
+    {
+        "name": "Edge Collapse",
+        "levels": ["edge_of_the_world","generic_wave","zaphkiel","frozen_cave","cognition"],
+        "colour": "#8e24aa"
+    },
+    {
+        "name": "Belloq Echo",
+        "levels": ["xo","devil_vortex","sunset_sandstorm","rust","belloq"],
+        "colour": "#6d4c41"
+    },
+    {
+        "name": "Shard Devotion",
+        "levels": ["adomania","rate_demon","fog","cosmic_cyclone","shardscapes"],
+        "colour": "#26a69a"
+    },
+    {
+        "name": "Atomic Zodiac",
+        "levels": ["atomic_cannon","erebus","black_flag","cognition","zodiac"],
+        "colour": "#ff8f00"
+    },
+    {
+        "name": "Final Collapse",
+        "levels": ["turn_the_lights_off","dolos","snowfall_fiesta","killbot","worse_trip"],
+        "colour": "#d32f2f"
     }
+
 ]
