@@ -54,6 +54,11 @@ export default {
             }
         },
 
+        // ✅ correct 2dp rounding ONLY (no integer rounding loss)
+        round2(num) {
+            return Math.round((num + Number.EPSILON) * 100) / 100;
+        },
+
         computeTotal(entry) {
             const mode = this.scoreMode;
 
@@ -69,8 +74,7 @@ export default {
                 sum(entry.progressed) +
                 (entry.packBonus || 0);
 
-            // ✅ fix floating point drift from score interpolation
-            return Math.round(total);
+            return this.round2(total);
         }
     },
 
@@ -157,7 +161,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
@@ -184,7 +188,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
@@ -211,7 +215,7 @@ export default {
 
                                 <td class="score">
                                     <p class="type-label-lg">
-                                        +{{ localize(Math.round(score(scoreItem.rank, scoreMode))) }}
+                                        +{{ localize(round2(score(scoreItem.rank, scoreMode))) }}
                                     </p>
                                 </td>
                             </tr>
