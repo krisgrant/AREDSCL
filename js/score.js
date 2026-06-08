@@ -1,7 +1,6 @@
-export function score(rank, mode = "normal") {
-    if (mode === "normal" && rank > 50) return 0;
-    if (mode === "demons" && rank > 150) return 0;
+const scale = 2;
 
+export function score(rank, mode = "normal") {
     const points =
         mode === "demons"
             ? [
@@ -25,10 +24,23 @@ export function score(rank, mode = "normal") {
 
         if (rank >= r1 && rank <= r2) {
             const t = (rank - r1) / (r2 - r1);
-            const score = s1 + (s2 - s1) * t;
-            return Math.max(round(score), 0);
+            return Math.max(round(s1 + (s2 - s1) * t), 0);
         }
     }
 
     return 0;
+}
+
+export function round(num) {
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        const arr = ('' + num).split('e');
+        const sig = (+arr[1] + scale > 0 ? '+' : '');
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
 }
