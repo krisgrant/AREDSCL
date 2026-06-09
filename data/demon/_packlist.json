@@ -132,6 +132,16 @@
         ],
         "colour": "#d8f255"
     },
+                                                                {   
+        "name": "Environmental Catastrophe",
+        "levels": [
+            "frozen_cave",
+            "sunset_sandstorm",
+            "black_blizzard"
+          ],
+          
+        "colour": "linear-gradient(to right, #5ee4ff 0%, ##ffd75e 100%)"
+        },
                                {   
         "name": "Last Call For Alcohol",
         "levels": [
@@ -206,6 +216,26 @@
             "storming_summit"
           ],
            "colour": "#ffffff"
+        },
+                                                    {   
+        "name": "KrmaL & Buddies I",
+        "levels": [
+            "conical_depression",
+            "glide",
+            "heartbeat"
+          ],
+          
+           "colour": "#000000"
+        },
+                                                            {   
+        "name": "KrmaL & No Buddies II",
+        "levels": [
+            "xo",
+            "low_death",
+            "black_blizzard"
+          ],
+          
+           "colour": "#000000"
         },
                                                     {   
         "name": "2024 EDS Hardests Era",
