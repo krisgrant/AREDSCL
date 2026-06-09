@@ -216,6 +216,17 @@
           ],
            "colour": "#000eff"
         },
+                                                            {   
+        "name": "Top 1 Pack (AREDL?)",
+        "levels": [
+            "artificial_ascent",
+            "athanatos",
+            "sakupen_hell",
+            "bloodbath",
+            "cataclysm"
+          ],
+           "colour": "#ab5454"
+        },
                        {   
         "name": "Totally Twinning Hardests",
         "levels": [
