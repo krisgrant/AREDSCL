@@ -4,5 +4,11 @@
    "verifier": "Bisemy",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
-    "records": []
+    "records": [       
+        {
+            "user": "Simplerr",
+            "link": "https://youtu.be/FZzeJJ21s6g",
+            "percent": 100,
+            "hz": "60"
+        }]
 }
