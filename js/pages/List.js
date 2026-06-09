@@ -150,8 +150,8 @@ export default {
                         <p class="extended">June 9th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(49)">
-                            edde277 Difficult has been placed at #50, above KrisYas Bad Time and below REVENANT. This change pushes KrisYas Bad Time into the legacy list.
+                        <button class="btn-no-cover" @click="jumpTo(36)">
+                            oppblock 21 has been placed at #37, above Vacancy and below AbbyTheGreat. This change pushes edde277 Difficult into the legacy list.
                         </button>
                     </div>
 

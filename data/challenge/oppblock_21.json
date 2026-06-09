@@ -1,0 +1,20 @@
+{
+    "id": 107151637,
+    "name": "oppblock 21",
+    "author": "KrisYa",
+    "creators": ["KrisYa"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave & Chokepoints",
+    "length": "28 Seconds",
+    "verification": "https://youtu.be/l0pA1q4Snys?si=8UDuuiPj2g3y4c38",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/ueHLzYGVSsA",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+  }
