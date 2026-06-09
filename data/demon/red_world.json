@@ -1,10 +1,16 @@
 {
     "id": 59075347,
-    "name": "aftermath",
+    "name": "Red World",
    "verifier": "Rave",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "SMango23",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        },
         {
             "user": "KrisYa",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
@@ -12,9 +18,9 @@
             "hz": "360"
         },
         {
-            "user": "Bisemy",
+            "user": "LoB",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
-            "hz": "120"
+            "hz": "720"
         }]
 }

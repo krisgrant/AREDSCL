@@ -1,10 +1,16 @@
 {
     "id": 59075347,
-    "name": "Prismatic Haze",
-   "verifier": "Rave",
+    "name": "Cataclysm",
+   "verifier": "KrisYa",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "Rave",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        },
         {
             "user": "KrisYa",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
@@ -18,7 +24,7 @@
             "hz": "120"
         },
         {
-            "user": "owrnp",
+            "user": "LoB",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
             "hz": "240"
@@ -28,5 +34,17 @@
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "Simplerr",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "60"
+        },
+        {
+            "user": "diewise",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "480"
         }]
-}
+} 

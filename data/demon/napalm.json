@@ -1,7 +1,7 @@
 {
     "id": 59075347,
-    "name": "aftermath",
-   "verifier": "Rave",
+    "name": "Napalm",
+   "verifier": "Simplerr",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
     "records": [
@@ -15,6 +15,6 @@
             "user": "Bisemy",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
-            "hz": "120"
+            "hz": "240"
         }]
 }

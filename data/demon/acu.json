@@ -1,7 +1,7 @@
 {
     "id": 59075347,
-    "name": "Prismatic Haze",
-   "verifier": "Rave",
+    "name": "Acu",
+   "verifier": "Simplerr",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
     "records": [
@@ -18,15 +18,21 @@
             "hz": "120"
         },
         {
+            "user": "SMango23",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
             "user": "owrnp",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
             "hz": "240"
         },
         {
-            "user": "SMango23",
+            "user": "diewise",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
-            "hz": "360"
+            "hz": "240"
         }]
 }
