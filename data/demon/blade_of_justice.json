@@ -1,0 +1,20 @@
+{
+    "id": 59075347,
+    "name": "Blade of Justice",
+   "verifier": "SMango23",
+    "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "Bisemy",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        }]
+}

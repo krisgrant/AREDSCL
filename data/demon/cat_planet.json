@@ -1,0 +1,26 @@
+{
+    "id": 59075347,
+    "name": "Cat Planet",
+   "verifier": "KrisYa",
+    "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "Rave",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "SMango23",
+            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "percent": 100,
+            "hz": "360"
+        }]
+}
