@@ -2,54 +2,54 @@
     "id": 59075347,
     "name": "Bloodbath",
    "verifier": "Rave",
-    "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
+    "verification": "https://www.youtube.com/watch?v=LCyNenkywc0&t=67s",
     "percentToQualify": 100,
     "records": [
-        {
-            "user": "Bisemy",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
-            "percent": 100,
-            "hz": "120"
-        },        
         {
             "user": "Urbyn",
             "link": "https://www.youtube.com/watch?v=r4MBgGSSfO4",
             "percent": 100,
             "hz": "360"
+        },        
+        {
+            "user": "Bisemy",
+            "link": "https://www.youtube.com/watch?v=iuYGMVgMC24",
+            "percent": 100,
+            "hz": "120"
         },
         {
             "user": "KrisYa",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=WyhH54lm2Oc",
             "percent": 100,
             "hz": "360"
         },
         {
             "user": "SMango23",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=tptl6IHlkC0",
             "percent": 100,
             "hz": "360"
         },
         {
             "user": "LoB",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=sdK8RRhQ5_M",
             "percent": 100,
             "hz": "360"
         },
         {
             "user": "owrnp",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=JrCKRbM-U34",
             "percent": 100,
             "hz": "240"
         },
         {
             "user": "diewise",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=UkL4gePfLpM",
             "percent": 100,
             "hz": "480"
         },
         {
             "user": "Simplerr",
-            "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
+            "link": "https://www.youtube.com/watch?v=X-lP4PBqfzE",
             "percent": 100,
             "hz": "60"
         }]
