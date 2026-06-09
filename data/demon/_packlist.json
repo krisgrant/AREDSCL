@@ -207,6 +207,15 @@
           ],
            "colour": "#ffffff"
         },
+                                                    {   
+        "name": "2024 EDS Hardests Era",
+        "levels": [
+            "wasureta",
+            "sonic_wave",
+            "yatagarasu"
+          ],
+           "colour": "#000eff"
+        },
                        {   
         "name": "Totally Twinning Hardests",
         "levels": [
