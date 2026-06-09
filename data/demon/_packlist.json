@@ -256,6 +256,15 @@
           ],
            "colour": "#2c7d25"
         },
+                                        {   
+        "name": "The Borgan Trilogy",
+        "levels": [
+            "goober_rage_stage",
+            "zodiac",
+            "judgement_knights"
+          ],
+           "colour": "#4f46b0"
+        },
                         {   
         "name": "The Forever Story",
         "levels": [
