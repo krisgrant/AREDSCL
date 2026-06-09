@@ -198,6 +198,15 @@
         ],
         "colour": "#3d260e"
     },
+                                            {   
+        "name": "Cold Pack",
+        "levels": [
+            "shardscapes",
+            "frozen_cave",
+            "storming_summit"
+          ],
+           "colour": "#ffffff"
+        },
                        {   
         "name": "Totally Twinning Hardests",
         "levels": [
