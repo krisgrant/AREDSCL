@@ -93,6 +93,15 @@
         "colour": "#4d2f15"
     },
     {   
+        "name": "edde277 Pack",
+        "levels": [
+            "edde277_difficult",
+            "edde277_wave_level",
+            "edde277_challenge"
+        ],
+        "colour": "#7070e6"
+    },
+    {   
         "name": "XXL Pack",
         "levels": [
             "prismatic_dance",

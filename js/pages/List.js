@@ -147,11 +147,11 @@ export default {
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">June 6th 2026</p>
+                        <p class="extended">June 9th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(37)">
-                            Ship challenge 4 has been removed (Formerly at #38).
+                        <button class="btn-no-cover" @click="jumpTo(49)">
+                            edde277 Difficult has been placed at #50, above KrisYas Bad Time and below REVENANT. This change pushes KrisYas Bad Time into the legacy list.
                         </button>
                     </div>
 

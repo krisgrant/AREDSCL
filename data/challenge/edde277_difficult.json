@@ -1,0 +1,20 @@
+{
+    "id": 142164813,
+    "name": "edde277 Difficult",
+    "author": "Bisemy",
+    "creators": ["Bisemy"],
+    "verifier": "Bisemy",
+    "difficulty": "Extreme Demon",
+    "skillset": "Wave & Timings",
+    "length": "12 Seconds",
+    "verification": "https://youtu.be/Y_V7IcjzUZs",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/NVCkozVdpM4",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+  }
