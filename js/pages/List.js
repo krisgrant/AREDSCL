@@ -150,7 +150,7 @@ export default {
                         <p class="extended">June 9th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(51)">
+                        <button class="btn-no-cover" @click="jumpTo(49)">
                             edde277 Difficult has been placed at #50, above KrisYas Bad Time and below REVENANT. This change pushes KrisYas Bad Time into the legacy list.
                         </button>
                     </div>
