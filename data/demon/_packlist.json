@@ -1,5 +1,41 @@
 [
     {   
+        "name": "Apocalyptic Trilogy",
+        "levels": [
+            "bloodbath",
+            "aftermath",
+            "cataclysm"
+        ],
+        "colour": "#d90000"
+    },
+    {   
+        "name": "RGB",
+        "levels": [
+            "sonic_wave",
+            "yatagarasu",
+            "erebus"
+        ],
+        "colour": "linear-gradient(to right, #0051ff 0%, #ff0000 100%)"
+    },
+    {   
+        "name": "Beginner Pack",
+        "levels": [
+            "cataclysm",
+            "niwa",
+            "acu"
+        ],
+        "colour": "#b8ffb9"
+    },
+    {   
+        "name": "Memory Beginner Pack",
+        "levels": [
+            "twilight_spire",
+            "lost_love",
+            "troll level"
+        ],
+        "colour": "#f1b8ff"
+    },
+    {   
         "name": "Top 1",
         "levels": [
             "walter_white",
@@ -10,262 +46,366 @@
         "colour": "#e24202"
     },
     {   
-        "name": "EDS Pack",
+        "name": "moment pack",
+        "levels": [
+            "moment",
+            "gravity",
+            "ecstasy"
+        ],
+        "colour": "#f3b8ff"
+    },
+    {   
+        "name": "The Sonic Wave Shitology",
+        "levels": [
+            "sonic_wave_rebirth",
+            "sonic_wave",
+            "generic_wave",
+            "auditory_breaker"
+        ],
+        "colour": "linear-gradient(to right, #1800a3 0%, #001052 100%)"
+    },
+    {   
+        "name": "Haze Series",
+        "levels": [
+            "chromatic_haze",
+            "achromatism",
+            "prismatic_haze"
+        ],
+        "colour": "#fcff4a"
+    },
+    {   
+        "name": "Loltad Pack",
+        "levels": [
+            "worse_trip",
+            "rash",
+            "twilight_spire"
+        ],
+        "colour": "#b54628"
+    },
+    {   
+        "name": "EDS Favourites",
         "levels": [
             "wasureta",
             "chromatic_haze",
             "worse_trip"
         ],
         "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
-    }, 
-    {
-    "name": "Neon Rift",
-    "levels": ["walter_white", "coalescence", "goober_rage_stage", "red_world"],
-    "colour": "#ff3b3b"
-  },
-  {
-    "name": "Solar Fracture",
-    "levels": ["zodiac", "judgement_knights", "thinking_space", "walter_white"],
-    "colour": "#ff7a18"
-  },
-  {
-    "name": "Quantum Bloom",
-    "levels": ["cognition", "cosmic_cyclone", "rust", "coalescence"],
-    "colour": "#7b2ff7"
-  },
-  {
-    "name": "Iron Eclipse",
-    "levels": ["shardscapes", "bloodlust", "congregation", "goober_rage_stage"],
-    "colour": "#2b2d42"
-  },
-  {
-    "name": "Frozen Apex",
-    "levels": ["atomic_cannon", "fog", "ouroboros", "zodiac"],
-    "colour": "#00c6ff"
-  },
-  {
-    "name": "Void Circuit",
-    "levels": ["frozen_cave", "storming_summit", "edge_of_the_world", "judgement_knights"],
-    "colour": "#141e30"
-  },
-  {
-    "name": "Crimson Logic",
-    "levels": ["adomania", "wasureta", "cybernetic_crescent", "thinking_space"],
-    "colour": "#b31217"
-  },
-  {
-    "name": "Static Abyss",
-    "levels": ["cersia_difficult", "sonic_wave_rebirth", "sonic_wave", "cognition"],
-    "colour": "#0f2027"
-  },
-  {
-    "name": "Nebula Drift",
-    "levels": ["yatagarasu", "devotion", "xo", "cosmic_cyclone"],
-    "colour": "#8e2de2"
-  },
-  {
-    "name": "Broken Signal",
-    "levels": ["super_probably_level", "generic_wave", "sunset_sandstorm", "rust"],
-    "colour": "#232526"
-  },
-  {
-    "name": "Infernal Grid",
-    "levels": ["erebus", "chromatic_haze", "devil_vortex", "shardscapes"],
-    "colour": "#ff416c"
-  },
-  {
-    "name": "Glacier Core",
-    "levels": ["dole_damos", "zaphkiel", "killbot", "bloodlust"],
-    "colour": "#56ccf2"
-  },
-  {
-    "name": "Pulse Horizon",
-    "levels": ["artificial_ascent", "turn_the_lights_off", "belloq", "congregation"],
-    "colour": "#00f2fe"
-  },
-  {
-    "name": "Black Aurora",
-    "levels": ["black_flag", "quantum_processing", "black_blizzard", "atomic_cannon"],
-    "colour": "#0b0b0b"
-  },
-  {
-    "name": "Storm Divide",
-    "levels": ["snowfall_fiesta", "rate_demon", "air_fryer", "fog"],
-    "colour": "#1f4037"
-  },
-  {
-    "name": "Ash Circuit",
-    "levels": ["the_sulphur_sea", "auditory_breaker", "lodin_da_fish_washer", "ouroboros"],
-    "colour": "#3a1c71"
-  },
-  {
-    "name": "Digital Collapse",
-    "levels": ["worse_trip", "dolos", "the_cellar_path", "frozen_cave"],
-    "colour": "#ff4e50"
-  },
-  {
-    "name": "Gravity Well",
-    "levels": ["adrenaline", "ithacropolis", "ruber_cash_22", "storming_summit"],
-    "colour": "#373b44"
-  },
-  {
-    "name": "Fractured Dawn",
-    "levels": ["athanatos", "cryothorn_hell", "rash", "edge_of_the_world"],
-    "colour": "#ff9966"
-  },
-  {
-    "name": "Titan Memory",
-    "levels": ["the_old_trail", "hot_rod", "blade_of_justice", "adomania"],
-    "colour": "#141414"
-  },
-  {
-    "name": "Obsidian Pulse",
-    "levels": ["phobos", "sakupen_hell", "achromatism", "wasureta"],
-    "colour": "#000428"
-  },
-  {
-    "name": "Solar Drift",
-    "levels": ["hateful_reflection", "tenth_circle", "carcano", "cybernetic_crescent"],
-    "colour": "#f7971e"
-  },
-  {
-    "name": "Neural Storm",
-    "levels": ["biohazard", "astrophobia", "moment", "sonic_wave_rebirth"],
-    "colour": "#654ea3"
-  },
-  {
-    "name": "Echo Rift",
-    "levels": ["azurite_royen", "ruler_of_everything", "gravity", "sonic_wave"],
-    "colour": "#3f2b96"
-  },
-  {
-    "name": "Blight Sector",
-    "levels": ["bloodbath", "motorbreath", "ecstasy", "yatagarasu"],
-    "colour": "#e52d27"
-  },
-  {
-    "name": "Void Spiral",
-    "levels": ["down_bass", "prismatic_haze", "junk_realm", "devotion"],
-    "colour": "#000000"
-  },
-  {
-    "name": "Chrome Memory",
-    "levels": ["conical_depression", "scattered_n_lost", "aftermath", "xo"],
-    "colour": "#7f7fd5"
-  },
-  {
-    "name": "Solar Ash",
-    "levels": ["cat_planet", "concaved_memories", "annihilation_nation", "generic_wave"],
-    "colour": "#f12711"
-  },
-  {
-    "name": "Hyper Vault",
-    "levels": ["codependence", "glide", "heartbeat", "sunset_sandstorm"],
-    "colour": "#11998e"
-  },
-  {
-    "name": "Silent Core",
-    "levels": ["totem", "myocardia", "lotus", "erebus"],
-    "colour": "#1d4350"
-  },
-  {
-    "name": "Eternal Circuit",
-    "levels": ["the_ultimate_return", "wacky_mcwhackface_v2", "welcome_to_gd_news", "chromatic_haze"],
-    "colour": "#ff4b1f"
-  },
-  {
-    "name": "Nightfall Prism",
-    "levels": ["tornado", "rivers_of_nazareth", "shukufuku", "devil_vortex"],
-    "colour": "#232526"
-  },
-  {
-    "name": "Chaos Engine",
-    "levels": ["necropolix", "hurricane", "fexty", "dole_damos"],
-    "colour": "#8e0e00"
-  },
-  {
-    "name": "Neon Collapse",
-    "levels": ["the_ultimate_phase", "broken_signal", "napalm", "zaphkiel"],
-    "colour": "#0f0c29"
-  },
-  {
-    "name": "Radiant Void",
-    "levels": ["la_llorona", "red_world_rebirth", "backlights", "killbot"],
-    "colour": "#fc466b"
-  },
-  {
-    "name": "Frozen Signal",
-    "levels": ["clown_control", "dismal_duststorm", "azure_metropolis", "air_fryer"],
-    "colour": "#00c9ff"
-  },
-  {
-    "name": "Terminal Bloom",
-    "levels": ["diligence", "doradura", "deception_dive", "lodin_da_fish_washer"],
-    "colour": "#43cea2"
-  },
-  {
-    "name": "Iron Horizon",
-    "levels": ["crowd_control", "faith", "the_flawless", "worse_trip"],
-    "colour": "#3a6073"
-  },
-  {
-    "name": "Celestial Break",
-    "levels": ["beyond_the_summit", "allegiance", "blacklights", "ruber_cash_22"],
-    "colour": "#396afc"
-  },
-  {
-    "name": "Void Echo",
-    "levels": ["hypersonic", "twilight_spire", "redemption", "bloodbath"],
-    "colour": "#000046"
-  },
-  {
-    "name": "Prism Breaker",
-    "levels": ["acropolix", "the_ultimate_demon", "hidden_in_the_sand", "motorbreath"],
-    "colour": "#f953c6"
-  },
-  {
-    "name": "Dark Meridian",
-    "levels": ["disruption", "stop_breathing", "dark_odyssey", "ecstasy"],
-    "colour": "#141e30"
-  },
-  {
-    "name": "Arc Flame",
-    "levels": ["reverie", "anya_iii", "forbidden_isle", "down_bass"],
-    "colour": "#ff512f"
-  },
-  {
-    "name": "Starlit Collapse",
-    "levels": ["liz", "malevolent", "cataclysm", "prismatic_haze"],
-    "colour": "#42275a"
-  },
-  {
-    "name": "Infinite Ash",
-    "levels": ["lost_love", "glisten", "kanpai", "junk_realm"],
-    "colour": "#000000"
-  },
-  {
-    "name": "Frozen Memory",
-    "levels": ["nove_cerchi", "proteus", "eclipse", "heartbeat"],
-    "colour": "#74ebd5"
-  },
-  {
-    "name": "Omega Burst",
-    "levels": ["9blue", "azurite_sillow", "decay", "lotus"],
-    "colour": "#ff5f6d"
-  },
-  {
-    "name": "Astral Ruin",
-    "levels": ["mizureta", "misty_mountains", "niwa", "glide"],
-    "colour": "#2c3e50"
-  },
-  {
-    "name": "Final Drift",
-    "levels": ["without_u", "raindance", "prismatic", "troll_level"],
-    "colour": "#1e3c72"
-  },
-  {
-    "name": "Endless Fade",
-    "levels": ["sweater_weather", "acu", "precipitance", "red_world"],
-    "colour": "#ff9966"
-  }
-]
+    },
+    {   
+        "name": "Ocular Miracle",
+        "levels": [
+            "diligence",
+            "faith",
+            "reverie"
+        ],
+        "colour": "linear-gradient(to right, #8427ba 0%, #f03cba 100%)"
+    },
+           {   
+        "name": "Nine Circles Infinity",
+        "levels": [
+            "hateful_reflection",
+            "tenth_circle",
+            "astrophobia",
+            "azurite_royen",
+            "down_bass",
+            "cat_planet"
+        ],
+        "colour": "#d13653"
+    },
+           {   
+        "name": "Nine Circles Infinity II",
+        "levels": [
+            "cosmic_cyclone",
+            "sonic_wave",
+            "sonic_wave_rebirth",
+            "generic_wave",
+            "auditory_breaker"
+        ],
+        "colour": "#5036d1"
+    },
+                           {   
+        "name": "Memory Mishaps",
+        "levels": [
+            "super_probably_level",
+            "killbot",
+            "twilight_spire"
+        ],
+        "colour": "#d8f255"
+    },
+                               {   
+        "name": "Last Call For Alcohol",
+        "levels": [
+            "rust",
+            "atomic_cannon",
+            "fog"
+        ],
+        "colour": "#db9a39"
+    },
+                                   {   
+        "name": "Tally Hall Pack",
+        "levels": [
+            "turn_the_lights_off",
+            "ruler_of_everything",
+            "hidden_in_the_sand"
+        ],
+        "colour": "#6d26a3"
+    },
+                   {   
+        "name": "red",
+        "levels": [
+            "yatagarasu",
+            "athanatos",
+            "sakupen_hell",
+            "hateful_reflection"
+        ],
+        "colour": "#9e0000"
+    },
+               {   
+        "name": "green",
+        "levels": [
+            "erebus",
+            "killbot",
+            "biohazard",
+            "down_bass"
+        ],
+        "colour": "#0d9e00"
+    },
+                   {   
+        "name": "blue",
+        "levels": [
+            "sonic_wave",
+            "snowfall_fiesta",
+            "cryothorn_hell",
+            "blade_of_justice"
+        ],
+        "colour": "#002d9e"
+    },
+                   {   
+        "name": "The Shit Shack",
+        "levels": [
+            "conical_depression",
+            "annihilation_nation",
+            "fexty"
+        ],
+        "colour": "#573615"
+    },
+                       {   
+        "name": "The Shit Shack II",
+        "levels": [
+            "erebus",
+            "devil_vortex",
+            "zaphkiel"
+        ],
+        "colour": "#3d260e"
+    },
+                                            {   
+        "name": "Cold Pack",
+        "levels": [
+            "shardscapes",
+            "frozen_cave",
+            "storming_summit"
+          ],
+           "colour": "#ffffff"
+        },
+                                                    {   
+        "name": "2024 EDS Hardests Era",
+        "levels": [
+            "wasureta",
+            "sonic_wave",
+            "yatagarasu"
+          ],
+           "colour": "#000eff"
+        },
+                                                            {   
+        "name": "Top 1 Pack (AREDL?)",
+        "levels": [
+            "artificial_ascent",
+            "athanatos",
+            "sakupen_hell",
+            "bloodbath",
+            "cataclysm"
+          ],
+           "colour": "#ab5454"
+        },
+                       {   
+        "name": "Totally Twinning Hardests",
+        "levels": [
+            "wasureta",
+            "sonic_wave",
+            "chromatic_haze",
+            "worse_trip",
+            "carcano",
+            "prismatic_haze"
+        ],
+        "colour": "#801fff"
+    },
+        {   
+        "name": "Riot Pack",
+        "levels": [
+            "quantum_processing",
+            "bloodbath",
+            "red_world_rebirth"
+          ],
+           "colour": "#1aff00"
+        },
+                                           {   
+        "name": "Yaosabi Pack",
+        "levels": [
+            "shukufuku",
+            "kanpai",
+            "mizureta",
+            "niwa"
+        ],
+        "colour": "#6d26a3"
+    },
+                {   
+        "name": "vit12 pack",
+        "levels": [
+            "the_ultimate_return",
+            "the_ultimate_demon",
+            "eclipse"
+          ],
+           "colour": "#000000"
+        },
+                        {   
+        "name": "The KrisYa Classics",
+        "levels": [
+            "frozen_cave",
+            "belloq",
+            "black_flag"
+          ],
+           "colour": "#702f9e"
+        },
+                        {   
+        "name": "Dum, Dumb & Dumber",
+        "levels": [
+            "anya_iii",
+            "nove_cerchi",
+            "proteus"
+          ],
+           "colour": "#7d2525"
+        },
+                                {   
+        "name": "Dum, Dumb & Dumber II",
+        "levels": [
+            "eclipse",
+            "raindance",
+            "prismatic"
+          ],
+           "colour": "#2c7d25"
+        },
+                                        {   
+        "name": "The Borgan Trilogy",
+        "levels": [
+            "goober_rage_stage",
+            "zodiac",
+            "judgement_knights"
+          ],
+           "colour": "#4f46b0"
+        },
+                        {   
+        "name": "The Forever Story",
+        "levels": [
+            "adrenaline",
+            "ruler_of_everything",
+            "dark_odyssey"
+          ],
+           "colour": "#020a3b"
+        },
+                               {   
+        "name": "The KrisYa Collection",
+        "levels": [
+            "cognition",
+            "rust",
+            "wasureta",
+            "chromatic_haze",
+            "worse_trip",
+            "carcano",
+            "prismatic_haze",
+            "allegiance",
+            "cataclysm"
+        ],
+        "colour": "#6f40ad"
+    },
+                                   {   
+        "name": "The Bisemy Collection",
+        "levels": [
+            "coalescence",
+            "goober_rage_stage",
+            "zodiac",
+            "storming_summit",
+            "sonic_wave_rebirth",
+            "sonic_wave",
+            "bloodbath",
+            "cataclysm"
+        ],
+        "colour": "#4540ad"
+    },
+                                       {   
+        "name": "The MrSimplerr Collection",
+        "levels": [
+            "atomic_cannon",
+            "cybernetic_crescent",
+            "chromatic_haze",
+            "black_blizzard",
+            "worse_trip",
+            "carcano",
+            "glisten",
+            "troll_level",
+            "acu"
+        ],
+        "colour": "#4064ad"
+    },
+                                           {   
+        "name": "The Revarie Collection",
+        "levels": [
+            "yatagarasu",
+            "artificial_ascent",
+            "worse_trip",
+            "phobos",
+            "prismatic_haze"
+        ],
+        "colour": "#60d662"
+    },
+                                               {   
+        "name": "The Owen Collection",
+        "levels": [
+            "fog",
+            "sunset_sandstorm",
+            "chromatic_haze",
+            "killbot",
+            "prismatic_haze",
+            "glisten",
+            "acu"
+        ],
+        "colour": "#a8a8a8"
+    },
+                                                   {   
+        "name": "The SMango23 Collection",
+        "levels": [
+            "cosmic_cyclone",
+            "ouroboros",
+            "wasureta",
+            "sonic_wave",
+            "zaphkiel",
+            "auditory_breaker",
+            "blade_of_justice",
+            "sakupen_hell",
+            "the_flawless",
+            "allegiance"
+        ],
+        "colour": "#eded5c"
+    },
+                                                       {   
+        "name": "The LackOfBrain Collection",
+        "levels": [
+            "walter_white",
+            "thinking_space",
+            "cersia_difficult",
+            "lodin_da_fish_washer",
+            "ruber_cash_22",
+            "prismatic_haze"
+        ],
+        "colour": "#000000"
+    }
+     ]
