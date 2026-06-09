@@ -58,14 +58,14 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
 
-                    <LevelAuthors
-                        :author="level.author"
-                        :creators="level.creators"
-                        :verifier="level.verifier"
-                    />
+                        <LevelAuthors
+                            :author="level.author || ''"
+                            :creators="level.creators || []"
+                            :verifier="level.verifier || ''"
+                        />
 
-                    <div class="packs" v-if="level.packs.length > 0">
-                        <div v-for="pack in level.packs" class="tag" :style="{background:pack.colour}">
+                    <div class="packs" v-if="(level.packs || []).length > 0">
+                        <div v-for="pack in (level.packs || [])" class="tag" :style="{background:pack.colour}">
                             <p>{{ pack.name }}</p>
                         </div>
                     </div>
@@ -235,18 +235,32 @@ export default {
     }),
 
     computed: {
-        level() {
-            if (!this.list?.length) return null;
-            return this.list[this.selected]?.[0] || this.list[0][0];
-        },
+    level() {
+        if (!this.list?.length) return null;
 
-        isDemons() {
-            return window.location.hash.startsWith("#/demons/");
-        },
+        const level = this.list[this.selected]?.[0] || this.list[0][0];
 
-        nav() {
-            return this.isDemons ? this.navMap.demons : this.navMap.normal;
-        }
+        return {
+            author: "",
+            creators: [],
+            verifier: "",
+            tags: [],
+            packs: [],
+            difficulty: "",
+            skillset: "",
+            length: "",
+            records: [],
+            ...level
+        };
+    },
+
+    isDemons() {
+        return window.location.hash.startsWith("#/demons/");
+    },
+
+    nav() {
+        return this.isDemons ? this.navMap.demons : this.navMap.normal;
+    }
     },
 
     methods: {
