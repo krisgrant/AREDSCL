@@ -20,128 +20,244 @@
         "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
     },
     {
-    "name": "Crystalline Echoes",
-    "levels": ["shardscapes","coalescence","frozen_cave"],
-    "colour": "#7ac7ff"
+    "name": "Crimson Surge",
+    "levels": ["walter_white", "coalescence", "goober_rage_stage"],
+    "colour": "#d12b2b"
 },
 {
-    "name": "Oblivion Surge",
-    "levels": ["bloodlust","goober_rage_stage","dolos","rust"],
-    "colour": "#b00000"
+    "name": "Astral Breakers",
+    "levels": ["zodiac", "judgement_knights", "thinking_space"],
+    "colour": "#4b6aff"
 },
 {
-    "name": "Astral Cascade",
-    "levels": ["cosmic_cyclone","zodiac","chromatic_haze","adomania"],
-    "colour": "#8f4dff"
+    "name": "Neon Cortex",
+    "levels": ["cognition", "cosmic_cyclone", "rust"],
+    "colour": "#33ffaa"
 },
 {
-    "name": "Silent Reverie",
-    "levels": ["fog","thinking_space","wasureta"],
-    "colour": "#9fb3c8"
+    "name": "Shattered Depths",
+    "levels": ["shardscapes", "bloodlust", "congregation"],
+    "colour": "#8e1aff"
 },
 {
-    "name": "Titanfall Protocol",
-    "levels": ["atomic_cannon","killbot","super_probably_level","devil_vortex"],
-    "colour": "#ff6a00"
+    "name": "Atomic Dawn",
+    "levels": ["atomic_cannon", "fog", "ouroboros"],
+    "colour": "#ff9933"
 },
 {
-    "name": "Frozen Paradox",
-    "levels": ["frozen_cave","snowfall_fiesta","edge_of_the_world","quantum_processing"],
-    "colour": "#66d0ff"
-},
-{
-    "name": "Eclipse Choir",
-    "levels": ["congregation","judgement_knights","devotion"],
-    "colour": "#2b2b52"
-},
-{
-    "name": "Neon Fracture",
-    "levels": ["cybernetic_crescent","generic_wave","coalescence","turn_the_lights_off"],
-    "colour": "#00ffee"
-},
-{
-    "name": "Riftbound Horizon",
-    "levels": ["storming_summit","edge_of_the_world","sunset_sandstorm"],
-    "colour": "#ffb347"
-},
-{
-    "name": "Mythos Ascendant",
-    "levels": ["yatagarasu","zaphkiel","devotion","dolos"],
-    "colour": "#ffd65c"
-},
-{
-    "name": "Iron Requiem",
-    "levels": ["rust","black_flag","black_blizzard"],
-    "colour": "#4d4d4d"
-},
-{
-    "name": "Quantum Bloom",
-    "levels": ["cognition","quantum_processing","chromatic_haze","coalescence"],
-    "colour": "#00ccaa"
-},
-{
-    "name": "Solar Outcry",
-    "levels": ["sunset_sandstorm","atomic_cannon","goober_rage_stage"],
-    "colour": "#ff8c00"
-},
-{
-    "name": "Abyssal Hymn",
-    "levels": ["congregation","fog","ouroboros","thinking_space"],
-    "colour": "#1f3b4d"
-},
-{
-    "name": "Synthetic Rift",
-    "levels": ["artificial_ascent","cybernetic_crescent","turn_the_lights_off","killbot"],
-    "colour": "#3a3a7a"
-},
-{
-    "name": "Polar Collapse",
-    "levels": ["frozen_cave","snowfall_fiesta","fog"],
-    "colour": "#b3e6ff"
-},
-{
-    "name": "Chaos Bloom",
-    "levels": ["chromatic_haze","generic_wave","super_probably_level","air_fryer"],
-    "colour": "#ff66aa"
-},
-{
-    "name": "Violet Dominion",
-    "levels": ["zaphkiel","judgement_knights","cosmic_cyclone"],
-    "colour": "#9933ff"
-},
-{
-    "name": "Temporal Shatter",
-    "levels": ["adomania","cognition","wasureta","thinking_space"],
-    "colour": "#cc99ff"
-},
-{
-    "name": "Sandstorm Collapse",
-    "levels": ["sunset_sandstorm","dolos","lodin_da_fish_washer"],
-    "colour": "#e6c15c"
-},
-{
-    "name": "Eternal Circuit",
-    "levels": ["ouroboros","quantum_processing","coalescence","artificial_ascent"],
-    "colour": "#00ffaa"
-},
-{
-    "name": "Rage Reactor",
-    "levels": ["goober_rage_stage","bloodlust","killbot","devil_vortex"],
-    "colour": "#ff3300"
-},
-{
-    "name": "Glacial Resonance",
-    "levels": ["edge_of_the_world","snowfall_fiesta","frozen_cave","fog"],
+    "name": "Frozen Eclipse",
+    "levels": ["frozen_cave", "storming_summit", "edge_of_the_world"],
     "colour": "#66ccff"
 },
 {
-    "name": "Synthetic Mirage",
-    "levels": ["cybernetic_crescent","chromatic_haze","turn_the_lights_off"],
-    "colour": "#224488"
+    "name": "Mind Collapse",
+    "levels": ["adomania", "wasureta", "cybernetic_crescent"],
+    "colour": "#ff66aa"
 },
 {
-    "name": "Astral Collapse",
-    "levels": ["cosmic_cyclone","zodiac","dolos","devotion","shardscapes"],
-    "colour": "#7f00ff"
+    "name": "Cersia Trials",
+    "levels": ["cersia_difficult", "sonic_wave_rebirth", "sonic_wave"],
+    "colour": "#ffaa00"
+},
+{
+    "name": "Raven's Descent",
+    "levels": ["yatagarasu", "devotion", "xo"],
+    "colour": "#222222"
+},
+{
+    "name": "Wavefront",
+    "levels": ["super_probably_level", "generic_wave", "sunset_sandstorm"],
+    "colour": "#00aaff"
+},
+{
+    "name": "Eternal Abyss",
+    "levels": ["erebus", "chromatic_haze", "devil_vortex"],
+    "colour": "#5500aa"
+},
+{
+    "name": "Damos Dominion",
+    "levels": ["dole_damos", "zaphkiel", "killbot"],
+    "colour": "#aa2222"
+},
+{
+    "name": "Ascendant Core",
+    "levels": ["artificial_ascent", "turn_the_lights_off", "belloq"],
+    "colour": "#ffaa55"
+},
+{
+    "name": "Blackened Storm",
+    "levels": ["black_flag", "quantum_processing", "black_blizzard"],
+    "colour": "#000000"
+},
+{
+    "name": "Winter Bloom",
+    "levels": ["snowfall_fiesta", "rate_demon", "air_fryer"],
+    "colour": "#99ddff"
+},
+{
+    "name": "Sulphur Depths",
+    "levels": ["the_sulphur_sea", "auditory_breaker", "lodin_da_fish_washer"],
+    "colour": "#ffdd33"
+},
+{
+    "name": "Tripwire",
+    "levels": ["worse_trip", "dolos", "the_cellar_path"],
+    "colour": "#ff4444"
+},
+{
+    "name": "Pulse Rush",
+    "levels": ["adrenaline", "ithacropolis", "ruber_cash_22"],
+    "colour": "#ff3355"
+},
+{
+    "name": "Frozen Wrath",
+    "levels": ["athanatos", "cryothorn_hell", "rash"],
+    "colour": "#66aaff"
+},
+{
+    "name": "Old World Echo",
+    "levels": ["the_old_trail", "hot_rod", "blade_of_justice"],
+    "colour": "#cc6600"
+},
+{
+    "name": "Infernal Orbit",
+    "levels": ["phobos", "sakupen_hell", "achromatism"],
+    "colour": "#aa0000"
+},
+{
+    "name": "Mirror Realm",
+    "levels": ["hateful_reflection", "tenth_circle", "carcano"],
+    "colour": "#444444"
+},
+{
+    "name": "Toxic Bloom",
+    "levels": ["biohazard", "astrophobia", "moment"],
+    "colour": "#33cc33"
+},
+{
+    "name": "Royal Shards",
+    "levels": ["azurite_royen", "ruler_of_everything", "gravity"],
+    "colour": "#3366ff"
+},
+{
+    "name": "Bloodline",
+    "levels": ["bloodbath", "motorbreath", "ecstasy"],
+    "colour": "#990000"
+},
+{
+    "name": "Bass Collapse",
+    "levels": ["down_bass", "prismatic_haze", "junk_realm"],
+    "colour": "#9933ff"
+},
+{
+    "name": "Hollow Spiral",
+    "levels": ["conical_depression", "scattered_n_lost", "aftermath"],
+    "colour": "#5555aa"
+},
+{
+    "name": "Cosmic Critters",
+    "levels": ["cat_planet", "concaved_memories", "annihilation_nation"],
+    "colour": "#ff88ff"
+},
+{
+    "name": "Fractured Bonds",
+    "levels": ["codependence", "glide", "heartbeat"],
+    "colour": "#ff5577"
+},
+{
+    "name": "Vital Pulse",
+    "levels": ["myocardia", "lotus", "the_ultimate_return"],
+    "colour": "#cc3366"
+},
+{
+    "name": "Whack Zone",
+    "levels": ["wacky_mcwhackface_v2", "welcome_to_gd_news", "tornado"],
+    "colour": "#ffaaee"
+},
+{
+    "name": "Nazareth Flow",
+    "levels": ["rivers_of_nazareth", "shukufuku", "necropolix"],
+    "colour": "#8844ff"
+},
+{
+    "name": "Tempest Break",
+    "levels": ["hurricane", "fexty", "the_ultimate_phase"],
+    "colour": "#00ccff"
+},
+{
+    "name": "Signal Void",
+    "levels": ["broken_signal", "walter_white", "coalescence"],
+    "colour": "#888888"
+},
+{
+    "name": "Knightfall",
+    "levels": ["judgement_knights", "rust", "fog"],
+    "colour": "#aa8844"
+},
+{
+    "name": "Cyclone Rift",
+    "levels": ["cosmic_cyclone", "bloodlust", "atomic_cannon"],
+    "colour": "#44ccff"
+},
+{
+    "name": "Frostspire",
+    "levels": ["frozen_cave", "edge_of_the_world", "adomania"],
+    "colour": "#77bbff"
+},
+{
+    "name": "Cyber Bloom",
+    "levels": ["cybernetic_crescent", "sonic_wave", "devotion"],
+    "colour": "#33ddaa"
+},
+{
+    "name": "Wave Requiem",
+    "levels": ["sonic_wave_rebirth", "generic_wave", "erebus"],
+    "colour": "#0044aa"
+},
+{
+    "name": "Vortex Core",
+    "levels": ["devil_vortex", "killbot", "turn_the_lights_off"],
+    "colour": "#aa0033"
+},
+{
+    "name": "Quantum Frost",
+    "levels": ["quantum_processing", "snowfall_fiesta", "the_sulphur_sea"],
+    "colour": "#66ccdd"
+},
+{
+    "name": "Breaker Line",
+    "levels": ["auditory_breaker", "dolos", "adrenaline"],
+    "colour": "#cc4444"
+},
+{
+    "name": "Cryo Pulse",
+    "levels": ["cryothorn_hell", "the_old_trail", "sakupen_hell"],
+    "colour": "#5599ff"
+},
+{
+    "name": "Hellfire Bloom",
+    "levels": ["achromatism", "biohazard", "azurite_royen"],
+    "colour": "#cc2222"
+},
+{
+    "name": "Royal Collapse",
+    "levels": ["ruler_of_everything", "bloodbath", "down_bass"],
+    "colour": "#6633cc"
+},
+{
+    "name": "Lost Spiral",
+    "levels": ["scattered_n_lost", "cat_planet", "codependence"],
+    "colour": "#aa66ff"
+},
+{
+    "name": "Lotus Heart",
+    "levels": ["lotus", "wacky_mcwhackface_v2", "rivers_of_nazareth"],
+    "colour": "#ff99cc"
+},
+{
+    "name": "Phasebreaker",
+    "levels": ["the_ultimate_phase", "broken_signal", "thinking_space"],
+    "colour": "#33aaff"
 }
+
 ]
