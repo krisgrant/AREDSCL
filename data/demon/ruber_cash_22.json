@@ -4,5 +4,11 @@
    "verifier": "LoB",
     "verification": "https://youtu.be/SWZgjo9OrlA?si=gwL-EOIEm37Yy1_-",
     "percentToQualify": 100,
-    "records": []
+    "records": [        
+        {
+            "user": "Rave",
+            "link": "https://www.youtube.com/watch?v=3-pjlyBwnyY",
+            "percent": 100,
+            "hz": "240"
+        }]
 }

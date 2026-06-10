@@ -6,6 +6,12 @@
     "percentToQualify": 100,
     "records": [
         {
+            "user": "Rave",
+            "link": "https://www.youtube.com/watch?v=u1lYDwYxXX4",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
             "user": "KrisYa",
             "link": "https://www.youtube.com/watch?v=MZ1PASPqukQ",
             "percent": 100,
