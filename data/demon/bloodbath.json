@@ -2,14 +2,14 @@
     "id": 10565740,
     "name": "Bloodbath",
    "verifier": "Rave",
-    "verification": "https://www.youtube.com/watch?v=LCyNenkywc0&t=67s",
+    "verification": "https://www.youtube.com/watch?v=r4MBgGSSfO4",
     "percentToQualify": 100,
     "records": [
         {
             "user": "Urbyn",
-            "link": "https://www.youtube.com/watch?v=r4MBgGSSfO4",
+            "link": "https://www.youtube.com/watch?v=LCyNenkywc0&t=67s",
             "percent": 100,
-            "hz": "360"
+            "hz": "240"
         },        
         {
             "user": "Bisemy",
