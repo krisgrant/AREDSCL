@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(113)">
-                            Sakupen has been beaten at #114, above The Flawless and below Faith. This change pushes troll level into the Legacy List.
+                            Sakupen Joy has been beaten at #114, above The Flawless and below Faith. This change pushes troll level into the Legacy List.
                         </button>
                     </div>
 
