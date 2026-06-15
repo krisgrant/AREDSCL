@@ -4,5 +4,11 @@
     "verifier": "Bisemy",
     "verification": "https://youtu.be/5Vth4DJzdns",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/Ryn6LVS-i8Q",
+            "percent": 100,
+            "hz": "360"
+        }]
 }
