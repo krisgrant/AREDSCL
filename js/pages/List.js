@@ -161,8 +161,8 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(1)">
-                            Coalescence has been beaten at #2.
+                        <button class="btn-no-cover" @click="jumpTo(113)">
+                            Sakupen has been beaten at #114, above The Flawless and below Faith. This change pushes troll level into the Legacy List.
                         </button>
                     </div>
 
