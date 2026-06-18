@@ -132,6 +132,15 @@
         ],
         "colour": "#d8f255"
     },
+                                       {   
+        "name": "Sakupen Sanctuary",
+        "levels": [
+            "cryothorn_hell",
+            "sakupen_hell",
+            "sakupen_joy"
+        ],
+        "colour": "linear-gradient(to right, #73130d 0%, #0d3e73 100%)"
+    },
                                                                 {   
         "name": "Environmental Catastrophe",
         "levels": [
