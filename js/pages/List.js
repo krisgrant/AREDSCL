@@ -161,7 +161,7 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(128)">
+                        <button class="btn-no-cover" @click="jumpTo(148)">
                             Wavetrip has been beaten at #147, above Mizureta and below Decay. This change pushes Without U into the Legacy List.
                         </button>
                     </div>
