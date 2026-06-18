@@ -15,7 +15,7 @@
             "digital_descent",
             "artificial_ascent"
         ],
-        "colour": "#b8b8b8"
+        "colour": "linear-gradient(to right, #ffffff 0%, #b8b8b8 100%)"
     },
     {   
         "name": "RGB",
