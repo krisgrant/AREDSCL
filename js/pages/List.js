@@ -161,8 +161,8 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(114)">
-                            Sakupen Joy has been beaten at # 115, above The Flawless and below Faith. This change pushes troll level into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(128)">
+                            BRUTAL has been beaten at #129, above Dark Odyssey and below Stop Breathing. This change pushes Raindance into the Legacy List.
                         </button>
                     </div>
 
