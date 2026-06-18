@@ -83,15 +83,6 @@
         "colour": "#b54628"
     },
     {   
-        "name": "EDS Favourites",
-        "levels": [
-            "wasureta",
-            "chromatic_haze",
-            "worse_trip"
-        ],
-        "colour": "linear-gradient(to right, #ededed 0%, #8c8c8c 100%)"
-    },
-    {   
         "name": "Ocular Miracle",
         "levels": [
             "diligence",
@@ -111,17 +102,6 @@
             "cat_planet"
         ],
         "colour": "#d13653"
-    },
-           {   
-        "name": "Nine Circles Infinity II",
-        "levels": [
-            "cosmic_cyclone",
-            "sonic_wave",
-            "sonic_wave_rebirth",
-            "generic_wave",
-            "auditory_breaker"
-        ],
-        "colour": "#5036d1"
     },
                            {   
         "name": "Memory Mishaps",
@@ -236,16 +216,6 @@
           
            "colour": "#000000"
         },
-                                                            {   
-        "name": "KrmaL & No Buddies II",
-        "levels": [
-            "xo",
-            "low_death",
-            "black_blizzard"
-          ],
-          
-           "colour": "#000000"
-        },
                                                     {   
         "name": "2024 EDS Hardests Era",
         "levels": [
@@ -254,17 +224,6 @@
             "yatagarasu"
           ],
            "colour": "#000eff"
-        },
-                                                            {   
-        "name": "Top 1 Pack (AREDL?)",
-        "levels": [
-            "artificial_ascent",
-            "athanatos",
-            "sakupen_hell",
-            "bloodbath",
-            "cataclysm"
-          ],
-           "colour": "#ab5454"
         },
                        {   
         "name": "Totally Twinning Hardests",
