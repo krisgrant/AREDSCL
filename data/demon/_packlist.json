@@ -8,6 +8,15 @@
         ],
         "colour": "#d90000"
     },
+        {   
+        "name": "Technology Trilogy",
+        "levels": [
+            "cybernetic_crescent",
+            "digital_descent",
+            "artificial_ascent"
+        ],
+        "colour": "#b8b8b8"
+    },
     {   
         "name": "RGB",
         "levels": [
@@ -102,6 +111,15 @@
             "cat_planet"
         ],
         "colour": "#d13653"
+    },
+        {   
+        "name": "Wave Beginner Pack",
+        "levels": [
+            "redemption",
+            "disruption",
+            "wavetrip"
+        ],
+        "colour": "#242d7d"
     },
                            {   
         "name": "Memory Mishaps",

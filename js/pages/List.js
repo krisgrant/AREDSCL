@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(128)">
-                            BRUTAL has been beaten at #129, above Dark Odyssey and below Stop Breathing. This change pushes Raindance into the Legacy List.
+                            Wavetrip has been beaten at #147, above Mizureta and below Decay. This change pushes Without U into the Legacy List.
                         </button>
                     </div>
 
