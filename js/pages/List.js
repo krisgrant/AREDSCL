@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(148)">
-                            Wavetrip has been beaten at #147, above Mizureta and below Decay. This change pushes Without U into the Legacy List.
+                            BRUTAL has been lowered from #129 to #147, above Wavetrip and below Decay.
                         </button>
                     </div>
 
