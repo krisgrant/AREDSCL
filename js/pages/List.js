@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(82)">
-                            Sigma Interface has been beaten at #83, above aftermath and below Scattered N Lost. This change pushes Misty Mountains into the Legacy List.
+                            Sigma Interface has been beaten at #83, above aftermath and below Scattered n Lost. This change pushes Misty Mountains into the Legacy List.
                         </button>
                     </div>
 
