@@ -161,8 +161,8 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(9)">
-                            Cobwebs has been beaten at #10, above Shardscapes and below RUST. This change pushes Motorbreath into the Extended List and niwa into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(82)">
+                            Sigma Interface has been beaten at #83, above aftermath and below Scattered N Lost. This change pushes Misty Mountains into the Legacy List.
                         </button>
                     </div>
 
