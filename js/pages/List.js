@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">June 3rd 2026</p>
+                        <p class="extended">June 28th 2026</p>
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(82)">
-                            Sigma Interface has been beaten at #83, above aftermath and below Scattered n Lost. This change pushes Misty Mountains into the Legacy List.
+                            Convulsing Light has been beaten at #83, above Sigma Interface and below Scattered n Lost. This change pushes Mizureta into the Legacy List.
                         </button>
                     </div>
 
