@@ -103,15 +103,22 @@
            {   
         "name": "Nine Circles Infinity",
         "levels": [
+            "down_bass",
+            "convulsing_light",
+            "cat_planet",
+            "cerebral_hemorrhage"
+        ],
+        "colour": "#504dbf"
+    },
+               {   
+        "name": "Nine Circles Infinity II",
+        "levels": [
             "hateful_reflection",
             "tenth_circle",
             "astrophobia",
-            "azurite_royen",
-            "down_bass",
-            "convulsing_light",
-            "cat_planet"
+            "azurite_royen"
         ],
-        "colour": "#d13653"
+        "colour": "#911a1a"
     },
         {   
         "name": "Wave Beginner Pack",

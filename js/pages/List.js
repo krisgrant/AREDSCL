@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(82)">
-                            Convulsing Light has been beaten at #83, above Sigma Interface and below Scattered n Lost. This change pushes Mizureta into the Legacy List.
+                            cerebral hemorrhage has been beaten at #104, above HURRICANE and below NecropoliX. This change pushes Wavetrip into the Legacy List.
                         </button>
                     </div>
 
