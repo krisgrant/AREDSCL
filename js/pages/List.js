@@ -161,7 +161,7 @@ export default {
                         <p class="extended">June 28th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(82)">
+                        <button class="btn-no-cover" @click="jumpTo(103)">
                             cerebral hemorrhage has been beaten at #104, above HURRICANE and below NecropoliX. This change pushes Wavetrip into the Legacy List.
                         </button>
                     </div>
