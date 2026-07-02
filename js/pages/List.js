@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 3rd 2026</p>
+                        <p class="extended">July 2nd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(51)">
-                            Hyper Paradox has been beaten at #52, above Dolos and below Worse Trip. This change pushes gravity into the Extended List and Decay into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(125)">
+                            Boreas has been beaten at #126, above BLACKLIGHTS and below Allegiance. This change pushes Azurite (sillow) into the Legacy List.
                         </button>
                     </div>
 
