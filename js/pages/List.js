@@ -161,8 +161,8 @@ export default {
                         <p class="extended">June 28th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(103)">
-                            cerebral hemorrhage has been beaten at #104, above HURRICANE and below NecropoliX. This change pushes Wavetrip into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(63)">
+                            EXPLICIT has been beaten at #64, above Sakupen Hell and below Phobos. This change pushes Bloodbath into the Extended List and BRUTAL into the Legacy List.
                         </button>
                     </div>
 
