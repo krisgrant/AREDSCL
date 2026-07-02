@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">June 28th 2026</p>
+                        <p class="extended">July 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(63)">
-                            EXPLICIT has been beaten at #64, above Sakupen Hell and below Phobos. This change pushes Bloodbath into the Extended List and BRUTAL into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(51)">
+                            Hyper Paradox has been beaten at #52, above Dolos and below Worse Trip. This change pushes gravity into the Extended List and Decay into the Legacy List.
                         </button>
                     </div>
 
