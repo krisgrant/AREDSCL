@@ -4,5 +4,12 @@
    "verifier": "KrisYa",
     "verification": "https://youtu.be/O3hHbiGyMRU?si=1Yv6TmJx5P2b7AtP",
     "percentToQualify": 100,
-    "records": []
-}
+    "records": [
+        {
+            "user": "SMango23",
+            "link": "https://youtu.be/RpDBQJvvtdg",
+            "percent": 100,
+            "hz": "360"
+        }
+    ]
+  }
