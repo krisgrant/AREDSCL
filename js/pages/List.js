@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 2nd 2026</p>
+                        <p class="extended">July 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(125)">
-                            Boreas has been beaten at #126, above BLACKLIGHTS and below Allegiance. This change pushes Azurite (sillow) into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(91)">
+                            Olly has been beaten at #92, above Codependence and below Annihilation Nation. This change pushes 9blue into the Legacy List.
                         </button>
                     </div>
 
