@@ -161,8 +161,8 @@ export default {
                         <p class="extended">June 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(9)">
-                            Cobwebs has been beaten at #10, above Shardscapes and below RUST. This change pushes Motorbreath into the Extended List and niwa into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(81)">
+                            Sakupen Joy has been lowered from #124 to #82, above Junk Realm and below Prismatic Haze.
                         </button>
                     </div>
 
