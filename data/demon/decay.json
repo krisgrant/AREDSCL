@@ -4,11 +4,5 @@
    "verifier": "LoB",
     "verification": "https://www.youtube.com/watch?v=0PEgKXSIJ88",
     "percentToQualify": 100,
-    "records": [
-        {
-            "user": "Urbyn",
-            "link": "https://www.youtube.com/watch?v=0KK0wA82e64",
-            "percent": 100,
-            "hz": "360"
-        }]
+    "records": []
 }
