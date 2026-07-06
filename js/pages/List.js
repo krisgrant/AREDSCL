@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 3rd 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(130)">
-                            iridium has been placed at #131, above Redemption and below Twilight Spire. This change pushes eclipse into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(129)">
+                            iridium has been placed at #130, above Redemption and below Twilight Spire. This change pushes eclipse into the Legacy List.
                         </button>
                     </div>
 
