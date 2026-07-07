@@ -161,7 +161,7 @@ export default {
                         <p class="extended">July 7th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(129)">
+                        <button class="btn-no-cover" @click="jumpTo(16)">
                             kowareta has been beaten at #17, above Frozen Cave and below Ouroboros. This change pushes Ruler of Everything into the Extended List and Proteus into the Legacy List.
                         </button>
                     </div>
