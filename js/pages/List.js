@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 3rd 2026</p>
+                        <p class="extended">July 7th 2026</p>
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(129)">
-                            iridium has been placed at #130, above Redemption and below Twilight Spire. This change pushes eclipse into the Legacy List.
+                            kowareta has been beaten at #17, above Frozen Cave and below Ouroboros. This change pushes Ruler of Everything into the Extended List and Proteus into the Legacy List.
                         </button>
                     </div>
 
