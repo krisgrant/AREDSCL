@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 7th 2026</p>
+                        <p class="extended">July 10th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(16)">
-                            kowareta has been beaten at #17, above Frozen Cave and below Ouroboros. This change pushes Ruler of Everything into the Extended List and Proteus into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(28)">
+                            Kuzureta has been beaten at #29, above xo and below Devotion. This change pushes Azurite (royen) into the Extended List and Nove Cerchi into the Legacy List.
                         </button>
                     </div>
 

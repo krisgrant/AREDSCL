@@ -27,6 +27,15 @@
         "colour": "linear-gradient(to right, #0051ff 0%, #ff0000 100%)"
     },
     {   
+        "name": "Reta Trilogy",
+        "levels": [
+            "kowareta",
+            "wasureta",
+            "kuzureta"
+        ],
+        "colour": "linear-gradient(to right, #b921ff 0%, #ef47f5 100%)"
+    },
+    {   
         "name": "Beginner Pack",
         "levels": [
             "cataclysm",
