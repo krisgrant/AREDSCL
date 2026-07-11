@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 3rd 2026</p>
+                        <p class="extended">July 10th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(129)">
-                            iridium has been placed at #130, above Redemption and below Twilight Spire. This change pushes eclipse into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(28)">
+                            Kuzureta has been beaten at #29, above xo and below Devotion. This change pushes Azurite (royen) into the Extended List and Nove Cerchi into the Legacy List.
                         </button>
                     </div>
 
