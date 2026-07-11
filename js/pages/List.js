@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 10th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(28)">
-                            Kuzureta has been beaten at #29, above xo and below Devotion. This change pushes Azurite (royen) into the Extended List and Nove Cerchi into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(80)">
+                            Down Bass and ECSTASY have been swapped, with Down Bass now sitting above at #81.
                         </button>
                     </div>
 
