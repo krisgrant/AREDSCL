@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 10th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(80)">
-                            Down Bass and ECSTASY have been swapped, with Down Bass now sitting above at #81.
+                        <button class="btn-no-cover" @click="jumpTo(113)">
+                            In Circles has been beaten at #114, above Broken Signal and below The Ultimate Phase. This change pushes Kanpai into the Legacy List.
                         </button>
                     </div>
 
