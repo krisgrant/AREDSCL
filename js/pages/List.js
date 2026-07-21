@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 10th 2026</p>
+                        <p class="extended">July 21st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(113)">
-                            In Circles has been beaten at #114, above Broken Signal and below The Ultimate Phase. This change pushes Kanpai into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(2)">
+                            Goober Rage Stage and Zodiac have been swapped, with Zodiac now sitting above at #3
                         </button>
                     </div>
 
