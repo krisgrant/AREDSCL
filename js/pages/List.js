@@ -162,7 +162,7 @@ export default {
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(2)">
-                            Goober Rage Stage and Zodiac have been swapped, with Zodiac now sitting above at #3
+                            Goober Rage Stage has been lowered from #2 to #4, above Shardscapes and below Judgement Knights. 
                         </button>
                     </div>
 
