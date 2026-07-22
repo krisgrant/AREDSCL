@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 21st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(2)">
-                            Goober Rage Stage has been lowered from #2 to #4, above Shardscapes and below Judgement Knights. 
+                        <button class="btn-no-cover" @click="jumpTo(4)">
+                            Goober Rage Stage has been lowered from #3 to #5, above Thinking Space and below Judgement Knights.
                         </button>
                     </div>
 
