@@ -330,9 +330,9 @@
                                         {   
         "name": "The Borgan Trilogy",
         "levels": [
-            "goober_rage_stage",
             "zodiac",
-            "judgement_knights"
+            "judgement_knights",
+            "goober_rage_stage"
           ],
            "colour": "#4f46b0"
         },
