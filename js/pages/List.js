@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 21st 2026</p>
+                        <p class="extended">July 28th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(4)">
-                            Goober Rage Stage has been lowered from #3 to #5, above Thinking Space and below Judgement Knights.
+                        <button class="btn-no-cover" @click="jumpTo(105)">
+                            Convulsing Light has been lowered from #88 to #106, above RIVERS OF NAZARETH and below Thoughtless Space.
                         </button>
                     </div>
 
