@@ -109,26 +109,6 @@
         ],
         "colour": "linear-gradient(to right, #8427ba 0%, #f03cba 100%)"
     },
-      {   
-        "name": "Nine Circles Infinity",
-        "levels": [
-            "hateful_reflection",
-            "tenth_circle",
-            "astrophobia",
-            "azurite_royen"
-        ],
-        "colour": "#911a1a"
-    },
-           {   
-        "name": "Nine Circles Infinity II",
-        "levels": [
-            "down_bass",
-            "cat_planet",
-            "convulsing_light",
-            "cerebral_hemorrhage"
-        ],
-        "colour": "#504dbf"
-    },
         {   
         "name": "Wave Beginner Pack",
         "levels": [
@@ -138,14 +118,14 @@
         ],
         "colour": "#242d7d"
     },
-                           {   
-        "name": "Memory Mishaps",
+            {   
+        "name": "Natural Disaster Trilogy",
         "levels": [
-            "super_probably_level",
-            "killbot",
-            "twilight_spire"
+            "tornado",
+            "hurricane",
+            "cyclone"
         ],
-        "colour": "#d8f255"
+        "colour": "linear-gradient(to right, ##1a5dc9 0%, ##212b3b 100%)"
     },
                                        {   
         "name": "Sakupen Sanctuary",
@@ -222,15 +202,6 @@
             "fexty"
         ],
         "colour": "#573615"
-    },
-                       {   
-        "name": "The Shit Shack II",
-        "levels": [
-            "erebus",
-            "devil_vortex",
-            "zaphkiel"
-        ],
-        "colour": "#3d260e"
     },
                                             {   
         "name": "Cold Pack",
