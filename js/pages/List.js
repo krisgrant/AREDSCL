@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 28th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(105)">
-                            Convulsing Light has been lowered from #88 to #106, above RIVERS OF NAZARETH and below Thoughtless Space.
+                        <button class="btn-no-cover" @click="jumpTo(125)">
+                            CYCLONE has been placed at #126, above Faith and below Crowd Control. This change pushes GLISTEN into the Legacy List.
                         </button>
                     </div>
 
