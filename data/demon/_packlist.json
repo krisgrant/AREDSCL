@@ -125,7 +125,7 @@
             "hurricane",
             "cyclone"
         ],
-        "colour": "linear-gradient(to right, ##1a5dc9 0%, ##212b3b 100%)"
+        "colour": "linear-gradient(to right, #1a5dc9 0%, #212b3b 100%)"
     },
                                        {   
         "name": "Sakupen Sanctuary",
