@@ -109,18 +109,8 @@
         ],
         "colour": "linear-gradient(to right, #8427ba 0%, #f03cba 100%)"
     },
-           {   
+      {   
         "name": "Nine Circles Infinity",
-        "levels": [
-            "down_bass",
-            "convulsing_light",
-            "cat_planet",
-            "cerebral_hemorrhage"
-        ],
-        "colour": "#504dbf"
-    },
-               {   
-        "name": "Nine Circles Infinity II",
         "levels": [
             "hateful_reflection",
             "tenth_circle",
@@ -128,6 +118,16 @@
             "azurite_royen"
         ],
         "colour": "#911a1a"
+    },
+           {   
+        "name": "Nine Circles Infinity II",
+        "levels": [
+            "down_bass",
+            "cat_planet",
+            "convulsing_light",
+            "cerebral_hemorrhage"
+        ],
+        "colour": "#504dbf"
     },
         {   
         "name": "Wave Beginner Pack",
