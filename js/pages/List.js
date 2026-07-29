@@ -147,11 +147,11 @@ export default {
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">June 9th 2026</p>
+                        <p class="extended">July 29th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(36)">
-                            oppblock 21 has been placed at #37, above Vacancy and below AbbyTheGreat. This change pushes edde277 Difficult into the legacy list.
+                        <button class="btn-no-cover" @click="jumpTo(11)">
+                            Jolly trueffet has been raised from #16 to #12, above GUACOLIAN DEMOLITION and below Azul Para Ti.
                         </button>
                     </div>
 
