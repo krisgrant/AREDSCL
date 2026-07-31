@@ -22,5 +22,11 @@
             "link": "https://www.youtube.com/watch?v=mSsxXJtuMtA",
             "percent": 100,
             "hz": "720"
+        },
+        {
+            "user": "Simplerr",
+            "link": "https://www.youtube.com/watch?v=lm7uuXXGjus",
+            "percent": 100,
+            "hz": "60"
         }]
 }
