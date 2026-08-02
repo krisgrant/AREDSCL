@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 28th 2026</p>
+                        <p class="extended">July 31st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(125)">
-                            CYCLONE has been placed at #126, above Faith and below Crowd Control. This change pushes GLISTEN into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(60)">
+                            Cryothorn Hell and RASH have been swapped, with RASH now sitting above at #61.
                         </button>
                     </div>
 
