@@ -161,8 +161,8 @@ export default {
                         <p class="extended">July 31st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(60)">
-                            Cryothorn Hell and RASH have been swapped, with RASH now sitting above at #61.
+                        <button class="btn-no-cover" @click="jumpTo(2)">
+                            Aerial Gleam has been placed at #3, above Zodiac and Below Coalescence. This change pushes moment into the Extended List and Lost Love into the Legacy List
                         </button>
                     </div>
 
