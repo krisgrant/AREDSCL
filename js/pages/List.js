@@ -158,7 +158,7 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 31st 2026</p>
+                        <p class="extended">August 6th 2026</p>
                         <br><br>
 
                         <button class="btn-no-cover" @click="jumpTo(2)">
