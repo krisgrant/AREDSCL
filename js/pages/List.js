@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">August 6th 2026</p>
+                        <p class="extended">August 8th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(2)">
-                            Aerial Gleam has been placed at #3, above Zodiac and Below Coalescence. This change pushes moment into the Extended List and Lost Love into the Legacy List
+                        <button class="btn-no-cover" @click="jumpTo(111)">
+                            TUAPEKA has been placed at #112, above HURRICANE and below cerebral hemorrhage. This change pushes my worst level into the Legacy List.
                         </button>
                     </div>
 
