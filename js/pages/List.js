@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">August 15th 2026</p>
+                        <p class="extended">August 17th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(20)">
-                            Requiem has been place at #21, above Edge of the World and below Storming Summit. This change pushes Astrophobia into the Extended List and Cataclysm into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(41)">
+                            RGB has been placed at #42, above Killbot and below ZAPHKIEL. This change pushes Biohazard into the Extended List and Malevolent into the Legacy List
                         </button>
                     </div>
 
