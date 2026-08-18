@@ -1,0 +1,20 @@
+{
+    "id": 133401995,
+    "name": "OVERDRIVE",
+   "verifier": "SMango23",
+    "verification": "https://www.youtube.com/watch?v=NaFbIUhUz1E",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "LoB",
+            "link": "https://www.youtube.com/watch?v=hVw45mqX7DA",
+            "percent": 100,
+            "hz": "720"
+        },        
+        {
+            "user": "Bisemy",
+            "link": "https://www.youtube.com/watch?v=Q6oQ3z688Jk",
+            "percent": 100,
+            "hz": "720"
+        }]
+}

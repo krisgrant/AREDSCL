@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">August 17th 2026</p>
+                        <p class="extended">August 18th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(41)">
-                            RGB has been placed at #42, above Killbot and below ZAPHKIEL. This change pushes Biohazard into the Extended List and Malevolent into the Legacy List
+                        <button class="btn-no-cover" @click="jumpTo(149)">
+                            OVEDRIVE has been placed at #150, above Liz and below Forbidden Isle. This change pushes Liz into the Legacy List.
                         </button>
                     </div>
 
