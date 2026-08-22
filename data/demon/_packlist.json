@@ -35,6 +35,15 @@
         ],
         "colour": "linear-gradient(to right, #b921ff 0%, #ef47f5 100%)"
     },
+        {   
+        "name": "CLAUSTROPHOBIA Trilogy",
+        "levels": [
+            "oblivion",
+            "cognition",
+            "carcano"
+        ],
+        "colour": "linear-gradient(to right, ##671df0 0%, ##9ded34 100%)"
+    },
     {   
         "name": "Beginner Pack",
         "levels": [
@@ -319,6 +328,7 @@
                                {   
         "name": "The KrisYa Collection",
         "levels": [
+            "oblivion",
             "cognition",
             "rust",
             "wasureta",
