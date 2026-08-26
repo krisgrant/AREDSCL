@@ -158,11 +158,11 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">August 19th 2026</p>
+                        <p class="extended">August 26th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(2)">
-                            Oblivion has been placed at #3, above Aerial Gleam and below Coalescence. This change pushes Carcano into the Extended List and OVERDRIVE into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(14)">
+                            Gustavo Fring has been placed at #15, above Congregation and below Bloodlust. This change pushes Tenth Circle into the Extended List and Forbidden Isle into the Legacy List.
                         </button>
                     </div>
 
