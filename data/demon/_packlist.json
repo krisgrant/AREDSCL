@@ -321,7 +321,9 @@
         "levels": [
             "adrenaline",
             "ruler_of_everything",
-            "dark_odyssey"
+            "light_travel",
+            "dark_odyssey",
+            "mystic_bounds"
           ],
            "colour": "#020a3b"
         },
@@ -420,5 +422,14 @@
             "prismatic_haze"
         ],
         "colour": "#000000"
+    },                                                 
+    {   
+        "name": "The PoweredByTexans Collection",
+        "levels": [
+            "helios",
+            "blade_of_justice",
+            "spectrum_cyclone"
+        ],
+        "colour": "#999999"
     }
      ]
