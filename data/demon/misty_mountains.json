@@ -1,10 +1,16 @@
 {
     "id": 60708767,
     "name": "Misty Mountains",
-   "verifier": "KrisYa",
-    "verification": "https://youtu.be/BZ-p8c2zF6U?si=d0PYmOAmhgcLvGPx",
+   "verifier": "PoweredByTexans",
+    "verification": "https://www.youtube.com/watch?v=GIkdYf3CTF0",
     "percentToQualify": 100,
     "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/BZ-p8c2zF6U",
+            "percent": 100,
+            "hz": "360"
+        },
         {
             "user": "Bisemy",
             "link": "https://youtu.be/Xo4SqnmoFsk",
