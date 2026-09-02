@@ -161,8 +161,8 @@ export default {
                         <p class="extended">September 1st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(148)">
-                            Helios has been placed at #149, above Hidden in the Sand and below The Ultimate Demon. This change pushes Disruption into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(8)">
+                            Cognition and Cosmic Cyclone have been swapped, with Cosmic Cyclone now sitting above at #9.
                         </button>
                     </div>
 
