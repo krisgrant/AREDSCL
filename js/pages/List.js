@@ -161,8 +161,8 @@ export default {
                         <p class="extended">September 1st 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(8)">
-                            Cognition and Cosmic Cyclone have been swapped, with Cosmic Cyclone now sitting above at #9.
+                        <button class="btn-no-cover" @click="jumpTo(4)">
+                            Starlight Summit has been placed at #5, above Zodiac and below Aerial Gleam. This change pushes ACHROMATISM into the Extended List and Hidden in the Sand into the Legacy List.
                         </button>
                     </div>
 
