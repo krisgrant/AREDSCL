@@ -280,6 +280,15 @@
           ],
            "colour": "#000000"
         },
+                {   
+        "name": "Summit Syndacite",
+        "levels": [
+            "starlight_summit",
+            "storming_summit",
+            "beyond_the_summit"
+          ],
+        "colour": "linear-gradient(to right, #b56eb8 0%, #82bac2 100%)"
+        },
                         {   
         "name": "The KrisYa Classics",
         "levels": [
@@ -406,7 +415,6 @@
             "auditory_breaker",
             "blade_of_justice",
             "sakupen_hell",
-            "the_flawless",
             "allegiance"
         ],
         "colour": "#eded5c"
@@ -426,10 +434,20 @@
     {   
         "name": "The Texan Collection",
         "levels": [
-            "helios",
+            "spectrum_cyclone",
             "blade_of_justice",
-            "spectrum_cyclone"
+            "helios"
         ],
         "colour": "#999999"
+    },
+    {   
+        "name": "The diewise Collection",
+        "levels": [
+            "sonic_wave",
+            "bloodbath",
+            "cataclysm",
+            "acu"
+        ],
+        "colour": "linear-gradient(to right, #999999 0%, #4af0ff 100%)"
     }
      ]
