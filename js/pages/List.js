@@ -147,11 +147,11 @@ export default {
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">July 29th 2026</p>
+                        <p class="extended">September 13th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(11)">
-                            Jolly trueffet has been raised from #16 to #12, above GUACOLIAN DEMOLITION and below Azul Para Ti.
+                        <button class="btn-no-cover" @click="jumpTo(1)">
+                            Lack of lob redux has been placed at #2, above shalvantis isle and below lack of sanity. This pushes LOB I AM ANGEY into the Extended List and REVENANT into the Legacy List.
                         </button>
                     </div>
 
