@@ -161,8 +161,8 @@ export default {
                         <p class="extended">September 16th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(29)">
-                            ADOMANIA has been lowered from #27 to #30, above Sonic Wave Rebirth and below Cersia Difficult.
+                        <button class="btn-no-cover" @click="jumpTo(19)">
+                            kowareta and Ouroboros have been swapped, with kowareta now sitting above at #20.
 
                         </button>
                     </div>
