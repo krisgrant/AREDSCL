@@ -158,11 +158,12 @@ export default {
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">September 6th 2026</p>
+                        <p class="extended">September 16th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(4)">
-                            Starlight Summit has been placed at #5, above Zodiac and below Aerial Gleam. This change pushes ACHROMATISM into the Extended List and Hidden in the Sand into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(28)">
+                            ADOMANIA has been lowered from #27 to #29, above Cersia Difficult and below Cybernetic Crescent.
+
                         </button>
                     </div>
 
