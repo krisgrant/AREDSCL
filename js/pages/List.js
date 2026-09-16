@@ -161,8 +161,8 @@ export default {
                         <p class="extended">September 16th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(19)">
-                            kowareta and Ouroboros have been swapped, with kowareta now sitting above at #20.
+                        <button class="btn-no-cover" @click="jumpTo(69)">
+                            Phobos has been raised from #73 to #70, above The Old Trail and below Cryothorn Hell.
 
                         </button>
                     </div>
