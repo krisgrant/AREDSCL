@@ -161,8 +161,8 @@ export default {
                         <p class="extended">September 16th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(28)">
-                            ADOMANIA has been lowered from #27 to #29, above Cersia Difficult and below Cybernetic Crescent.
+                        <button class="btn-no-cover" @click="jumpTo(29)">
+                            ADOMANIA has been lowered from #27 to #30, above Sonic Wave Rebirth and below Cersia Difficult.
 
                         </button>
                     </div>
