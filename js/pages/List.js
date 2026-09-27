@@ -1,10 +1,15 @@
 import { store } from "../main.js";
+
 import { embed } from "../util.js";
+
 import { score } from "../score.js";
+
 import { fetchEditors, fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
+
 import LevelAuthors from "../components/List/LevelAuthors.js";
+
 
 const roleIconMap = {
     owner: "crown",
@@ -13,6 +18,7 @@ const roleIconMap = {
     dev: "code",
     trial: "user-lock",
 };
+
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -32,7 +38,7 @@ export default {
                             <!-- NORMAL MODE -->
                             <p v-if="!isDemons && i + 1 === 1" class="type-label-lg top1">#{{ i + 1 }}</p>
                             <p v-else-if="!isDemons && i + 1 <= 25" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else-if="!isDemons && i + 1 > 25 & i + 1 <= 50" class="extended">#{{ i + 1 }}</p>
+                            <p v-else-if="!isDemons && i + 1 > 25 && i + 1 <= 50" class="extended">#{{ i + 1 }}</p>
                             <p v-else-if="!isDemons" class="type-label-lg legacy">#{{ i + 1 }}</p>
 
                             <!-- DEMONS MODE -->
@@ -58,19 +64,27 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
 
-                        <LevelAuthors
-                            :author="level.author || ''"
-                            :creators="level.creators || []"
-                            :verifier="level.verifier || ''"
-                        />
+                    <LevelAuthors
+                        :author="level.author || ''"
+                        :creators="level.creators || []"
+                        :verifier="level.verifier || ''"
+                    />
 
                     <div class="packs" v-if="(level.packs || []).length > 0">
-                        <div v-for="pack in (level.packs || [])" class="tag" :style="{background:pack.colour}">
+                        <div
+                            v-for="pack in (level.packs || [])"
+                            class="tag"
+                            :style="{ background: pack.colour }"
+                        >
                             <p>{{ pack.name }}</p>
                         </div>
                     </div>
 
-                    <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
+                    <iframe
+                        class="video"
+                        :src="embed(level.verification)"
+                        frameborder="0"
+                    ></iframe>
 
                     <ul class="stats">
                         <li v-if="selected + 1 <= 150">
@@ -88,7 +102,7 @@ export default {
                             <p>{{ level.skillset || 'Not Specified' }}</p>
                         </li>
 
-                        <!-- ✅ LENGTH RESTORED (NON-DEMONS ONLY) -->
+                        <!-- LENGTH RESTORED (NON-DEMONS ONLY) -->
                         <li v-if="!isDemons">
                             <div class="type-title-sm">Length</div>
                             <p>{{ level.length || 'Not Specified' }}</p>
@@ -96,42 +110,68 @@ export default {
                     </ul>
 
                     <h2>Records</h2>
-                    <p class="extended"><b>{{ level.records.length }}</b> records registered</p>
 
-                    <p v-if="selected + 1 <= 150"><strong>100%</strong> to qualify</p>
-                    <p v-else>You may submit a record for this level, but no list points will be awarded.</p>
+                    <p class="extended">
+                        <b>{{ level.records.length }}</b> records registered
+                    </p>
+
+                    <p v-if="selected + 1 <= 150">
+                        <strong>100%</strong> to qualify
+                    </p>
+
+                    <p v-else>
+                        You may submit a record for this level, but no list points will be awarded.
+                    </p>
 
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
 
                             <td class="percent">
-                                <p v-if="record.percent == 100"><b>{{ record.percent }}%</b></p>
-                                <p v-else>{{ record.percent }}%</p>
+                                <p v-if="record.percent == 100">
+                                    <b>{{ record.percent }}%</b>
+                                </p>
+                                <p v-else>
+                                    {{ record.percent }}%
+                                </p>
                             </td>
 
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">
+                                <a
+                                    :href="record.link"
+                                    target="_blank"
+                                    class="type-label-lg"
+                                >
                                     {{ record.user }}
                                 </a>
                             </td>
 
                             <td class="legacy">
-                                <img v-if="record.legacy" src="/assets/legacy.svg">
+                                <img
+                                    v-if="record.legacy"
+                                    src="/assets/legacy.svg"
+                                >
                             </td>
 
                             <td class="mobile">
-                                <img v-if="record.mobile"
-                                     :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`">
+                                <img
+                                    v-if="record.mobile"
+                                    :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`"
+                                >
                             </td>
 
                             <td class="hz">
                                 <p>{{ record.hz }}fps</p>
                             </td>
+
                         </tr>
                     </table>
                 </div>
 
-                <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
+                <div
+                    v-else
+                    class="level"
+                    style="height: 100%; justify-content: center; align-items: center;"
+                >
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
             </div>
@@ -140,59 +180,138 @@ export default {
                 <div class="meta">
 
                     <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors">{{ error }}</p>
+                        <p
+                            class="error"
+                            v-for="error of errors"
+                        >
+                            {{ error }}
+                        </p>
                     </div>
 
-                    <!-- CHANGELLOG -->
-                    <div class="dark-bg" v-if="!isDemons">
+
+                    <!-- ==================== CHANGELOG ==================== -->
+
+
+                    <!-- TEETH CHANGELOG -->
+                    <div class="dark-bg" v-if="isTeeth">
                         <h2>Changelog:</h2>
+
                         <br>
-                        <p class="extended">September 27th 2026</p>
+
+                        <p class="extended">
+                            September 27th 2026
+                        </p>
+
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(9)">
+                        <button
+                            class="btn-no-cover"
+                            @click="jumpTo(0)"
+                        >
+                            The Teeth Achievements List has been created.
+                        </button>
+                    </div>
+
+
+                    <!-- CHALLENGE CHANGELOG -->
+                    <div class="dark-bg" v-else-if="!isDemons">
+                        <h2>Changelog:</h2>
+
+                        <br>
+
+                        <p class="extended">
+                            September 27th 2026
+                        </p>
+
+                        <br><br>
+
+                        <button
+                            class="btn-no-cover"
+                            @click="jumpTo(9)"
+                        >
                             EDGE OF REALITY has been placed at #10, above in petals and below Tenth Circle is Free. This pushes in petals out of the Top 10, Clutter BEANS into the Extended List and Disgrace into the Legacy List.
                         </button>
                     </div>
 
+
+                    <!-- DEMON CHANGELOG -->
                     <div class="dark-bg" v-else>
                         <h2>Changelog:</h2>
+
                         <br>
-                        <p class="extended">September 16th 2026</p>
+
+                        <p class="extended">
+                            September 16th 2026
+                        </p>
+
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(69)">
+                        <button
+                            class="btn-no-cover"
+                            @click="jumpTo(69)"
+                        >
                             Phobos has been raised from #73 to #70, above The Old Trail and below Cryothorn Hell.
-
                         </button>
                     </div>
 
-                    <!-- GUIDELINES -->
+
+                    <!-- ==================== GUIDELINES ==================== -->
+
+
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Guidelines</h2>
+
                         <br>
+
                         <p>
                             Every action is conducted in accordance with our guidelines.
                         </p>
+
                         <br><br>
-                        <a class="btngl" href="/extended-page/rules.html">Guidelines Page</a>
+
+                        <a
+                            class="btngl"
+                            href="/extended-page/rules.html"
+                        >
+                            Guidelines Page
+                        </a>
                     </div>
 
-                    <!-- STAFF -->
+
+                    <!-- ==================== STAFF ==================== -->
+
+
                     <div class="dark-bg" v-if="editors">
                         <br>
+
                         <h3>List Staff:</h3>
+
                         <br>
+
                         <ol class="editors">
                             <li v-for="editor in editors">
-                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`">
-                                <a v-if="editor.link" :href="editor.link" target="_blank" class="type-label-lg link">
+
+                                <img
+                                    :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`"
+                                >
+
+                                <a
+                                    v-if="editor.link"
+                                    :href="editor.link"
+                                    target="_blank"
+                                    class="type-label-lg link"
+                                >
                                     {{ editor.name }}
                                 </a>
-                                <p v-else>{{ editor.name }}</p>
+
+                                <p v-else>
+                                    {{ editor.name }}
+                                </p>
+
                             </li>
                         </ol>
                     </div>
+
 
                     <div class="og dark-bg">
                         <p>
@@ -200,15 +319,36 @@ export default {
                         </p>
                     </div>
 
-                    <!-- NAV BUTTONS -->
-                    <button class="btngl" @click="selected = nav.top">#1 Challenge</button>
-                    <button class="btngl" @click="selected = nav.extended">Extended</button>
-                    <button class="btngl" @click="selected = nav.legacy">Legacy</button>
+
+                    <!-- ==================== NAV BUTTONS ==================== -->
+
+
+                    <button
+                        class="btngl"
+                        @click="selected = nav.top"
+                    >
+                        #1 Challenge
+                    </button>
+
+                    <button
+                        class="btngl"
+                        @click="selected = nav.extended"
+                    >
+                        Extended
+                    </button>
+
+                    <button
+                        class="btngl"
+                        @click="selected = nav.legacy"
+                    >
+                        Legacy
+                    </button>
 
                 </div>
             </div>
         </main>
     `,
+
 
     data: () => ({
         list: [],
@@ -226,6 +366,7 @@ export default {
                 legacy: 50,
                 changelogJump: 37
             },
+
             demons: {
                 top: 0,
                 extended: 75,
@@ -235,34 +376,49 @@ export default {
         }
     }),
 
+
     computed: {
-    level() {
-        if (!this.list?.length) return null;
 
-        const level = this.list[this.selected]?.[0] || this.list[0][0];
+        level() {
+            if (!this.list?.length) return null;
 
-        return {
-            author: "",
-            creators: [],
-            verifier: "",
-            tags: [],
-            packs: [],
-            difficulty: "",
-            skillset: "",
-            length: "",
-            records: [],
-            ...level
-        };
+            const level =
+                this.list[this.selected]?.[0] ||
+                this.list[0][0];
+
+            return {
+                author: "",
+                creators: [],
+                verifier: "",
+                tags: [],
+                packs: [],
+                difficulty: "",
+                skillset: "",
+                length: "",
+                records: [],
+                ...level
+            };
+        },
+
+
+        isDemons() {
+            return window.location.hash.startsWith("#/demons");
+        },
+
+
+        isTeeth() {
+            return window.location.hash.startsWith("#/teeth");
+        },
+
+
+        nav() {
+            return this.isDemons
+                ? this.navMap.demons
+                : this.navMap.normal;
+        }
+
     },
 
-    isDemons() {
-        return window.location.hash.startsWith("#/demons/");
-    },
-
-    nav() {
-        return this.isDemons ? this.navMap.demons : this.navMap.normal;
-    }
-    },
 
     methods: {
         embed,
@@ -272,6 +428,7 @@ export default {
             this.selected = index;
         }
     },
+
 
     async mounted() {
         this.list = await fetchList(store.mode);
