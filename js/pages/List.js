@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            Back On Track has been placed at #1, above Stereo Madness.
+                            ReTraY has been placed at #3, below Stereo Madness.
                         </button>
                     </div>
 
