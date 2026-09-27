@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            Stereo Madness has been placed at #1.
+                            Back On Track has been placed at #1, above Stereo Madness.
                         </button>
                     </div>
 
