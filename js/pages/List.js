@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(4)"
                         >
-                            Cycles has been placed at #5, above Jumper and below Time Machine. This pushes Stereo Madness out of the top 10.
+                            Blast Processing has been placed at #4, above Time Machine and below The Nightmare. This pushes Back On Track out of the top 10.
                         </button>
                     </div>
 
