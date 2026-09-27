@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            Time Machine has been placed at #1, above Flappy Ufo.
+                            edde277 Challenge has been placed at #2, above Flappy Ufo and below Time Machine.
                         </button>
                     </div>
 
