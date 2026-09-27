@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
 
         <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
-        <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css" />
         <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
         <link rel="stylesheet" type="text/css" href="/css/pages/listpacks.css" />
 
@@ -37,26 +37,52 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <img src="/images/Trollface.avif" width="59.5" height="50">
+                <img src="/images/Trollface.avif" width="59.5" height="50" />
                 <h2 style="line-height:4rem;">EDS Challenge List</h2>
             </div>
 
             <nav class="nav">
-                <!-- ✅ FIX: dynamic routing based on meta.list -->
-
-                <router-link class="nav__tab" :to="$route.meta.list === 'demon' ? '/demons/' : '/'">
+                <router-link
+                    class="nav__tab"
+                    :to="$route.meta.list === 'demon'
+                        ? '/demons'
+                        : $route.meta.list === 'teeth'
+                        ? '/teeth'
+                        : '/'"
+                >
                     <span class="type-label-lg">List</span>
                 </router-link>
 
-                <router-link class="nav__tab" :to="$route.meta.list === 'demon' ? '/demons/leaderboard' : '/leaderboard'">
+                <router-link
+                    class="nav__tab"
+                    :to="$route.meta.list === 'demon'
+                        ? '/demons/leaderboard'
+                        : $route.meta.list === 'teeth'
+                        ? '/teeth/leaderboard'
+                        : '/leaderboard'"
+                >
                     <span class="type-label-lg">Leaderboard</span>
                 </router-link>
 
-                <router-link class="nav__tab" :to="$route.meta.list === 'demon' ? '/demons/roulette' : '/roulette'">
+                <router-link
+                    class="nav__tab"
+                    :to="$route.meta.list === 'demon'
+                        ? '/demons/roulette'
+                        : $route.meta.list === 'teeth'
+                        ? '/teeth/roulette'
+                        : '/roulette'"
+                >
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
 
-                <router-link class="nav__tab" :to="$route.meta.list === 'demon' ? '/demons/list-packs' : '/list-packs'">
+                <router-link
+                    class="nav__tab"
+                    :to="$route.meta.list === 'demon'
+                        ? '/demons/list-packs'
+                        : $route.meta.list === 'teeth'
+                        ? '/teeth/list-packs'
+                        : '/list-packs'"
+                >
                     <span class="type-label-lg">Packs</span>
                 </router-link>
 
