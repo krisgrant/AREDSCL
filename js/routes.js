@@ -8,15 +8,21 @@ function meta(list) {
 }
 
 export default [
-    // ================= CHALLENGE =================
+    // ==================== CHALLENGE ====================
     { path: '/', component: List, ...meta('challenge') },
     { path: '/leaderboard', component: Leaderboard, ...meta('challenge') },
     { path: '/roulette', component: Roulette, ...meta('challenge') },
     { path: '/list-packs', component: ListPacks, ...meta('challenge') },
 
-    // ================= DEMON =================
+    // ==================== DEMON ====================
     { path: '/demons', component: List, ...meta('demon') },
     { path: '/demons/leaderboard', component: Leaderboard, ...meta('demon') },
     { path: '/demons/roulette', component: Roulette, ...meta('demon') },
     { path: '/demons/list-packs', component: ListPacks, ...meta('demon') },
+
+    // ==================== TEETH ====================
+    { path: '/teeth', component: List, ...meta('teeth') },
+    { path: '/teeth/leaderboard', component: Leaderboard, ...meta('teeth') },
+    { path: '/teeth/roulette', component: Roulette, ...meta('teeth') },
+    { path: '/teeth/list-packs', component: ListPacks, ...meta('teeth') },
 ];
