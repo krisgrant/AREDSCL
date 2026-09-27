@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            ReTraY has been placed at #3, below Stereo Madness.
+                            Flappy Ufo has been placed at #1, above Back On Track.
                         </button>
                     </div>
 
