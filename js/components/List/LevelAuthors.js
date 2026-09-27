@@ -20,22 +20,26 @@ export default {
         },
 
         isDemons() {
-            return window.location.hash.startsWith("#/demons/");
+            return window.location.hash.startsWith("#/demons");
+        },
+
+        isTeeth() {
+            return window.location.hash.startsWith("#/teeth");
         }
     },
 
     template: `
         <div class="level-authors">
 
-            <!-- DEMONS MODE: ONLY VERIFIER -->
-            <template v-if="isDemons">
+            <!-- DEMON + TEETH MODE: ONLY VERIFIER -->
+            <template v-if="isDemons || isTeeth">
                 <div class="type-title-sm">Verifier:</div>
                 <p class="type-body">
                     <span>{{ verifier }}</span>
                 </p>
             </template>
 
-            <!-- NORMAL MODE -->
+            <!-- CHALLENGE MODE -->
             <template v-else>
                 <template v-if="selfVerified">
                     <div class="type-title-sm">Publisher:</div>
@@ -64,7 +68,10 @@ export default {
 
                     <div class="type-title-sm">Creators:</div>
                     <p class="type-body">
-                        <template v-for="(creator, index) in creators" :key="\`creator-\${creator}\`">
+                        <template
+                            v-for="(creator, index) in creators"
+                            :key="\`creator-\${creator}\`"
+                        >
                             <span>{{ creator }}</span>
                             <span v-if="index < creators.length - 1"> </span>
                         </template>
