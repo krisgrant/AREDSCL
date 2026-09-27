@@ -208,9 +208,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(2)"
+                            @click="jumpTo(1)"
                         >
-                            Sunshine has been placed at #3, above edde277 Challenge and below Time Machine.
+                            The Nightmare has been placed at #2, above Time Machine and below Clutterfunk.
                         </button>
                     </div>
 
