@@ -1,6 +1,13 @@
 import { store } from "./main.js";
 
 export function path(route) {
-    const prefix = store.mode === "demon" ? "/demons" : "";
+    let prefix = "";
+
+    if (store.mode === "demon") {
+        prefix = "/demons";
+    } else if (store.mode === "teeth") {
+        prefix = "/teeth";
+    }
+
     return `${prefix}${route}`;
 }
