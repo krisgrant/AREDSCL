@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            Flappy Ufo has been placed at #1, above Back On Track.
+                            Time Machine has been placed at #1, above Flappy Ufo.
                         </button>
                     </div>
 
