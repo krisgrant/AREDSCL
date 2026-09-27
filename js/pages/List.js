@@ -208,9 +208,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(3)"
+                            @click="jumpTo(4)"
                         >
-                            Clubstep has been placed at #1, above Clutterfunk. This pushes RetraY out of the top 10.
+                            Cycles has been placed at #5, above Jumper and below Time Machine. This pushes Stereo Madness out of the top 10.
                         </button>
                     </div>
 
