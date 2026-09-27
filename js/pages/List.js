@@ -208,9 +208,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(4)"
+                            @click="jumpTo(6)"
                         >
-                            Blast Processing has been placed at #4, above Time Machine and below The Nightmare. This pushes Back On Track out of the top 10.
+                            Unclassical has been placed at #7, above Jumper and below Cycles. This pushes Flappy Ufo out of the top 10.
                         </button>
                     </div>
 
