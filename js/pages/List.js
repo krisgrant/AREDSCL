@@ -208,9 +208,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(0)"
+                            @click="jumpTo(2)"
                         >
-                            Clutterfunk has been placed at #1, above Time Machine.
+                            Sunshine has been placed at #3, above edde277 Challenge and below Time Machine.
                         </button>
                     </div>
 
