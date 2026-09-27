@@ -208,7 +208,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(0)"
                         >
-                            The Teeth Achievements List has been created.
+                            Stereo Madness has been placed at #1.
                         </button>
                     </div>
 
