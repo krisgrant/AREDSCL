@@ -97,13 +97,14 @@ export default {
                             <p class="type-label-lg">{{ level.id }}</p>
                         </li>
 
-                        <li v-if="!isDemons">
+                        <!-- CHALLENGE LIST ONLY -->
+                        <li v-if="!isDemons && !isTeeth">
                             <div class="type-title-sm">Skillset</div>
                             <p>{{ level.skillset || 'Not Specified' }}</p>
                         </li>
 
-                        <!-- LENGTH RESTORED (NON-DEMONS ONLY) -->
-                        <li v-if="!isDemons">
+                        <!-- CHALLENGE LIST ONLY -->
+                        <li v-if="!isDemons && !isTeeth">
                             <div class="type-title-sm">Length</div>
                             <p>{{ level.length || 'Not Specified' }}</p>
                         </li>
@@ -130,6 +131,7 @@ export default {
                                 <p v-if="record.percent == 100">
                                     <b>{{ record.percent }}%</b>
                                 </p>
+
                                 <p v-else>
                                     {{ record.percent }}%
                                 </p>

@@ -1,8 +1,13 @@
 {
     "id": 77236587,
     "name": "Stereo Madness",
-   "verifier": "KrisYa",
-    "verification": "https://youtu.be/U1q8jvrA7YI",
+    "author": "RobTop",
+    "creators": ["RobTop"],
+    "verifier": "KrisYa",
+    "difficulty": "Extreme Demon",
+    "skillset": "Memory, Wave & Ship",
+    "length": "38 Seconds",
+    "verification": "https://youtu.be/4OJr9PlE2I4",
     "percentToQualify": 100,
     "records": []
 }
