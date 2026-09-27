@@ -81,6 +81,24 @@
             "link": "https://www.youtube.com/watch?v=WN8FxJ4ewjQ",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "ally",
+            "link": "https://youtu.be/GBsq8LePKww?si=JSPREEDmPGsFfuGU",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Geeber",
+            "link": "https://medal.tv/games/geometry-dash/clips/nx50sUjnL7freYL2d?invite=cr-MSxmTXUsNjQzNTI5MTc1",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "Feltsu",
+            "link": "https://medal.tv/games/geometry-dash/clips/nxsAaC52ddI__BboW?invite=cr-MSxUMmgsNDc2ODkzNzYz",
+            "percent": 100,
+            "hz": "14"
         }
     ]
 }

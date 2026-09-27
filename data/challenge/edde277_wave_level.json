@@ -81,6 +81,12 @@
             "link": "https://www.youtube.com/watch?v=Dn73B_stAZY",
             "percent": 100,
             "hz": "60"
+        },
+        {
+            "user": "ally",
+            "link": "https://youtu.be/xzmciN12awo?si=jHZDbhTBrkcaqpHx",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }
