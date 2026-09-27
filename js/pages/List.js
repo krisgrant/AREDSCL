@@ -147,11 +147,11 @@ export default {
                     <div class="dark-bg" v-if="!isDemons">
                         <h2>Changelog:</h2>
                         <br>
-                        <p class="extended">September 13th 2026</p>
+                        <p class="extended">September 27th 2026</p>
                         <br><br>
 
-                        <button class="btn-no-cover" @click="jumpTo(1)">
-                            Lack of lob redux has been placed at #2, above shalvantis isle and below lack of sanity. This pushes LOB I AM ANGEY into the Extended List and REVENANT into the Legacy List.
+                        <button class="btn-no-cover" @click="jumpTo(9)">
+                            EDGE OF REALITY has been placed at #10, above in petals and below Tenth Circle is Free. This pushes in petals out of the Top 10, Clutter BEANS into the Extended List and Disgrace into the Legacy List.
                         </button>
                     </div>
 
