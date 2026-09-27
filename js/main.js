@@ -26,9 +26,39 @@ const router = VueRouter.createRouter({
     routes,
 });
 
+// Change website branding depending on the current list
+function setBranding(list) {
+    let title;
+    let favicon;
+
+    if (list === 'demon') {
+        title = 'EDS Demonlist';
+        favicon = '/images/Extreme_Demon.avif';
+    } else if (list === 'teeth') {
+        title = 'Teeth Achievements List';
+        favicon = '/images/Teeth.avif';
+    } else {
+        title = 'EDS Challenge List';
+        favicon = '/images/Trollface.avif';
+    }
+
+    // Change browser tab title
+    document.title = title;
+
+    // Change browser tab icon
+    const faviconElement = document.querySelector("link[rel~='icon']");
+
+    if (faviconElement) {
+        faviconElement.href = favicon;
+    }
+}
+
 router.beforeEach((to) => {
     const list = to.meta?.list || 'challenge';
+
     store.mode = list;
+
+    setBranding(list);
 });
 
 app.use(router);
