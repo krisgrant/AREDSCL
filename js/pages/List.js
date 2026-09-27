@@ -210,7 +210,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(3)"
                         >
-                            Jumper has been placed at #4, above Sunshine and below Time Machine.
+                            Clubstep has been placed at #1, above Clutterfunk. This pushes RetraY out of the top 10.
                         </button>
                     </div>
 
