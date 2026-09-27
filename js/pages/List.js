@@ -208,9 +208,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(1)"
+                            @click="jumpTo(3)"
                         >
-                            The Nightmare has been placed at #2, above Time Machine and below Clutterfunk.
+                            Jumper has been placed at #4, above Sunshine and below Time Machine.
                         </button>
                     </div>
 
