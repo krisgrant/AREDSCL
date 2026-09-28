@@ -1,5 +1,5 @@
 :root {
---color-background: rgb(69, 0, 134);
+    --color-background: rgb(69, 0, 134);
     --color-on-background: black;
     --color-background-hover: rgb(186, 187, 187);
     --color-on-background-hover: black;
@@ -11,26 +11,43 @@
     --color-intpm: rgba(94, 0, 0, 0.15);
     --color-error: #b05ae2;
     --color-on-error: rgb(0, 0, 0);
+
     scrollbar-color: rgb(180, 180, 180) rgb(194, 194, 194);
 }
+
+
+/* =========================
+   DARK MODE
+   ========================= */
 
 main.dark,
 header.dark {
     color-scheme: dark;
---color-background: rgb(83, 40, 109);
+
+    --color-background: rgb(83, 40, 109);
     --color-on-background: #ffffff;
+
     --color-background-hover: rgb(71, 32, 94);
     --color-on-background-hover: rgb(255, 255, 255);
+
     --color-primary: rgb(0, 0, 0);
     --color-on-primary: rgb(255, 255, 255);
+
     --color-extended: rgba(189, 189, 189, 0.75);
     --color-legacy: rgba(131, 140, 143, 0.596);
     --color-tags: rgba(58, 58, 58, 0.25);
     --color-intpm: rgba(0, 0, 0, 0.25);
+
     --color-error: #7300de;
     --color-on-error: rgb(216, 216, 216);
+
     scrollbar-color: rgb(70, 34, 92) rgb(83, 40, 109);
 }
+
+
+/* =========================
+   PAGE STRUCTURE
+   ========================= */
 
 html,
 body {
@@ -47,130 +64,322 @@ header,
 main {
     background-color: var(--color-background);
     color: var(--color-on-background);
+
     display: grid;
-    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
-            16em,
-            1fr
-        );
+
+    grid-template-columns:
+        minmax(16rem, 1fr)
+        minmax(16rem, 2fr)
+        minmax(16em, 1fr);
+
     column-gap: 2rem;
 }
 
 
+/* =========================
+   HEADER
+   ========================= */
+
 header {
     display: flex;
+
     padding-inline: calc(25vw - 10rem);
+
     height: 4rem;
+
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
+
 @media screen and (min-width: 1366px) {
     header {
         display: grid;
         padding-inline: 0;
     }
 }
+
 header .logo {
     justify-self: end;
     align-self: center;
+
     display: flex;
     align-items: flex-end;
+
     gap: 1rem;
 }
+
 header .nav {
     flex: 1;
 }
 
+
+/* =========================
+   MAIN
+   ========================= */
+
 main {
     height: 0;
     flex: 1;
+
     display: grid;
+
     grid-template-rows: minmax(0, 1fr);
+
     column-gap: 2rem;
 }
+
 main > div {
     overflow-y: auto;
 }
 
+
+/* =========================
+   SPINNER
+   ========================= */
+
 .spinner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-background);
-  transition-duration: 0.5s;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-background);
+
+    transition-duration: 0.5s;
 }
 
 .spinner::after {
-  content: "";
-  width: 200px;
-  height: 200px;
-  border: 25px solid var(--color-legacy);
-  border-top-color: var(--color-extended);
-  border-radius: 49%;
-  box-shadow: 0px 0px 50px var(--color-extended);
-  animation: loading 0.75s ease-in-out infinite;
+    content: "";
+
+    width: 200px;
+    height: 200px;
+
+    border: 25px solid var(--color-legacy);
+    border-top-color: var(--color-extended);
+
+    border-radius: 49%;
+
+    box-shadow: 0px 0px 50px var(--color-extended);
+
+    animation: loading 0.75s ease-in-out infinite;
 }
 
 @keyframes loading {
     from {
-      transform: rotate(0turn);
+        transform: rotate(0turn);
     }
+
     to {
-      transform: rotate(1turn);
+        transform: rotate(1turn);
     }
-  }
+}
+
+
+/* =========================
+   INPUTS
+   ========================= */
 
 input[type="checkbox"] {
     height: 1.25rem;
     width: 1.25rem;
+
     cursor: pointer;
+
     margin: 0;
 }
+
+
+/* =========================
+   RANK COLOURS
+   ========================= */
+
 .legacy {
     color: var(--color-legacy);
 }
+
 .extended {
     color: var(--color-extended);
 }
+
 .top1 {
     color: var(--color-top1);
 }
+
 .top2 {
     color: var(--color-top2);
 }
+
 .top3 {
     color: var(--color-top3);
 }
+
+
+/* =========================
+   BOXES
+   ========================= */
+
 .dark-bg {
     background: var(--color-background-hover);
+
     border-radius: 10px;
+
     padding: 25px;
 }
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
 .btngl {
     background: var(--color-tags);
+
     padding: 10px;
+
     font-family: "Lexend Deca", sans-serif;
+
     border-radius: 0.2cm;
+
     transition: 0.2s;
+
     cursor: pointer;
 }
+
 .btngl:hover {
     background: var(--color-legacy);
+
     transition: 0.2s;
 }
+
 .btn-no-cover {
     font-family: "Lexend Deca", sans-serif;
+
     cursor: pointer;
+
     background: transparent;
+
     border: none !important;
+
     margin: -5px;
+
     font-size: 20px;
+
     text-decoration: solid;
 }
+
 .btn-no-cover:hover {
     text-decoration: underline;
+}
+
+
+/* =========================================================
+   LIST-SPECIFIC THEMES
+   ========================================================= */
+
+
+/* =========================
+   CHALLENGE LIST
+   PURPLE
+   ========================= */
+
+body.mode-challenge {
+    --color-background: rgb(69, 0, 134);
+
+    --color-background-hover: rgb(186, 187, 187);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: #b05ae2;
+}
+
+body.mode-challenge main.dark,
+body.mode-challenge header.dark {
+    --color-background: rgb(83, 40, 109);
+
+    --color-background-hover: rgb(71, 32, 94);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: #7300de;
+
+    scrollbar-color:
+        rgb(70, 34, 92)
+        rgb(83, 40, 109);
+}
+
+
+/* =========================
+   DEMONLIST
+   RED
+   ========================= */
+
+body.mode-demon {
+    --color-background: rgb(125, 20, 20);
+
+    --color-background-hover: rgb(160, 55, 55);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: rgb(220, 60, 60);
+
+    scrollbar-color:
+        rgb(155, 45, 45)
+        rgb(125, 20, 20);
+}
+
+body.mode-demon main.dark,
+body.mode-demon header.dark {
+    --color-background: rgb(95, 25, 25);
+
+    --color-background-hover: rgb(70, 20, 20);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: rgb(200, 50, 50);
+
+    scrollbar-color:
+        rgb(90, 35, 35)
+        rgb(95, 25, 25);
+}
+
+
+/* =========================
+   TEETH ACHIEVEMENTS LIST
+   BLUE / CYAN
+   ========================= */
+
+body.mode-teeth {
+    --color-background: rgb(20, 115, 145);
+
+    --color-background-hover: rgb(70, 160, 180);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: rgb(60, 190, 220);
+
+    scrollbar-color:
+        rgb(55, 145, 170)
+        rgb(20, 115, 145);
+}
+
+body.mode-teeth main.dark,
+body.mode-teeth header.dark {
+    --color-background: rgb(25, 85, 105);
+
+    --color-background-hover: rgb(20, 65, 80);
+
+    --color-primary: rgb(0, 0, 0);
+
+    --color-error: rgb(70, 185, 215);
+
+    scrollbar-color:
+        rgb(35, 95, 115)
+        rgb(25, 85, 105);
 }
