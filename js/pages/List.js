@@ -208,7 +208,7 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(6)"
+                            @click="jumpTo(4)"
                         >
                             Dash has been placed at #5, above Time Machine and below Blast Processing. This pushes edde277 Challenge out of the top 10.
                         </button>
