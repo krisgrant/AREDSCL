@@ -4,6 +4,20 @@
     --color-primary: rgb(76, 33, 116); /* Header Color */
     --color-on-primary: rgb(255, 255, 255); /* Text Inside Header (Light Mode) */
 }
+/* CHALLENGE LIST - PURPLE */
+.mode-challenge {
+    --color-primary: rgb(76, 33, 116);
+}
+
+/* DEMONLIST - RED */
+.mode-demon {
+    --color-primary: rgb(170, 25, 25);
+}
+
+/* TEETH ACHIEVEMENTS - BLUE/CYAN */
+.mode-teeth {
+    --color-primary: rgb(25, 120, 145);
+}
 
 .nav {
     display: flex;

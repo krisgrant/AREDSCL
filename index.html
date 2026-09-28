@@ -34,7 +34,10 @@
         <script type="module" src="/js/main.js"></script>
     </head>
 
-    <body id="app">
+<body
+    id="app"
+    :class="'mode-' + ($route.meta.list || 'challenge')"
+>
         <header :class="{ dark: store.dark }">
 
             <div class="logo">
