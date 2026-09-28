@@ -201,16 +201,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            September 27th 2026
+                            September 28th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(4)"
+                            @click="jumpTo(1)"
                         >
-                            Dash has been placed at #5, above Time Machine and below Blast Processing. This pushes edde277 Challenge out of the top 10.
+                            Tidal Processing has been placed at #2, above Clutterfunk and below Clubstep. This pushes Sunshine out of the top 10.
                         </button>
                     </div>
 
