@@ -243,16 +243,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            September 16th 2026
+                            October 2nd 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(69)"
+                            @click="jumpTo(115)"
                         >
-                            Phobos has been raised from #73 to #70, above The Old Trail and below Cryothorn Hell.
+                            Reeses Potentially 2 has been placed at #116, above Shukufuku and below RIVERS OF NAZARETH. This change pushes Helios into the Legacy List.
                         </button>
                     </div>
 
