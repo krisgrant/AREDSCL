@@ -288,6 +288,15 @@
             "beyond_the_summit"
           ],
         "colour": "linear-gradient(to right, #b56eb8 0%, #82bac2 100%)"
+        },               
+        {   
+        "name": "The Coalescing Trio",
+        "levels": [
+            "coalescence",
+            "shimmer",
+            "fog"
+          ],
+        "colour": "linear-gradient(to right, #6e82f0 0%, #f0e96e 100%)"
         },
                         {   
         "name": "The KrisYa Classics",
