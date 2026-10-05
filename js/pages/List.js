@@ -243,16 +243,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 2nd 2026
+                            October 5th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(115)"
+                            @click="jumpTo(9)"
                         >
-                            Reeses Potentially 2 has been placed at #116, above Shukufuku and below RIVERS OF NAZARETH. This change pushes Helios into the Legacy List.
+                            shimmer has been placed at #10, above Cosmic Cyclone and below Thinking Space. This change pushes Sakupen Hell into the Extended List and The Ultimate Demon into the Legacy List.
                         </button>
                     </div>
 
