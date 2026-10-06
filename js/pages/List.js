@@ -250,9 +250,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(9)"
+                            @click="jumpTo(15)"
                         >
-                            shimmer has been placed at #10, above Cosmic Cyclone and below Thinking Space. This change pushes Sakupen Hell into the Extended List and The Ultimate Demon into the Legacy List.
+                            Shardscapes and Bloodlust have been swapped, with Bloodlust now sitting above at #16.
                         </button>
                     </div>
 
