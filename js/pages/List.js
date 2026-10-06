@@ -252,7 +252,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(15)"
                         >
-                            Shardscapes and Bloodlust have been swapped, with Bloodlust now sitting above at #16.
+                            Shardscapes and Bloodlust have been swapped, with Bloodlust now sitting above at #15.
                         </button>
                     </div>
 
