@@ -243,14 +243,14 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 5th 2026
+                            October 6th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(15)"
+                            @click="jumpTo(14)"
                         >
                             Shardscapes and Bloodlust have been swapped, with Bloodlust now sitting above at #15.
                         </button>
