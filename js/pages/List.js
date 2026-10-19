@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            September 27th 2026
+                            October 19th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(9)"
+                            @click="jumpTo(12)"
                         >
-                            EDGE OF REALITY has been placed at #10, above in petals and below Tenth Circle is Free. This pushes in petals out of the Top 10, Clutter BEANS into the Extended List and Disgrace into the Legacy List.
+                            no dance has been placed at #13, above Days Go By into the Extended List and SMango BDAY into the Legacy List.
                         </button>
                     </div>
 
