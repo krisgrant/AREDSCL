@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 19th 2026
+                            October 20th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(12)"
+                            @click="jumpTo(38)"
                         >
-                            no dance has been placed at #13, above Azul Para Ti and below Oblivionize. This change pushes Days Go By into the Extended List and SMango BDAY into the Legacy List. 
+                            Vacancy has been raised from #41 to #39, above AbbyTheGreat and below Stalker. 
                         </button>
                     </div>
 
