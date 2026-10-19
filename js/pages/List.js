@@ -231,7 +231,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(12)"
                         >
-                            no dance has been placed at #13, above Days Go By into the Extended List and SMango BDAY into the Legacy List.
+                            no dance has been placed at #13, above Azul Para Ti and below Oblivionize. This change pushes Days Go By into the Extended List and SMango BDAY into the Legacy List. 
                         </button>
                     </div>
 
