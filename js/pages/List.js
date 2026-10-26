@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 20th 2026
+                            October 26th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(38)"
+                            @click="jumpTo(30)"
                         >
-                            Vacancy has been raised from #41 to #39, above AbbyTheGreat and below Stalker. 
+                            Dual Busting II has been raised from #42 to #31, above unmastered challenge and below Arctic Isle. 
                         </button>
                     </div>
 
