@@ -229,7 +229,7 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(50"
+                            @click="jumpTo(50)"
                         >
                             Ractavles has been lowered from #48 to the Legacy List. This pushes SMango BDAY back onto the Extended List. 
                         </button>
