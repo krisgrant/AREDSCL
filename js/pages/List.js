@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 26th 2026
+                            October 29th 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(30)"
+                            @click="jumpTo(49)"
                         >
-                            Dual Busting II has been raised from #42 to #31, above unmastered challenge and below Arctic Isle. 
+                            Ractavles has been lowered from #48 to the Legacy List. This pushes SMango BDAY back onto the Extended List. 
                         </button>
                     </div>
 
