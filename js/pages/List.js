@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            September 27th 2026
+                            October 31st 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(9)"
+                            @click="jumpTo(39)"
                         >
-                            EDGE OF REALITY has been placed at #10, above in petals and below Tenth Circle is Free. This pushes in petals out of the Top 10, Clutter BEANS into the Extended List and Disgrace into the Legacy List.
+                            Alleas has been lowered from #38 to #40, above oppblock 21 and below AbbyTheGreat. 
                         </button>
                     </div>
 

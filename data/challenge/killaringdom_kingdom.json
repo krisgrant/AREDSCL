@@ -2,13 +2,13 @@
     "id": 102210491,
     "name": "Killaringdom Kingdom",
     "author": "KrisYa",
-    "creators": ["KrisYa"],
+    "creators": "KrisYa",
     "verifier": "KrisYa",
     "difficulty": "Extreme Demon",
     "skillset": "Ship",
     "length": "35 Seconds",
     "tag": "",
-    "verification": "https://youtu.be/BZb1DPWben0?si=vQd55XnpyHgorcqT",
+    "verification": "https://youtu.be/kRagHHRUlQg",
     "percentToQualify": 100,
     "records": [
         {
@@ -16,6 +16,12 @@
             "link": "https://youtu.be/VcbR8rgyg9Q?feature=shared&t=352",
             "percent": 100,
             "hz": "360"
+        },
+        {
+            "user": "PoweredByTexans",
+            "link": "https://youtu.be/qtHVLZ7U8bM?si=bECMwrWcY1WM8e1M&t=52",
+            "percent": 100,
+            "hz": "480"
         }
     ]
 }
