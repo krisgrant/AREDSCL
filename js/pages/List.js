@@ -229,9 +229,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(39)"
+                            @click="jumpTo(47)"
                         >
-                            Alleas has been lowered from #38 to #40, above oppblock 21 and below AbbyTheGreat. 
+                            Stay With Me has been placed at #48, above Untitled challenge and below Taj is Good. This pushes SMango BDAY back into the Legacy List. 
                         </button>
                     </div>
 

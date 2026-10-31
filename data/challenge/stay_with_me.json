@@ -1,0 +1,21 @@
+{
+    "id": 151199865,
+    "name": "Stay With Me",
+    "author": "Rave",
+    "creators": ["Rave"],
+    "verifier": "Rave",
+    "difficulty": "Extreme Demon",
+    "skillset": "Timings & UFO",
+    "length": "14 Seconds",
+    "tag": "",
+    "verification": "https://youtu.be/X0xIcATecuc?is=cEMMpr5A-xZABr_a",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KrisYa",
+            "link": "https://youtu.be/7q43i-WXvyA",
+            "percent": 100,
+            "hz": "480"
+        }
+    ]
+}
