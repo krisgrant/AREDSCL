@@ -229,9 +229,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(36)"
+                            @click="jumpTo(4)"
                         >
-                            Wave challenge 4 has been re-placed at #37, above RUST challenge 2 and below I HATE ROBLOX. This pushes Unnamed Chamber into the Legacy List. 
+                            BLACK DOMINATOR has been placed at #5, above The Sapphire and below krisbadtime. This pushes EDGE OF REALITY out of the Top 10, Fishe into the Extended List and Untitled challenge into the Legacy List. 
                         </button>
                     </div>
 
