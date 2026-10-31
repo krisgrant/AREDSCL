@@ -229,9 +229,9 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(47)"
+                            @click="jumpTo(36)"
                         >
-                            Stay With Me has been placed at #48, above Untitled challenge and below Taj is Good. This pushes SMango BDAY back into the Legacy List. 
+                            Wave challenge 4 has been re-placed at #37, above RUST challenge 2 and below I HATE ROBLOX. This pushes Unnamed Chamber into the Legacy List. 
                         </button>
                     </div>
 
