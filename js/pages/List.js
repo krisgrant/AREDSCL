@@ -222,16 +222,16 @@ export default {
                         <br>
 
                         <p class="extended">
-                            October 29th 2026
+                            October 31st 2026
                         </p>
 
                         <br><br>
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(50)"
+                            @click="jumpTo(44)"
                         >
-                            Ractavles has been lowered from #48 to the Legacy List. This pushes SMango BDAY back onto the Extended List. 
+                            Stalker has been lowered from #39 to the #45, above Killaringdom Kingdom and below Destorted. 
                         </button>
                     </div>
 
