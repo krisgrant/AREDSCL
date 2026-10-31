@@ -231,7 +231,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(44)"
                         >
-                            Stalker has been lowered from #39 to the #45, above Killaringdom Kingdom and below Destorted. 
+                            Stalker has been lowered from #39 to #45, above Killaringdom Kingdom and below Destorted. 
                         </button>
                     </div>
 
