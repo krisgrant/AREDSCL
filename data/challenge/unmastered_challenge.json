@@ -41,11 +41,17 @@
             "percent": 100,
             "hz": "240"
         }, 
-            {
+        {
             "user": "PoweredByTexans",
             "link": "https://youtu.be/XKrwuops3RM",
             "percent": 100,
             "hz": "240"
+        },
+        {
+            "user": "Bisemy",
+            "link": "https://youtu.be/yDFA3suvzAY",
+            "percent": 100,
+            "hz": "720"
         }
     ]
 }
