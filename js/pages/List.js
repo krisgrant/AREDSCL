@@ -229,7 +229,7 @@ export default {
 
                         <button
                             class="btn-no-cover"
-                            @click="jumpTo(44)"
+                            @click="jumpTo(39)"
                         >
                             Alleas has been lowered from #38 to #40, above oppblock 21 and below AbbyTheGreat. 
                         </button>
