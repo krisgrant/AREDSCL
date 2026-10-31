@@ -21,9 +21,9 @@
     {   
         "name": "Halloween VS. Christmas",
         "levels": [
+            "jolly_trueffet",
             "guacolian_demolition",
             "lack_of_skill",
-            "jolly_trueffet",
             "a_roblox_christmas"
         ],
         "colour": "linear-gradient(to right, #b85900 0%, #ff0000 100%)"
@@ -87,8 +87,8 @@
         "name": "Tupac",
         "levels": [
             "guilty_conscience_2",
-            "rust_challenge_2",
-            "dual_busting_ii"
+            "dual_busting_ii",
+            "rust_challenge_2"
         ],
         "colour": "#4d2f15"
     },
