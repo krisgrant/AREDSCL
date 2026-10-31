@@ -231,7 +231,7 @@ export default {
                             class="btn-no-cover"
                             @click="jumpTo(44)"
                         >
-                            Stalker has been lowered from #39 to #45, above Killaringdom Kingdom and below Destorted. 
+                            Alleas has been lowered from #38 to #40, above oppblock 21 and below AbbyTheGreat. 
                         </button>
                     </div>
 
